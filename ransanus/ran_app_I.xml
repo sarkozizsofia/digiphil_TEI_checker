@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" 	schematypens="http://purl.oclc.org/dsdl/schematron"?> <TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Appendix I.</title>
+                <author>
+                    <persName>Ioannes de Accia</persName>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>digital edition</edition>
+                <respStmt>
+                    <resp>project director</resp>
+                    <persName>
+                        <surname>Palkó</surname>
+                        <forename>Gábor</forename>
+                        <idno type="KOHA_AUTH">KOHA_AUTH:121463</idno>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>TEI-specification</resp>
+                    <persName>
+                    <surname>Fellegi</surname>
+                    <forename>Zsófia</forename>
+                </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>XML-editor</resp>
+                    <persName>
+                        <surname>Tubay</surname>
+                        <forename>Tiziano</forename>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>XML-editor</resp>
+                    <persName>
+                        <surname>Bobák</surname>
+                        <forename>Barbara</forename>
+                    </persName>
+                    
+                </respStmt>
+                <respStmt>
+                    <resp>creator</resp>
+                    <orgName> DigiPhil <ref type="url">http://digiphil.hu</ref>
+                    </orgName>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName>Bölcsészettudományi Kutatóközpont, Irodalomtudományi Intézet</orgName>
+                    <ref type="url">http://viaf.org/viaf/312925875/</ref>
+                    <ref type="url">https://iti.btk.mta.hu/</ref>
+                </publisher>
+                <pubPlace>Budapest <ref type="url">http://www.geonames.org/3054643</ref>
+                </pubPlace>
+                <date>2020</date>
+                <availability>
+                    <p>©Free Access - no-reuse <ref type="url"
+                        >http://www.europeana.eu/rights/rr-f/</ref>
+                    </p>
+                </availability>
+                <idno type="PID">o:ransanus.tei.appendix.1</idno>
+                <idno type="URL">/o:ransanus.tei.appendix.1</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Bibliotheca Scriptorum Medii Recentisque Aevorum</title>
+                <respStmt>
+                    <resp>condita a</resp>
+                    <persName>Ladislao Juhász</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>consilium editorium</resp>
+                    <persName>Stephanus Borzsák</persName>
+                    <persName>Ioannes Horváth</persName>
+                    <persName>Tiberius Klaniczay</persName>
+                    <persName>Ladislaus Mezei</persName>
+                    <persName>Gabriel Székely</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>redigit</resp>
+                    <persName>Antonius Pirnát</persName>
+                </respStmt>
+                
+            </seriesStmt>
+            <notesStmt>
+                <note type="critIntro"><p>Auctor dedicationis Thomam Bakócz (1442–1521) Mathiae regi
+                    fidelem, secretarium regium appellat, qui episcopus primum Iaurinensis, deinde
+                    Agriensis, postea anno 1498 archiepiscopus Strigoniensis ordinatus, anno denique
+                    1500 purpureo exornatus est. Vir opulentus se in bonarum artium studiosos
+                    fautorem liberalem praebebat. Sacellum, quod basilicae Strigoniensi ipse
+                    adiungendum curavit, artium in Hungaria renascentium praeclarum monumentum
+                    habetur.</p><p>Nomen auctoris in codice <hi rend="bold">B</hi> erasum est, nunc tantum „Ioannes de A“ legi
+                        potest, post quod locus litterarum nonnullarum vacat. Folium tamen positum
+                        sub instrumentum, in quo textus palimpsestorum apparere solet, litteras
+                        „ccia“ satis ad legendum ostendit. Ita videtur nomen auctori Ioannes de
+                        Accia fuisse. Vir quidam huius nominis (Ioannes de Accia, Zacchia, Zechia,
+                        de Zecchiis seu Uchrii) in provincia Sicula Ordinis Praedicatorum eo ipso
+                        tempore versatur. Litterae Ordinis (<title>Registrum litterarum fr. Thomae
+                            de Vio Caietani O. P. magistri Ordinis 1508–1513</title>. Ed. Albertus
+                        de Meyer. Roma 1935. Monumenta Ordinis Fratrum Praedicatorum Historica. Vol.
+                        XVII.) primum 19. Iunii 1508. eius mentionem faciunt, quando „magistri
+                        Iohannis Uchrii magisterium approbatur“ (p. 201), postea 7. Iulii „magister
+                        Iohannes Zechia declaratur promotus in magistrum“ (p. 202), quinque diebus
+                        interiectis, i.e. 12. Iulii, „magistro Iohanni Zacchiae... data est licentia
+                        revertendi ad propriam provinciam“ (p. 202), demum 10. Ianuarii 1513.
+                        „magistro Iohanni de Accia Siculo conceditur, quod cum benedictione Ordinis
+                        possit recipere episcopatum, gaudet gratiis Ordinis, potest nominare sibi
+                        socium de Ordine clericum vel conversum praelatis tamen nominati non
+                        contradicentibus, qui socius dum est in societate sua, potest cuicumque
+                        nostri Ordinis sacerdoti confiteri et in defectu cuicumque alteri, qui,
+                        quantum committi potest, possit eum absolvere a non reservatis ter in anno
+                        et cum eo dispensare etc.“ (p. 214). Sed series episcoporum
+                            (<title>Hierarchia catholica medii et recentioris aevi...</title>
+                        Inchoavit Guilelmus van Gulk... absolvit Conradus Eubel... Ed. 2., quam
+                        curavit Ludovicus Schmitz-Kallenberg. Vol. III. Monasterii 1923) nomen eius
+                        non habet. (Vir quidam Ioannes de Vich nomine – similiter de Ordine
+                        Praedicatorum – a 23. Iulii 1512. usque ad mortem anno 1526 factam
+                        episcopatum Acerrensem gerebat; v. ibidem p. 93.) Praeter supra dicta sentt.
+                        1. et 14. Appendicis I. eum Panormi natum, in monasterio S. Dominici eiusdem
+                        urbis habitatum, professorem theologiae, affinem, pronepotem heredemque
+                        Petri Ransani esse dicunt. Igitur cum Ransano sanguine coniunctus erat,
+                        neque tamen proxima cognatione.</p><p>Heres proximus nepos Ransani, Petrus (Pietruzzo) Ransanus minor fuit. Is primum Paduam studiorum
+                        causa petivit, deinde annis 1481/82 Florentiae theologiam audivit, tum anno
+                        1491 Romae in collegio S. Palatii „ad legendum sententias“ inscriptus,
+                        postremo 30. Maii 1492. magister factus est. Anno 1497 vicarius generalis O.
+                        P. ordinatur, et hunc magistratum gerens 1499 Romae moratur. (V. Matteo
+                        Angelo Coniglione: <title>La provincia domenicana di Sicilia. Notizie
+                            storiche documentate</title>. Catania 1937. pp. 47, 177, 205; cf.
+                        Innocentius Taurisano: <title>Hierarchia Ordinis Praedicatorum</title>. Pars
+                        I. Ed. altera. Romae 1916. pp. 49, 96; Benedictus Maria Reichert:
+                            <title>Acta capitulorum generalium Ordinis Praedicatorum</title>. Vol.
+                        III. Romae 1900, 403.) Nunquam postea de eo audiri potest. Licencia Romae
+                        18. Iulii 1481. data Ransano seniori nepotem suum heredem scribendi
+                        facultatem facit: „Reverendus dominus Petrus Ranzanus de Panormo episcopus
+                        Lucerinus recipitur ad suffragia Ordinis in vita et morte... et concendantur
+                        sibi ad usum libri et alia, quae acquisivit in Ordine, et post eius mortem
+                        potest, ut concendantur ad usum fratri Petro Ranzano nepoti suo, dummodo
+                        cautum faciat conventum Panormitanum, quod praedicta non aliter“ etc. (v.
+                        Coniglione: op. cit. p. 46). Ita fit, ut codex <hi rend="bold">B</hi> mortuo auctore in manus
+                        primum Ransani iunioris, deinde ineunte saec. XVI. Ioannis de Accia incidit.
+                        Hic eodem tempore ac Thomas Bakócz Romae commorabatur (v. sent. 21.).
+                        Dedicatio his diebus, inter 26. Ianuarii 1512. et 6. Novembris 1513.
+                        conscripta est. (Cf. Péter Kulcsár, in ephemeride: Magyar Könyvszemle,
+                        l.c.)</p></note>
+                
+            </notesStmt>
+            <sourceDesc>
+                <!--<msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <extent>
+                                    <measure type="quantity" unit="folio"/>
+                                    <dimensions unit="mm">
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </extent>
+                                <condition>
+                                    <p/>
+                                </condition>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                <msDesc>-->
+                <bibl>
+                    <author>
+                        <persName>
+                            <surname>Petrus</surname>
+                            <forename>Ransanus</forename>
+                           <idno type="KOHA_AUTH">KOHA:169512</idno>
+                            <idno type="url"
+                                >http://biblio.digiphil.hu/cgi-bin/koha/opac-authoritiesdetail.pl?authid=96679</idno>
+                            <idno type="VIAF">VIAF:95251869</idno>
+                            <idno type="url">http://viaf.org/viaf/95251869</idno>
+                        </persName>
+                    </author>
+                    <title>Epithoma rerum Hungararum</title>
+                    <title type="sub">Id est annalium omnium temporum liber primus et sexagesimus</title>
+                    <idno type="ISBN">ISBN:9630509946</idno>
+                    <respStmt>
+                        <resp>editor</resp>
+                        <persName>
+                            <surname>Petrus</surname>
+                            <forename>Kulcsár</forename>
+                            <idno type="KOHA_AUTH">KOHA:</idno>
+                        </persName>
+                    </respStmt>
+                    <date>1977</date>
+                    <pubPlace>Budapest</pubPlace>
+                    <publisher>Akadémiai Kiadó</publisher>
+                </bibl>
+                <listWit>
+<witness xml:id="KK">Kritikai kiadás</witness>
+ 
+                    <witness xml:id="B">Petri Ransani Siculi theologi atque historici, Lucerini
+                        episcopi annalium omnium temporum liber primus et sexagesimus. Manoscritto
+                        miniato su pergamena, nel patrimonio bibliografico della Biblioteca
+                        Nazionale Széchényi di Budapest, sotto il n. Clmae 249. (foll. lr–7r)</witness>
+                    <witness xml:id="M">Historiae Hungaricae fontes domestici. Vol. IV. Chronica
+                        minora... Petri Ransani epitome rerum Hungaricarum. Recensuit... M.
+                        Florianus. Auspiciis et sumptibus Academiae Scientiarum Hungaricae.
+                        Budapestini 1885. (Quinque-Ecclesiis, typis Michaelis Taizs.) In
+                        8°. (pp. 287–289)</witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="la"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>ajánlás</term>
+                </keywords>
+            </textClass>
+            <creation>
+                <date from="1512" to="1513"/>
+                <placeName>Romae <idno type="KOHA_GEO">KOHA_GEO:54046</idno></placeName>
+            </creation>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <head type="title">Dedicatio ad Thomam Bakócz.</head>
+                <p>
+                    <s n="1">﻿Frater Ioannes de <app>
+                            <lem wit="#KK">Accia</lem>
+                            <rdg wit="#B"><note type="critic">ras.</note>ccia</rdg>
+                            <rdg wit="#M">A</rdg>
+                        </app> Siculus Panormita ordinis praedicatorum sacrae theologiae professor
+                        reverendissimo in Christo patri et <app>
+                            <lem wit="#KK #B">domino, domino</lem>
+                            <rdg wit="#M">domino</rdg>
+                        </app> Thomae archiepiscopo et principi Strigoniensi <app>
+                            <lem wit="#KK #B">ac</lem>
+                            <rdg wit="#M"/>
+                        </app> sanctae Romanae ecclesiae tituli Sancti Martini in Montibus <app>
+                            <lem wit="#KK #M">presbitero</lem>
+                            <rdg wit="#B">praesbitero</rdg>
+                        </app> cardinali dignissimo suppliciter se commendat.</s>
+                </p>
+                <app>
+                    <lem wit="#KK #B">
+                        <p>
+                            <s n="2">Cogitanti mihi, reverendissime antistes, cuinam potissimum
+                                Pannonum regum et principum interque hos Ioannis Corvini ac unius
+                                nati illius regis Mathiae semper invicti Martia gesta, quibus terra
+                                marique hostes ferro clavaque depugnans vicit, prostravit,
+                                eliminavit, eatenus uti nulli iam reges, dum viveret, haberentur,
+                                qui non eum aut optarent benivolum, aut iratumpaverent, tu unus ex
+                                omnibus, quos Pannonia nostro hoc aevo produxit, et quia inter
+                                primarios eiusce gentis proceres nulli secundus existis mea
+                                sententia, appositissimus occurristi, cui (extra omnem
+                                controversiam) iure meritoque dicarentur.<note type="critic"
+                                    corresp="RKK">2 <hi rend="italic">unius nati illius regis
+                                        Mathiae</hi> cf. sent. 3.: <hi rend="italic">una cum natis
+                                        Ladislao atque Mathia</hi>; Index XXIX.1: <hi rend="italic"
+                                        >Duos reliquit filios, Ladislaum et Mathiam</hi>.</note></s>
+                            <s n="3">Cum enim multa et quidem maiestate et gloria inter haec
+                                splendidissima habeantur potentissimae nationis illius in complures
+                                populos patrata facinora, in Turcas tamen Christiani nominis
+                                iuratissimos hostes, quod gentilicium ac <app>
+                                    <lem wit="#KK">paene</lem>
+                                    <rdg wit="#B">pene</rdg>
+                                </app> nativum Pannonibus scimus, plurima reponuntur acerrima bella,
+                                sed illud praecipuum celebratur ab omnibus, quod ad Belgradum
+                                Ioannes Corvinus una cum natis Ladislao atque Mathia, multo licet
+                                sanguine de Maumethe famatissimum toto terrarum orbe reportavit
+                                    triumphum.<note type="critic" corresp="RKK">3 <hi rend="italic"
+                                        >ad Belgradum Ioannes Corvinus</hi> etc. cf. Indices
+                                    XXVI–XXVII.</note></s>
+                            <s n="4">Cuius quidem Mathiae potentissimi ac semper invicti regis,
+                                antequam sacris initiareris, victricia arma creberrime cum sis
+                                prosecutus, non est, cui magis isthaec liquido constent habeatque in
+                                numerato.</s>
+                            <s n="5">Ei siquidem adversus Christianae fidei hostem ardentissimo
+                                spiritu die noctuque <app>
+                                    <lem wit="#KK">haerebas</lem>
+                                    <rdg wit="#B">herebas</rdg>
+                                </app>, tuaque humanarum divinarumque rerum omnifaria doctrina,
+                                gravissimo consilio, prudentia exactissima ad complura et ea
+                                gloriosiora splendidioraque invictum regem et ad quaeque maxima
+                                natum dirigebas, hortabaris munera exequenda.</s>
+                            <s n="6">Hinc autem omnes factum sciunt, ut sapientissimus rex tum de
+                                virtute semper cum de se bene meritis amantissimus ac
+                                munificentissimus retributor te sacris addictum in dies honestaret,
+                                magis magisque variis dignitatum titulis muneribusque ornaret,
+                                felici prorsus omine quin potius numine rex cordatissimus egerit,
+                                uti videlicet, qui corporalibus antea armis proprio tuo sanguine
+                                crucis Christi hostem ardentissime fueras insecutus, Iesu dei nostri
+                                scholam ingressus non carnalibus iam tantum armis telisque munitus
+                                sed validissimis invictissimisque spiritus machinis dextra <app>
+                                    <lem wit="#KK">laevaque</lem>
+                                    <rdg wit="#B">levaque</rdg>
+                                </app> stipatus consertissimos spiritalium quoque nequitiarum cuneos
+                                ne dum expugnare sed invertere, eliminare funditusque addisceres
+                                    exterminare.<note type="critic" corresp="RKK">4–6 Cf. Index
+                                    III.64–65.</note></s>
+                            <s n="7">Arma siquidem nostra, Christianorum scilicet, ait Paulus, non
+                                carnalia sed spiritualia sunt potentia deo, tametsi his quoque uti
+                                haud inconvenit tum adversus infideles quosque, cum in rebelles
+                                Christianos obstinatos praecipue.<note type="critic" corresp="RKK">7
+                                    Cf. 2 Cor. 10.4: <hi rend="italic">Nam arma militiae nostrae non
+                                        carnalia sunt, sed potentia deo</hi>.</note></s>
+                            <s n="8">Sed ad rem.</s>
+                        </p>
+                        <p>
+                            <s n="9">Sanctissimo itaque quodam iure id reposcentibus amplissimis
+                                candidissimisque virtutibus tuis, a quibus vel tantisper et per
+                                summa earum capita edicendis temperaverim ac professo gnatonicam <app>
+                                    <lem wit="#KK">abhorrentes</lem>
+                                    <rdg wit="#B">abhorrontes</rdg>
+                                </app>, inter apostolici senatus cardineos postes ab olim collocatus
+                                veluti singulare emicas, iubar rubro galero, clamide rubra ad hoc
+                                insignitus, quatenus te ut alios inter omnes <app>
+                                    <lem wit="#KK">dignitate et</lem>
+                                    <rdg wit="#B">dignitate ei</rdg>
+                                </app> gradu sublimiorem spectas, sic omnibus tanquam singulare
+                                virtutis specimen et exemplar ad gloriosam Christi Iesu dei nostri
+                                fidem fovendam extollendamque ac sponsae illius unicae unionem manu
+                                tenendam defensendamque Romanam ecclesiam, dico, effundendumque
+                                ipsum quoque sanguinem et animam, harum rerum gratia teneri te
+                                primum crebrius pensites, id, quod omnes actus tui consilia monita
+                                ac sanctissima prae se ferunt documenta, quae utinam iniqua haec
+                                nostra (nequid dixerim, peius) admitterent tempora.</s>
+                            <s n="10">Verum haec partius.</s>
+                        </p>
+                    </lem>
+                    <rdg wit="#M"/>
+                </app>
+                <p><s n="11">Scripsit post <app>
+                            <lem wit="#KK #B">quamplurima</lem>
+                            <rdg wit="#M">plurima</rdg>
+                        </app> suorum <app>
+                            <lem wit="#KK #B">munimentorum</lem>
+                            <rdg wit="#M">monumentorum</rdg>
+                        </app> annaliumque haec quoque Petrus Ransanus Siculus <app>
+                            <lem wit="#KK">Panormi natus</lem>
+                            <rdg wit="#B">Panormo natus</rdg>
+                            <rdg wit="#M">Panormitanus</rdg>
+                        </app>, Lucerinus olim praesul, divi praedicatorum ordinis professor, cum
+                        legatione ad illustrissimum Mathiam regem Pannonum pro Ferdinando magnae
+                        Siciliae rege fungeretur, quod <app>
+                            <lem wit="#KK #B">opus</lem>
+                            <rdg wit="#M">operis</rdg>
+                        </app> prioribus a se gravissime ac fidelissime scriptis annectens <app>
+                            <lem wit="#KK #B">LXIm</lem>
+                            <rdg wit="#M">LXI-um</rdg>
+                        </app> Annalium omnium temporum nominari voluit.<note type="critic"
+                            corresp="RKK">11 Cf. Dedicatoria 12–13, Index I.1.</note></s><s n="12"
+                        >Ab initio autem gentis principum regumque illius ideo exorditus est, perque
+                        triginta et septem indices opus distinxit, uti omnibus cuiusque principis ac
+                        regis cuiusque temporis felicia minusque <app>
+                            <lem wit="#KK #B">prospera</lem>
+                            <rdg wit="#M">prospere</rdg>
+                        </app> gesta in promptu essentque ad manum.</s><s n="13">Eum autem virum
+                        sicut multiiugi doctrina ornatum sic multifaria et omnimoda historia ac
+                        dulci quadam et <app>
+                            <lem wit="#KK #B">(ut ita dixerim)</lem>
+                            <rdg wit="#M">ut ita dixerim</rdg>
+                        </app> nativa eloquentia lepidum ac bene tersum et, quod historiam
+                        gratissimam reddit, nunquam effusum prolixius aut mancum <app>
+                            <lem wit="#KK #B">decurtatumve</lem>
+                            <rdg wit="#M">decurtatumque</rdg>
+                        </app>, sed medio se quodam methodo emunctissime continentem tu inprimis,
+                        pater reverendissime, nosti, quando homini pro tua humanitate fueris
+                        amicissimus, dum circa eadem tempora divi Mathiae regiam coleretis,
+                        isthaecque lepidissima eius Epitomata (sic enim et <app>
+                            <lem wit="#KK #B">ipse illa</lem>
+                            <rdg wit="#M">ipse ea</rdg>
+                        </app> appellat) legenti cuilibet<app>
+                            <lem wit="#KK #B"> prae se ferunt</lem>
+                            <rdg wit="#M"/>
+                        </app>.<note type="critic" corresp="RKK">13 <hi rend="italic">sic enim et
+                                ipse illa appellat</hi> cf. Dedicatoria 11.</note></s><s n="14">Quae <app>
+                            <lem wit="#KK #B">cum ab</lem>
+                            <rdg wit="#M">cum iam</rdg>
+                        </app> olim ad meas devenissent manus, utpote reverendi huius patris affinis
+                        et pronepos, ut ipse Siculus patria, <app>
+                            <lem wit="#KK #B">Panormi natus</lem>
+                            <rdg wit="#M">Panormitanus</rdg>
+                        </app>, eiusdem ordinis professor in eodemque <app>
+                            <lem wit="#KK">coenobio</lem>
+                            <rdg wit="#B #M">cenobio</rdg>
+                        </app> praefatae religioni addictus interque theologos ut ille <app>
+                            <lem wit="#KK #B">(imparibus licet meritis)</lem>
+                            <rdg wit="#M">imparibus licet meritis</rdg>
+                        </app> aggregatus multa sum saepissime meditatus, quid mihi de his
+                        faciundum.</s><s n="15">Occurrebat autem <app>
+                            <lem wit="#KK #B">(ut dixi)</lem>
+                            <rdg wit="#M">ut dixi</rdg>
+                        </app> nullus, cui dederentur eo sublato, cui inscripta fuerant, et ea
+                        latere scelus rebar ingratitudinis atque ignaviae.</s><s n="16">Sicque in
+                        varia agitatus animus suadebat, hortabatur, differebat, sed eo magis quod
+                        imperfectum contemplabatur opus.</s><s n="17">Non enim habentur, quae
+                        ultimus repromittit index, at id forsan ideo evenit, quod apud scriptorem,
+                        cum reverendus hic pater diem obiit, ea tenebantur.<note type="critic"
+                            corresp="RKK">17 Cf. Index indicum 38.</note></s><s n="18">Quae tamen
+                        ultima regis Mathiae gesta propterea mihi facile fuisse suadeo, quia pacato
+                        undequaque regno, rebus ad quietem deductis ipse gloriosus rex, dum ad
+                        decorandum multiplici solertia regnum mentem appulit, e medio sublatus est,
+                        non multoque post scriptor egregius benedictam efflavit animam.</s><s n="19"
+                        >Operi vero quasi ipsum perfecturus pro eo haud manus apposui, quoniam earum
+                        rerum nulla mihi certa cognitio, quae tamen unicuique historico necessaria
+                        est.</s><s n="20">Videnne, pater amplissime, quo me mea haec adduxerit <app>
+                            <lem wit="#KK #M">haesitatio</lem>
+                            <rdg wit="#B">hesitatio</rdg>
+                        </app>?</s><s n="21">Ad hoc certe, ut Romam veniens, qua gloriosa urbe
+                        Corvina familia orta, ex qua divus ipse Mathias genus traxit, de quoque ac
+                        eius genitore omnifariam famigerato splendidissima multa ac memoratu
+                        dignissima inseruntur, tibi auctoris amicissimo, cui et non alteri cuipiam
+                        divo Mathia sublato tamquam principi fortissimo, patrono pientissimo
+                        patrique reverendissimo, si auctor ipse viveret, offerret, et librum et me
+                        ipsum pariter dederem et offerrem.<note type="critic" corresp="RKK">21 <hi
+                                rend="italic">Corvina familia orta</hi> etc. cf. Index I.66
+                            etc.</note></s><s n="22">Suscipe ipsum igitur, pater reverendissime,
+                        nobilissimis maxima sui parte, ut ab auctore scribi iussus est, <app>
+                            <lem wit="#KK #B">carracteribus</lem>
+                            <rdg wit="#M">caracteribus</rdg>
+                        </app> exornatum.</s><s n="23">Tibi enim illum dono, una mecum offero et
+                        dedico.</s><s n="24">Nunc primum autem latebras egressum tu, qui gentis
+                        Pannonum decus es, iubar <app>
+                            <lem wit="#KK #B">sydusque</lem>
+                            <rdg wit="#M">sidusque</rdg>
+                        </app> fulgidissimum, tuo, inquam, lumine illustra, eatenus ut omnibus in
+                        posterum pateat ac velut Celtico protectus clipeo cunctus <app>
+                            <lem wit="#KK #B">sese</lem>
+                            <rdg wit="#M">se</rdg>
+                        </app> intrepidum <app>
+                            <lem wit="#KK #B">exhibeat</lem>
+                            <rdg wit="#M">exhibeat<add type="insert"> etc</add><note type="critic">M
+                                    textus desinit</note></rdg>
+                        </app>.</s><app>
+                        <lem wit="#KK #B">
+                            <s n="25">At quamquam, reverendissime antistes, gravissimae ac complures
+                                se offerant causae, quibus pro tua doctrina exactissima
+                                eminentissimaque sapientia totus es ab ipsis (ut aiunt) unguiculis
+                                deditus, inter ociandum tamen his ad horam applicuisse animum haud
+                                aspernabere, praesertim cum et eloquentia polleas et historia
+                                delecteris, et ista suopte natura sint talia, quae non mediocrem
+                                animi afferant voluptatem.</s>
+                            <s n="26">Sed ea cum legeris, mei quoque fidissimi servuli tui pro tua
+                                in omnes clementia et humanitate sis memor, et opto et humillime
+                                precor.</s>
+                            <s n="27">Vale semper utroque homine felix, ecclesiae sanctae
+                                splendidissimum sydus!</s>
+                        </lem>
+                        <rdg wit="#M"/>
+                    </app></p>
+            </div>
+        </body>
+    </text>
+</TEI>

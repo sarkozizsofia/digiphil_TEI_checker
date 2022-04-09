@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" 	schematypens="http://purl.oclc.org/dsdl/schematron"?> <TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Appendix IV.</title>
+                <author>
+                    <persName>Lucas Pécsi</persName>
+                    <idno type="KOHA_AUTH">KOHA:137544</idno>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>digital edition</edition>
+                <respStmt>
+                    <resp>project director</resp>
+                    <persName>
+                        <surname>Palkó</surname>
+                        <forename>Gábor</forename>
+                        <idno type="KOHA_AUTH">KOHA_AUTH:121463</idno>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>TEI-specification</resp>
+                    <persName>
+                    <surname>Fellegi</surname>
+                    <forename>Zsófia</forename>
+                </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>XML-editor</resp>
+                    <persName>
+                        <surname>Tubay</surname>
+                        <forename>Tiziano</forename>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>XML-editor</resp>
+                    <persName>
+                        <surname>Bobák</surname>
+                        <forename>Barbara</forename>
+                    </persName>
+                    
+                </respStmt>
+                <respStmt>
+                    <resp>creator</resp>
+                    <orgName> DigiPhil <ref type="url">http://digiphil.hu</ref>
+                    </orgName>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName>Bölcsészettudományi Kutatóközpont, Irodalomtudományi Intézet</orgName>
+                    <ref type="url">http://viaf.org/viaf/312925875/</ref>
+                    <ref type="url">https://iti.btk.mta.hu/</ref>
+                </publisher>
+                <pubPlace>Budapest <ref type="url">http://www.geonames.org/3054643</ref>
+                </pubPlace>
+                <date>2020</date>
+                <availability>
+                    <p>©Free Access - no-reuse <ref type="url"
+                        >http://www.europeana.eu/rights/rr-f/</ref>
+                    </p>
+                </availability>
+                <idno type="PID">o:ransanus.tei.appendix.4</idno>
+                <idno type="URL">/o:ransanus.tei.appendix.4</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Bibliotheca Scriptorum Medii Recentisque Aevorum</title>
+                <respStmt>
+                    <resp>condita a</resp>
+                    <persName>Ladislao Juhász</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>consilium editorium</resp>
+                    <persName>Stephanus Borzsák</persName>
+                    <persName>Ioannes Horváth</persName>
+                    <persName>Tiberius Klaniczay</persName>
+                    <persName>Ladislaus Mezei</persName>
+                    <persName>Gabriel Székely</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>redigit</resp>
+                    <persName>Antonius Pirnát</persName>
+                </respStmt>
+                
+            </seriesStmt>
+            <notesStmt>
+                <note type="critIntro">Miklós Telegdi (Nicolaus Telegdinus, 1535–1586) anno 1579
+                    episcopus Quinqueecclesiensis, simul administrator Strigoniensis est factus. Is
+                    de litteratura Hungarica et de defensione ecclesiae catholicae contra
+                    reformatores religionis optime meritus erat. Auctor dedicationis Lukács Pécsi
+                    procurator capituli Strigoniensis, scriptor ecclesiasticus est, qui operibus
+                    philologicis parum praestat. Scripta sua in officina typographica Tyrnaviensi
+                    (Nagyszombat), quam ipse Telegdi fundaverat, in lucem prolata sunt.</note>
+                
+            </notesStmt>
+            <sourceDesc>
+                <!--<msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <extent>
+                                    <measure type="quantity" unit="folio"/>
+                                    <dimensions unit="mm">
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </extent>
+                                <condition>
+                                    <p/>
+                                </condition>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                <msDesc>-->
+                <bibl>
+                    <author>
+                        <persName>
+                            <surname>Petrus</surname>
+                            <forename>Ransanus</forename>
+                            <idno type="KOHA_AUTH">KOHA:169512</idno>
+                            <idno type="url"
+                                >http://biblio.digiphil.hu/cgi-bin/koha/opac-authoritiesdetail.pl?authid=96679</idno>
+                            <idno type="VIAF">VIAF:95251869</idno>
+                            <idno type="url">http://viaf.org/viaf/95251869</idno>
+                        </persName>
+                    </author>
+                    <title>Epithoma rerum Hungararum</title>
+                    <title type="sub">Id est annalium omnium temporum liber primus et sexagesimus</title>
+                    <idno type="ISBN">ISBN:9630509946</idno>
+                    <respStmt>
+                        <resp>editor</resp>
+                        <persName>
+                            <surname>Petrus</surname>
+                            <forename>Kulcsár</forename>
+                            <idno type="KOHA_AUTH">KOHA:</idno>
+                        </persName>
+                    </respStmt>
+                    <date>1977</date>
+                    <pubPlace>Budapest</pubPlace>
+                    <publisher>Akadémiai Kiadó</publisher>
+                </bibl>
+                <listWit>
+<witness xml:id="KK">Kritikai kiadás</witness>
+                     <witness xml:id="L1">Epitome rerum Hungaricarum velut per indices descripta
+                        auctore Petro Ransano apud Mathiam regem olim regis Neapolitani triennium
+                        legato. Impressum Ternaviae elimatione et relectione Lucae Peechi Pannonii,
+                        M. D. LXXXIX. Foll. 188 innum. In 8°, segnatura (:) in 4°. (foll. (:)2r–(:)3v)</witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="la"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>ajánlás</term>
+                </keywords>
+            </textClass>
+            <creation>
+                <date when="1579-03-03"/>
+                <placeName>Ternaviae <idno type="KOHA_GEO">KOHA_GEO:44544</idno></placeName>
+            </creation>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <head type="title">Lucas Pécsi: Dedicatio ad Nicolaum Telegdi</head>
+                <p>﻿<s n="1">Reverendissimo domino, domino Nicolao Telegdino electo episcopo
+                        Quinqueeclesiensi, administratori in spiritualibus archiepiscopatus
+                        Strigoniensis etc., sacrae caesareae et regiae maiestatis consiliario etc.
+                        Lucas Peechi Pannonius salutem plurimam dicit.
+                </s></p><p><s n="2">Recte quidem, reverendissime domine, Antonius apud Ciceronem historiam suis laudibus
+                        exornans eamque magistram vitae nominans scriptores illius amplissima
+                        profluentique laude donavit, ii enim sunt, qui praeterita tenent accuratius,
+                        praesentia notant solertius, futura praevident perspicatius, ii sunt, qui
+                        excultis ac illustribus literis res inventas consignant, veritatem
+                        ostentant, quae nuda proferri amat, nuda videri desiderat et peregrinis
+                        facundiae pigmentis fucata corrumpitur.<note type="critic" corresp="RKK">2
+                                <hi rend="italic">Antonius apud Ciceronem</hi> cf. Cicero: De
+                            oratore 2.9: „Historia vero testis temporum, lux veritatis, vita
+                            memoriae, magistra vitae, nuntia vetustatis qua voce alia nisi oratoria
+                            immortalitati commendatur?“</note></s><s n="3">Magna profecto gratia
+                        rerum gestarum scriptoribus habenda, qui suo studio effecerunt, ut cognitis
+                        rebus praeteritis, quid in vita hominum laudetur aut vituperetur, quid
+                        probetur aut offendat, tanquam in speculo mundissimo intueremur.</s><s n="4">In quorum numero Petrus Ransanus vir sane magna authoritate rerumque peritia insignis non
+                        ultimas meo iudicio tenet partes, qui res Hungaricas sapienter, iuste, pie,
+                        fortiter moderateque gestas splendida et illustri oratione perstrinxit,
+                        nihil enim rebus Hungaricis vel detraxit vel addidit copiosius, sed brevi
+                        simplicique oratione eas (intra veritatis cancellos persistens)
+                            comprehendit.<note type="critic" corresp="RKK">4 <hi rend="italic">vel
+                                detraxit vel addidit</hi> etc. cf. Appendix I.13.</note></s><s n="5">Non desunt quamplurimi, qui eius animi dotes maximis ornaverint laudibus, Antonius certe
+                        Bonfinius vir stili gravitate rerumque experientia suorum temporum
+                        excellentissimus Mathiae regis funebres pompas descripturus sic ait: Petro
+                        Lucerino doctissimo et oratori Neapolitano datum laudandi regis negotium, is
+                        de laudibus et gestis eius sat ornatam et copiosam habuit orationem
+                            etc.<note type="critic" corresp="RKK">5 <hi rend="italic">Bonfinius...
+                                sic ait</hi> = Antonius de Bonfinis: <title>Rerum Ungaricarum
+                                decades</title>, ed. cit., Decas IV., liber 8., sent. 242: „Inter
+                            sacrificandum Petro episcopo Lucerino viro doctissimo et oratori
+                            Neapolitano datum laudandi regis est negotium. Is de laudibus et gestis
+                            eius sat ornatam et copiosam habuit orationem et multis (annuente senatu
+                            cunctisque pontificibus) iam rationibus ostendit Mathiam regem
+                            Christiane rei publice assertorem, principem invictissimum et de Romana
+                            semper ecclesia optime meritum iure inter divos esse referendum“ etc.
+                            Similiter apud Tuberonem: „Absoluta re divina episcopus Noceranus, qui
+                            nomine Ferdinandi regis Neapolitani orator ad Matthiam aliquot ante
+                            mensibus venerat, vir non ineruditus, pauca admodum in regis funere
+                            verba fecit, magisque ritum funeris ea oratione servavit, quam quidquam
+                            dignum illo rege disseruit propterea, quod omni paene laudatione omissa
+                            tantummodo de eius exitu locutus est affirmans nullum genus mortis,
+                            quantum- cunque id horrendum eveniat, hominem fato functum infelicem
+                            reddere, quem praeterita satis commendet vita. Atque haec oratio eo
+                            pertinere visa est, ne scilicet regi dedecori tribueretur, quod usu
+                            linguae luminumque amisso morientis officium Christiani pro palam obire
+                            nequiverit.“ (Schwandtnerus SRH II. 117.)</note></s><s n="6">Proinde non
+                        est opus, ut ego illis commemorandis tempus teram, dolendum profecto
+                        fuisset, si tanti viri tam fructuosam historiam interire contigisset, quam
+                        ipse posteritati relinquere non recusavit.</s><s n="7">Non inficior autem ante plures annos virorum doctorum studio ac opera in lucem venisse nec
+                        sine fructu quidem, verum ubi animadverterem exemplaria iam tempore contrita
+                        ac consumpta esse, typis tua fretus benevolentia denuo eam tradere non
+                            dubitavi.<note type="critic" corresp="RKK">7 <hi rend="italic">ante
+                                plures annos... in lucem venisse</hi>: de editione a Sambuco facta
+                                (<hi rend="bold">Z</hi>) agitur.</note></s><s n="8">Idque eo libentius feci, quod manu scriptum exemplar ex Sigismundi Tordae biblioteca ad
+                        manus mihi venisset, unde indicem primum operis, qui priori aeditioni
+                        deerat, nostrae huic adiungere potui, appendicem quoque adieci non, ut hanc
+                        aeditionem ea fulcirem, sed ut historiam consummarem.<note type="critic"
+                            corresp="RKK">8 <hi rend="italic">ex Sigismundi Tordae biblioteca</hi>:
+                            Sigismundus Torda de Gyalu officio in camera regia fungebatur,
+                            disciplinae Melanchthonis alumnus fuit, cuius nutu Orestem Euripidis in
+                            Latinum convertit (Basileae 1551). Anno 1569 mortuus est. – <hi
+                                rend="italic">appendicem quoque adieci</hi>: v. descriptionem
+                            editionis <hi rend="bold">L</hi> in nostra Praefatione.</note></s><s n="9">Quid vero sim consecutus, aliorum iudicio
+                        lubens permitto, in quibus unus tu, patrone amplissime, es mihi instar
+                        omnium, tuus amor et benevolentia fructus erit uberrimus.</s><s n="10">Si enim ab eo tempore, quo me primum ad studia bonarum artium lautissimo apparatu
+                        incitasti, tibi omnia, quae a me proficiscerentur, me debere statui, quanto
+                        amplior nunc ea voluntas in me esse debet, quando principum amore in
+                        altissimo dignitatis gradu positus ecclesiae tranquillitati bene consulere
+                        ac praesidere incipis.<note type="critic" corresp="RKK">10 <hi rend="italic"
+                                >in altissimo dignitatis gradu</hi>: archiepiscopatus Strigoniensis
+                            inter Hungaros pro summa dignitate ecclesiastica habetur.</note></s><s n="11">Huius animi testem Ransanum
+                        hoc tempore mitto et in tuo nomine digne apparere iubeo.</s><s n="12">Deus
+                        det dignos tua authoritate progressus et firma ponat officii incaepti
+                        fundamenta, ut quemadmodum saeculo infoelicissimo gubernacula fidei
+                        assumpsisti, ita etiam ferventius vineam domini tueare.</s><s n="13">Vale,
+                        patrone inprimis gratiosissime!</s><s n="14">Ternaviae 5. Nonas Maii M.D.
+                            LXXIX.</s></p>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

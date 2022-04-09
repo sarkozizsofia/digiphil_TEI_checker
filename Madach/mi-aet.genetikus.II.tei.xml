@@ -1,0 +1,1829 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Az ember tragédiája, szinoptikus hálózati kritikai kiadás</title>
+            <title type="sub">Második szín.</title>
+            <author>
+               <persName>
+                  <surname>Madách</surname>
+                  <forename>Imre</forename>
+                  <idno type="KOA_AUTH">KOHA_AUTH:</idno>
+                  <idno type="VIAF">VIAF:</idno>
+               </persName>
+            </author>
+            <respStmt>
+               <resp>project manager:</resp>
+               <persName>
+                  <surname>Palkó</surname>
+                  <forename>Gábor</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>editor:</resp>
+               <persName>
+                  <surname/>
+                  <forename/>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>XML-editor:</resp>
+               <persName>
+                  <surname/>
+                  <forename/>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>digital edition</edition>
+            <respStmt>
+               <resp>creator</resp>
+               <orgName> Petőfi Irodalmi Múzeum <ref type="url"
+                  >http://viaf.org/viaf/152132060/</ref>
+                  <ref type="url">http://www.pim.hu</ref>
+               </orgName>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>Petőfi Irodalmi Múzeum</orgName>
+               <ref type="url">http://viaf.org/viaf/152132060/</ref>
+               <ref type="url">http://www.pim.hu</ref>
+            </publisher>
+            <pubPlace> Budapest <ref type="url">"http://www.geonames.org/3054643</ref>
+            </pubPlace>
+            <date>2014</date>
+            <availability status="unknown">
+               <p> ©Free Access - no-reuse <ref type="url"
+                  >"http://www.europeana.eu/rights/rr-f/"</ref>
+               </p>
+            </availability>
+            <idno type="PID">o:azember_gen.tei.2</idno>
+            <idno type="url">http://test.diphi.hu/o:azember_gen.tei.2</idno>
+         </publicationStmt>
+         <notesStmt>
+            <note anchored="true">Megjegyzések.</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl>
+               <author>
+                  <persName>
+                     <surname>Madách</surname>
+                     <forename>Imre</forename>
+                     <idno type="KOA_AUTH">KOHA_AUTH:</idno>
+                     <idno type="VIAF">VIAF:</idno>
+                  </persName>
+               </author>
+               <title>Az ember tragédiája - Drámai költemény, Szinoptikus kritikai
+                  kiadás</title>
+               <idno type="PID">context:madach_azembert</idno>
+               <idno type="url">http://test.diphi.hu/context:madach_azembert</idno>
+               <respStmt>
+                  <resp>Sajtó alá rendezte és a jegyzeteket írta:</resp>
+                  <name>Kerényi Ferenc</name>
+               </respStmt>
+               <respStmt>
+                  <resp>A mű kéziratának írásszakértői vizsgálatát végezte:</resp>
+                  <name>Wohlrab József</name>
+               </respStmt>
+               <respStmt>
+                  <resp>Lektorálta:</resp>
+                  <name>Kovács Ilona</name>
+                  <name>Láng József</name>
+                  <name>Stoll Béla</name>
+               </respStmt>
+               <date>2005</date>
+               <pubPlace>Budapest</pubPlace>
+               <publisher>Argumentum Kiadó</publisher>
+               <biblScope unit="page">30-58.</biblScope>
+            </bibl>
+            <listWit>
+               <witness xml:id="K"> Madách kézirata: Madách Imre és Arany János javításaival
+                  módosított szöveg </witness>
+               <!--  <witness xml:id="K1"> Madách Imre és Arany János javításaivail módosított szöveg </witness> -->
+               <witness xml:id="EK61"> Első kiadás <bibl> </bibl>
+               </witness>
+               <witness xml:id="MK63"> Második, javított kiadás <bibl> </bibl>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <variantEncoding location="internal" method="parallel-segmentation"/>
+         <projectDesc>
+            <p>XML TEI P5</p>
+         </projectDesc>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <head type="title"><app><rdg wit="#K"><hi rend="doubleunderline">
+               <del corresp="Arany János">2<hi rend="super">ik</hi></del>
+               <add type="corr" corresp="Arany János">második</add> szín.</hi></rdg>
+               <rdg wit="#EK61 #MK63">MÁSODIK SZÍN.</rdg></app></head>
+            <stage><p>A paradicsomban. <app>
+               <rdg wit="#K #EK61">Középen</rdg>
+               <rdg wit="#MK63">Közepén<note type="critic">Sh.? Madách a jav. alakot maga is használta, vö. az V. szín szerzői utasításával! A kérdés
+                  ezért nem dönthető el. L. még a VI. szín szerzői utasítását is!</note></rdg>
+            </app> a tudás és az örökélet fái. <app>
+               <rdg wit="#K">Ádám és Éva jőnek</rdg>
+               <rdg wit="#EK61">ÁDÁM <milestone unit="p"/>és ÉVA jőnek</rdg>
+               <rdg wit="#MK63">ÁDÁM és ÉVA <milestone unit="p"/>jőnek</rdg>
+            </app>,
+               különféle állatok <app>
+                  <rdg wit="#K">szelíd</rdg>
+                  <rdg wit="#EK61">szelid</rdg>
+                  <rdg wit="#MK63">szelíd</rdg>
+               </app> bizalommal <app>
+                  <rdg wit="#K">környezik őket. <milestone unit="p"/>Az</rdg>
+                  <rdg wit="#EK61">környezik <milestone unit="p"/>őket. Az</rdg>
+                  <rdg wit="#MK63">környezik őket. Az</rdg>
+               </app> ég <app>
+                  <rdg wit="#K">nyílt</rdg>
+                  <rdg wit="#EK61 #MK63">nyilt</rdg>
+               </app> kapuján dics (GLORIA)<note type="critic">A zárójeles magyarázat Aranytól a sor fölé írva a Kl-en.</note>
+               sugárzik <app>
+                  <rdg wit="#K">elő</rdg>
+                  <rdg wit="#EK61 #MK63">elő,</rdg>
+               </app> s <app>
+                  <rdg wit="#K #MK63">angyali</rdg>
+                  <rdg wit="#EK61">an-<milestone unit="p"/>gyali</rdg>
+               </app> karok halk <app>
+                  <rdg wit="#K">harmóniája</rdg>
+                  <rdg wit="#EK61">harmoniája</rdg>
+                  <rdg wit="#MK63">har-<milestone unit="p"/>moniája</rdg>
+               </app> hallik. <app>
+                  <rdg wit="#K">Verő<del corresp="Arany János">nap.
+                  </del><add type="corr" corresp="Arany János">FÉNYES NAP</add></rdg>
+                  <rdg wit="#EK61">Verőnap.</rdg>
+                  <rdg wit="#MK63">Verőfényes nap.<note type="critic">
+                     63: Verőféryes - sh. A kiadásokban a szerzői utasítás zárójelben. Arany nyomdai jelölése
+                     piros grafitceruzával az utasítás egészére: „petit”.
+                  </note></rdg>
+               </app></p></stage>
+            <sp>
+               <speaker><app>
+                  <rdg wit="#K"><hi rend="underline">Éva.</hi></rdg>
+                  <rdg wit="#EK61 #MK63">ÉVA.</rdg>
+               </app></speaker>
+               <l><app>
+                  <rdg wit="#K"><del corresp="Madách Imre">S</del></rdg>
+                  <rdg wit="#EK61 #MK63"></rdg>
+               </app>Ah, <app>
+                  <rdg wit="#K"><del corresp="Arany János">millyen édes, millyen szép <del corresp="Arany János">az</del> az, élni.</del>
+                  <add type="corr" corresp="Arany János">ÉLNI, ÉLNI: ÉDES MI SZÉP!</add></rdg>
+                  <rdg wit="#EK61">élni, élni: míly édes, mi szép!</rdg>
+                  <rdg wit="#MK63">élni, élni: mily édes, mi szép!</rdg>
+               </app><ref/></l>
+            </sp>
+            <sp>
+               <speaker><app>
+                  <rdg wit="#K"><hi rend="underline">Ádám.</hi></rdg>
+                  <rdg wit="#EK61 #MK63">ÁDÁM.</rdg>
+               </app></speaker>
+               <l>És úrnak lenni mindenek felett.</l>
+            </sp>
+            <sp>
+               <speaker><app>
+                  <rdg wit="#K"><hi rend="underline">Éva.</hi></rdg>
+                  <rdg wit="#EK61 #MK63">ÉVA.</rdg>
+               </app></speaker>
+               <l>Érezni, hogy gondoskodnak felőlünk,<app>
+                     <rdg wit="#K"><fw type="pageNum" corresp="Arany János">6</fw></rdg>
+                     <rdg wit="#EK61 #MK63"></rdg>
+                  </app></l>
+               <l>És <app>
+                  <rdg wit="#K">mind ezért</rdg>
+                  <rdg wit="#EK61 #MK63">mindezért</rdg>
+               </app> csupán hálát rebegnünk</l>
+               <l><app>
+                  <rdg wit="#K"><del corresp="Arany János">Ahhoz</del></rdg>
+                  <rdg wit="#EK61 #MK63"></rdg>
+               </app>Ahhoz, ki <app>
+                  <rdg wit="#K">nyújtja</rdg>
+                  <rdg wit="#EK61 #MK63">nyujtja</rdg>
+               </app> mind <app>
+                  <rdg wit="#K">e’</rdg>
+                  <rdg wit="#EK61 #MK63">e</rdg>
+               </app> kéjeket.</l>
+            </sp>
+            <sp>
+               <speaker><app>
+                  <rdg wit="#K"><hi rend="underline"><del corresp="Arany János">
+                     Ádám</del><add type="corr" corresp="Arany János">Ádám.</add></hi></rdg>
+                  <rdg wit="#EK61 #MK63">ÁDÁM.</rdg>
+               </app></speaker>
+               <l>A függés, <app>
+                  <rdg wit="#K"><del corresp="Arany János">látom</del><add type="corr" corresp="Arany János">látom,</add></rdg>
+                  <rdg wit="#EK61 #MK63">látom,</rdg>
+               </app> <app>
+                  <rdg wit="#K"><del corresp="Arany János">
+                     élet elv</del><add type="corr" corresp="Arany János">
+                        élet<hi rend="underline" corresp="Arany János">e</hi>lv</add></rdg>
+                  <rdg wit="#EK61 #MK63">életelv</rdg>
+               </app> neked. -</l>
+               <l>Szomjúzom Éva, nézd mi <app>
+                  <rdg wit="#K"><del corresp="Arany János">csábítóan</del>
+                     <add type="corr" corresp="Arany János">csábosan</add></rdg>
+                  <rdg wit="#EK61 #MK63">csábosan</rdg>
+               </app></l>
+               <l>Néz <app>
+                  <rdg wit="#K">e’</rdg>
+                  <rdg wit="#EK61 #MK63">e</rdg>
+               </app>e gyümölcs ránk.</l>
+            </sp>
+            <sp>
+               <speaker><app>
+                  <rdg wit="#K"><hi rend="underline"><del corresp="Arany János">
+                     Éva</del><add type="corr" corresp="Arany János">Éva.</add></hi></rdg>
+                  <rdg wit="#EK61 #MK63">ÉVA.</rdg>
+               </app></speaker>
+               <l>Majd szakítok egyet.</l>
+            </sp>
+            <sp>
+               <speaker><app>
+                  <rdg wit="#K"><hi rend="underline">Az <del corresp="Arany János">ur</del>
+                  <add type="corr" corresp="Arany János">Úr</add> <del corresp="Arany János">szava</del>
+                  <add type="corr" corresp="Arany János">szava.</add></hi></rdg>
+                  <rdg wit="#EK61 #MK63">AZ ÚR SZAVA.</rdg>
+               </app></speaker>
+               <l>Megállj, megállj, egész föld<del corresp="Madách Imre">a’ tiéd,</del>et neked</l>
+               <l><!-- ElCSÚSZOTT SZÁMOZÁS --><app>
+                  <rdg wit="#K"></rdg>
+                  <rdg wit="#EK61 #MK63"><fw type="pageNum" corresp="EK61 MK63">10</fw></rdg>
+               </app><app>
+                  <rdg wit="#K"><del corresp="Madách Imre">De ez a’ két magas fa átkozott,</del></rdg>
+                  <rdg wit="#EK61 #MK63"></rdg>
+               </app><add type="corr" corresp="Madách Imre">Adám, csak <app>
+                  <rdg wit="#K">e’</rdg>
+                  <rdg wit="#EK61 #MK63">e</rdg>
+               </app> két fát kerüld, kerüld,</add></l>
+               <l>Más szellem óvja csábgyümölcseit</l>
+               <l><app>
+                  <rdg wit="#K">’S</rdg>
+                  <rdg wit="#EK61 #MK63">S</rdg>
+               </app> halállal hal meg, <app>
+                  <rdg wit="#K">aki</rdg>
+                  <rdg wit="#EK61 #MK63">a ki</rdg>
+               </app> élvezi. -</l>
+               <l>Amott piroslik <app>
+                  <rdg wit="#K">a’</rdg>
+                  <rdg wit="#EK61 #MK63">a</rdg>
+               </app> <app>
+                  <rdg wit="#K">szőlő gerezd,</rdg>
+                  <rdg wit="#EK61 #MK63">szőlőgerezd,</rdg>
+               </app></l>
+               <l>Ott enyhe árnyék kínál <app>
+                  <rdg wit="#K">nyúgalommal</rdg>
+                  <rdg wit="#EK61">nyugalommal</rdg>
+                  <rdg wit="#MK63">nyúgalommal</rdg>
+               </app></l>
+               <l><app>
+                  <rdg wit="#K"><del corresp="Madách Imre">’S r</del>
+                     <add type="corr" corresp="Madách Imre">Ragyogó</add></rdg>
+                  <rdg wit="#EK61 #MK63">Ragyogó</rdg>
+               </app> <app>
+                  <rdg wit="#K"><del corresp="Madách Imre">nap</del></rdg>
+                  <rdg wit="#EK61 #MK63"></rdg>
+               </app> délnek tikkasztó hevében.</l>
+            </sp>
+            <sp>
+               <speaker><app>
+                  <rdg wit="#K"><hi rend="underline">Ádám.</hi></rdg>
+                  <rdg wit="#EK61 #MK63">ÁDÁM.</rdg>
+               </app></speaker>
+               <l>Csodás parancs, de úgy <app>
+                  <rdg wit="#K">látszik,</rdg>
+                  <rdg wit="#EK61 #MK63">látszik</rdg>
+               </app> komoly.</l>
+            </sp>
+            <sp>
+               <speaker><app>
+                  <rdg wit="#K"><hi rend="underline">Éva.</hi></rdg>
+                  <rdg wit="#EK61 #MK63">ÉVA.</rdg>
+               </app></speaker>
+               <l>Mért szebb <app>
+                  <rdg wit="#K">e’</rdg>
+                  <rdg wit="#EK61 #MK63">e</rdg>
+               </app> két <app>
+                  <rdg wit="#K">fa</rdg>
+                  <rdg wit="#EK61 #MK63">fa,</rdg>
+               </app> mint más<app>
+                  <rdg wit="#K">,</rdg>
+                  <rdg wit="#EK61 #MK63">;</rdg>
+               </app> vagy miért</l>
+               <l><app>
+                  <rdg wit="#K"><gap unit="char" extent="2" reason="illegible"/></rdg>
+                  <rdg wit="#EK61 #MK63"></rdg>
+               </app>Ép <app>
+                  <rdg wit="#K"><del corresp="Madách Imre">a</del></rdg>
+                  <rdg wit="#EK61 #MK63"></rdg>
+               </app> ez tilalmas<app>
+                     <rdg wit="#K">.</rdg>
+                     <rdg wit="#EK61 #MK63">?</rdg>
+                  </app></l>
+            </sp>
+            <sp>
+               <speaker><app>
+                  <rdg wit="#K"><hi rend="underline"><del corresp="Madách Imre">Ádám</del></hi></rdg>
+                  <rdg wit="#EK61 #MK63"></rdg>
+               </app></speaker>
+               <l><!-- ELCSÚSZOTT SZÁMOZÁS --><app>
+                  <rdg wit="#K"><del corresp="Madách Imre">Kát mért kék az ég</del></rdg>
+                  <rdg wit="#EK61 #MK63"></rdg>
+               </app></l>
+               <l><!-- [14d] --><app>
+                  <rdg wit="#K"><del corresp="Madách Imre">Miért zöld a’ liget, elég hogy u</del></rdg>
+                  <rdg wit="#EK61 #MK63"></rdg>
+               </app></l>
+               <note type="crtic">Madách a KI munkafázisában a másfél sor kiegészítést a jobb lapszegélven akarta elhelyezni,
+                  de a kis hely miatt ez olvashatatlan lett, ezért áthúzta és beszorította a főszöveg
+                  már leírt sorai közé. Arany a nyomda számára piros grafitceruzával jelölte a betoldás
+                  pontos helyét.</note>
+            </sp>
+            <sp>
+               <speaker><app>
+                  <rdg wit="#K"><hi rend="underline">Ádám.</hi></rdg>
+                  <rdg wit="#EK61 #MK63">ÁDÁM.</rdg>
+               </app></speaker>
+               <l><!-- [14c] -->Hát mért kék az <app>
+                  <rdg wit="#K">ég</rdg>
+                  <rdg wit="#EK61 #MK63">ég,</rdg>
+               </app></l>
+               <l>Miért zöld <app>
+                  <rdg wit="#K">a’</rdg>
+                  <rdg wit="#EK61 #MK63">a</rdg>
+               </app> liget<app>
+                  <rdg wit="#K">,</rdg>
+                  <rdg wit="#EK61 #MK63">, –</rdg>
+               </app> elég hogy <app>
+                  <rdg wit="#K">úgy</rdg>
+                  <rdg wit="#EK61 #MK63">ugy</rdg>
+               </app> van<app>
+                  <rdg wit="#K">. –</rdg>
+                  <rdg wit="#EK61 #MK63">.</rdg>
+               </app></l>
+               <l>Kövessük <app>
+                  <rdg wit="#K">a’</rdg>
+                  <rdg wit="#EK61 #MK63">a</rdg>
+               </app> szót, jőj utánam Éva.</l>
+            </sp>
+            <stage>(<app>
+               <rdg wit="#K"><del corresp="Arany János">le telepednek</del>
+                  <add type="corr" corresp="Arany János">Letelepednek</add></rdg>
+               <rdg wit="#EK61 #MK63">Letelepednek</rdg>
+            </app> egy lugosban.)</stage>
+            <sp>
+               <speaker><app>
+                  <rdg wit="#K"><hi rend="underline"><del corresp="Arany János">Éva</del>
+                  <add type="corr" corresp="Arany János">Éva.</add></hi></rdg>
+                  <rdg wit="#EK61 #MK63">ÉVA.</rdg>
+               </app></speaker>
+               <l>Hajolj keblemre, én meg majd legyezlek.</l>
+            </sp>
+            <stage>Nagy szélroham, <app>
+               <rdg wit="#K">Lucifer</rdg>
+               <rdg wit="#EK61 #MK63">LUCIFER</rdg>
+            </app> a <app>
+               <rdg wit="#K #EK61">lomb</rdg>
+               <rdg wit="#MK63">lombok</rdg>
+            </app> között megjelenik.<note type="critic">A kiadásokban a szerzői utasítás zárójelben. 
+               Arany jelölése piros grafitceruzával a nyomda
+               számára: „pet.”</note></stage>
+            <sp>
+               <speaker><app>
+                  <rdg wit="#K"><hi rend="underline"><del corresp="Arany János">Ádám</del>
+                     <add type="corr" corresp="Arany János">Ádám.</add></hi></rdg>
+                  <rdg wit="#EK61 #MK63">ÁDÁM.</rdg>
+               </app></speaker>
+               <l>Hah nő! mi ez, nem hallék még hasonlót.</l>
+               <l><app>
+                  <rdg wit="#K"><del corresp="Arany János">Mint hogy ha</del>
+                     <add type="corr" corresp="Arany János">Mikéntha</add><ref/></rdg>
+                  <rdg wit="#EK61 #MK63">Miként ha</rdg>
+               </app> ellenséges idegen</l>
+               <l>Erő tört <app>
+                  <rdg wit="#K">v<del corresp="Arany János">ó</del>
+                     <add type="corr" corresp="Arany János">o</add>olna<note type="critic">
+                        Arany kék grafitceruzával lehúzta az ékezetet, 
+                        de tévedésből az l-t is törölni látszott.
+                     </note></rdg>
+                  <rdg wit="#EK61 #MK63">volna</rdg>
+               </app> rajtunk.</l>
+            </sp>
+            <sp>
+               <speaker><app>
+                  <rdg wit="#K"><hi rend="underline"><del corresp="Arany János">Éva</del>
+                     <add type="corr" corresp="Arany János">Éva.</add></hi></rdg>
+                  <rdg wit="#EK61 #MK63">ÉVA.</rdg>
+               </app></speaker>
+               <l><!-- ELCSÚSZOTT SZÁMOZÁS -->Reszketek<app>
+                  <rdg wit="#K">.</rdg>
+                  <rdg wit="#EK61">,</rdg>
+                  <rdg wit="#MK63">,<note type="critic">sh.</note></rdg>
+               </app></l>
+               <l>Az égi zengzet is <app>
+                  <rdg wit="#K"><del corresp="Arany János">el hallgatott.</del>
+                     <add type="corr" corresp="Arany János">elhallgatott.</add></rdg>
+                  <rdg wit="#EK61 #MK63">elhallgatott.</rdg>
+               </app></l>
+            </sp>
+            <sp>
+               <speaker><app>
+                  <rdg wit="#K"><hi rend="underline"><del corresp="Arany János">Ádám</del>
+                     <add type="corr" corresp="Arany János">Ádám.</add></hi></rdg>
+                  <rdg wit="#EK61 #MK63">ÁDÁM.</rdg>
+               </app></speaker>
+               <l><app>
+                  <rdg wit="#K"></rdg>
+                  <rdg wit="#EK61 #MK63"><fw type="pageNum" corresp="EK61 MK63">11</fw></rdg>
+               </app>Itt kebleden, <app>
+                  <rdg wit="#K">úgy</rdg>
+                  <rdg wit="#EK61">ugy</rdg>
+                  <rdg wit="#MK63">ugy<note type="critic">sh?
+                  </note></rdg>
+               </app> <app>
+                  <rdg wit="#K"><del corresp="Arany János">látszik</del>
+                     <add type="corr" corresp="Arany János">tetszik,</add></rdg>
+                  <rdg wit="#EK61 #MK63">tetszik,</rdg>
+               </app><ref/>
+                  hallom azt még.</l>
+            </sp>
+            <sp>
+               <speaker><app>
+                  <rdg wit="#K"><hi rend="underline">Éva</hi></rdg>
+                  <rdg wit="#EK61 #MK63">ÉVA.</rdg>
+               </app></speaker>
+               <l>Én meg, ha ott fen <app>
+                  <rdg wit="#K"><del corresp="Arany János">el borúl a’ dics,</del>
+                     <add type="corr" corresp="Arany János">a dics elborúl,</add></rdg>
+                  <rdg wit="#EK61 #MK63">a dics elborúl,</rdg>
+               </app></l>
+               <l>Itt <app>
+                  <rdg wit="#K">len</rdg>
+                  <rdg wit="#EK61 #MK63">lenn</rdg>
+               </app><gap unit="chars" extent="unknown" reason="illegible"/> találom azt szemedben, Ádám.</l>
+               <l>Hol is lelhetném másutt kívüled,</l>
+               <l>Kit létre is csak hő vágyad hozott,</l>
+               <l>Mint <app>
+                  <rdg wit="#K"><del corresp="Madách Imre">víz színén képét a’ büszke nap,</del></rdg>
+                  <rdg wit="#EK61 #MK63"></rdg>
+               </app>
+                     <app>
+                        <rdg wit="#K">fény árjában</rdg>
+                        <rdg wit="#EK61 #MK63">fényárjában</rdg>
+                     </app> <app>
+                        <rdg wit="#K">a’</rdg>
+                        <rdg wit="#EK61 #MK63">a</rdg>
+                     </app> fejdelmi nap -
+                  </l>
+               <l><app>
+                  <rdg wit="#K"><del corresp="Madách Imre">Fény özönében, <del corresp="Madách Imre">hogy</del></del></rdg>
+                  <rdg wit="#EK61 #MK63"></rdg>
+               </app> A mindenségben árván hogy ne álljon -</l>
+               <l><app>
+                  <rdg wit="#K"><del corresp="Madách Imre">A’ mindenség közt, - és enyelg vele</del></rdg>
+                  <rdg wit="#EK61 #MK63"></rdg>
+               </app>
+                  A <app>
+                     <rdg wit="#K"><del corresp="Arany János">víz</del><add type="corr" corresp="Arany János">víz</add><note type="critic">
+                        A víz madáchi javítása annyira olvashatatlan lett, hogy Arany a szót a lapszegélyen megismételte
+                        és piros grafitceruzával is megjelölte.
+                     </note></rdg>
+                     <rdg wit="#EK61 #MK63">víz</rdg>
+                  </app> szinére festi önmagát</l>
+               <l>S enyelg vele, <app>
+                  <rdg wit="#K">őrül</rdg>
+                  <rdg wit="#EK61 #MK63">örül</rdg>
+               </app> hogy társa van,</l>
+               <l>Nagylelküen felejtvén, hogy csupán</l>
+               <l>Saját tüzének halvány mása az,</l>
+               <l><app>
+                  <rdg wit="#K">Mel<del corresp="Arany János">l</del>y<note type="critic">
+                     Arany az l törlését kék grafitceruzával is jelölte.
+                  </note></rdg>
+                  <rdg wit="#EK61 #MK63">Mely</rdg>
+               </app>
+                  véle együtt semmivé <app>
+                     <rdg wit="#K">borúlna</rdg>
+                     <rdg wit="#EK61 #MK63">borulna</rdg>
+                  </app>.</l>
+            </sp>
+            <sp>
+               <speaker><app>
+                  <rdg wit="#K"><hi rend="underline"><del corresp="Arany János">Ádám</del><add type="corr" corresp="Arany János">
+                     Ádám.</add></hi></rdg>
+                  <rdg wit="#EK61 #MK63">ÁDÁM.</rdg>
+               </app></speaker>
+               <l>Ne <app>
+                  <rdg wit="#K">szól<del corresp="Arany János">l</del>j</rdg>
+                  <rdg wit="#EK61 #MK63">szólj</rdg>
+               </app> <app>
+                  <rdg wit="#K">így</rdg>
+                  <rdg wit="#EK61 #MK63">igy</rdg>
+               </app>, Éva, meg ne szégyeníts<app>
+                  <rdg wit="#K">.</rdg>
+                  <rdg wit="#EK61 #MK63">,</rdg>
+               </app></l>
+               <l>Mi <app>
+                  <rdg wit="#K">a<del corresp="Arany János">’</del></rdg>
+                  <rdg wit="#EK61 #MK63">a</rdg>
+               </app> hang, hogy ha nincs ki értené<app>
+                  <rdg wit="#K"><del corresp="Madách Imre">,</del><add type="corr" corresp="Madách Imre">?</add></rdg>
+                  <rdg wit="#EK61 #MK63">?</rdg>
+               </app></l>
+               <l>Mi <app>
+                  <rdg wit="#K">a’</rdg>
+                  <rdg wit="#EK61 #MK63">a</rdg>
+               </app> sugár, ha szín nem fogja fel?</l>
+               <l>Mi <app>
+                  <rdg wit="#K">v<del corresp="Arany János">ó</del><add type="corr" corresp="Arany János">o</add>lnék</rdg>
+                  <rdg wit="#EK61 #MK63">volnék</rdg>
+               </app> én, ha mint viszhang s virágban,</l>
+               <l>Benned szebb létre nem 
+                  <app>
+                     <rdg wit="#K">fe<del corresp="Arany János">j</del><add type="corr" corresp="Arany János">s</add>elne</rdg>
+                     <rdg wit="#EK61 #MK63">feslene</rdg>
+                  </app><ref/> létem,</l>
+               <l><app>
+                  <rdg wit="#K">Me<del corresp="Madách Imre">l</del>lyben</rdg>
+                  <rdg wit="#EK61 #MK63">Melyben</rdg>
+               </app> <app>
+                  <rdg wit="#K"><del corresp="Arany János">sajátmagam</del>
+                     <add type="corr" corresp="Arany János">saját magam</add></rdg>
+                  <rdg wit="#EK61 #MK63">saját magam</rdg>
+               </app> szerethetem?</l>
+            </sp>
+            <sp>
+               <speaker><app>
+                  <rdg wit="#K"><hi rend="underline">Luci
+                  <add type="corr" corresp="Arany János">Lucifer</add></hi></rdg>
+                  <rdg wit="#EK61 #MK63">LUCIFER.</rdg>
+               </app></speaker>
+               <l>E lágy enyelgést mért is hallgatom<app>
+                  <rdg wit="#K">. –</rdg>
+                  <rdg wit="#EK61 #MK63">? –</rdg>
+               </app>? -</l>
+               <l><app>
+                  <rdg wit="#K"><del corresp="Arany János">El fordulok</del>
+                     <add type="corr" corresp="Arany János">Elfordulok</add>
+                     <note type="critic">Arany a kék grafitceruzával végrehajtott 
+                        javítást tollal is megerősítette.</note></rdg>
+                  <rdg wit="#EK61 #MK63">Elfordulok</rdg>
+               </app>, máskép <app>
+                  <rdg wit="#K"><del corresp="Madách Imre"><gap unit="char" extent="unkown" reason="illegible"/></del></rdg>
+                  <rdg wit="#EK61 #MK63"></rdg>
+               </app> <app>
+                  <rdg wit="#K">olly</rdg>
+                  <rdg wit="#EK61 #MK63">oly</rdg>
+               </app> szégyen ér még,</l>
+               <l><app>
+                  <rdg wit="#K"><del corresp="Madách Imre">Még én</del></rdg>
+                  <rdg wit="#EK61 #MK63"></rdg>
+               </app> Hogy <app>
+                  <rdg wit="#K">a’</rdg>
+                  <rdg wit="#EK61 #MK63">a</rdg>
+               </app> hideg számító értelem</l>
+               <l><app>
+                  <rdg wit="#K">Megírigylend<del corresp="Madách Imre">em</del><add type="corr" corresp="Madách Imre">i</add></rdg>
+                  <rdg wit="#EK61 #MK63">Megirigylendi</rdg>
+               </app> <app>
+                  <rdg wit="#K">a’</rdg>
+                  <rdg wit="#EK61 #MK63">a</rdg>
+               </app> <app>
+                  <rdg wit="#K">gyermek kedélyt.</rdg>
+                  <rdg wit="#EK61 #MK63">gyermekkedélyt.</rdg>
+               </app></l>
+            </sp>
+            <stage>Egy madárka énekelni kezd egy közel ágon.<note type="critic">
+               Arany nyomdai jelölése piros grafitceruzával: „pet.” A kiadásokban a szerzői utasítás
+               zárójelben.
+            </note></stage>
+            <sp>
+               <speaker><app>
+                  <rdg wit="#K"><hi rend="underline"><del corresp="Arany János">Éva</del>
+                  <add type="corr" corresp="Arany János">Éva.</add></hi></rdg>
+                  <rdg wit="#EK61 #MK63">ÉVA.</rdg>
+               </app></speaker>
+               <l>Hallgasd <app>
+                  <rdg wit="#K"><del corresp="Madách Imre">csak</del></rdg>
+                  <rdg wit="#EK61 #MK63"></rdg>
+               </app> <app>
+                  <rdg wit="#K">csak,</rdg>
+                  <rdg wit="#EK61 #MK63">csak</rdg>
+               </app> Ádám, <app>
+                  <rdg wit="#K"><del corresp="Arany János">ó</del><add type="corr" corresp="Arany János">o</add>h</rdg>
+                  <rdg wit="#EK61 #MK63">oh</rdg>
+               </app> <app>
+                  <rdg wit="#K"><del corresp="Madách Imre">mond</del><add type="corr" corresp="Madách Imre">
+                     mond<hi rend="underline" corresp="Arany János">d</hi></add></rdg>
+                  <rdg wit="#EK61 #MK63">mondd</rdg>
+               </app>mondd, érted-<app>
+                  <rdg wit="#K"><del corresp="Arany János">é</del><add type="corr" corresp="Arany János">e</add></rdg>
+                  <rdg wit="#EK61 #MK63">e</rdg>
+               </app></l>
+               <l><app>
+                  <rdg wit="#K"><fw type="pageNum" corresp="Arany János">12</fw></rdg>
+                  <rdg wit="#EK61 #MK63"></rdg>
+               </app>E kis bohó szerelmes énekét?</l>
+            </sp>
+            <sp>
+               <speaker><app>
+                  <rdg wit="#K"><hi rend="underline"><del corresp="Arany János">Ádám</del>
+                     <add type="corr" corresp="Arany János">Ádám.</add></hi></rdg>
+                  <rdg wit="#EK61 #MK63">ÁDÁM.</rdg>
+               </app></speaker>
+               <l>Én <app>
+                  <rdg wit="#K">a’</rdg>
+                  <rdg wit="#EK61 #MK63">a</rdg>
+               </app> patak <app>
+                  <rdg wit="#K">zugását</rdg>
+                  <rdg wit="#EK61 #MK63">zúgását</rdg>
+               </app> hallgatám</l>
+               <l><app>
+                  <rdg wit="#K">És,</rdg>
+                  <rdg wit="#EK61 #MK63">És</rdg>
+               </app> azt találom, <app>
+                  <rdg wit="#K">szint<hi rend="underline" corresp="Arany János">é</hi>n</rdg>
+                  <rdg wit="#EK61 #MK63">szintén</rdg>
+               </app> így dalolt.</l>
+            </sp>
+            <sp>
+               <speaker><app>
+                  <rdg wit="#K"><hi rend="underline"><del corresp="Arany János">Éva</del>
+                     <add type="corr" corresp="Arany János">Éva.</add></hi></rdg>
+                  <rdg wit="#EK61 #MK63">ÉVA.</rdg>
+               </app></speaker>
+               <l>Minő csodás öszhang ez, kedvesem,</l>
+               <l>E <app>
+                  <rdg wit="#K">sokszerű</rdg>
+                  <rdg wit="#EK61 #MK63">sokszerü</rdg>
+               </app> szó <app>
+                  <rdg wit="#K"><hi rend="underline" corresp="Arany János">é</hi>s</rdg>
+                  <rdg wit="#EK61 #MK63">és</rdg>
+               </app> egy értelem. -</l>
+            </sp>
+            <sp>
+               <speaker><app>
+                  <rdg wit="#K"><hi rend="underline"><del corresp="Arany János">Luci</del><add type="corr" corresp="Arany János">Lucifer.</add></hi></rdg>
+                  <rdg wit="#EK61 #MK63">LUCIFER.</rdg>
+               </app></speaker>
+               <l>Mit késem ennyit? fel munkára, fel,</l>
+               <l><app>
+                  <rdg wit="#K">Meg esküvém</rdg>
+                  <rdg wit="#EK61 #MK63">Megesküvém</rdg>
+               </app> vesztökre, veszniök kell.</l>
+               <l><app>
+                  <rdg wit="#K">S’</rdg>
+                  <rdg wit="#EK61 #MK63">S</rdg>
+               </app> <app>
+                  <rdg wit="#K">ké<hi rend="underline" corresp="Arany János">t</hi>kedve
+                     <note type="critic">Madách könnyen félreolvasható, r-nek nézhető t betűje megzavarta Aramt (vö. a szövegkritikai
+                        dokumentummal!), ezért a nyomda számára egyértelművé tette a t írását.</note></rdg>
+                  <rdg wit="#EK61 #MK63">kétkedve</rdg>
+               </app><ref/> állok mégis újra meg,</l>
+               <l>Nem <app>
+                  <rdg wit="#K #EK61">közdök-é</rdg>
+                  <rdg wit="#MK63">küzdök-e</rdg>
+               </app> hiába <app>
+                  <rdg wit="#K">a’</rdg>
+                  <rdg wit="#EK61 #MK63">a</rdg>
+               </app> <app>
+                  <rdg wit="#K">tudás<del corresp="Madách Imre">sal</del></rdg>
+                  <rdg wit="#EK61 #MK63">tudás</rdg>
+               </app>,</l>
+               <l>A <app>
+                  <rdg wit="#K"><del corresp="Arany János">nagyra vágynak</del>
+                     <add type="corr" corresp="Arany János">nagyravágyak</add><note type="critic">
+                        Arany két félkörrel egybekapcsolta a K két szavát, a vágynak szón az n-t törölte, az
+                        y szárát átkötötte az a-hoz.</note></rdg>
+                  <rdg wit="#EK61 #MK63">nagyravágyás</rdg>
+               </app> csábos fegyverével</l>
+               <l><app>
+                  <rdg wit="#K"><del corresp="Arany János">Ő ellenek</del><add type="corr" corresp="Arany János">Őellenek</add></rdg>
+                  <rdg wit="#EK61 #MK63">Őellenek</rdg>
+               </app>, kik közt <app>
+                  <rdg wit="#K"><del corresp="Arany János">olly</del><add type="corr" corresp="Arany János">mint</add></rdg>
+                  <rdg wit="#EK61 #MK63">mint</rdg>
+               </app> menhely áll,</l>
+               <l><app>
+                  <rdg wit="#K">Melly a’ lankadt szűt védve béfogad<del corresp="Madách Imre">v</del>ja,</rdg>
+                  <rdg wit="#EK61">Mely a lankadt szűt védve befogadja,</rdg>
+                  <rdg wit="#MK63">Mely lankadástól óvja szivöket,</rdg>
+               </app><ref/></l>
+               <l>Emelve <app>
+                  <rdg wit="#K">a’</rdg>
+                  <rdg wit="#EK61 #MK63">a</rdg>
+               </app> bukót: <app>
+                  <rdg wit="#K"><del corresp="Madách Imre"><gap unit="char" extent="unkown" reason="illegible"/></del></rdg>
+                  <rdg wit="#EK61 #MK63"></rdg>
+               </app> <app>
+                  <rdg wit="#K">az</rdg>
+                  <rdg wit="#EK61 #MK63">ez</rdg>
+               </app><note type="critic">A kaparás fölötti, értelemszerű az sh.-ként jelent meg a kiadásban: ez. Sem Arany a korrektúrákban,
+                  sem a szerző a második kiadás sajtó alá rendezésekor nem vette észre.</note> érzelem.</l>
+               <l>De mit töprengek. Az nyer, <app>
+                  <rdg wit="#K"><del corresp="Arany János">aki</del><add type="corr" corresp="Arany János">a ki</add></rdg>
+                  <rdg wit="#EK61 #MK63">a ki</rdg>
+               </app> mer.</l>
+               <stage>Új szélroham. <app>
+                  <rdg wit="#K">Lucifer</rdg>
+                  <rdg wit="#EK61 #MK63">LUCIFER</rdg>
+               </app> a megrettenő emberpár előtt megjelenik<app>
+                  <rdg wit="#K">,</rdg>
+                  <rdg wit="#EK61 #MK63">.</rdg>
+               </app> A dics elborúl.
+                  Lucifer kaczag.<note type="critic">Arany piros grafitceruzás nyomdai jelölése: „pet.” 
+                     A kiadásokban a szerzői utasítás zárójelben.</note></stage>
+               <l>Mit álmélkodtok? - </l>
+               <stage>(<app>
+                  <rdg wit="#K">Évához</rdg>
+                  <rdg wit="#EK61 #MK63">Évához,</rdg>
+               </app> ki futásnak indúl.)</stage>
+               <l><!-- ELCSÚSZOTT SZÁMOZÁS --><app>
+                  <rdg wit="#K"><del corresp="Arany János">Óh</del><add type="corr" corresp="Arany János">Oh,</add></rdg>
+                  <rdg wit="#EK61 #MK63">Oh,</rdg>
+               </app> <app>
+                  <rdg wit="#K"><del corresp="Arany János">meg állj</del><add type="corr" corresp="Arany János">megállj</add></rdg>
+                  <rdg wit="#EK61 #MK63">megállj</rdg>
+               </app>, kecses hölgy!<app>
+                  <rdg wit="#K"></rdg>
+                  <rdg wit="#EK61 #MK63"><fw type="pageNum" corresp="EK61 MK63">8</fw></rdg>
+               </app></l>
+               <l>Engedd egy perczre, hogy csodáljalak.</l>
+               <stage>Éva megáll <app>
+                  <rdg wit="#K">’s</rdg>
+                  <rdg wit="#EK61 #MK63">s</rdg>
+               </app> <app>
+                  <rdg wit="#K">lassanként</rdg>
+                  <rdg wit="#EK61 #MK63">lassakint</rdg>
+               </app> felbátorodik.<note type="critic">Hasonlóan a nyomdának: „petit.” 
+                  A kiadásokban a szerzői utasítás zárójelben.</note></stage>
+               <stage>(félre)</stage>
+               <l>E mintakép <app>
+                  <rdg wit="#K">miljószor</rdg>
+                  <rdg wit="#EK61 #MK63">milljószor</rdg>
+               </app> újuland meg.</l>
+               <stage>(<app>
+                  <rdg wit="#K">fent</rdg>
+                  <rdg wit="#EK61 #MK63">fenn</rdg>
+               </app>)</stage>
+               <l><app>
+                  <rdg wit="#K"><del corresp="Arany János">Ádám</del><add type="corr" corresp="Arany János">Ádám,</add></rdg>
+                  <rdg wit="#EK61 #MK63">Ádám,</rdg>
+               </app> te félsz?</l>
+            </sp>
+            <sp>
+               <speaker><app>
+                  <rdg wit="#K"><hi rend="underline"><del corresp="Arany János">Ádám</del>
+                  <add type="corr" corresp="Arany János">Ádám.</add></hi></rdg>
+                  <rdg wit="#EK61 #MK63">ÁDÁM.</rdg>
+               </app></speaker>
+               <l><app>
+                  <rdg wit="#K"><del corresp="Arany János">Tőled</del><add type="corr" corresp="Arany János">Tőled,</add></rdg>
+                  <rdg wit="#EK61 #MK63">Tőled,</rdg>
+               </app> hitvány alak?</l>
+            </sp>
+            <sp>
+               <speaker><app>
+                  <rdg wit="#K"><hi rend="underline"><del corresp="Arany János">Luci</del><add type="corr" corresp="Arany János">Lucifer.</add></hi></rdg>
+                  <rdg wit="#EK61 #MK63">LUCIFER.</rdg>
+               </app></speaker>
+               <stage>(félre)</stage>
+               <l>Ez is jó <app>
+                  <rdg wit="#K">ős,</rdg>
+                  <rdg wit="#EK61 #MK63">ős</rdg>
+               </app> <app>
+                  <rdg wit="#K">a’</rdg>
+                  <rdg wit="#EK61 #MK63">a</rdg>
+               </app> büszke férfinemnek<app>
+                  <rdg wit="#K">.</rdg>
+                  <rdg wit="#EK61 #MK63">,</rdg>
+               </app></l>
+               <stage>(fent)<note type="critic">Arany a két szerzői utasítást piros grafitceruzával sorközépre jelölte, utóbb azonban
+                  visszatértek az 59-60. sor jelölésmódjához.</note></stage>
+               <l><app>
+                  <rdg wit="#K"><del corresp="Arany János">Üdvözlégy</del><add type="corr" corresp="Arany János">Üdvözlégy,</add></rdg>
+                  <rdg wit="#EK61 #MK63">Üdvöz légy,</rdg>
+               </app> szellem-testvér!</l>
+            </sp>
+            <sp>
+               <speaker><app>
+                  <rdg wit="#K"><hi rend="underline"><del corresp="Arany János">Ádám</del>
+                     <add type="corr" corresp="Arany János">Ádám.</add></hi></rdg>
+                  <rdg wit="#EK61 #MK63">ÁDÁM.</rdg>
+               </app></speaker>
+               <l><app>
+                  <rdg wit="#K"><del corresp="Madách Imre">Mond,</del>
+                     <add type="corr" corresp="Madách Imre">Mond<hi rend="underline" corresp="Arany János">d</hi>,</add></rdg>
+                  <rdg wit="#EK61 #MK63">Mondd,</rdg>
+               </app> ki vagy<app>
+                  <rdg wit="#K">.</rdg>
+                  <rdg wit="#EK61 #MK63">?</rdg>
+               </app></l>
+               <l><!-- ELCSÚSZOTT SZÁMOZÁS --><app>
+                  <rdg wit="#K"><del corresp="Madách Imre">Felűl</del><add type="corr" corresp="Madách Imre">Alulről</add></rdg>
+                  <rdg wit="#EK61 #MK63">Alulról</rdg>
+               </app> <app>
+                  <rdg wit="#K">jö<add type="corr" corresp="Arany János">s</add>sz-e<note type="critic">
+                     A sorkezdő szó javításakor a szerző megfeledkezett a toldalék átírásáról. A következő
+                     szóban Madách a K-n a hosszú ssz hangot sz alakban jelölte, föléhúzott vonással; Arany
+                     a nyomda számára kiírta az első s-t és törölte a vonást.</note></rdg>
+                  <rdg wit="#EK61 #MK63">jössz-e</rdg>
+               </app> hozzánk, vagy <app>
+                  <rdg wit="#K"><del corresp="Madách Imre">alúlról</del><add type="corr" corresp="Madách Imre">felűlről</add></rdg>
+                  <rdg wit="#EK61 #MK63">felülről</rdg>
+               </app>?</l>
+            </sp>
+            <sp>
+               <speaker><app>
+                  <rdg wit="#K"><hi rend="underline"><del corresp="Arany János">Luci</del><add type="corr" corresp="Arany János">Lucifer.</add></hi></rdg>
+                  <rdg wit="#EK61 #MK63">LUCIFER.</rdg>
+               </app></speaker>
+               <l><!-- ELCSÚSZOTT SZÁMOZÁS --><app>
+                  <rdg wit="#K"><del corresp="Arany János">Amint</del><add type="corr" corresp="Arany János">A mint</add></rdg>
+                  <rdg wit="#EK61 #MK63">A mint</rdg>
+               </app> tetszik, nálunk <app>
+                  <rdg wit="#K">e</rdg>
+                  <rdg wit="#EK61 #MK63">az</rdg>
+               </app> egyre megy.</l>
+            </sp>
+            <sp>
+               <speaker><app>
+                  <rdg wit="#K"><hi rend="underline"><del corresp="Arany János">Ádám</del>
+                     <add type="corr" corresp="Arany János">Ádám.</add></hi></rdg>
+                  <rdg wit="#EK61 #MK63">ÁDÁM.</rdg>
+               </app></speaker>
+               <l>Nem <app>
+                  <rdg wit="#K"><del corresp="Arany János">tudtam</del><add type="corr" corresp="Arany János">tudtam,</add></rdg>
+                  <rdg wit="#EK61 #MK63">tudtam,</rdg>
+               </app> hogy van ember még kivűlünk.</l>
+            </sp>
+            <sp>
+               <speaker><app>
+                  <rdg wit="#K"><hi rend="underline"><del corresp="Arany János">Luci</del><add type="corr" corresp="Arany János">Lucifer.</add></hi></rdg>
+                  <rdg wit="#EK61 #MK63">LUCIFER.</rdg>
+               </app></speaker>
+               <l><app>
+                  <rdg wit="#K">H<del corresp="Madách Imre">a</del>ohó</rdg>
+                  <rdg wit="#EK61 #MK63">Hohó</rdg>
+               </app>! nagyon sok van még, mit te nem tudsz,</l>
+               <l><app>
+                  <rdg wit="#K">’S</rdg>
+                  <rdg wit="#EK61 #MK63">S</rdg>
+               </app> nem is fogsz tudni. Vagy <app>
+                  <rdg wit="#K"><del corresp="Madách Imre">tán</del></rdg>
+                  <rdg wit="#EK61 #MK63"></rdg>
+               </app> <app>
+                  <rdg wit="#K">a<del corresp="Arany János">z öreg úr</del><add type="corr" corresp="Arany János"> jámbor agg</add></rdg>
+                  <rdg wit="#EK61 #MK63">a jámbor agg</rdg>
+               </app><ref/></l>
+               <l>Azért teremtett <app>
+                  <rdg wit="#K">vólna-é</rdg>
+                  <rdg wit="#EK61">volna-é</rdg>
+                  <rdg wit="#MK63">volna-e</rdg>
+               </app> <app>
+                  <rdg wit="#K"><del corresp="Madách Imre">a’ por</del><add type="corr" corresp="Madách Imre">porondból,</add></rdg>
+                  <rdg wit="#EK61 #MK63">porondból,</rdg>
+               </app></l>
+               <l>Hogy <app>
+                  <rdg wit="#K">a’</rdg>
+                  <rdg wit="#EK61 #MK63">a</rdg>
+               </app> világot <app>
+                  <rdg wit="#K">os<add type="corr" corresp="Arany János">z</add>sza</rdg>
+                  <rdg wit="#EK61 #MK63">oszsza</rdg>
+               </app> meg veled?</l><fw type="lineNum">[70]</fw>
+               <l>Te őt dicséred, ő téged kitart,</l>
+               <l><app>
+                  <rdg wit="#K"><del corresp="Arany János">Meg mondja</del><add type="corr" corresp="Arany János">Megmondja</add></rdg>
+                  <rdg wit="#EK61 #MK63">Megmondja</rdg>
+               </app>, végy <app>
+                  <rdg wit="#K">ebből,</rdg>
+                  <rdg wit="#EK61 #MK63">ebből</rdg>
+               </app> és félj amattól,</l>
+               <l>Óv és vezet, mint <app>
+                  <rdg wit="#K"><del corresp="Arany János">bamba gyermeket</del>
+                     <add type="corr" corresp="Arany János">gyapjas állatot</add></rdg>
+                  <rdg wit="#EK61 #MK63">gyapjas állatot</rdg>
+               </app>;<ref/></l>
+               <l>Hogy eszmélj, szükséged nem is lehet.<ref/></l>
+            </sp>
+            <sp>
+               <speaker><app>
+                  <rdg wit="#K"><hi rend="underline"><del corresp="Arany János">Ádám</del>
+                     <add type="corr" corresp="Arany János">Ádám.</add></hi></rdg>
+                  <rdg wit="#EK61 #MK63">ÁDÁM.</rdg>
+               </app></speaker>
+               <l>Hogy eszméljek? - S nem <app>
+                  <rdg wit="#K">eszmé<del corresp="Madách Imre">.</del>lnék-e</rdg>
+                  <rdg wit="#EK61 #MK63">eszmélnék-e</rdg>
+               </app> hát<app>
+                  <rdg wit="#K">.</rdg>
+                  <rdg wit="#EK61 #MK63">:</rdg>
+               </app></l><fw type="lineNum">[75]</fw>
+               <l>Nem érzem-é az áldó napsugárt,</l>
+               <l>A létezésnek édes örömét</l>
+               <l>És istenemnek végtelen <app>
+                  <rdg wit="#K">kegy<del corresp="Madách Imre">elm</del>ét</rdg>
+                  <rdg wit="#EK61 #MK63">kegyét</rdg>
+               </app>,</l>
+               <l>Ki engemet <app>
+                  <rdg wit="#K #EK61">tön</rdg>
+                  <rdg wit="#MK63">tőn</rdg>
+               </app> <app>
+                  <rdg wit="#K">e’</rdg>
+                  <rdg wit="#EK61 #MK63">e</rdg>
+               </app> <app>
+                  <rdg wit="#K">föld<del corresp="Madách Imre">nek</del></rdg>
+                  <rdg wit="#EK61 #MK63">föld</rdg>
+               </app> istenévé<app>
+                  <rdg wit="#K">.</rdg>
+                  <rdg wit="#EK61 #MK63">?</rdg>
+               </app></l>
+            </sp>
+            <sp>
+               <speaker><app>
+                  <rdg wit="#K"><hi rend="underline"><del corresp="Arany János">Luci</del><add type="corr" corresp="Arany János">Lucifer.</add></hi></rdg>
+                  <rdg wit="#EK61 #MK63">LUCIFER.</rdg>
+               </app></speaker>
+               <l>Ezt tartja tán az <app>
+                  <rdg wit="#K">a’</rdg>
+                  <rdg wit="#EK61 #MK63">a</rdg>
+               </app> kis féreg is</l><fw type="lineNum">[80]</fw>
+               <l><app>
+                  <rdg wit="#K"></rdg>
+                  <rdg wit="#EK61 #MK63"><fw type="pageNum" corresp="EK61 MK63">14</fw></rdg>
+               </app><app>
+                  <rdg wit="#K">Me<del corresp="Arany János">l</del>ly</rdg>
+                  <rdg wit="#EK61 #MK63">Mely</rdg>
+               </app> <app>
+                  <rdg wit="#K">a’</rdg>
+                  <rdg wit="#EK61 #MK63">a</rdg>
+               </app> gyümölcsöt eszi el előled,</l>
+               <l>Meg <app>
+                  <rdg wit="#K">a<del corresp="Arany János">’</del></rdg>
+                  <rdg wit="#EK61 #MK63">a</rdg>
+               </app> sas, <app>
+                  <rdg wit="#K">melly</rdg>
+                  <rdg wit="#EK61 #MK63">mely</rdg>
+               </app> <app>
+                  <rdg wit="#K">a<del corresp="Arany János">’</del></rdg>
+                  <rdg wit="#EK61 #MK63">a</rdg>
+               </app> kis madárra csap<app>
+                  <rdg wit="#K"><hi rend="underline" corresp="Arany János">.</hi></rdg>
+                  <rdg wit="#EK61 #MK63">.</rdg>
+               </app></l>
+               <l>Avagy mi tesz nemesbbé tégedet?</l>
+               <l>Egy szikra az, <app>
+                  <rdg wit="#K">me<del corresp="Arany János">l</del>ly</rdg>
+                  <rdg wit="#EK61 #MK63">mely</rdg>
+               </app> bennetek <app>
+                  <rdg wit="#K">dereng</rdg>
+                  <rdg wit="#EK61 #MK63">dereng,</rdg>
+               </app></l>
+               <l>Egy végtelen erőnek mozzanása;<app>
+                  <rdg wit="#K"><fw type="pageNum" corresp="Arany János">9</fw></rdg>
+                  <rdg wit="#EK61 #MK63"></rdg>
+               </app></l><fw type="lineNum">[85]</fw>
+               <l><app>
+                  <rdg wit="#K #EK61">S mint</rdg>
+                  <rdg wit="#MK63">Mint<ref/></rdg>
+               </app> <app>
+                  <rdg wit="#K">a’</rdg>
+                  <rdg wit="#EK61 #MK63">a</rdg>
+               </app> pataknak egyes <app>
+                  <rdg wit="#K"><del corresp="Arany János">habjai</del><add type="corr" corresp="Arany János">habjai,</add></rdg>
+                  <rdg wit="#EK61 #MK63">habjai,</rdg>
+               </app></l>
+               <l>Egy perczre <app>
+                  <rdg wit="#K">csillog<add type="corr" corresp="Arany János">, aztán</add></rdg>
+                  <rdg wit="#EK61">csillog, aztán</rdg>
+                  <rdg wit="#MK63">felcsillogva</rdg>
+               </app> <app>
+                  <rdg wit="#K"><del corresp="Arany János">visza hull</del><add type="corr" corresp="Arany János">visszahull</add></rdg>
+                  <rdg wit="#EK61">visszahull</rdg>
+                  <rdg wit="#MK63">visszahullnak</rdg>
+               </app>,<ref/></l>
+               <l>Közös medröknek szürke mélyibe. -<ref/></l>
+               <l>Igen, tán volna egy, <app>
+                  <rdg wit="#K">a’</rdg>
+                  <rdg wit="#EK61 #MK63">a</rdg>
+               </app> gondolat,</l>
+               <l><app>
+                  <rdg wit="#K">Melly</rdg>
+                  <rdg wit="#EK61 #MK63">Mely</rdg>
+               </app> öntudatlan szűdben dermedez,</l><fw type="lineNum">[90]</fw>
+               <l>Ez nagykorúvá tenne, <app>
+                  <rdg wit="#K">erődre</rdg>
+                  <rdg wit="#EK61 #MK63">önerődre</rdg>
+               </app></l>
+               <l>Bízván hogy <app>
+                  <rdg wit="#K">válas<add type="corr" corresp="Arany János">z</add>sz</rdg>
+                  <rdg wit="#EK61 #MK63">a</rdg>
+               </app> jó és rossz között,</l>
+               <l>Hogy önmagad intézzed sorsodat</l>
+               <l><app>
+                  <rdg wit="#K">’S</rdg>
+                  <rdg wit="#EK61 #MK63">S</rdg>
+               </app> <app>
+                  <rdg wit="#K"><del corresp="Madách Imre">fel mentene a’ gondviselettől.</del>
+                     <add type="corr" corresp="Madách Imre">a’ gondviselettől <del corresp="Arany János">fel mentene</del>
+                        <add type="corr" corresp="Arany János">felmentene</add>.</add></rdg>
+                  <rdg wit="#EK61 #MK63">a gondviselettől felmentene.</rdg>
+               </app></l>
+               <l>De <app>
+                  <rdg wit="#K"><del corresp="Madách Imre"><gap unit="char" extent="unknown" reason="illegible"/></del></rdg>
+                  <rdg wit="#EK61 #MK63"></rdg>
+               </app> trágya <app>
+                  <rdg wit="#K"><del corresp="Arany János">túronyul</del><add type="corr" corresp="Arany János">féregűl</add></rdg>
+                  <rdg wit="#EK61 #MK63">féregűl</rdg>
+               </app><ref/> <app>
+                  <rdg wit="#K"><del corresp="Madách Imre"><gap unit="char" extent="unknown" reason="illegible"/></del></rdg>
+                  <rdg wit="#EK61 #MK63"></rdg>
+               </app> tán jobb neked</l><fw type="lineNum">[95]</fw>
+               <l>Tenyészni kis körödnek lágy ölében<ref/></l>
+               <l><app>
+                  <rdg wit="#K">’S</rdg>
+                  <rdg wit="#EK61 #MK63">S</rdg>
+               </app> tudás <app>
+                  <rdg wit="#K">nélkűl</rdg>
+                  <rdg wit="#EK61 #MK63">nélkül</rdg>
+               </app> <app>
+                  <rdg wit="#K"><del corresp="Arany János">el fogyni</del><add type="corr" corresp="Arany János">elfogyni</add></rdg>
+                  <rdg wit="#EK61 #MK63">elfogyni</rdg>
+               </app> életeddel. -</l>
+               <l>Nagy kényelem <app>
+                  <rdg wit="#K">a<del corresp="Arany János">’</del></rdg>
+                  <rdg wit="#EK61 #MK63">a</rdg>
+               </app> megnyugvás <app>
+                  <rdg wit="#K"><del corresp="Madách Imre">a’</del></rdg>
+                  <rdg wit="#EK61 #MK63"></rdg>
+               </app> hitünkben<app>
+                  <rdg wit="#K">,</rdg>
+                  <rdg wit="#EK61 #MK63">;</rdg>
+               </app></l>
+               <l><app>
+                  <rdg wit="#K"><del corresp="Arany János">Nemes</del><add type="corr" corresp="Arany János">Nemes,</add></rdg>
+                  <rdg wit="#EK61 #MK63">Nemes,</rdg>
+               </app> de <app>
+                  <rdg wit="#K"><del corresp="Arany János">terhes</del><add type="corr" corresp="Arany János">terhes,</add></rdg>
+                  <rdg wit="#EK61 #MK63">terhes,</rdg>
+               </app> <app>
+                  <rdg wit="#K">ön láb <gap unit="char" extent="unknown" reason="illegible"/>unkon</rdg>
+                  <rdg wit="#EK61 #MK63">önlábunkon</rdg>
+               </app> állni<app>
+                  <rdg wit="#K #EK61">. –</rdg>
+                  <rdg wit="#MK63">,<note type="critic">sh.</note></rdg>
+               </app></l>
+            </sp>
+            <sp>
+               <speaker><app>
+                  <rdg wit="#K"><hi rend="underline"><del corresp="Arany János">Ádám</del>
+                     <add type="corr" corresp="Arany János">Ádám.</add></hi></rdg>
+                  <rdg wit="#EK61 #MK63">ÁDÁM.</rdg>
+               </app></speaker>
+               <l>Nagy dolgokat mondsz, <app>
+                  <rdg wit="#K">szédűlök</rdg>
+                  <rdg wit="#EK61 #MK63">szédülök</rdg>
+               </app> belé.</l>
+            </sp>
+            <sp>
+               <speaker><app>
+                  <rdg wit="#K"><hi rend="underline"><del corresp="Arany János">Éva</del>
+                     <add type="corr" corresp="Arany János">Éva.</add></hi></rdg>
+                  <rdg wit="#EK61 #MK63">ÉVA.</rdg>
+               </app></speaker><fw type="pageNum">100</fw>
+               <l>Én lelkesűlök, szép s <app>
+                  <rdg wit="#K">új</rdg>
+                  <rdg wit="#EK61 #MK63">uj</rdg>
+               </app> dolgokat mondsz.</l>
+            </sp>
+            <sp>
+               <speaker><app>
+                  <rdg wit="#K"><hi rend="underline"><del corresp="Arany János">Luci</del><add type="corr" corresp="Arany János">Lucifer.</add></hi></rdg>
+                  <rdg wit="#EK61 #MK63">LUCIFER.</rdg>
+               </app></speaker>
+               <l>De <app>
+                  <rdg wit="#K">a<del corresp="Arany János">’</del></rdg>
+                  <rdg wit="#EK61 #MK63">a</rdg>
+               </app> tudás <app>
+                  <rdg wit="#K #EK61">sem</rdg>
+                  <rdg wit="#MK63">nem</rdg>
+               </app> <app>
+                  <rdg wit="#K">v<del corresp="Arany János">ó</del><add type="corr" corresp="Arany János">o</add>lna</rdg>
+                  <rdg wit="#EK61 #MK63">volna</rdg>
+               </app> még elég<app>
+                  <rdg wit="#K">, ;<note type="critic">A K1 interpunkciója ellentmondásos: Madách meghagyott vesszője után Arany pontosvesszőt
+                     rakott ki (és erősített meg piros grafitceruzával) anélkül, hogy a vesszőt törölte
+                     vagy kiegészítette volna.</note></rdg>
+                  <rdg wit="#EK61 #MK63">;</rdg>
+               </app></l>
+               <l>Hogy testesűljön <app>
+                  <rdg wit="#K">nagyszerű</rdg>
+                  <rdg wit="#EK61 #MK63">nagyszerü</rdg>
+               </app> <app>
+                  <rdg wit="#K">müvekben</rdg>
+                  <rdg wit="#EK61 #MK63">művekben</rdg>
+               </app>,</l>
+               <l>A halhatatlanság is kellene.<note type="critic">A halhatatlanság szót Arany piros grafitceruzával aláhúzta, (a talán) erre vonatkozó
+                  három pirosbetűs szót azonban kiradírozta (a 102. sor után).</note></l>
+               <l><app>
+                  <rdg wit="#K"></rdg>
+                  <rdg wit="#EK61 #MK63"><fw type="pageNum" corresp="EK61 MK63">15</fw></rdg>
+               </app>Mit képes tenni az <app>
+                  <rdg wit="#K">arasz<del corresp="Madách Imre">t</del>nyi<ref/><note type="critic">A t szerzői törlését Arany tollal és kék grafitceruzával is megerősítette. (Hasonló megerősítés
+                     a 108. sor madáchi törlésén.)</note></rdg>
+                  <rdg wit="#EK61 #MK63">arasznyi</rdg>
+               </app> lét?</l><fw type="lineNum">[105]</fw>
+               <l>E két fa rejti mind <app>
+                  <rdg wit="#K">e’</rdg>
+                  <rdg wit="#EK61 #MK63">a</rdg>
+               </app> birtokot,</l>
+               <l>’S ettől tiltott el, <app>
+                  <rdg wit="#K"><del corresp="Arany János">aki</del><add type="corr" corresp="Arany János">a ki</add>
+                     <note type="critic">Az elválasztást Arany a lapszegélyen egy <!-- AJ jele --> jellel megerősítette.</note></rdg>
+                  <rdg wit="#EK61 #MK63">a ki</rdg>
+               </app> alkotott.</l>
+               <l>Tudsz, mint <app>
+                  <rdg wit="#K"><add type="corr" corresp="Arany János">az</add></rdg>
+                  <rdg wit="#EK61 #MK63">az</rdg>
+               </app> isten, <app>
+                  <rdg wit="#K"><del corresp="Arany János">ha</del> azt<del corresp="Arany János">at</del> <add type="corr" corresp="Arany János">ha</add></rdg>
+                  <rdg wit="#EK61 #MK63">azt ha</rdg>
+               </app> élvezed,<ref/></l>
+               <l>Ettől örök ifjú marad kecsed.</l>
+            </sp>
+            <sp>
+               <speaker><app>
+                  <rdg wit="#K"><hi rend="underline"><del corresp="Arany János">Éva</del>
+                     <add type="corr" corresp="Arany János">Éva.</add></hi></rdg>
+                  <rdg wit="#EK61 #MK63">ÉVA.</rdg>
+               </app></speaker>
+               <l>Mégis <app>
+                  <rdg wit="#K"><del corresp="Arany János">csak zsarnok</del><add type="corr" corresp="Arany János">kegyetlen</add><ref/></rdg>
+                  <rdg wit="#EK61 #MK63">kegyetlen</rdg>
+               </app> <app>
+                  <rdg wit="#K">a’</rdg>
+                  <rdg wit="#EK61 #MK63">a</rdg>
+               </app> mi alkotónk!</l>
+            </sp>
+            <sp>
+               <speaker><app>
+                  <rdg wit="#K"><hi rend="underline"><del corresp="Arany János">Ádám</del>
+                     <add type="corr" corresp="Arany János">Ádám.</add></hi></rdg>
+                  <rdg wit="#EK61 #MK63">ÁDÁM.</rdg>
+               </app></speaker><fw type="lineNum">[110]</fw>
+               <l>De <app>
+                  <rdg wit="#K"><del corresp="Arany János">hát ha</del><add type="corr" corresp="Arany János">hátha</add></rdg>
+                  <rdg wit="#EK61 #MK63">hátha</rdg>
+               </app> <app>
+                  <rdg wit="#K"><del corresp="Arany János">meg csalsz!</del><add type="corr" corresp="Arany János">megcsalsz!</add></rdg>
+                  <rdg wit="#EK61">megcsalsz<note type="critic">sh.</note></rdg>
+                  <rdg wit="#MK63">megcsalsz?</rdg>
+               </app></l>
+               <stage>A dics<ref/> kissé <app>
+                  <rdg wit="#K">kitisztúl.</rdg>
+                  <rdg wit="#EK61 #MK63">kitisztul.</rdg>
+               </app><note type="critic">Arany piros grafitceruzás jelölése a nyomdának: „petit”. A kiadásokban a szerzői utasítás
+                  zárójelben.</note></stage>
+            </sp>
+            <sp>
+               <speaker><app>
+                  <rdg wit="#K"><hi rend="underline">Égi <del corresp="Arany János">kar</del>
+                     <add type="corr" corresp="Arany János">kar.</add></hi></rdg>
+                  <rdg wit="#EK61 #MK63">ÉGI KAR.</rdg>
+               </app></speaker>
+               <l>Jaj neked, világ,</l>
+               <l><app>
+                  <rdg wit="#K">A<add type="corr" corresp="Madách Imre">’ vén</add></rdg>
+                  <rdg wit="#EK61">A’ vén</rdg>
+                  <rdg wit="#MK63">Az ős<ref/></rdg>
+               </app> ős tagadás kisért.<ref/></l>
+            </sp>
+            <sp>
+               <speaker><app>
+                  <rdg wit="#K"><hi rend="underline">Az <del corresp="Arany János">ú</del><add type="corr" corresp="Arany János">Ú</add>r
+                  szava<add type="corr" corresp="Arany János">.</add></hi></rdg>
+                  <rdg wit="#EK61 #MK63">AZ ÚR SZAVA.</rdg>
+               </app></speaker>
+               <l><app>
+                  <rdg wit="#K"><del corresp="Madách Imre">Óh e</del></rdg>
+                  <rdg wit="#EK61 #MK63"></rdg>
+               </app><app>
+                  <rdg wit="#K"><del corresp="Arany János">Ember</del><add type="corr" corresp="Arany János">Ember,</add>
+                     <note type="critic">A soron sokat gondolkodó Arany a korrektúrában újra javította a sort, megismételve
+                        Madách ’Ember’ szavát</note></rdg>
+                  <rdg wit="#EK61 #MK63">Ember,</rdg>
+               </app> vigyázz<app>
+                  <rdg wit="#K #MK63">!</rdg>
+                  <rdg wit="#EK61"><note type="critic">sh.</note></rdg>
+               </app></l>
+            </sp>
+            <sp>
+               <speaker><app>
+                  <rdg wit="#K"><hi rend="underline"><del corresp="Arany János">Ádám</del>
+                     <add type="corr" corresp="Arany János">Ádám.</add></hi></rdg>
+                  <rdg wit="#EK61 #MK63">ÁDÁM.</rdg>
+               </app></speaker>
+               <l>Mi hang ez ismét?</l>
+            </sp>
+            <sp>
+               <speaker><app>
+                  <rdg wit="#K"><hi rend="underline"><del corresp="Arany János">Luci</del><add type="corr" corresp="Arany János">Lucifer.</add></hi></rdg>
+                  <rdg wit="#EK61 #MK63">LUCIFER.</rdg>
+               </app></speaker>
+               <l>A szél gallyakat ráz.</l>
+               <l>Segítsetek</l>
+               <l>Ti <app>
+                  <rdg wit="#K"><del corresp="Arany János">elemek</del><add type="corr" corresp="Arany János">elemek,</add></rdg>
+                  <rdg wit="#EK61 #MK63">elemek,</rdg>
+               </app></l><fw type="lineNum">[115]</fw>
+               <l>Az embert nektek</l>
+               <l>Szerezni meg. -<ref/></l>
+               <stage>Szélroham, a dics <app>
+                  <rdg wit="#K"><del corresp="Arany János">el borúl.</del><add type="corr" corresp="Arany János">elborúl.</add></rdg>
+                  <rdg wit="#EK61 #MK63">elborúl.</rdg>
+               </app><note type="critic">Arany nyomdai jelölése piros grafitceruzával: „pet.” A kiadásokban a szerzői utasítás
+                  zárójelben.</note></stage>
+               <l>E két fa az enyém<app>
+                  <rdg wit="#K">!</rdg>
+                  <rdg wit="#EK61 #MK63">.</rdg>
+               </app></l>
+            </sp>
+            <sp>
+               <speaker><app>
+                  <rdg wit="#K"><hi rend="underline"><del corresp="Arany János">Ádám</del>
+                     <add type="corr" corresp="Arany János">Ádám.</add></hi></rdg>
+                  <rdg wit="#EK61 #MK63">ÁDÁM.</rdg>
+               </app></speaker>
+               <l>Ki vagy tehát te?</l>
+               <l><app>
+                  <rdg wit="#K"></rdg>
+                  <rdg wit="#EK61 #MK63"><fw type="pageNum" corresp="EK61 MK63">16</fw></rdg>
+               </app>Hisz <app>
+                  <rdg wit="#K">ollyannak</rdg>
+                  <rdg wit="#EK61 #MK63">olyannak</rdg>
+               </app> tünsz fel, mint <app>
+                  <rdg wit="#K">m<del corresp="Arany János">ink</del><add type="corr" corresp="Arany János">í</add></rdg>
+                  <rdg wit="#EK61 #MK63">mi</rdg>
+               </app> vagyunk.</l>
+            </sp>
+            <sp>
+               <speaker><app>
+                  <rdg wit="#K"><hi rend="underline"><del corresp="Arany János">Luci</del><add type="corr" corresp="Arany János">Lucifer.</add></hi></rdg>
+                  <rdg wit="#EK61 #MK63">LUCIFER.</rdg>
+               </app></speaker>
+               <l>Nézd ott <app>
+                  <rdg wit="#K">a’</rdg>
+                  <rdg wit="#EK61 #MK63">a</rdg>
+               </app> sast, <app>
+                  <rdg wit="#K">me<del corresp="Arany János">l</del>ly</rdg>
+                  <rdg wit="#EK61 #MK63">mely</rdg>
+               </app> felhők közt kovályg,</l><fw type="lineNum">[120]</fw>
+               <l>Nézd <app>
+                  <rdg wit="#K">e’</rdg>
+                  <rdg wit="#EK61 #MK63">e</rdg>
+               </app> <app>
+                  <rdg wit="#K">vakandot</rdg>
+                  <rdg wit="#EK61 #MK63">vakondot</rdg>
+               </app> földet túrva <app>
+                  <rdg wit="#K">len<del corresp="Madách Imre">t</del>n</rdg>
+                  <rdg wit="#EK61 #MK63">lenn</rdg>
+               </app>,</l>
+               <l>Mindkettőt <app>
+                  <rdg wit="#K">más más</rdg>
+                  <rdg wit="#EK61 #MK63">más-más</rdg>
+               </app> <app>
+                  <rdg wit="#K">lát<del corresp="Arany János">kör vesz körűl.</del>
+                     <add type="corr" corresp="Arany János">határ övedzi.</add></rdg>
+                  <rdg wit="#EK61 #MK63">láthatár övedzi.</rdg>
+               </app><ref/></l>
+               <l>A <app>
+                  <rdg wit="#K"><del corresp="Arany János">szellem ország</del>
+                     <add type="corr" corresp="Arany János">szellemország</add></rdg>
+                  <rdg wit="#EK61 #MK63">szellemország</rdg>
+               </app> <app>
+                  <rdg wit="#K"><del corresp="Arany János">látköröd kivűl</del>
+                  <add type="corr" corresp="Arany János">látköröd-kivűl</add></rdg>
+                  <rdg wit="#EK61 #MK63">látköröd-kivül<ref/></rdg>
+               </app> <app>
+                  <rdg wit="#K">van</rdg>
+                  <rdg wit="#EK61 #MK63">van,</rdg>
+               </app></l>
+               <l><app>
+                  <rdg wit="#K"><del corresp="Arany János">A <del corresp="Arany János">leg magasbat</del>
+                     <add type="corr" corresp="Arany János">legmagasbat</add> embernek tekinted.</del></rdg>
+                  <rdg wit="#EK61 #MK63">És ember az, mi legmagasb neked.</rdg>
+               </app><ref/></l>
+               <l>Az ebnek is eb <app>
+                  <rdg wit="#K"><del corresp="Arany János">leg főbb</del><add type="corr" corresp="Arany János">legfőbb</add></rdg>
+                  <rdg wit="#EK61 #MK63">legfőbb</rdg>
+               </app> <app>
+                  <rdg wit="#K">ideálja</rdg>
+                  <rdg wit="#EK61 #MK63">ídeálja</rdg>
+               </app>,</l><fw type="lineNum">[125]</fw>
+               <l><app>
+                  <rdg wit="#K">’S</rdg>
+                  <rdg wit="#EK61 #MK63">S</rdg>
+               </app> <app>
+                  <rdg wit="#K">megtiszt<hi rend="underline" corresp="Arany János">e</hi>l</rdg>
+                  <rdg wit="#EK61 #MK63">megtisztel</rdg>
+               </app>, <app>
+                  <rdg wit="#K"><del corresp="Arany János">hogy ha</del><add type="corr" corresp="Arany János">hogyha</add></rdg>
+                  <rdg wit="#EK61 #MK63">hogyha</rdg>
+               </app> társaúl fogad.</l>
+               <l>De épen úgy, miként te őt lenézed,</l>
+               <l>És állsz felette végzete gyanánt,</l>
+               <l>Áldást vagy átkot szórva istenűl rá,</l>
+               <l>Ép <app>
+                  <rdg wit="#K #EK61">úgy</rdg>
+                  <rdg wit="#MK63">ugy</rdg>
+               </app> tekintünk <app>
+                  <rdg wit="#K"><del corresp="Arany János">meg mi tikteket</del>
+                     <add type="corr" corresp="Arany János">rátok mí alá</add></rdg>
+                  <rdg wit="#EK61 #MK63">rátok mi alá</rdg>
+               </app>,<ref/></l><fw type="lineNum">[130]</fw>
+               <l>A <app>
+                  <rdg wit="#K"><del corresp="Arany János">szellem-ország</del>
+                     <add type="corr" corresp="Arany János">szellemország</add></rdg>
+                  <rdg wit="#EK61 #MK63">szellem-ország</rdg>
+               </app> büszke részesi.<note type="critic">A 127–130. sorok magasságában a lapszegélyen idegen kéz (a szedő?) írásával: „Pagina
+                  17. Sign. 2.”</note></l>
+            </sp>
+            <sp>
+               <speaker><app>
+                  <rdg wit="#K"><hi rend="underline"><del corresp="Arany János">Ádám</del>
+                     <add type="corr" corresp="Arany János">Ádám.</add></hi></rdg>
+                  <rdg wit="#EK61 #MK63">ÁDÁM.</rdg>
+               </app></speaker>
+               <l><app>
+                  <rdg wit="#K">’S</rdg>
+                  <rdg wit="#EK61 #MK63">S</rdg>
+               </app> azoknak <app>
+                  <rdg wit="#K">v<del corresp="Arany János">ó</del><add type="corr" corresp="Arany János">o</add>lnál</rdg>
+                  <rdg wit="#EK61 #MK63">volnál</rdg>
+               </app> hát te <app>
+                  <rdg wit="#K">egyike</rdg>
+                  <rdg wit="#EK61 #MK63">egyike?</rdg>
+               </app></l>
+            </sp>
+            <sp>
+               <speaker><app>
+                  <rdg wit="#K"><hi rend="underline"><del corresp="Arany János">Luci</del><add type="corr" corresp="Arany János">Lucifer.</add></hi></rdg>
+                  <rdg wit="#EK61 #MK63">LUCIFER.</rdg>
+               </app></speaker>
+               <l>Igen, erősek közt <app>
+                  <rdg wit="#K">a’</rdg>
+                  <rdg wit="#EK61 #MK63">a</rdg>
+               </app> <app>
+                  <rdg wit="#K"><del corresp="Arany János">leg <del corresp="Madách Imre">erősebb,</del> hatalmasb’,</del>
+                     <add type="corr" corresp="Arany János">leghatalmasb’,</add></rdg>
+                  <rdg wit="#EK61 #MK63">leghatalmasb’,</rdg>
+               </app></l>
+               <l>Ki ottan álltam az <app>
+                  <rdg wit="#K"><del corresp="Arany János">ú</del>
+                     <add type="corr" corresp="Arany János">U</add>r</rdg>
+                  <rdg wit="#EK61">Ur</rdg>
+                  <rdg wit="#MK63">Úr</rdg>
+               </app> trónja mellett,</l>
+               <l>S <app>
+                  <rdg wit="#K"><del corresp="Arany János">leg szebb</del>
+                     <add type="corr" corresp="Arany János">legszebb</add></rdg>
+                  <rdg wit="#EK61 #MK63">legszebb</rdg>
+               </app> dicséből osztályom kijárt.</l>
+            </sp>
+            <sp>
+               <speaker><app>
+                  <rdg wit="#K"><hi rend="underline">Ádám.<sic/></hi></rdg>
+                  <rdg wit="#EK61 #MK63">ÁDÁM.</rdg>
+               </app></speaker><fw type="lineNum">[135]</fw>
+               <l>Mért nem maradtál hát a fényes égben,</l>
+               <l>E <app>
+                  <rdg wit="#K"><del corresp="Madách Imre">.</del></rdg>
+                  <rdg wit="#EK61 #MK63"></rdg>
+               </app> por <app>
+                  <rdg wit="#K">világ<del corresp="Arany János">ot választván tanyáúl?</del>
+                  <add type="corr" corresp="Arany János">ra miért jöttél<del corresp="Arany János">,</del></add>
+                     <note type="critic">A 136. sor törölt ’választván’ szavának második ékezete a sor fölé írt Arany-javításban
+                        mint vessző jelentkezett, ezért Arany az ékezetből lett „vesszőt” külön is törölte.</note></rdg>
+                  <rdg wit="#EK61 #MK63">világra miért jövél közénk?</rdg>
+               </app><ref/></l>
+            </sp>
+            <sp>
+               <speaker><app>
+                  <rdg wit="#K"><hi rend="underline"><del corresp="Arany János">Luci</del><add type="corr" corresp="Arany János">Lucifer.</add></hi></rdg>
+                  <rdg wit="#EK61 #MK63">LUCIFER.</rdg>
+               </app></speaker>
+               <l><app>
+                  <rdg wit="#K"><del corresp="Arany János">Meg úntam</del>
+                     <add type="corr" corresp="Arany János">Megúntam</add></rdg>
+                  <rdg wit="#EK61 #MK63">Megúntam</rdg>
+               </app> ott <app>
+                  <rdg wit="#K">a’</rdg>
+                  <rdg wit="#EK61 #MK63">a</rdg>
+               </app> második helyet,</l>
+               <l>Az egyhangú, <app>
+                  <rdg wit="#K"><del corresp="Arany János">kimérett</del>
+                     <add type="corr" corresp="Arany János">szabályos</add></rdg>
+                  <rdg wit="#EK61 #MK63">szabályos</rdg>
+               </app> életet<app>
+                  <rdg wit="#K">, –</rdg>
+                  <rdg wit="#EK61 #MK63">,</rdg>
+               </app><ref/></l>
+               <l>Éretlen <app>
+                  <rdg wit="#K">gyermek hang<del corresp="Arany János">ú</del>
+                  <add type="corr" corresp="Arany János">u</add></rdg>
+                  <rdg wit="#EK61">gyermek hangu</rdg>
+                  <rdg wit="#MK63">gyermek-hangu</rdg>
+               </app> égi kart,<app>
+                  <rdg wit="#K"><fw type="pageNum" corresp="Arany János">11</fw></rdg>
+                  <rdg wit="#EK61 #MK63"></rdg>
+               </app></l><fw type="lineNum">[140]</fw>
+               <l><app>
+                  <rdg wit="#K"></rdg>
+                  <rdg wit="#EK61 #MK63"><fw type="pageNum" corresp="EK61 MK63">17</fw></rdg>
+               </app><app>
+                  <rdg wit="#K">Me<del corresp="Arany János">l</del>ly</rdg>
+                  <rdg wit="#EK61 #MK63">Mely</rdg>
+               </app> <app>
+                  <rdg wit="#K">mind<hi rend="underline" corresp="Arany János">é</hi>g</rdg>
+                  <rdg wit="#EK61 #MK63">mindég</rdg>
+               </app> <app>
+                  <rdg wit="#K #EK61">dícsér</rdg>
+                  <rdg wit="#MK63">dicsér</rdg>
+               </app>, rosznak mit se tart.</l>
+               <l>Küzdést kivánok, <app>
+                  <rdg wit="#K">dis<add type="corr" corresp="Arany János">z</add>harmóniát</rdg>
+                  <rdg wit="#EK61 #MK63">disharmóniát</rdg>
+               </app>,</l>
+               <l><app>
+                  <rdg wit="#K">Me<del corresp="Arany János">l</del>ly</rdg>
+                  <rdg wit="#EK61 #MK63">Mely</rdg>
+               </app> új erőt szül, <app>
+                  <rdg wit="#K">új</rdg>
+                  <rdg wit="#EK61 #MK63">uj</rdg>
+               </app> világot ád,</l>
+               <l>Hol <app>
+                  <rdg wit="#K">a<del corresp="Arany János">’</del></rdg>
+                  <rdg wit="#EK61 #MK63">a</rdg>
+               </app> lélek magában nagy lehet,</l>
+               <l><app>
+                  <rdg wit="#K"><del corresp="Arany János">Hol a’ ki</del>
+                     <add type="corr" corresp="Arany János">Hová,<note type="critic">
+                        Az erősen átjavítgatott szókapcsolat a K1-en olvashatatlan, ezért Arany a lapszegélyen
+                        a „Hová,”-t a nyomda számára megismételte.
+                     </note></add></rdg>
+                  <rdg wit="#EK61 #MK63">Hová,</rdg>
+               </app> ki <app>
+                  <rdg wit="#K">bá<hi rend="underline" corresp="Arany János">t</hi>or</rdg>
+                  <rdg wit="#EK61 #MK63">bátor</rdg>
+               </app>, az velem jöhet.</l>
+            </sp>
+            <sp>
+               <speaker><app>
+                  <rdg wit="#K"><hi rend="underline"><del corresp="Arany János">Ádám</del>
+                     <add type="corr" corresp="Arany János">Ádám.</add></hi></rdg>
+                  <rdg wit="#EK61 #MK63">ÁDÁM.</rdg>
+               </app></speaker><fw type="lineNum">[145]</fw>
+               <l><app>
+                  <rdg wit="#K"><del corresp="Arany János">De</del> <add type="corr" corresp="Arany János">Meg</add>mondta</rdg>
+                  <rdg wit="#EK61 #MK63">Megmondta</rdg>
+               </app> <app>
+                  <rdg wit="#K"><del corresp="Arany János">az ur,</del> <add type="corr" corresp="Arany János">isten,</add></rdg>
+                  <rdg wit="#EK61 #MK63">isten,</rdg>
+               </app><ref/> hogy büntetni fog,</l>
+               <l>Ha más utat választunk, mint <app>
+                  <rdg wit="#K">ki tűzött.</rdg>
+                  <rdg wit="#EK61 #MK63">kitűzött.</rdg>
+               </app></l>
+            </sp>
+            <sp>
+               <speaker><app>
+                  <rdg wit="#K"><hi rend="underline"><del corresp="Arany János">Éva</del>
+                     <add type="corr" corresp="Arany János">Éva.</add></hi></rdg>
+                  <rdg wit="#EK61 #MK63">ÉVA.</rdg>
+               </app></speaker>
+               <l><app>
+                  <rdg wit="#K"><del corresp="Madách Imre">Mint</del>
+                  <add type="corr" corresp="Madách Imre">Miért</add></rdg>
+                  <rdg wit="#EK61 #MK63">Miért</rdg>
+               </app> <app>
+                  <rdg wit="#K">büntet<del corresp="Madách Imre">het</del>ne</rdg>
+                  <rdg wit="#EK61 #MK63">büntetne</rdg>
+               </app>? - <app>
+                  <rdg wit="#K">H<del corresp="Arany János">ogy</del>
+                     <add type="corr" corresp="Arany János">isz’,</add></rdg>
+                  <rdg wit="#EK61 #MK63">Hisz,</rdg>
+               </app> ha az <app>
+                  <rdg wit="#K">uta<hi rend="underline" corresp="Arany János">t</hi></rdg>
+                  <rdg wit="#EK61 #MK63">utat</rdg>
+               </app></l>
+               <l><app>
+                  <rdg wit="#K"><del corresp="Arany János">Ki tűzte,</del>
+                  <add type="corr" corresp="Arany János">Kitűzte,</add></rdg>
+                  <rdg wit="#EK61 #MK63">Kitűzte,</rdg>
+               </app> <app>
+                  <rdg wit="#K #EK61">mellyen</rdg>
+                  <rdg wit="#MK63">melyen</rdg>
+               </app> hogy <app>
+                  <rdg wit="#K">me<del corresp="Arany János">nny</del>
+                     <add type="corr" corresp="Arany János">nj</add>ünk</rdg>
+                  <rdg wit="#EK61 #MK63">menjünk</rdg>
+               </app>, kivánja,</l>
+               <l><app>
+                  <rdg wit="#K"><del corresp="Madách Imre">Miért akképen</del>
+                  <add type="corr" corresp="Madách Imre">Egyúttal</add></rdg>
+                  <rdg wit="#EK61 #MK63">Egyúttal</rdg>
+               </app> ollyanná is <app>
+                  <rdg wit="#K"><del corresp="Madách Imre">nem</del></rdg>
+                  <rdg wit="#EK61 #MK63"></rdg>
+               </app> alkotott,</l><fw type="lineNum">[150]</fw>
+               <l>Hogy vétkes hajlam másfelé ne vonjon.</l>
+               <l>Vagy <app>
+                  <rdg wit="#K"><del corresp="Madách Imre">Mi</del>
+                     <add type="corr" corresp="Madách Imre">mé<hi rend="underline" corresp="Arany János">r</hi>t</add></rdg>
+                  <rdg wit="#EK61 #MK63">mért</rdg>
+               </app> állított mély örvény fölé,</l>
+               <l>Szédelgő fejjel, kárhozatra szánva. -</l>
+               <l>Ha meg <app>
+                  <rdg wit="#K">a’</rdg>
+                  <rdg wit="#EK61 #MK63">a</rdg>
+               </app> bűn szintén tervében áll,</l>
+               <l>Mint <app>
+                  <rdg wit="#K">a’</rdg>
+                  <rdg wit="#EK61 #MK63">a</rdg>
+               </app> vihar <app>
+                  <rdg wit="#K"><del corresp="Arany János">napsúgaras</del>
+                  <add type="corr" corresp="Arany János">verőfényes</add></rdg>
+                  <rdg wit="#EK61 #MK63">verőfényes</rdg>
+               </app> napok közt,<note type="critic">Arany nemcsak a javítandó szót, hanem a napok-at is aláhúzta kék grafitceruzával; vlsz.
+                  emlékeztetni akarta önmagát a szóismétlésre.</note><ref/></l><fw type="lineNum">[155]</fw>
+               <l>Ki mondja azt <app>
+                  <rdg wit="#K">vétkesb<del corresp="Arany János">b</del>nek</rdg>
+                  <rdg wit="#EK61 #MK63">vétkesbnek</rdg>
+               </app>, mert zajong,</l>
+               <l>Mint ezt, mivel éltetve melegit<app>
+                  <rdg wit="#K">? –</rdg>
+                  <rdg wit="#EK61 #MK63">?</rdg>
+               </app></l>
+            </sp>
+            <sp>
+               <speaker><app>
+                  <rdg wit="#K"><hi rend="underline"><del corresp="Arany János">Luci</del><add type="corr" corresp="Arany János">Lucifer.</add></hi></rdg>
+                  <rdg wit="#EK61 #MK63">LUCIFER.</rdg>
+               </app></speaker>
+               <l>Lám, megjelent az első bölcselő<app>
+                  <rdg wit="#K">! –</rdg>
+                  <rdg wit="#EK61 #MK63">!</rdg>
+               </app></l>
+               <l>Nagy sor jövend utánad, szép hugom,</l>
+               <l><app>
+                  <rdg wit="#K">Me<del corresp="Arany János">l</del>ly</rdg>
+                  <rdg wit="#EK61 #MK63">Mely</rdg>
+               </app> <app>
+                  <rdg wit="#K">miljó</rdg>
+                  <rdg wit="#EK61 #MK63">milljó</rdg>
+               </app> úton ezt vitatja <app>
+                  <rdg wit="#K"><del corresp="Madách Imre">majd</del></rdg>
+                  <rdg wit="#EK61 #MK63"></rdg>
+               </app> újra<app>
+                  <rdg wit="#K #EK61">.</rdg>
+                  <rdg wit="#MK63">;</rdg>
+               </app></l><fw type="lineNum">[160]</fw>
+               <l>A tébolydába téved sok közűlök,</l>
+               <l>Sok <app>
+                  <rdg wit="#K"><del corresp="Arany János">vissza retten,</del>
+                  <add type="corr" corresp="Arany János">visszaretten,</add></rdg>
+                  <rdg wit="#EK61 #MK63">visszaretten,</rdg>
+               </app> révbe egy sem ér.</l>
+               <l>Hát hagyjatok fel az <app>
+                  <rdg wit="#K">okoskodással</rdg>
+                  <rdg wit="#EK61 #MK63">okoskodással,</rdg>
+               </app></l>
+               <l>Minden dolognak <app>
+                  <rdg wit="#K">o<del corresp="Arany János">l</del>ly</rdg>
+                  <rdg wit="#EK61 #MK63">oly</rdg>
+               </app> sok színe <app>
+                  <rdg wit="#K">van</rdg>
+                  <rdg wit="#EK61 #MK63">van,</rdg>
+               </app></l>
+               <l>Hogy <app>
+                  <rdg wit="#K"><del corresp="Arany János">aki</del>
+                  <add type="corr">a ki</add></rdg>
+                  <rdg wit="#EK61 #MK63">a ki</rdg>
+               </app> mind azt végig <app>
+                  <rdg wit="#K">észleli</rdg>
+                  <rdg wit="#EK61 #MK63">észleli,</rdg>
+               </app></l><fw type="lineNum">[165]</fw>
+               <l><app>
+                  <rdg wit="#K"></rdg>
+                  <rdg wit="#EK61 #MK63"><fw type="pageNum" corresp="EK61 MK63">18</fw></rdg>
+               </app><app>
+                  <rdg wit="#K">Kevesb<del corresp="Arany János">b</del>et</rdg>
+                  <rdg wit="#EK61 #MK63">Kevesbet</rdg>
+               </app> tud, mint első pillanatra<app>
+                  <rdg wit="#K"><del corresp="Madách Imre">.</del>
+                  <add type="corr" corresp="Madách Imre">,</add></rdg>
+                  <rdg wit="#EK61 #MK63">,</rdg>
+               </app></l><fw type="pageNum">[165a]</fw>
+               <l>S határozatra <app>
+                  <rdg wit="#K">jönni</rdg>
+                  <rdg wit="#EK61 #MK63">jőni<note type="critic">A K1-en Madách a jöni<!-- n fölött vízszintes vonalka --> alakot használta, amelyet Arany és a nyomda jőni formában
+                     olvasott.</note></rdg>
+               </app> rá nem ér.</l>
+               <l>A tett halála az okoskodás. -</l>
+            </sp>
+            <sp>
+               <speaker><app>
+                  <rdg wit="#K"><hi rend="underline"><del corresp="Arany János">Éva</del>
+                     <add type="corr" corresp="Arany János">Éva.</add></hi></rdg>
+                  <rdg wit="#EK61 #MK63">ÉVA.</rdg>
+               </app></speaker>
+               <l>Én hát szakítok egyet <app>
+                  <rdg wit="#K">a’</rdg>
+                  <rdg wit="#EK61 #MK63">a</rdg>
+               </app> gyümölcsből.</l>
+            </sp>
+            <sp>
+               <speaker><app>
+                  <rdg wit="#K"><hi rend="underline"><del corresp="Arany János">Ádám</del>
+                     <add type="corr" corresp="Arany János">Ádám.</add></hi></rdg>
+                  <rdg wit="#EK61 #MK63">ÁDÁM.</rdg>
+               </app></speaker>
+               <l><app>
+                  <rdg wit="#K"><del corresp="Arany János">Meg átkozá</del>
+                  <add type="corr" corresp="Arany János">Megátkozá</add></rdg>
+                  <rdg wit="#EK61 #MK63">Megátkozá</rdg>
+               </app> az <app>
+                  <rdg wit="#K"><del corresp="Arany János">ú</del>
+                  <add type="corr" corresp="Arany János">Ú</add>r</rdg>
+                  <rdg wit="#EK61 #MK63">Úr</rdg>
+               </app>.</l>
+               <stage>Lucifer kaczag.<note type="critic">Arany jelölése a nyomdának: „pet.”, kék grafitceruzával. A kiadásokban a szerzői utasítás
+                  zárójelben.</note></stage>
+               <l>De csak <app>
+                  <rdg wit="#K">szak<hi rend="underline" corresp="Arany János">í</hi>ts</rdg>
+                  <rdg wit="#EK61 #MK63">szakíts</rdg>
+               </app>.</l>
+               <l>Jőjön reánk, minek ránk jőni kell,</l><fw type="lineNum">[170]</fw>
+               <l>Legyünk tudók, mint isten.<app>
+                  <rdg wit="#K"><fw type="pageNum" corresp="Arany János">12</fw></rdg>
+                  <rdg wit="#EK61 #MK63"></rdg>
+               </app></l>
+               <stage>A tudás almáját előbb Éva aztán Adám <app>
+                  <rdg wit="#K">megízleli</rdg>
+                  <rdg wit="#EK61 #MK63">megizleli</rdg>
+               </app>.<note type="critic">Arany jelölése a nyomdának, kék grafitceruzával: „pet.” A kiadásokban a szerzői utasítás
+                  zárójelben.</note></stage>
+            </sp>
+            <sp>
+               <speaker><app>
+                  <rdg wit="#K"><hi rend="underline"><del corresp="Arany János">Éva</del>
+                     <add type="corr" corresp="Arany János">Éva.</add></hi></rdg>
+                  <rdg wit="#EK61 #MK63">ÉVA.</rdg>
+               </app></speaker>
+               <l>S <app>
+                  <rdg wit="#K">e<del corresp="Arany János">f</del>felett</rdg>
+                  <rdg wit="#EK61 #MK63">e felett</rdg>
+               </app></l>
+               <l>Örökké ifjak. -<note type="critic">A 171. sor mellett Arany kék grafitceruzás megjegyzése a lapszegélyen: „Örök ifjak lettek
+                  volna.”</note></l>
+            </sp>
+            <sp>
+               <speaker><app>
+                  <rdg wit="#K"><hi rend="underline"><del corresp="Arany János">Luci</del><add type="corr" corresp="Arany János">Lucifer.</add></hi></rdg>
+                  <rdg wit="#EK61 #MK63">LUCIFER.</rdg>
+               </app></speaker>
+               <l>Erre, erre csak.</l>
+               <l>A halhatatlanságnak fája ez<app>
+                  <rdg wit="#K"><del corresp="Madách Imre">,</del><add type="corr" corresp="Madách Imre">, –</add></rdg>
+                  <rdg wit="#EK61 #MK63">.</rdg>
+               </app></l>
+               <l>Siessetek hát!</l>
+            </sp>
+            <stage>A másik fa felé vonja őket, egy <app>
+               <rdg wit="#K"><hi rend="doubleunderline">Cherub</hi></rdg>
+               <rdg wit="#EK61 #MK63">CHERUB</rdg>
+            </app> lángoló <app>
+               <rdg wit="#K #EK61">karddal<milestone unit="p"/>útjokat állja.</rdg>
+               <rdg wit="#MK63">karddal útjo-<milestone unit="p"/>kat állja.</rdg>
+            </app>
+               <note type="critic">Arany jelölése a nyomdának, kék grafitceruzával: „pet.” A kiadásokban a szerzői utasítás
+                  zárójelben.</note></stage>
+            <sp>
+               <speaker><app>
+                  <rdg wit="#K"><hi rend="underline">Cherub.</hi></rdg>
+                  <rdg wit="#EK61 #MK63">CHERUB.</rdg>
+               </app></speaker>
+               <l>Félre, bűnösök.</l>
+            </sp>
+            <sp>
+               <speaker><app>
+                  <rdg wit="#K"><hi rend="underline">Az <del corresp="Arany János">ú</del>
+                     <add type="corr" corresp="Arany János">Ú</add>r szava.</hi></rdg>
+                  <rdg wit="#EK61 #MK63">AZ ÚR SZAVA.</rdg>
+               </app></speaker>
+               <l>Ádám, Ádám! <app>
+                  <rdg wit="#K"><del corresp="Arany János">el hagytál</del>
+                  <add type="corr" corresp="Arany János">elhagytál</add></rdg>
+                  <rdg wit="#EK61 #MK63">elhagytál</rdg>
+               </app> engemet.</l><fw type="lineNum">[175]</fw>
+               <l><app>
+                  <rdg wit="#K"><del corresp="Arany János">El hagylak</del>
+                     <add type="corr" corresp="Arany János">Elhagylak</add></rdg>
+                  <rdg wit="#EK61 #MK63">Elhagylak</rdg>
+               </app> én is, <app>
+                  <rdg wit="#K">lásd</rdg>
+                  <rdg wit="#EK61 #MK63">lásd,</rdg>
+               </app> mit érsz magadban.</l>
+            </sp>
+            <sp>
+               <speaker><app>
+                  <rdg wit="#K"><hi rend="underline"><del corresp="Arany János">Éva</del>
+                     <add type="corr" corresp="Arany János">Éva.</add></hi></rdg>
+                  <rdg wit="#EK61 #MK63">ÉVA.</rdg>
+               </app></speaker>
+               <l><app>
+                  <rdg wit="#K"></rdg>
+                  <rdg wit="#EK61 #MK63"><fw type="pageNum" corresp="EK61 MK63">19</fw></rdg>
+               </app>Végünk van.</l>
+            </sp>
+            <sp>
+               <speaker><app>
+                  <rdg wit="#K"><hi rend="underline"><del corresp="Arany János">Luci</del><add type="corr" corresp="Arany János">Lucifer.</add></hi></rdg>
+                  <rdg wit="#EK61 #MK63">LUCIFER.</rdg>
+               </app></speaker>
+               <l><app>
+                  <rdg wit="#K">Csügged<del corresp="Madách Imre">eztek</del>tek</rdg>
+                  <rdg wit="#EK61 #MK63">Csüggedtek?</rdg>
+               </app>?</l>
+            </sp>
+            <sp>
+               <speaker><app>
+                  <rdg wit="#K"><hi rend="underline"><del corresp="Arany János">Ádám</del>
+                     <add type="corr" corresp="Arany János">Ádám.</add></hi></rdg>
+                  <rdg wit="#EK61 #MK63">ÁDÁM.</rdg>
+               </app></speaker>
+               <l><app>
+                  <rdg wit="#K"><del corresp="Madách Imre">Azt n</del><add type="corr" corresp="Madách Imre">
+                     <del corresp="Arany János">Korán se</del>
+                  </add><add type="corr" corresp="Arany János">Koránse</add></rdg>
+                  <rdg wit="#EK61 #MK63">Koránse</rdg>
+               </app> hidd.</l>
+               <l>Csak ébredésem borzongása ez. -</l>
+               <l><app>
+                  <rdg wit="#K"><del corresp="Arany János">De <del corresp="Madách Imre">H</del>
+                     <add type="corr" corresp="Madách Imre">h</add>ölgyem <del corresp="Madách Imre">kövess</del>
+                  <add type="corr" corresp="Madách Imre">jöj</add>, csak <del corresp="Arany János">innen innen</del>
+                  <add type="corr" corresp="Arany János">bármerre is</add> el</del>
+                  <add type="corr" corresp="Arany János">El innen, hölgyem, bárhová, – el, el!</add></rdg>
+                  <rdg wit="#EK61 #MK63">El innen, hölgyem, bárhová, – el, el!</rdg>
+               </app></l>
+               <l><app><!-- ? -->
+                  <rdg wit="#K"><del corresp="Arany János">
+                     <del corresp="Arany János">Olly<add type="corr" corresp="Arany János">an</add> idegen,</del>
+                     <add type="corr" corresp="Arany János">idegen</add>
+                      <del corresp="Arany János"><add type="corr" corresp="Arany János">és</add> kietlen ide</del>
+                      lett <del>e<del corresp="Arany János">’</del><add type="corr" corresp="Arany János">zen</add></del>
+                     <add type="corr" corresp="Arany János">ez a</add> hely <del corresp="Arany János">.</del>
+                     <add type="corr" corresp="Arany János">és kietlen.</add>
+                  </del><add type="corr" corresp="Arany János">Idegen már s kietlen ez a hely.</add>
+                     <note type="critic"><p>A sokat javítgatott sorokat Arany a lapszegélyen, függőlegesen letisztázta. A korábbi
+                        szöveggondozott kiadások csak az első és az utolsó fázist rögzítették; most, a K1 technikai
+                        vizsgálata után feltételezhetők azok a mozzanatok is, melyekben a szöveg formálódott.
+                        Az öt fázis jelölése a szinopszisban bonyolult, ezért lapalji jegyzetben megismételjük:</p>
+                        <p>Olly idegen, kietlen lett e’ hely.</p>
+                        <p>OlyAN idegen, kietlen e’ hely.</p>
+                        <p>IDEGEN ÉS kietlen eZEN hely.</p>
+                        <p>IDEGEN EZ A HELY ÉS KIETLEN.</p>
+                        <p>IDEGEN MÁR S KIETLEN EZ A HELY.</p>
+                        <p>Mindehhez járul még a kietlen után Madách által megkezdett ide szókezdet, amelyet
+                           nem tudunk javítási fázishoz kötni.</p></note></rdg>
+                  <rdg wit="#EK61 #MK63">Idegen már s kietlen ez a hely.</rdg>
+               </app></l>
+            </sp>
+            <sp>
+               <speaker><app>
+                  <rdg wit="#K"><hi rend="underline">Égi kar.</hi></rdg>
+                  <rdg wit="#EK61 #MK63">ÉGI KAR.</rdg>
+               </app></speaker><fw type="lineNum">[180]</fw>
+               <l>Ah, sírjatok testvéri könnyeket,</l><fw type="lineNum">[181]</fw>
+               <l><app>
+                  <rdg wit="#K"></rdg>
+                  <rdg wit="#EK61 #MK63"><fw type="pageNum" corresp="EK61 MK63">20</fw></rdg>
+               </app>Győz <app>
+                  <rdg wit="#K">a’</rdg>
+                  <rdg wit="#EK61 #MK63">a</rdg>
+               </app> hazugság, - a föld elveszett. -<note type="critic">
+                  A szín össz-sorszámát Madách maga rögzítette a munkalapon: „2 Paradicsom 181”
+               </note></l>
+            </sp>
+         </div>
+      </body>
+   </text>
+</TEI>

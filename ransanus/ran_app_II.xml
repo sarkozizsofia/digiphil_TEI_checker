@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" 	schematypens="http://purl.oclc.org/dsdl/schematron"?> <TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Appendix II.</title>
+                <author>
+                    <persName>Ioannes Sambucus</persName>
+                    <idno type="KOHA_AUTH">KOHA_AUTH:129893</idno>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>digital edition</edition>
+                <respStmt>
+                    <resp>project director</resp>
+                    <persName>
+                        <surname>Palkó</surname>
+                        <forename>Gábor</forename>
+                        <idno type="KOHA_AUTH">KOHA_AUTH:121463</idno>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>TEI-specification</resp>
+                    <persName>
+                    <surname>Fellegi</surname>
+                    <forename>Zsófia</forename>
+                </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>XML-editor</resp>
+                    <persName>
+                        <surname>Tubay</surname>
+                        <forename>Tiziano</forename>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>XML-editor</resp>
+                    <persName>
+                        <surname>Bobák</surname>
+                        <forename>Barbara</forename>
+                    </persName>
+                    
+                </respStmt>
+                <respStmt>
+                    <resp>creator</resp>
+                    <orgName> DigiPhil <ref type="url">http://digiphil.hu</ref>
+                    </orgName>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName>Bölcsészettudományi Kutatóközpont, Irodalomtudományi Intézet</orgName>
+                    <ref type="url">http://viaf.org/viaf/312925875/</ref>
+                    <ref type="url">https://iti.btk.mta.hu/</ref>
+                </publisher>
+                <pubPlace>Budapest <ref type="url">http://www.geonames.org/3054643</ref>
+                </pubPlace>
+                <date>2020</date>
+                <availability>
+                    <p>©Free Access - no-reuse <ref type="url"
+                        >http://www.europeana.eu/rights/rr-f/</ref>
+                    </p>
+                </availability>
+                <idno type="PID">o:ransanus.tei.appendix.2</idno>
+                <idno type="URL">/o:ransanus.tei.appendix.2</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Bibliotheca Scriptorum Medii Recentisque Aevorum</title>
+                <respStmt>
+                    <resp>condita a</resp>
+                    <persName>Ladislao Juhász</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>consilium editorium</resp>
+                    <persName>Stephanus Borzsák</persName>
+                    <persName>Ioannes Horváth</persName>
+                    <persName>Tiberius Klaniczay</persName>
+                    <persName>Ladislaus Mezei</persName>
+                    <persName>Gabriel Székely</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>redigit</resp>
+                    <persName>Antonius Pirnát</persName>
+                </respStmt>
+                
+            </seriesStmt>
+            <notesStmt>
+                <note type="critIntro">Maximilianus (1527–1576) idem est, qui imperator Romanorum
+                    rexque Hungarorum; auctor János Zsámboky (Ioannes Sambucus) physicus et
+                    historiographus Maximiliani, postea Rudolphi imperatoris fuit, philologus ubique
+                    celebratissimus, qui libros antea nunquam editos plurimos vulgavit. Natus est
+                    anno 1531, mortuus anno 1584.</note>
+                
+            </notesStmt>
+            <sourceDesc>
+                <!--<msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <extent>
+                                    <measure type="quantity" unit="folio"/>
+                                    <dimensions unit="mm">
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </extent>
+                                <condition>
+                                    <p/>
+                                </condition>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                <msDesc>-->
+                <bibl>
+                    <author>
+                        <persName>
+                            <surname>Petrus</surname>
+                            <forename>Ransanus</forename>
+                            <idno type="KOHA_AUTH">KOHA:169512</idno>
+                            <idno type="url"
+                                >http://biblio.digiphil.hu/cgi-bin/koha/opac-authoritiesdetail.pl?authid=96679</idno>
+                            <idno type="VIAF">VIAF:95251869</idno>
+                            <idno type="url">http://viaf.org/viaf/95251869</idno>
+                        </persName>
+                    </author>
+                    <title>Epithoma rerum Hungararum</title>
+                    <title type="sub">Id est annalium omnium temporum liber primus et sexagesimus</title>
+                    <idno type="ISBN">ISBN:9630509946</idno>
+                    <respStmt>
+                        <resp>editor</resp>
+                        <persName>
+                            <surname>Petrus</surname>
+                            <forename>Kulcsár</forename>
+                            <idno type="KOHA_AUTH">KOHA:</idno>
+                        </persName>
+                    </respStmt>
+                    <date>1977</date>
+                    <pubPlace>Budapest</pubPlace>
+                    <publisher>Akadémiai Kiadó</publisher>
+                </bibl>
+                <listWit>
+<witness xml:id="KK">Kritikai kiadás</witness>
+                    <witness xml:id="Z">Epitome rerum Ungaricarum velut per indices descripta autore
+                        Petro Ramano apud Mathiam regem olim triennium legato nunc primum edita una
+                        cum appendice quadam opera Ioannis Sambuci Tirnaviensis Pannonii. Adiecta
+                        est rerum ad Agriam gestarum anno 1552 brevis eiusdem Sambuci narratio...
+                        Viennae Austriae excudebat Raphael Hofhalter Anno M. D. LVIII. Foll. 4
+                        innum., LXIX num., 1 vac., 14 innum. In 4°, segnature S e c in 6°. (foll. A2r-A3r)</witness>
+                    <witness xml:id="R">Rerum Hungaricarum scriptores varii historici, geographici
+                        ex veteribus plerique sed iam fugientibus editionibus revocati, quidam nunc
+                        primum editi... [Ed. Iacobus Bongarsius.] Francofurti, apud heredes Andreae
+                        Wecheli, Clau-dium Marnium et Ioannem Aubrium, M. D. C. In 6°. (pp. 200-201)</witness>
+                    <witness xml:id="S1">Scriptores rerum Hungaricarum veteres ac genuini, partim
+                        primum ex tenebris eruti, partim antehac quidem editi, nunc vero ex
+                        manuscriptis codicibus et rarissimis editionibus bibliothecae Augustae
+                        Vindobonensis ab innumeris mendis vindicati... cum amplissima praefatione
+                        Matthiae Belii ... cura et studio Ioannis Georgii Schwandtneri ... [Vol. I.]
+                        Impensis Ioannis Pauli Kraus bibliopolae Vindobonensis, M DCC XLVI. In
+                        4°. (pp. 322-325)</witness>
+                    <witness xml:id="S2">Scriptores rerum Hungaricarum veteres ac genuini, partim
+                        primum ex tenebris eruti, partim antehac quidem editi, nunc vero ex
+                        manuscriptis codicibus et rarissimis bibliothecae Augustae Vindobonensis ab
+                        innumeris mendis vindica-ti... cum amplissima praefatione Matthiae Belii,
+                        cura et studio Ioannis Georgii Schwandtneri... Pars prima. Tyrnaviae, typis
+                        Collegii Academici Societatis Iesu, anno MDCCLXV. In 8°. (pp. 531-535)</witness>
+                    <witness xml:id="S3">Scriptores rerum Hungaricarum veteres ac genuini, partim
+                        primum ex tenebris eruti, partim antehac quidem editi, nunc vero ex
+                        manuscriptis codicibus et rarissimis editionibus bibliothecae Augustae
+                        Vindobonensis ab innumeris mendis vindicati... cum amplissima praefatione
+                        Mathiae Belii, cura et studio Ioannis Georgii Schwandtneri... et Mariae
+                        Theresiae augustae honoribus dicati a ... Antonio Brunsvick . . . Anno
+                        Salutis MDCCLXVI. Pars prima. Vindobonae, typis Ioannis Thomae nobilis de
+                        Trattnern... (pp. 405-409)</witness>
+                    <witness xml:id="M">Historiae Hungaricae fontes domestici. Vol. IV. Chronica
+                        minora... Petri Ransani epitome rerum Hungaricarum. Recensuit... M.
+                        Florianus. Auspiciis et sumptibus Academiae Scientiarum Hungaricae.
+                        Budapestini 1885. (Quinque-Ecclesiis, typis Michaelis Taizs.) In
+                        8°. (pp. 289-290)</witness>
+                    <witness>Calendarium Iaurinense 1783. (foll. C2r-C5v)</witness>
+                    
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="la"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>ajánlás</term>
+                </keywords>
+            </textClass>
+            <creation>
+                <date when="1558-03-15"/>
+                <placeName>Viennae <idno type="KOHA_GEO">KOHA_GEO:5527</idno></placeName>
+            </creation>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <head type="title"><app>
+                        <lem wit="#KK #Z #R">Dedicatio ad Maximilianum Archiducem Austriae</lem>
+                        <rdg wit="#S1 #S2 #S3">Dedicatio</rdg>
+                        <rdg wit="#M">Ioannes Sambucus Tirnaviensis</rdg>
+                    </app></head>
+                <p>
+                <s n="1">﻿Serenissimo ac illustrissimo principi Maximiliano regi Bohemiae
+                    archiducique Austriae<app>
+                        <lem wit="#KK #Z #R #S1 #S2 #S3"> etc.</lem>
+                        <rdg wit="#M"/>
+                    </app>, domino suo clementissimo salutem dicit.</s>
+                <s n="2">Variae apud antiquos rationes colligendarum historiarum, quibus omnibus res
+                    praeclare <app>
+                        <lem wit="#KK #Z #R #S1 #S2 #S3">gestas</lem>
+                        <rdg wit="#M">gestae</rdg>
+                    </app> conservare atque memoriam tueri possint, fuisse videntur.</s>
+                <s n="3">Hic vero author per indices quosdam regum a Beatrice sibi Viennae datos ex
+                    iisdem, unde <app>
+                        <lem wit="#KK #Z #R #M">Bonfinus</lem>
+                        <rdg wit="#S1 #S2 #S3">Bonfinius</rdg>
+                    </app> sua descripserat, ita deduxit ac illustravit, ut, qui de rebus Ungaricis
+                    aliquid prodiderunt, nulla ex parte sit illis postponendus.<note type="critic"
+                        corresp="RKK">3 <hi rend="italic">per indices quosdam regum</hi> etc. cf.
+                        Dedicatoria 8. – <hi rend="italic">ex iisdem, unde Bonfinus</hi>: Ransanus
+                        et Bonfinius uterque Chronica Ioannis Thuróczy usus est; Bonfinius tamen et
+                        Ransani Epithoma pervolvit (v. Praefationem nostram).</note></s>
+                <s n="4">Etenim hac brevitate cuncta eleganter est complexus, ac nihil, quod in
+                    historia requiritur, uspiam omisit, atque hoc nomine hic scriptor vel praecipue
+                    cognoscendus, quod aliqua in <app>
+                        <lem wit="#KK #Z #R #M">Bonfino</lem>
+                        <rdg wit="#S1 #S2 #S3">Bonfinio</rdg>
+                    </app> vel interrupta vel mendosa librariorum incuria cum sint, hinc omnium
+                    admoneri et non parum ad sinceram et integram veritatis cognitionem iuvari
+                        queamus.<note type="critic" corresp="RKK">4 <hi rend="italic">brevitate...
+                            omisit</hi> cf. Appendix I.12–13. –<hi rend="italic"> in Bonfino vel
+                            interrupta vel mendosa</hi> etc.: Sambucus editionem a Martino Brenner
+                        anno 1543 confectam perstringit, quae manuscriptum mutilatum mendosumque
+                        sequuta est; anno 1568 ipse Sambucus textum Decadum integrum
+                    edidit.</note></s>
+                <s n="5">Taceo, quod animus noster hoc magis acquiescit, quo <app>
+                        <lem wit="#KK #S1 #S2 #S3">plurium</lem>
+                        <rdg wit="#Z #R #M">plurimum</rdg>
+                    </app> consentientes sunt narrationes<app>
+                        <lem wit="#KK #Z #R #S1 #M"> ac testatae velut commemorationes</lem>
+                        <rdg wit="#S2 #S3"/>
+                    </app>.</s>
+                <s n="6">Non <app>
+                        <lem wit="#KK #Z #R #S1">iccirco</lem>
+                        <rdg wit="#S2 #S3 #M">idcirco</rdg>
+                    </app> tamen <app>
+                        <lem wit="#KK #Z #R #M">Bonfinus</lem>
+                        <rdg wit="#S1 #S2 #S3">Bonfinius</rdg>
+                    </app> ipse negligendus, qui amplissime res quoque externas <app>
+                        <lem wit="#KK #Z #R">persecutus</lem>
+                        <rdg wit="#S1 #S2 #S3 #M">prosecutus</rdg>
+                    </app> est, sed ob brevitatem hic etiam commendabilis et in quibusdam omnino
+                    praeferendus.</s>
+                <s n="7">Qui cum diu latuisset <app>
+                        <lem wit="#KK #Z #R #S1 #M">(uti adhuc reliqua eius desiderantur, quippe qui
+                            Annales omnium temporum alios LX scriptos et hunc LXI. et ultimum
+                            reliquerit)</lem>
+                        <rdg wit="#S2 #S3">uti adhuc reliqua eius desiderantur, quippe qui Annales
+                            omnium temporum alios LX scriptos et hunc LXI. et ultimum
+                            reliquerit</rdg>
+                    </app>, a me opera quorundam amicorum denique lucem <app>
+                        <lem wit="#KK #Z #R #S1 #S2 #S3">aspicit</lem>
+                        <rdg wit="#M">adspicit</rdg>
+                    </app>, dignus, qui ante <app>
+                        <lem wit="#KK #Z #R #M">Bonfini</lem>
+                        <rdg wit="#S1 #S2 #S3">Bonfinii</rdg>
+                    </app> natalem apparuisset.<note type="critic" corresp="RKK">7 <hi rend="italic"
+                            >reliqua eius</hi> cf. Index indicum 38 et nota, Appendix I.17. – <hi
+                            rend="italic">Annales... ultimum</hi> cf. Dedicatoria 12–13, Appendix
+                        I.11.</note></s>
+                <s n="8">Eius indicem ultimum duobus continenter adiectis supplevi atque tertium
+                    quoque <app>
+                        <lem wit="#KK #Z #S1 #M">incohatum</lem>
+                        <rdg wit="#R #S2 #S3">inchoatum</rdg>
+                    </app> addidi idque simpliciter et quam brevissime, donec ea ipsa continuatio
+                    vel a me vel ab aliis copiosius descripta aliquando prodeat.<note type="critic"
+                        corresp="RKK">8 <hi rend="italic">duobus continenter adiectis</hi> etc. v.
+                        descriptionem editionum <hi rend="bold">ZRSM</hi> in Praefatione nostra.</note></s>
+                <s n="9">Tibi autem, Maximiliane rex potentissime, qualemcunque hanc meam
+                    diligentiam velim probari,<app>
+                        <lem wit="#KK #Z #R #S1 #M"> qui ut aliis in rebus prudenter et
+                            constantissime iudicas,</lem>
+                        <rdg wit="#S2 #S3"/>
+                    </app> ita in historiarum lectione, ubi, quid <app>
+                        <lem wit="#KK #Z #R">ocii</lem>
+                        <rdg wit="#S1 #S2 #S3 #M">otii</rdg>
+                    </app> nactus es, libenter et iucundissime <app>
+                        <lem wit="#KK #Z #R #S1 #S2 #S3">versaris</lem>
+                        <rdg wit="#M">versaris<add type="insert"> etc.</add><note type="critic">M
+                                intermittit</note></rdg>
+                    </app><app>
+                        <lem wit="#KK #Z #R #S1 #S2 #S3">, non ignoras scilicet cum recentia tum
+                            vetustissima quaeque exempla ad hanc imperii dignitatem potius quam
+                            obscuram et quaestionibus involutam philosophiae disputationem
+                            pertinere.</lem>
+                        <rdg wit="#M"/>
+                    </app></s>
+                <app>
+                    <lem wit="#KK #Z #R #S1 #S2 #S3">
+                        <s n="10">Plus enim interdum unicum exemplum historiarum quam infinitae
+                            disputandi subtilitates ad laudem et victoriam principibus viris adferre
+                            solet, unde quum Hannibali apud Prusiam exulanti pugnare placeret, atque
+                            ille, nescio quibus extis et disciplina de augurum libris hausta <app>
+                                <lem wit="#KK #Z #R #S1">prohiberi</lem>
+                                <rdg wit="#S2 #S3"/>
+                            </app> se dixisset, respondisse Hannibalem: An tu carunculae vitulinae
+                            mavis quam imperatori veteri credere?<note type="critic" corresp="RKK"
+                                >10 <hi rend="italic">Hannibali apud Prusiam exulanti</hi> etc. v.
+                                Valerius Maximus 3.7. ext. 6: „Hannibali vero, cum apud regem
+                                Prusiam exsularet, auctorque ei committendi proelii atque is non
+                                idem sibi extis portendi diceret: an tu, inquit, vitulinae
+                                carunculae quam imperatori veteri mavis credere?“</note></s>
+                        <s n="11">Tantum in exemplis et experientia ad obtinendam rerum summam et
+                            gubernationem positum est.</s>
+                        <s n="12">Neque tamen propterea non beatam rem publicam dicemus, quia eius
+                            principes quaestionibus philosophicis, quae <app>
+                                <lem wit="#KK #Z #R">ociosorum</lem>
+                                <rdg wit="#S1 #S2 #S3">otiosorum</rdg>
+                            </app> sunt, minime acquiescunt.</s>
+                        <s n="13">Si quidem in historiis quoque philosophia tractatur, verum ea
+                            crassior et explicata quaeque magis docet et ad quosvis casus
+                            instruit.</s>
+                        <s n="14">Sapientius enim tempore, ut Thales aiebat, nihil invenitur, quia
+                            nihil ipsum lateat et cuncta in lucem produxerit, ut, quod ab innumeris
+                            retro seculis actum sit, custodiat <app>
+                                <lem wit="#KK #Z #R #S1">atque</lem>
+                                <rdg wit="#S2 #S3"/>
+                            </app> posteritati veluti praesenti summa cum voluptate atque commodo
+                                exhibeat.<note type="critic" corresp="RKK">14 <hi rend="italic">ut
+                                    Thales aiebat</hi> v. Diogenes Laertius: De vitis 1.1: „Thales
+                                sciscitatus, quinam in tota rerum natura esset sapientissimum,
+                                respondit: tempus, invenit enim omnia“.</note></s>
+                        <s n="15">Cui veritas ipsa, quoniam coniungitur, quae simplex ac omnium
+                            rerum est princeps sapientia, quis non historiam eius interpretem ac
+                            testem iure amplectatur et in usum sevocet suum?</s>
+                        <s n="16">Cuius utilitatis tu non nescius historias lectitare indeque
+                            conatus et consilia semper communire laudabiliter consuevisti.</s>
+                        <s n="17">Nam, ut paucis de te tuisque regiis animi et corporis dotibus
+                            aliquid coactus dicam, quis adeo iniquus et a <app>
+                                <lem wit="#KK #Z">iuditio</lem>
+                                <rdg wit="#R #S1 #S2 #S3">iudicio</rdg>
+                            </app> aversus est, qui opinione ingenii totaque adeo ista maiestate
+                            oris tui et virtutibus in admirationem non trahatur teque sibi regem non
+                            velit?</s>
+                        <s n="18">Quae pars, quaeso, est virtutis in principe laudabilis, quam tu
+                            non solum colas, sed exemplis toti orbi terrarum mirabiliter
+                            testeris?</s>
+                        <s n="19">Etenim praeter singularem in deum pietatem erga doctos et
+                            literarum studia, quemadmodum afficiare quilibet animadvertit et
+                            voluntatem praeclaram celebrat, quod literis ipse docte et iustissime
+                            eruditus, de conquirendis antiquitatum monumentis et instruenda
+                            bibliotheca dies noctesque cogites, vel potius iam eiusce rei fundamenta
+                            regia posueris.</s>
+                        <s n="20">Politicae studia ita diligis, ita meditaris, ut abs te uno leges,
+                            si nullae scriptae essent, inveniri ac rationes civiles <app>
+                                <lem wit="#KK #R #S1 #S2 #S3">exponi</lem>
+                                <rdg wit="#Z">expoui</rdg>
+                            </app> facile possint, rem vero militarem, ac si perpetuo bella
+                            gessisses, intelligis.</s>
+                        <s n="21">Etenim haud semel audivi, cum vel a domino nostro clementissimo
+                            caesare Ferdinando Christianorum archigeta parente tuo in consilium
+                            adhiberis vel seorsum illud convocas, aliorum sententiis ordine acceptis
+                            ita postremo ad rem propositam loqui solitum, ut cum domino genitore
+                            cuncti <app>
+                                <lem wit="#KK #S1 #S2 #S3">paene</lem>
+                                <rdg wit="#Z #R">pene</rdg>
+                            </app> obmutescant.</s>
+                        <s n="22">Quae cognitio rerum varia cum <app>
+                                <lem wit="#KK #Z">iuditio</lem>
+                                <rdg wit="#R #S1 #S2 #S3">iudicio</rdg>
+                            </app> excellenti, quia in te perpetua extat, quis te non amet, quis
+                            imperium tuum tanto praesidio ac usu firmatum detrectarit?</s>
+                        <s n="23">Sed haec nunc mitto.</s>
+                        <s n="24">Quam ob rem, serenissime rex Maximiliane, librum hunc de tuo
+                            cliente, quem nuper adeo gratiose alloqui et in patrocinium admittere es
+                            dignatus, accipito, non, quod hisce te indigere iudicem, sed, ut
+                            clementia et commune literis patrocinium tuum huic quoque libro
+                            adiungatur et aliquando maiora te praesertim auspice in publicum
+                            emittere ipse audeam.</s>
+                        <s n="25">Quod si quid forte hic legeris, quod te vel doceat vel moneat vel
+                            confirmare adeo possit, navasse operam tanto maiorem publicae utilitati
+                            edendo hoc scriptore me putabo.</s>
+                        <s n="26">Vale, decus et seculi nostri sive domi sive foris expectatio!</s>
+                    </lem>
+                    <rdg wit="#M"/>
+                </app>
+                <s n="27"><app>
+                        <lem wit="#KK #Z #R #S1 #S2 #S3">Viennae XV. Martii.</lem>
+                        <rdg wit="#M"><note type="critic">M textus redintegratur</note>Viennae XV.
+                                Martii<add type="insert"> MDLVIII</add>.</rdg>
+                    </app></s>
+                <app>
+                    <lem wit="#KK #Z #R #S1 #S2 #S3">
+                        <s n="28">Serenissimae vestrae maiestatis cliens Ioannes Sambucus.</s>
+                    </lem>
+                    <rdg wit="#M"/>
+                </app>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

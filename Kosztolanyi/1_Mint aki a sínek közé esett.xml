@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" 	schematypens="http://purl.oclc.org/dsdl/schematron"?> <TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Az eljátszott öregség</title>
+                <author>
+                    <persName>
+                        <surname>Kosztolányi</surname>
+                        <forename>Dezső</forename>
+                        <idno type="KOHA_AUTH">KOHA_AUTH:95108</idno>
+                        <ref type="url"
+                            >http://biblio.digiphil.hu/cgi-bin/koha/opac-authoritiesdetail.pl?authid=95108</ref>
+                        <idno type="VIAF">VIAF:56604836</idno>
+                        <ref type="url">http://viaf.org/viaf/56604836/</ref>
+                    </persName>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                
+                <edition>digital edition</edition>
+                <respStmt>
+                    <resp>editor</resp>
+                              <persName><surname>Palkó</surname><forename>Gábor</forename><idno type="KOHA_AUTH">KOHA_AUTH:121463</idno>
+                    </persName>
+
+                </respStmt>
+                <respStmt>
+                    <resp>XML-editor</resp>
+                    <persName><surname>Horváth</surname><forename>Péter</forename></persName>
+                    <persName><surname>Fellegi</surname><forename>Zsófia</forename></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>XML-control</resp>
+                    <persName/>
+                </respStmt>
+                <respStmt>
+                    <resp>creator</resp>
+                    <orgName>DigiPhil <ref type="url">http://digiphil.hu</ref>
+                    </orgName>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+
+                <publisher>
+                    <orgName>Petőfi Irodalmi Múzeum</orgName>
+                    <ref type="url">http://viaf.org/viaf/152132060/</ref>
+                    <ref type="url">http://www.pim.hu</ref>
+                </publisher>
+                <publisher>
+                    <orgName>Magyar Tudományos Akadémia Bölcsészettudományi Kutatóközpont
+                        Irodalomtudományi Intézet</orgName>
+                    <ref type="url">http://viaf.org/viaf/312925875</ref>
+                    <ref type="url">https://iti.btk.mta.hu/</ref>
+                </publisher>
+                <pubPlace>Budapest <idno type="KOHA_AUTH">KOHA_AUTH:9227</idno>
+                    <ref type="url"
+                        >http://biblio.digiphil.hu/cgi-bin/koha/opac-authoritiesdetail.pl?authid=9227</ref>
+                </pubPlace>
+                <date>2020</date>
+                <availability>
+                    <p>©Free Access – no-reuse<ref type="url"
+                            >"http://www.europeana.eu/rights/rr-f/"</ref></p>
+                    <p>©In Copyright<ref type="url"
+                            >"http://rightsstatements.org/page/InC/1.0/"</ref></p>
+                </availability>
+              
+                <idno type="PID">o:kd-szkp.tei.1</idno>
+                <idno type="url">/o:kd-szkp.tei.1</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Kosztolányi Dezső Összes Művei. Kritikai kiadás</title>
+                <respStmt>
+                    <resp>responsible publisher:</resp>
+                    <persName><surname>Dobos</surname><forename> István</forename><idno type="KOHA">KOHA:106758</idno></persName>
+                    <persName><surname>Szegedy-Maszák</surname><forename>Mihály</forename><idno type="KOHA">KOHA:125715</idno></persName>
+                  <persName><surname>Veres</surname><forename>András</forename><idno type="KOHA">KOHA:128638</idno></persName>
+                </respStmt>
+            </seriesStmt>
+            <notesStmt>
+			<note type="critIntro">
+				<p>A JKK-ban a vers az 1. helyen áll. A további kiadásokban a vers helye a következő:</p>
+				<p>[SZKP1–6, OGYK]→ <ref target="/o:kd-szkp.tei.2">2</ref></p>
+			</note>
+		</notesStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>
+                       				  <persName><surname>Kosztolányi</surname><forename>Dezső</forename><idno type="KOHA">KOHA:116439</idno>
+                            <idno type="VIAF">VIAF:17232459</idno>
+                        </persName>
+                    </author>
+                    <title>A szegény kisgyermek panaszai</title>
+                    <respStmt>
+                        <resp>editor:</resp>
+                        				  <persName><surname>Győrei</surname><forename>Zsolt</forename><idno type="KOHA">KOHA:172982</idno></persName>
+                    </respStmt>
+                    <respStmt>
+                        <resp>arranged for publication:</resp>
+                        				  <persName><surname>Győrei</surname><forename>Zsolt</forename><idno type="KOHA">KOHA:172982</idno></persName>
+                        				  <persName><surname>Lovas</surname><forename>Borbála</forename></persName>
+                        				  <persName><surname>Józan</surname><forename>Ildikó</forename><idno type="KOHA">KOHA:313350</idno></persName>
+                    </respStmt>
+                    <respStmt>
+                        <resp>lector:</resp>
+                        				  <persName><surname>Horváth</surname><forename>Iván</forename><idno type="KOHA">KOHA:113410</idno></persName>
+                        				  <persName><surname>Józan</surname><forename>Ildikó</forename><idno type="KOHA">KOHA:313350</idno></persName>
+                      <persName><surname>Veres</surname><forename>András</forename><idno type="KOHA">KOHA:128638</idno></persName>
+                        <persName>Sárközi Éva<idno type="KOHA">KOHA:313361</idno></persName>
+                    </respStmt>
+                    <date>2014</date>
+                    <pubPlace>Pozsony</pubPlace>
+                    <publisher>Kalligram Kiadó</publisher>
+                    <idno type="ISBN">ISBN 978-615-5454-10-3</idno>
+                </bibl>
+
+
+                
+                <listWit>
+                    
+                    <witness xml:id="KK">Kritikai kiadás </witness>
+                    <witness xml:id="Ke">Kézirat <bibl>OSZKK, Quart. Hung. 2173,
+                        1r.</bibl></witness>
+                    <witness xml:id="Ny">Nyugat <bibl><hi rend="italic">Nyugat</hi>, 1910/7, [április 1.], 450.
+                            Összefoglaló cím: <title rend="italic">A szegény kisgyermek
+                                panaszai.</title></bibl> Tizenhét vers együtt közölve a 450–460.
+                        oldalakon. A versek listáját lásd a <hi rend="italic">Jegyzetekben.<ref
+                                target="/o:kd-szkp.jegyzetek.tei"/></hi>
+                    </witness>
+                    <witness xml:id="SZKP1">SZKP1, 5. <bibl><hi rend="smallcap">Kosztolányi</hi>
+                            Dezső, <title rend="italic">A szegény kisgyermek panaszai</title>,
+                            Budapest, Sziklai Jenő kiadása, 1910 (Magyar Költők 1. Modern Könyvtár,
+                            3).</bibl>
+                    </witness>
+                    <witness xml:id="E">Élet <bibl><hi rend="italic">Élet</hi>, 1910/29, [július
+                            17.], 73. Összefoglaló cím: <title rend="italic">A szegény kisgyermek
+                                panaszai</title>.</bibl> Négy vers együtt közölve: <title
+                            rend="italic">Mint aki a sínek közé esett…</title>; <title rend="italic">És 
+									 látom Őt, a Kisdedet</title>; <title rend="italic">A doktor
+                            bácsi</title>; <title rend="italic">Az iskolában hatvanan
+                            vagyunk</title>. Annotáció lábjegyzetben: <hi rend="italic">Részlet Kosztolányi
+									 Dezső most megjelent új verseskönyvéből.</hi></witness>
+                    <witness xml:id="SZKP2">SZKP2, 5. <bibl><hi rend="smallcap">Kosztolányi</hi>
+                            Dezső, <title rend="italic">A szegény kisgyermek panaszai</title>,
+                            Budapest, Politzer Zsigmond és fia, 1910 (Magyar Költők 1. Modern
+                            Könyvtár, 3).</bibl></witness>
+                    <witness xml:id="SZKP3">SZKP3, 5. <bibl><hi rend="smallcap">Kosztolányi</hi>
+                            Dezső, <title rend="italic">A szegény kisgyermek panaszai</title>,
+                            Budapest, Athenaeum, 1911 (Magyar Költők 1. Modern Könyvtár,
+                        3).</bibl></witness>
+                    <witness xml:id="SZKP4">SZKP4, 5. <bibl><hi rend="smallcap">Kosztolányi</hi>
+                            Dezső, <title rend="italic">A szegény kisgyermek panaszai</title>,
+                            Békéscsaba, Tevan, 1913.</bibl></witness>
+                   <witness xml:id="OVA">OVA <bibl><hi rend="italic">Ország-Világ Almanach</hi>, 
+									 1915, 149. Összefoglaló cím: <title rend="italic">A szegény 
+									 gyermek<sic/> panaszai</title>. Két vers együtt közölve elválasztó jelzés nélkül, 
+									 a második: <title rend="italic">És látom Őt, a Kisdedet</title>.</bibl></witness>
+                    <witness xml:id="SZKP5">SZKP5, 3. <bibl><hi rend="smallcap">Kosztolányi</hi>
+                            Dezső, <title rend="italic">A szegény kisgyermek panaszai</title>,
+                            Budapest, Athenaeum, 1919.</bibl></witness>
+                    <witness xml:id="SZKP6">SZKP6, 5. <bibl><hi rend="smallcap">Kosztolányi</hi>
+                            Dezső, <title rend="italic">A szegény kisgyermek panaszai</title>,
+                            Budapest, Genius, 1923.</bibl></witness>
+                    <witness xml:id="KORR1">Korrektúralapok 1 <bibl>PIM, V. 4966/1–2, 1. (= SZKP6,
+                            5.)</bibl> A vers első öt sora hiányzik: levágva és beragasztva a
+                        korr2-be.</witness>
+                   
+                    <witness xml:id="KORR2">Korrektúralapok 2 <bibl>PIM, V. 4966/1–2, 2.
+                            [31.]</bibl> A lap tetejére beragasztva a korr1 első öt sora. A
+                        beragasztott laprészen a nem mondatkezdő helyzetben lévő sorkezdő betűk
+                        javítva. A levonat többi részében nincs javítás. A vers után K. D.
+                        megjegyzése: „a versek között a tér is nagyobb legyen”.</witness>
+                    <witness xml:id="KORR3">Korrektúralapok 3 <bibl>PIM, V. 4966/1–2, 2.
+                            [31.]</bibl> A nyomtatott szöveg a 6. sorral kezdődik. Fölötte a vers
+                        első öt sora. Autográf.</witness>
+                    <witness xml:id="OGYK">ÖGYK, 31. <bibl><hi rend="smallcap">Kosztolányi</hi>
+                            Dezső <title rend="italic">Összegyűjtött költeményei. 1907–
+                            1935</title>, Budapest, Révai, 1935.</bibl></witness>
+                    <witness xml:id="UMAK">ÚMaK <bibl><hi rend="italic">Új magyar költők</hi>,
+                            szerk. <hi rend="smallcap">Vajthó</hi> László, Budapest, Királyi Magyar
+                            Egyetemi Nyomda, 1936, 210 (A Tanítás Problémái, 12). Összefoglaló cím:
+                                <title rend="italic">„A szegény kisgyermek
+                            panaszai”-ból</title>.</bibl> Öt vers együtt közölve a 210–213.
+                        oldalakon: <title rend="italic">Mint aki a sínek közé esett…</title>; <title
+                            rend="italic">Azon az éjjel</title>; <title rend="italic">Este,
+                            este…</title>; <title rend="italic">Lánc, lánc, eszterlánc</title>
+                            (<title rend="italic">Lánc, lánc…</title> címmel); <title rend="italic"
+                            >A patikának üvegajtajában</title>.</witness>
+                </listWit>
+
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+   <text>
+      <body>
+         <div xml:id="d.1">
+            <head type="motto">
+               <app>
+                  <lem wit="#KK #Ny #SZKP1 #E #SZKP2 #SZKP3 #SZKP4 #OVA #SZKP5 #SZKP6 #KORR1 #KORR2 #KORR3 #OGYK #UMAK"/>
+                  <rdg wit="#Ke">
+                     <del>Ezt a könyvemet egy szőke kis gyermeknek irtam.</del>
+                  </rdg>
+               </app>
+            </head>
+            <head type="line">
+               <app>
+                  <lem wit="#KK #Ke #Ny #SZKP1 #E #SZKP2 #SZKP3 #SZKP4 #OVA #SZKP5 #SZKP6 #KORR2 #KORR3 #OGYK #UMAK">Mint aki a <app>
+                                <!-- Itt felülírjuk a KK-t, ugyanis a korr1 korr2 helyett csak korr2 van, ugyanis a korr1 kívül már üres, ugyanis kivágták
+                        Ez már beágyazott app, ezért ebben a korr1-et nem soroljuk fel
+                        -->
+                        <lem wit="#KK #OVA #KORR3 #OGYK #UMAK">sínek</lem>
+                        <rdg wit="#Ke #Ny #SZKP1 #E #SZKP2 #SZKP3 #SZKP4 #SZKP5 #SZKP6">sinek</rdg>
+                        <rdg wit="#KORR2">s<del>i</del>
+                           <add type="corr">í</add>nek</rdg>
+                     </app> közé esett…</lem>
+                  <rdg wit="#KORR1"/>
+                  <note type="critic">KORR2: A levonat szedéséből a sor kimaradt. A laprész a
+                        korr1-ből kivágva és beragasztva. KORR3: A levonat szedéséből a sor
+                        kimaradt, későbbi autográf pótlás a lap tetején.</note>
+                  <!-- Ez jó itt? Az első versszakban is szerepel ez a szöveg, itt kicsit meg kellett változtatni a kritikai kiadásban szereplő szöveget. -->
+               </app>
+            </head>
+            <lg xml:id="lg.1">
+               <l xml:id="l.1">
+                        <!-- mivel a korr1-ből kivágták, minden sor üres lesz a külső app-ban  -->
+                  <app>
+                     <lem wit="#KK #Ke #Ny #SZKP1 #E #SZKP2 #SZKP3 #SZKP4 #OVA #SZKP5 #SZKP6 #KORR2 #KORR3 #OGYK #UMAK">És általérzi tűnő <app>
+                           <lem wit="#KK #Ke #Ny #SZKP1 #E #SZKP2 #SZKP3 #OVA #SZKP5 #SZKP6 #KORR2 #KORR3 #OGYK #UMAK">életét,</lem>
+                           <rdg wit="#SZKP4">életét.</rdg>
+                        </app>
+                     </lem>
+                     <rdg wit="#KORR1"/>
+                  </app>
+               </l>
+               <l xml:id="l.2">
+                  <app>
+                     <lem wit="#KK #Ke #Ny #SZKP1 #E #SZKP2 #SZKP3 #SZKP4 #OVA #SZKP5 #SZKP6 #KORR2 #KORR3 #OGYK #UMAK">
+                        <app>
+                           <lem wit="#KK #Ny #SZKP1 #E #SZKP2 #SZKP3 #OVA #SZKP5 #SZKP6 #KORR2 #KORR3 #OGYK #UMAK">míg</lem>
+                           <rdg wit="#Ke #SZKP4">Mig;</rdg>
+                        </app>
+                        <app>
+                           <lem wit="#KK #Ke #SZKP1 #E #SZKP2 #SZKP3 #SZKP4 #OVA #SZKP5 #SZKP6 #KORR2 #KORR3 #OGYK #UMAK">zúgva</lem>
+                           <rdg wit="#Ny">zugva</rdg>
+                        </app> kattog a forró kerék,</lem>
+                     <rdg wit="#KORR1"/>
+                  </app>
+               </l>
+               <l xml:id="l.3">
+                  <app>
+                     <lem wit="#KK #Ke #Ny #SZKP1 #E #SZKP2 #SZKP3 #SZKP4 #OVA #SZKP5 #SZKP6 #KORR2 #KORR3 #OGYK #UMAK">cikázva lobban <app>
+                           <lem wit="#KK #E #OVA #SZKP5 #SZKP6 #KORR2 #KORR3 #OGYK #UMAK">sok-sok</lem>
+                           <rdg wit="#Ke #Ny #SZKP1 #SZKP2 #SZKP3 #SZKP4">soksok</rdg>
+                        </app> ferde kép</lem>
+                     <rdg wit="#KORR1"/>
+                  </app>
+               </l>
+               <l xml:id="l.4">
+                  <app>
+                     <lem wit="#KK #Ke #Ny #SZKP1 #E #SZKP2 #SZKP3 #SZKP4 #OVA #SZKP5 #SZKP6 #KORR2 #KORR3 #OGYK #UMAK">és lát, ahogy nem látott<app>
+                           <lem wit="#KK #Ke #Ny #SZKP1 #E #SZKP2 #SZKP3 #OVA #SZKP5 #SZKP6 #KORR2 #KORR3 #OGYK #UMAK">sose</lem>
+                           <rdg wit="#SZKP4">soha</rdg>
+                        </app>
+                        <app>
+                           <lem wit="#KK #SZKP6 #KORR2 #KORR3 #OGYK #UMAK">még:</lem>
+                           <rdg wit="#Ke #Ny #SZKP1 #E #SZKP2 #SZKP3 #SZKP4 #OVA #SZKP5">még.</rdg>
+                        </app>
+                     </lem>
+                     <rdg wit="#KORR1"/>
+                  </app>
+               </l>
+               <!-- Ide be kell illeszteni a jegyzetet, mert nem tudjuk teljesen leképezni. 
+                  A 'korr2' és 'korr3' kódokat lecseréltük a headerben használtakra -->
+               <app>
+                  <lem wit="#KK #Ke #Ny #SZKP1 #E #SZKP2 #SZKP3 #SZKP4 #OVA #SZKP5 #SZKP6 #KORR1 #OGYK #UMAK"/>
+                  <rdg wit="#KORR2">
+                     <note type="critic">A levonat szedéséből a sorok kimaradtak. A laprész a KORR1-ből kivágva és beragasztva.</note>
+                  </rdg>
+                  <rdg wit="#KORR3">
+                     <note type="critic">A levonat szedéséből a sorok kimaradtak, későbbi autográf pótlás a lap tetején.</note>
+                  </rdg>
+               </app>
+            </lg>
+            <lg xml:id="lg.2">
+               <l xml:id="l.5">
+                  <app>
+                     <lem wit="#KK #Ke #Ny #SZKP1 #E #SZKP2 #SZKP3 #SZKP4 #OVA #SZKP5 #SZKP6 #KORR1 #KORR2 #OGYK #UMAK">Mint</lem>
+                     <rdg wit="#KORR3">
+                        <del>Mint</del>
+                        <add type="corr">Mint</add>
+                     </rdg>
+                  </app> aki a <app>
+                     <lem wit="#KK #OVA #KORR3 #OGYK #UMAK">sínek</lem>
+                     <rdg wit="#Ke #Ny #SZKP1 #E #SZKP2 #SZKP3 #SZKP4 #SZKP5 #SZKP6">sinek</rdg>
+                     <rdg wit="#KORR1 #KORR2">s<del>i</del>
+                        <add type="corr">í</add>nek<note type="critic">Az ékezet javítva. A javítás egyik korrektúrapéldányon sem látszik teljesen, korr1-en az eredeti, korr2-n a javítás.</note>
+                     </rdg>
+                  </app> közé <app>
+                     <lem wit="#KK #KORR3 #OGYK #UMAK">esett…</lem>
+                     <rdg wit="#Ke #Ny #SZKP1 #E #SZKP2 #SZKP3 #SZKP4 #OVA #SZKP5 #SZKP6 #KORR1 #KORR2">esett,</rdg>
+                  </app>
+                  <app>
+                     <lem wit="#KK #Ke #Ny #SZKP1 #E #SZKP2 #SZKP3 #SZKP4 #OVA #SZKP5 #SZKP6 #KORR2 #OGYK #UMAK"/>
+                     <rdg wit="#KORR1">
+                        <note type="critic">A sor betűinek teteje sérült. A versszak feletti laprész levágva és beragasztva a KORR2 levonatába.</note>
+                     </rdg>
+                     <rdg wit="#KORR3">
+                        <note type="critic">A vers első szedett sora a levonaton. A hibásan kiemelt verskezdés visszavonva. A sor utáni kihagyás kihúzva.</note>
+                     </rdg>
+                  </app>
+               </l>
+               <l xml:id="l.6">a <app>
+                     <lem wit="#KK #Ke #Ny #SZKP1 #E #SZKP2 #SZKP3 #OVA #SZKP5 #SZKP6 #KORR1 #KORR2 #KORR3 #OGYK #UMAK">végtelent,</lem>
+                     <rdg wit="#SZKP4">végtelen,</rdg>
+                  </app> a távol életet</l>
+               <l xml:id="l.7">
+                  <app>
+                     <lem wit="#KK #Ke #Ny #SZKP1 #SZKP2 #SZKP3 #SZKP4 #OVA #SZKP5 #SZKP6 #KORR1 #KORR2 #KORR3 #OGYK #UMAK">búcsúztatom,</lem>
+                     <rdg wit="#E">Búcsuztatom,</rdg>
+                  </app> mert messze mese <app>
+                     <lem wit="#KK #OVA #KORR2 #KORR3 #OGYK #UMAK">lett,</lem>
+                     <rdg wit="#Ke #Ny #SZKP1 #E #SZKP2 #SZKP3 #SZKP4 #SZKP5 #SZKP6">lett.</rdg>
+                     <rdg wit="#KORR1">lett<del>.</del>
+                        <add type="corr">,</add>
+                     </rdg>
+                  </app>
+               </l>
+               <l xml:id="l.8">mint aki a <app>
+                     <lem wit="#KK #OVA #KORR2 #KORR3 #OGYK #UMAK">sínek</lem>
+                     <rdg wit="#Ke #Ny #SZKP1 #E #SZKP2 #SZKP3 #SZKP4 #SZKP5 #SZKP6">sinek</rdg>
+                     <rdg wit="#KORR1">s<del>i</del>
+                        <add type="corr">í</add>nek</rdg>
+                  </app> közé <app>
+                     <lem wit="#KK #SZKP6 #KORR1 #KORR2 #KORR3 #OGYK #UMAK">esett:</lem>
+                     <rdg wit="#Ke #Ny #SZKP1 #E #SZKP2 #SZKP3 #SZKP4 #OVA #SZKP5">esett.</rdg>
+                  </app>
+               </l>
+            </lg>
+            <lg xml:id="lg.3">
+               <l xml:id="l.9">Mint aki a <app>
+                     <lem wit="#KK #OVA #KORR2 #KORR3 #OGYK #UMAK">sínek</lem>
+                     <rdg wit="#Ke #Ny #SZKP1 #E #SZKP2 #SZKP3 #SZKP4 #SZKP5 #SZKP6">sinek</rdg>
+                     <rdg wit="#KORR1">s<del>i</del>
+                        <add type="corr">í</add>nek</rdg>
+                  </app> közé esett –</l>
+               <l xml:id="l.10">
+                  <app>
+                     <lem wit="#KK #SZKP6 #KORR1 #KORR2 #KORR3 #OGYK #UMAK">vad</lem>
+                     <rdg wit="#Ke #Ny #SZKP1 #E #SZKP2 #SZKP3 #SZKP4 #OVA #SZKP5">Bús</rdg>
+                  </app> panoráma, rémes élvezet –</l>
+               <l xml:id="l.11">
+                  <app>
+                     <lem wit="#KK #OVA #KORR2 #KORR3 #OGYK #UMAK">sínek</lem>
+                     <rdg wit="#Ke #Ny #SZKP1 #E #SZKP2 #SZKP3 #SZKP4 #SZKP5 #SZKP6">Sinek</rdg>
+                     <rdg wit="#KORR1">S<del>i</del>
+                        <add type="corr">í</add>nek</rdg>
+                  </app> között és kerekek között,</l>
+               <l xml:id="l.12">a bús idő robog fejem <app>
+                     <lem wit="#KK #SZKP5 #SZKP6 #KORR1 #KORR2 #KORR3 #OGYK #UMAK">fölött</lem>
+                     <rdg wit="#Ke">fölött,</rdg>
+                     <rdg wit="#Ny #SZKP1 #E #SZKP2 #SZKP3 #SZKP4 #OVA">fölött.</rdg>
+                  </app>
+               </l>
+               <l xml:id="l.13">és a halál távolba <app>
+                     <lem wit="#KK #SZKP2 #SZKP3 #SZKP4 #OVA #SZKP5 #SZKP6 #KORR1 #KORR2 #KORR3 #OGYK #UMAK">mennydörög,</lem>
+                     <rdg wit="#Ke #Ny #SZKP1 #E">menydörög,</rdg>
+                  </app>
+               </l>
+               <l xml:id="l.14">egy percre megfogom, ami örök,</l>
+               <l xml:id="l.15">lepkéket, álmot, rémest, <app>
+                     <lem wit="#KK #Ke #SZKP6 #KORR1 #KORR2 #KORR3 #OGYK #UMAK">édeset:</lem>
+                     <rdg wit="#Ny #SZKP1 #E #SZKP2 #SZKP3 #SZKP4 #OVA #SZKP5">édeset.</rdg>
+                  </app>
+               </l>
+            </lg>
+            <lg xml:id="lg.4">
+               <l xml:id="l.16">Mint aki a <app>
+                     <lem wit="#KK #OVA #KORR2 #KORR3 #OGYK #UMAK">sínek</lem>
+                     <rdg wit="#Ke #Ny #SZKP1 #E #SZKP2 #SZKP3 #SZKP4 #SZKP5 #SZKP6 #KORR1">sinek</rdg>
+                  </app> közé esett.</l>
+            </lg>
+         </div>
+      </body>
+   </text>
+</TEI>

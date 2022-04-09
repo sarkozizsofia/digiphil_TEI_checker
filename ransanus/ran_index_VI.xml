@@ -1,0 +1,795 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" 	schematypens="http://purl.oclc.org/dsdl/schematron"?> <TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Index VI.</title>
+                <author>
+                    <persName>Petrus Ransanus</persName>
+                    <idno type="KOHA_AUTH">KOHA:169512</idno>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>digital edition</edition>
+                <respStmt>
+                    <resp>project director</resp>
+                    <persName>
+                        <surname>Palkó</surname>
+                        <forename>Gábor</forename>
+                        <idno type="KOHA_AUTH">KOHA_AUTH:121463</idno>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>TEI-specification</resp>
+                    <persName>
+                    <surname>Fellegi</surname>
+                    <forename>Zsófia</forename>
+                </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>XML-editor</resp>
+                    <persName>
+                        <surname>Tubay</surname>
+                        <forename>Tiziano</forename>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>XML-editor</resp>
+                    <persName>
+                        <surname>Bobák</surname>
+                        <forename>Barbara</forename>
+                    </persName>
+                    
+                </respStmt>
+                <respStmt>
+                    <resp>creator</resp>
+                    <orgName> DigiPhil <ref type="url">http://digiphil.hu</ref>
+                    </orgName>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName>Bölcsészettudományi Kutatóközpont, Irodalomtudományi Intézet</orgName>
+                    <ref type="url">http://viaf.org/viaf/312925875/</ref>
+                    <ref type="url">https://iti.btk.mta.hu/</ref>
+                </publisher>
+                <pubPlace>Budapest <ref type="url">http://www.geonames.org/3054643</ref>
+                </pubPlace>
+                <date>2020</date>
+                <availability>
+                    <p>©Free Access - no-reuse <ref type="url"
+                        >http://www.europeana.eu/rights/rr-f/</ref>
+                    </p>
+                </availability>
+                <idno type="PID">o:ransanus.tei.index.6</idno>
+                <idno type="URL">/o:ransanus.tei.index.6</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Bibliotheca Scriptorum Medii Recentisque Aevorum</title>
+                <respStmt>
+                    <resp>condita a</resp>
+                    <persName>Ladislao Juhász</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>consilium editorium</resp>
+                    <persName>Stephanus Borzsák</persName>
+                    <persName>Ioannes Horváth</persName>
+                    <persName>Tiberius Klaniczay</persName>
+                    <persName>Ladislaus Mezei</persName>
+                    <persName>Gabriel Székely</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>redigit</resp>
+                    <persName>Antonius Pirnát</persName>
+                </respStmt>
+                
+            </seriesStmt>
+            <notesStmt>
+                <note type="critIntro"><p>De rebus Attilae bello gestis v. in Annalibus passim.
+                    Excursiones post mortem Bledae incipiuntur (vol. VII. fol. 420v): „Attila
+                    Hunnorum rex Bledam fratrem interimit. Postea vero instaurato exercitu invadit
+                    Italiam, urbemque Aquileiam obsidet.“</p><p>Vol. III. foll. 476v–477r: „Venetia regio.
+                    Anno ab ortu Iesu Christi CCCCLXXX°, ut Matheus Palmerius supputavit, ut autem
+                    Blondus, anno CCCCLV° sublata Aquileia multisque aliis Italiae nobilibus urbibus
+                    sitis tunc inter ipsam Aquileiam et Ticinum, Altino videlicet, Concordia,
+                    Patavio, Vicentia, Verona, Mantua, Brixia, Mediolano, Monte Silicis ab Hunnorum
+                    rege Atila, qui descenderat ex Pannoniis in Italiam cum sexcentis et eo amplius
+                    armatorum milibus, condi urbs tam inclyta cepit in intimis Adriatici sinus locis
+                    ab eis, qui ex tantis excidiis superfuerunt. Confugerunt enim ad regionis huius
+                    arenosa paludosaque atque stagnantia loca, quae a paucis tunc piscatoribus
+                    tenebantur, non plane animo edificandae novae urbis, sed ut eis in locis
+                    tantisper cum liberis et uxoribus latitarent, dum divina benignitate fieret
+                    finis rabiei efferatae barbararum. Praesidebat per ea tempora Romanae ecclesiae
+                    Leo primus pontifex maximus, Martianus autem Constantinopolitanum moderabatur
+                    imperium, occidentalis vero imperii apud Valentinianum iuniorem summa constabat.
+                    Ubi deinde tot tantisque eversis urbibus excedens Italia, Atila fluxu (ut in
+                    volumine temporum Prosperi atque Palmerii legitur) sanguinis ex naribus
+                    interiit, animum cogitationemque converterunt principes populorum, qui ad ea,
+                    quae dixi, loca confugerant, ad condendam illic urbem, quae a vetusto regionis
+                    vocabulo Venetiae dicerentur...“ Etc.</p><p>Ibidem fol. 478r: „Nec modo ex iis, quas
+                    dixi, sed ex aliis etiam permultis Italiae civitatibus a barbaris tum Gothis tum
+                    Hunnis afflictis, ex Roma praesertim Venetias confugerunt.“</p><p>Vol. VII. fol. 419r:
+                    ,,Nec eo fuisse contentum Aecium, sed ulterius exarsisse in Romanum imperium,
+                    cum Hunnos ad Italiae invasionem excitaverit. Sed cum eam ob rem Romae fuisset
+                    captus, deque ipso sumendum esset supplitium, iure iurando adactus est, ut
+                    promitteret se persuasurum Hunnis, ut intra Pannonias se continerent. Quod cum
+                    fideliter effecisset, rediit in principis Romani gratiam... Cum autem Pictavii
+                    et Scothi Britaniam insulam occupare tentarent, Aetium eiusdem insulae populi,
+                    qui eis ferret opem, accersiverunt. Qui non modo auxilium illis non tulit, sed
+                    et regnandi cupidus Hunnos ad invadendam Italiam solicitavit.“</p><p>Ibidem fol. 420r:
+                    „Humnis[!] Thraciam et Illyricum saeva depopulatione vastantibus exercitus, qui
+                    morabatur in Sicilia, ad defensionem orientalium partium revertitur.“</p><p>Ibidem
+                    fol. 420v: ,,Romanus exercitus (victis Gotis) atrocissimum cum Hunnis praelium
+                    in Galliis commiserunt. Quo superatis Hunnis ad centum et sexaginta milia ex
+                    illis ceciderunt. In eo praeterea certamine Theodericus Gotorum rex occiditur,
+                    cui Theodorismus[!] succaessit.“</p><p>Ibidem foll. 423v–424r: (<hi rend="italic">in marg.</hi> „CCCCXLVIII“) „Atila Hunnorum rex, qui
+                        se cognominari volebat flagellum dei, irrumpens in Italiam obsessa et
+                        triennio post vi capta atque direpta urbe Aquieliia[!], Vicentiam, Veronam,
+                        Mediolanum atque Ticinum pari terrore pervadit, multaque oppidanorum caede
+                        diripit. Exinanita itaque [a] terribilissimo hoste provincia et
+                        confugientibus undique ex propinquis urbibus populis, perque [<hi
+                            rend="italic">a. corr.</hi> perquae] proximam paludem consistere atque
+                        latere conantibus, in extrema pene Hadriatici sinus ora [<hi rend="italic"
+                            >a. corr.</hi> hora], ubi intra paludem campus assurgebat, plurimi
+                        convenerunt, ibique exsiccato quotidie de industria solo mansiones (quisque
+                        suam) munivere, quas [suprascriptum postea] a communi vocabulo regionis,
+                        unde convenerant, Venetias appellavere.“</p><p>Ibidem foll.
+                    424v–425r: (<hi rend="italic">in marg.</hi> „Atila Hunnorum rex“) „Fuit autem eo
+                    tempore, quo Atila Hunnorum rex invasit Italiam, et captis atque direptis
+                    permultis urbibus Romam versus se iturum in animum induxit, motisque castris cum
+                    eo loci pervenisset atque consedisset, ubi Mintius fluvius Padum ingreditur,
+                    amnem traiecturus, is pontifex miseratus Italiae urbisque Romae calamitatem,
+                    adhortatus item a Valentiniano tyranno, obviam iit, et eidem persuasit Alarici
+                    exemplo, qui statim dei iudicio post captam Romam mortuus est, ne progrederetur
+                    ulterius. Ille nihil cuntatus[!] sancti pontificis monitis obtemperavit. Magno
+                    quippe timore perculsus est propterea, quod (alloquente ipsum pontifice) vidit
+                    supra caput eius duos viros strictos tenentes gladios, qui vultu terrifico illi
+                    mortem comminati sunt, nisi sancto pontifici parerent. Fuere hi ita visi ab illo
+                    viri sancti Christi apostoli Petrus et Paulus. Sed rei huius historiam multo
+                    prolixius describemus, quom veniemus in mentionem regni et Hunnorum et
+                    Hungarorum, ut et supra polliciti sumus. Hostis itaque, qui universis Italiae
+                    populis incredibilem timorem incusserat, ad pontificis imperium in Pannonias,
+                    unde venerat, rediit. Sed cum esset in Norico, (effundente se ubertim e naribus
+                    sanguine) mortuus est.“</p><p>Ibidem fol. 429v: „Ursula virgo clarissima, quae natione
+                    fuit Britana seu mavis dicere Angla, cum undecim milibus virginum apud Coloniam,
+                    quae urbs est in Germania nobilissima, ab Hunnis sub Atila eorum rege clari sui
+                    martyrii coronam adepta est duodecimo Calendas Novembris.“</p><p>Ibidem fol. 439v: „Valamirus, qui primus fuit Ostrogotarum rex, sub Atila Hunnorum rege, quo
+                        tempore [<hi rend="italic">del.</hi> ipse] ille venit in Italiam, quam non
+                        mediocriter afflixit, stipendia fecit. Fuerat enim ab illo iam ante victus,
+                        sed concessa ei vita compulsus est dare illi fidem cum suis copiis se sub
+                        illo rei militari operam daturum. Et quamvis fidem illi Valamirus (quoad res
+                        postulavit) inviolate servaverit, illo tamen mortuo se in pristinam
+                        vendicavit libertatem.“</p><p>Ibidem
+                    fol. 487v: „Isque Totilas ille est, quem ob seviciam maiores nostri flagellum
+                    dei cognominaverunt, quemadmodum et cognominari se voluit Atilas ille Hunnorum
+                    ante annum ab hoc Totilae tempore ferme centesimum rex.“</p><p>Annales, ut videtur, de historiis Hunnorum et de vita Attilae multo accuratius quam Epithoma
+                        tractant, quamquam illi narrationem prolixiorem huic transmittunt.
+                        Convenientia textuum vix conspici potest, nam Epithoma propter brevitatem
+                        dicendi similitudinem vocabulorum cum nullo fonte suo demonstrat. Ita Index
+                        VI.1–3 de eversione Illyrici aliarumque regionum Th 1.14 uberius loquentem
+                        retractat; sent. 4. = Th 1.18; sent. 5. = Palmerius (ed. in: RIS vol. XXIV.
+                        pars 1. pp. 5–127) ad annum 453, additamenta nonnulla ex Th 1.20, etsi de
+                        Florentia neuter loquitur. Annales egregie facta Leonis mortemque Attilae
+                        ubertim enarrant, sed Epithoma (sentt. 6–14.) Blondum (Decas I, liber 2.)
+                        sequitur, eiusque narrationem in orationem convertit. Una e causis mortis
+                        regis – h. e. profluvium sanguinis e naribus – ex Decadibus Blondi originem
+                        ducit, altera – h. e. occisum a suis militibus ob morum asperitatem fuisse –
+                        nusquam reperiri potest. Unum ex miraculis (sentt. 18–25.) in Annalibus
+                        etiamsi alio tempore factum legitur, alterum aeque ac aestimatio generalis
+                        modi regendi Attilae ex Th 1.22 fluit cum nonnullis additamentis ex Th 1.13.
+                        Passio S. Ursulae sociarumque eius in Annalibus quoque demonstratur sed
+                        minus accurate; narratio Epithomatis originem suam partim ex Th 1.17, partim
+                        vero ex <title>Speculo historiali Vincentii Bellovacensis</title> (ed.
+                        Norimbergae 1483. cap. 21.43) ducit (cf. Index VI.27); v. et <title>Liber
+                            revelationum S. Elisabethae Schoenaugiensis</title>. Ed. AASS. Oct. IX.
+                        171. De exercitu Attilae (sentt. 28–29) Th 1.13 loquitur, sed numerum
+                        exactum – i.e. supra quingenta milia – tantum Iordanes (<title>De origine
+                            actibusque Getarum</title>. Ed. A. Holder. Freiburg i.Br. – Tiibingen
+                        1882. cap. 35.) scribit, Thuróczy eo loco vocabulo „innumerabiles“ utitur.
+                        Godefridus Viterbiensis est, qui in sui Pantheoni capite 22.17 eundem
+                        numerum scribit (ed. MGSS XXII. p. 188), et litteratura Europaea paene tota
+                        hac in re eum sequitur.</p><p>Sent. 30. – <hi rend="italic">Fuerunt, qui arbitrati sint</hi> – ad Thuróczy provocat. Comparatio
+                        Attilae cum Hannibale cf. <title>Ioannis Francisci Marliani... epithalamium
+                            habitum Mediolani in nuptiis... Blancae Mariae Sphortiae vicecomitis
+                            et... Ioannis Corvini...</title> M.CCCC.LXXXVII.: „Attila vir et rei
+                        militaris scientia et in rebus gerendis calliditate et versutia iure merito
+                        Hannibali comparandus.“ (Ábel Jenő: <hi rend="italic">Olaszországi XV.
+                            századbeli íróknak Mátyás királyt dicsőítő művei</hi>. Budapest 1890.
+                        367–368.)</p></note>
+                
+            </notesStmt>
+            <sourceDesc>
+                <!--<msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <extent>
+                                    <measure type="quantity" unit="folio"/>
+                                    <dimensions unit="mm">
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </extent>
+                                <condition>
+                                    <p/>
+                                </condition>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                <msDesc>-->
+                <bibl>
+                    <author>
+                        <persName>
+                            <surname>Petrus</surname>
+                            <forename>Ransanus</forename>
+                            <idno type="KOHA_AUTH">KOHA:169512</idno>
+                            <idno type="url"
+                                >http://biblio.digiphil.hu/cgi-bin/koha/opac-authoritiesdetail.pl?authid=96679</idno>
+                            <idno type="VIAF">VIAF:95251869</idno>
+                            <idno type="url">http://viaf.org/viaf/95251869</idno>
+                        </persName>
+                    </author>
+                    <title>Epithoma rerum Hungararum</title>
+                    <title type="sub">Id est annalium omnium temporum liber primus et sexagesimus</title>
+                    <idno type="ISBN">ISBN:9630509946</idno>
+                    <respStmt>
+                        <resp>editor</resp>
+                        <persName>
+                            <surname>Petrus</surname>
+                            <forename>Kulcsár</forename>
+                            <idno type="KOHA_AUTH">KOHA:</idno>
+                        </persName>
+                    </respStmt>
+                    <date>1977</date>
+                    <pubPlace>Budapest</pubPlace>
+                    <publisher>Akadémiai Kiadó</publisher>
+                </bibl>
+                <listWit>
+<witness xml:id="KK">Kritikai kiadás</witness>
+ 
+                    <witness xml:id="P">Petri Ransani Siculi Panormitani episcopi Lucerini annales
+                        omnium temporum. Voll. I–VIII. (Il vol. IV era andato perso.) Manoscritto
+                        rubricato, emendato, scritto dall’autore, facente parte del patrimonio
+                        bibliografico della Biblioteca Comunale di Palermo, sotto il n. 3Qq-C-54–60.
+                        Vol. VIII. (n. 3Qq-C-60) foll. 224v–331r: Annalium omnium temporum libri
+                        XLIII–XLIV.</witness>
+                    <witness xml:id="B">Petri Ransani Siculi theologi atque historici, Lucerini
+                        episcopi annalium omnium temporum liber primus et sexagesimus. Manoscritto
+                        miniato su pergamena, nel patrimonio bibliografico della Biblioteca
+                        Nazionale Széchényi di Budapest, sotto il n. Clmae 249.</witness>
+                    <witness xml:id="Z">Epitome rerum Ungaricarum velut per indices descripta autore
+                        Petro Ramano apud Mathiam regem olim triennium legato nunc primum edita una
+                        cum appendice quadam opera Ioannis Sambuci Tirnaviensis Pannonii. Adiecta
+                        est rerum ad Agriam gestarum anno 1552 brevis eiusdem Sambuci narratio...
+                        Viennae Austriae excudebat Raphael Hofhalter Anno M. D. LVIII. Foll. 4
+                        innum., LXIX num., 1 vac., 14 innum. In 4°, segnature S e c in 6°.</witness>
+                    <witness xml:id="L1">Epitome rerum Hungaricarum velut per indices descripta
+                        auctore Petro Ransano apud Mathiam regem olim regis Neapolitani triennium
+                        legato. Impressum Ternaviae elimatione et relectione Lucae Peechi Pannonii,
+                        M. D. LXXXIX. Foll. 188 innum. In 8°, segnatura (:) in 4°.</witness>
+                    <witness xml:id="R">Rerum Hungaricarum scriptores varii historici, geographici
+                        ex veteribus plerique sed iam fugientibus editionibus revocati, quidam nunc
+                        primum editi... [Ed. Iacobus Bongarsius.] Francofurti, apud heredes Andreae
+                        Wecheli, Clau-dium Marnium et Ioannem Aubrium, M. D. C. In 6°.</witness>
+                    <witness xml:id="L2">Epitome rerum Hungaricarum velut per indices descripta
+                        auctore Petro Ransano Siculo episcopo Lucerino, theologo atque historico,
+                        apud Mathiam regem olim regis Neapolitani per triennium legato, annis ab
+                        hinc C LXVII impressa studio et opera Lucae Pecchi[!] Pannonii, nunc demum
+                        ob eius elegantiam recusa. Budae, typis Veronicae Nottensteinin, 1746. pp.
+                        VIII, 298, foll. 10 innum. In 4°, la segnatura Rr in 3°.</witness>
+                    <witness xml:id="S1">Scriptores rerum Hungaricarum veteres ac genuini, partim
+                        primum ex tenebris eruti, partim antehac quidem editi, nunc vero ex
+                        manuscriptis codicibus et rarissimis editionibus bibliothecae Augustae
+                        Vindobonensis ab innumeris mendis vindicati... cum amplissima praefatione
+                        Matthiae Belii ... cura et studio Ioannis Georgii Schwandtneri ... [Vol. I.]
+                        Impensis Ioannis Pauli Kraus bibliopolae Vindobonensis, M DCC XLVI. In
+                        4°.</witness>
+                    <witness xml:id="S2">Scriptores rerum Hungaricarum veteres ac genuini, partim
+                        primum ex tenebris eruti, partim antehac quidem editi, nunc vero ex
+                        manuscriptis codicibus et rarissimis bibliothecae Augustae Vindobonensis ab
+                        innumeris mendis vindica-ti... cum amplissima praefatione Matthiae Belii,
+                        cura et studio Ioannis Georgii Schwandtneri... Pars prima. Tyrnaviae, typis
+                        Collegii Academici Societatis Iesu, anno MDCCLXV. In 8°.</witness>
+                    <witness xml:id="S3">Scriptores rerum Hungaricarum veteres ac genuini, partim
+                        primum ex tenebris eruti, partim antehac quidem editi, nunc vero ex
+                        manuscriptis codicibus et rarissimis editionibus bibliothecae Augustae
+                        Vindobonensis ab innumeris mendis vindicati... cum amplissima praefatione
+                        Mathiae Belii, cura et studio Ioannis Georgii Schwandtneri... et Mariae
+                        Theresiae augustae honoribus dicati a ... Antonio Brunsvick . . . Anno
+                        Salutis MDCCLXVI. Pars prima. Vindobonae, typis Ioannis Thomae nobilis de
+                        Trattnern...</witness>
+                    <witness xml:id="M">Historiae Hungaricae fontes domestici. Vol. IV. Chronica
+                        minora... Petri Ransani epitome rerum Hungaricarum. Recensuit... M.
+                        Florianus. Auspiciis et sumptibus Academiae Scientiarum Hungaricae.
+                        Budapestini 1885. (Quinque-Ecclesiis, typis Michaelis Taizs.) In
+                        8°.</witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="la"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>krónika</term>
+                </keywords>
+            </textClass>
+            <creation>
+                <date from="1490" to="1492"/>
+            </creation>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <head type="title"><app>
+                        <lem wit="#KK #M">Index VI.</lem>
+                        <rdg wit="#P #Z #R">Index V.</rdg>
+                        <rdg wit="#B">Index sextus</rdg>
+                        <rdg wit="#L1 #L2">Index <app>
+                                <rdg wit="#L1">sextus</rdg>
+                                <rdg wit="#L2">VI.</rdg>
+                            </app>, in quo victoria Atilae notatur</rdg>
+                        <rdg wit="#S1 #S2 #S3">Index V. de bellicis expeditionibus <app>
+                                <rdg wit="#S1">Attilae</rdg>
+                                <rdg wit="#S2 #S3">Attylae</rdg>
+                            </app> eiusque coronatione et morte</rdg>
+                    </app></head>
+                <p>
+                <s n="1">﻿Bleda igitur ita mortuo convertit <app>
+                        <lem wit="#KK #P #B #Z #L1 #R #L2 #M">Atila</lem>
+                        <rdg wit="#S1">Attila</rdg>
+                        <rdg wit="#S2 #S3">Attyla</rdg>
+                    </app> cogitationes suas omnes <app>
+                        <lem wit="#KK #P #B #L1 #R #L2 #S1 #S2 #S3 #M">ad</lem>
+                        <rdg wit="#Z">ab</rdg>
+                    </app> subigendas alias Romanorum principum provincias.</s>
+                <s n="2">Contractis itaque, undecunque potuit, copiis atque instaurato veteri suorum
+                    exercitu primum invadit propinquum Pannoniis Illyricum, deinde conterminas ei
+                    Liburniam atque Dalmatiam.</s>
+                <s n="3"><app>
+                        <lem wit="#KK #P #Z #L1 #R #L2">Quicquid</lem>
+                        <rdg wit="#B">Quitquid</rdg>
+                        <rdg wit="#S1 #S2 #S3 #M">Quidquid</rdg>
+                    </app> agrorum occurrit, ferro <app>
+                        <lem wit="#KK #P #B #Z #L1 #R #S1 #S2 #S3 #M">ignique</lem>
+                        <rdg wit="#L2">igneque</rdg>
+                    </app> pervastat, delet urbes et civitates, <app>
+                        <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M">quae</lem>
+                        <rdg wit="#B">que</rdg>
+                    </app>
+                    <app>
+                        <lem wit="#KK #P #B #Z #L1 #L2">non</lem>
+                        <rdg wit="#R #S1 #S2 #S3 #M"/>
+                    </app> statim, hoc est, <app>
+                        <lem wit="#KK #P #B">quom</lem>
+                        <rdg wit="#Z #L1 #R #L2 #S1 #S2 #S3 #M">cum</rdg>
+                    </app> primum fuit <app>
+                        <lem wit="#KK #P">prospectus</lem>
+                        <rdg wit="#B #Z #L1 #R #L2 #S1 #S2 #S3 #M">profectus</rdg>
+                    </app> eius exercitus, <app>
+                        <lem wit="#KK">fecere deditionem</lem>
+                        <rdg wit="#B"><del>deditione</del>deditionem<add type="insert"
+                            place="margin">fece&#341;t</add><!-- <g>r tetején aposztróf</g> --></rdg>
+                        <rdg wit="#Z #R #M">deditionem non fecerunt</rdg>
+                        <rdg wit="#L1 #L2">deditionem fecerunt</rdg>
+                    </app>.</s>
+                <s n="4">In his fuere Tragurium, Sibinicum, <app>
+                        <lem wit="#KK #P #B #Z #L1 #R #L2 #M">Iadira</lem>
+                        <rdg wit="#S1 #S2 #S3">Iadria</rdg>
+                    </app>, Senia, Pola, quae civitates postea progressu temporum <app>
+                        <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3">prosperiorum</lem>
+                        <rdg wit="#M">posteriorum</rdg>
+                    </app> restitutae sunt, <app>
+                        <lem wit="#KK #P #B #Z #L1 #R #L2 #M">Iadira</lem>
+                        <rdg wit="#S1 #S2 #S3">Iadria</rdg>
+                    </app> praesertim, quae <app>
+                        <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3">pulchritudine</lem>
+                        <rdg wit="#M">pulcritudine</rdg>
+                    </app>, opibus et auctoritate <app>
+                        <lem wit="#KK #S3 #M">ceteris</lem>
+                        <rdg wit="#P #B #Z #L1 #R #L2 #S1 #S2">caeteris</rdg>
+                    </app> praestat.</s>
+                <s n="5">Italiam postremo versus <app>
+                        <lem wit="#KK #P #B">contendens</lem>
+                        <rdg wit="#Z #L1 #R #L2 #S1 #S2 #S3">contendit</rdg>
+                    </app> delet Aquileiam, capit ac diripit Patavium, Vicentiam, <app>
+                        <lem wit="#KK #P #B #Z #R #L2 #S1 #S2 #S3 #M">Veronam</lem>
+                        <rdg wit="#L1">Veroniam</rdg>
+                    </app>, Brixiam, Bergomum, Mediolanum, Comum, <app>
+                        <lem wit="#KK #P #B #Z #L1 #R #S1 #S2 #S3 #M">Ticinum</lem>
+                        <rdg wit="#L2">Ticinum<add type="insert"> et</add></rdg>
+                    </app>, <app>
+                        <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #M">Bononiam</lem>
+                        <rdg wit="#S3">Pannoniam</rdg>
+                    </app>, breviter subigit Flaminiam, agrum Picenum, Hetruriam, urbem Florentiam
+                    funditus <app>
+                        <lem wit="#KK #P">substulit</lem>
+                        <rdg wit="#B #Z #L1 #R #L2 #S1 #S2 #S3 #M">sustulit</rdg>
+                    </app>, licet ultro deditionem fecerit, fuit habitatore vacua usque ad Caroli
+                    Magni tempora, a quo restituta est.</s>
+                <s n="6">Rediit postea in Galliam Cisalpinam, ut illic instaurato exercitu <app>
+                        <lem wit="#KK #P #B #Z #R #M">(magnam enim militum partem eo bello
+                            amiserat)</lem>
+                        <rdg wit="#L1 #L2 #S1 #S2 #S3">magnam enim militum partem eo bello
+                            amiserat</rdg>
+                    </app> ad delendam Romam se inde converteret.</s>
+                <s n="7">At vero Leo huius nominis primus pontifex maximus, vir ut doctrina ita
+                    vitae sanctitate insignis divinitus inspiratus simul adductus <app>
+                        <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M">Valentiniani</lem>
+                        <rdg wit="#B">Valentiniam</rdg>
+                    </app> Romani principis <app>
+                        <lem wit="#KK #P #B #Z #R #L2 #S1 #S2 #S3 #M">precibus</lem>
+                        <rdg wit="#L1">praecibus</rdg>
+                    </app> urbe cum <app>
+                        <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M">clericorum</lem>
+                        <rdg wit="#B">cleericorum</rdg>
+                    </app> magno numero excedens ad <app>
+                        <lem wit="#KK #P #B #Z #L1 #R #L2 #M">Atilam</lem>
+                        <rdg wit="#S1">Attilam</rdg>
+                        <rdg wit="#S2 #S3">Attylam</rdg>
+                    </app> proficiscitur.</s>
+                <s n="8">Ille de pontificis adventu factus certior obviam ei <app>
+                        <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M">procedit</lem>
+                        <rdg wit="#B">precedit</rdg>
+                    </app> non plane honoris gratia sed eo animo, ut ipsum sua manu iugularet.</s>
+                <s n="9">Pervenerat iam pontifex <app>
+                        <lem wit="#KK #P #B #Z #L1 #R #S1 #S2 #S3 #M"><app>
+                                <lem wit="#KK #P #L2">ad eum</lem>
+                                <rdg wit="#B #Z #L1 #R #S1 #S2 #S3 #M"/>
+                            </app> usque locum</lem>
+                        <rdg wit="#L2">usque ad locum</rdg>
+                    </app>, a quo haud procul <app>
+                        <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3">Mintius</lem>
+                        <rdg wit="#M">Mincius</rdg>
+                    </app> amnis <app>
+                        <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M">in</lem>
+                        <rdg wit="#B"><del>in</del></rdg>
+                    </app> Padum influit.</s>
+                <s n="10">Tum illo salutato, hoc tibi, inquit, iubeo, <app>
+                        <lem wit="#KK #P #B #Z #L1 #R #L2 #M">Atila</lem>
+                        <rdg wit="#S1">Attila</rdg>
+                        <rdg wit="#S2 #S3">Attyla</rdg>
+                    </app>, in nomine Iesu Christi dei omnipotentis filii, cuius ego <app>
+                        <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3">sum cultor</lem>
+                        <rdg wit="#M">cultor sum</rdg>
+                    </app> et servus et in terris vicarius, siste pedem ac desine <app>
+                        <lem wit="#KK #P #Z #R #L2 #S1 #S2 #S3 #M">saevire</lem>
+                        <rdg wit="#B #L1">sevire</rdg>
+                    </app> in Italiam, averte animum ab urbe Roma, quam delere te posse <app>
+                        <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M">sperasti</lem>
+                        <rdg wit="#B">scperasti</rdg>
+                    </app>, <app>
+                        <lem wit="#KK #B #Z #L1 #R #L2 #S1 #S2 #S3 #M">sunt iam <app>
+                                <lem wit="#KK #B #Z #L1 #R #S1 #S2 #S3 #M">te multo</lem>
+                                <rdg wit="#L2">multo te</rdg>
+                            </app> potentiores, qui ipsam tueantur, </lem>
+                        <rdg wit="#P"/>
+                    </app>satis superque flagellum dei te esse comprobasti, hucusque Romano imperio
+                    Christianisque nationibus fuisse te infestum <app>
+                        <lem wit="#KK #P #B #L1 #L2">(deo permittente)</lem>
+                        <rdg wit="#Z #R #S1 #S2 #S3 #M">deo permittente</rdg>
+                    </app> licuit, abi hinc nemini nociturus in Pannonias, ubi <app>
+                        <lem wit="#KK #P #B #Z #R #S1 #S2 #S3 #M">datum tibi</lem>
+                        <rdg wit="#L1 #L2">datum tibi<add type="insert"> est</add></rdg>
+                    </app> a deo <app>
+                        <lem wit="#KK #P #B #Z #L1 #R #S1 #S2 #S3 #M">est</lem>
+                        <rdg wit="#L2"/>
+                    </app> tuorum Hunnorum sedes <app>
+                        <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M">posuisse</lem>
+                        <rdg wit="#B">posuisset</rdg>
+                    </app>.</s>
+                <s n="11">Sin feceris aliter, haud mora in te tuasque copias malorum omnium ultor
+                    deus <app>
+                        <lem wit="#KK #P #B #L1 #L2">(mihi crede)</lem>
+                        <rdg wit="#Z #R #S1 #S2 #S3 #M">mihi crede</rdg>
+                    </app> animadvertet.</s>
+                <s n="12">Haec ubi pontifex dixit, ille omni ferocitate deposita velle se parere
+                    respondit, petita igitur a sancto viro <app>
+                        <lem wit="#KK #B #Z #L1 #R #L2 #S1 #S2 #S3 #M">excedendi</lem>
+                        <rdg wit="#P">excaedendi</rdg>
+                    </app> venia nihil moratus iubet per <app>
+                        <lem wit="#KK #P #L2 #S1 #S2 #S3 #M">praeconem</lem>
+                        <rdg wit="#B #Z #L1 #R">preconem</rdg>
+                    </app> universo exercitui, ut innoxius ab Italia abeat.</s>
+                <s n="13">Castris itaque propere motis se itineri committit, ut obedienter
+                    pontificis pareat imperio.</s>
+                <s n="14">Rediens autem, <app>
+                        <lem wit="#KK #P #B">quom</lem>
+                        <rdg wit="#Z #L1 #R #L2 #S1 #S2 #S3 #M">ut</rdg>
+                    </app> primum pervenit in Noricum, diem suum <app>
+                        <lem wit="#KK #P #B #Z #L1 #R #S1 #S2 #S3 #M">obivit</lem>
+                        <rdg wit="#L2">obiit</rdg>
+                    </app>.</s>
+                <s n="15">De eius morte duas scio ferri opiniones, fuerunt, qui affirmaverint ipsum
+                    ob morum asperitatem occisum fuisse suorum militum manu, ab aliis proditum est,
+                    quod plerique asserendum malunt, ipsum <app>
+                        <lem wit="#KK #P #B">(dum dormiret)</lem>
+                        <rdg wit="#Z #L1 #R #L2 #S1 #S2 #S3 #M">dum dormiret</rdg>
+                    </app> suffocatum fuisse sanguinis profluvio, qui ore naribusque eius plurimus
+                    emanavit.</s>
+                <s n="16">Profluvii causam aiunt <app>
+                        <lem wit="#KK #P #B #Z #R #S1 #S2 #S3 #M">fuisse vini</lem>
+                        <rdg wit="#L1 #L2">vini fuisse</rdg>
+                    </app> crapulam.</s>
+                <s n="17">Iacuisse ea nocte cum eo perhibent Ildiconam <app>
+                        <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M"><app>
+                                <lem wit="#KK #B #S3 #M">ceterarum</lem>
+                                <rdg wit="#P #Z #L1 #R #L2 #S1 #S2">caeterarum</rdg>
+                            </app>, quae</lem>
+                        <rdg wit="#B"><del>caeterarumque</del>caeterarum, quae</rdg>
+                    </app> ei erant, uxorum <app>
+                        <lem wit="#KK #P #B #L1 #L2 #S1 #S2 #S3 #M">pulcherrimam</lem>
+                        <rdg wit="#Z #R">pulcherrima</rdg>
+                    </app>, in quam mortis eius causam nonnulli retulere, <app>
+                        <lem wit="#KK #P #B #L1 #L2 #S1">fuere</lem>
+                        <rdg wit="#Z #R #S2 #S3 #M">fuerunt</rdg>
+                    </app>
+                    <app>
+                        <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3">tamen</lem>
+                        <rdg wit="#M">autem</rdg>
+                    </app>, qui puellam tuerentur et quidem non iniuria propterea, quod nulla vel
+                    illata vulnera vel <app>
+                        <lem wit="#KK #P #B #Z #L1 #R #S1 #S2 #S3 #M">dati</lem>
+                        <rdg wit="#L2">dari</rdg>
+                    </app> veneni indicia in exanimi corpore visa sunt, sanguinis autem, <app>
+                        <lem wit="#KK #P #L1 #L2">quem</lem>
+                        <rdg wit="#B"><add type="insert" place="superscript">quod</add></rdg>
+                        <rdg wit="#Z">quod <note type="critic">in custode</note>quem</rdg>
+                        <rdg wit="#R #S1 #S2 #S3 #M">quem quod</rdg>
+                    </app> dixi, profluvium inficiari nemo potuit, tanta fuit rei evidentia.</s>
+                <s n="18">Illud vero nequaquam <app>
+                        <lem wit="#KK #P #B #Z #R #L2 #S1 #S2 #S3">praeteriisse</lem>
+                        <rdg wit="#L1 #M">praeterisse</rdg>
+                    </app> volui silentio, cum sit et mentione <app>
+                        <lem wit="#KK #P">et admiratione</lem>
+                        <rdg wit="#B #Z #L1 #R #L2 #S1 #S2 #S3 #M"/>
+                    </app> dignum.</s>
+                <s n="19">Mirantibus barbaris, quibus <app>
+                        <lem wit="#KK #P #B #Z #L1 #R #S1 #S2 #S3 #M">ipse</lem>
+                        <rdg wit="#L2"/>
+                    </app> solebat uti familiarius, <app>
+                        <lem wit="#KK #P #B">quor</lem>
+                        <rdg wit="#Z #L1 #R #L2 #S1 #S2 #S3 #M">cur</rdg>
+                    </app> adeo celeriter <app>
+                        <lem wit="#KK #P #B #Z #R #S1 #S2 #S3 #M">ac</lem>
+                        <rdg wit="#L1 #L2">et</rdg>
+                    </app> modeste obtemperasset <app>
+                        <lem wit="#KK #P">iussioni</lem>
+                        <rdg wit="#B #Z #L1 #R #L2 #S1 #S2 #S3 #M">visioni</rdg>
+                    </app> Christiani sacerdotis, vidi, inquit, supra caput illius duos viros visu
+                    terribiles, qui nudatos strictosque gladios manu tenentes necem mihi cunctisque
+                    vobis minitabantur, nisi haud <app>
+                        <lem wit="#KK #P #B #Z #L1 #L2 #S1 #S2 #S3 #M">cunctanter</lem>
+                        <rdg wit="#R">cunstanter</rdg>
+                    </app> illius imperio paruissem, ex illius praeterea ore, nescio, quid
+                    terrificum in me effluxit, quo ita expavi, ut nescirem, quo me verterem, ut
+                    itaque meae <app>
+                        <lem wit="#KK #Z #L1 #R #L2 #S1 #S2 #S3 #M">vestraeque</lem>
+                        <rdg wit="#P">vestreque</rdg>
+                        <rdg wit="#B">vestrequae</rdg>
+                    </app> consulerem saluti, parui <app>
+                        <lem wit="#KK #P #B #L1 #L2">(ut videtis)</lem>
+                        <rdg wit="#Z #R #S1 #S2 #S3 #M">ut videtis</rdg>
+                    </app> et perquam facile et quam celerrime, ab Italia igitur in nostras omnino
+                    Pannonias <app>
+                        <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M">commigrandum</lem>
+                        <rdg wit="#B">conmigrandum</rdg>
+                    </app> nobis est.</s>
+                <s n="20">Id ubi rescivere <app>
+                        <lem wit="#KK #Z #L1 #R #L2 #S1 #S2 #S3 #M">clerici</lem>
+                        <rdg wit="#P #B">cloerici</rdg>
+                    </app> et alii, qui fuerant comitati pontificem, quaesierunt ex eo, quidnam sibi
+                    vellet, quod <app>
+                        <lem wit="#KK #P #B #Z #L1 #R #L2 #M">Atila</lem>
+                        <rdg wit="#S1">Attila</rdg>
+                        <rdg wit="#S2 #S3">Attyla</rdg>
+                    </app> se vidisse supra <app>
+                        <lem wit="#KK #P #B #L1 #L2">ipsius</lem>
+                        <rdg wit="#Z #R #S1 #S2 #S3 #M">illius</rdg>
+                    </app> caput fateretur.</s>
+                <s n="21">Respondit pontifex <app>
+                        <lem wit="#KK #P #B #Z #R #S1 #S2 #S3 #M">beatos</lem>
+                        <rdg wit="#L1 #L2">iratos</rdg>
+                    </app> apostolos Petrum et Paulum dei voluntate ita apparuisse, qui tanti
+                    essent, ut <app>
+                        <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M">saevissimi</lem>
+                        <rdg wit="#B">sevissimi</rdg>
+                    </app> tyranni vim possent prohibere, ne urbem Romam, <app>
+                        <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M">quae</lem>
+                        <rdg wit="#B">que</rdg>
+                    </app> in eorum est tutela, invadat ac <app>
+                        <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M">deleat</lem>
+                        <rdg wit="#B">debeat</rdg>
+                    </app>, ut se facturum decreverat.</s>
+                <s n="22">Qua autem nocte interiit, <app>
+                        <lem wit="#KK #P #B #Z #R #L2 #S1 #S2 #S3">Martianus</lem>
+                        <rdg wit="#L1 #M">Marcianus</rdg>
+                    </app> imperator agens in urbe Constantinopoli <app>
+                        <lem wit="#KK #B #Z #L1 #R #L2 #S1 #S2 #S3 #M">fertur</lem>
+                        <rdg wit="#P">fertur<del>m</del><note type="critic">addit et del. litteram
+                                m</note></rdg>
+                    </app> illius arcum fractum per quietem vidisse, somno vero excussus dixisse
+                    domesticis, quod viderat, coniecturaque se ait assequi vita illum <app>
+                        <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M">excessisse</lem>
+                        <rdg wit="#B">excaessisse</rdg>
+                    </app>.</s>
+                <s n="23">Regnavit in Pannoniis annos quatuor et quadraginta, <app>
+                        <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3">quanquam</lem>
+                        <rdg wit="#M">quamquam</rdg>
+                    </app> ducis nomine annos quinque praefuerat exercitui Hunnorum, antequam in
+                    Pannoniis regni diadema <app>
+                        <lem wit="#KK #B #L1 #R #L2 #S1 #S2 #S3 #M">recepisset</lem>
+                        <rdg wit="#P">recaepisset</rdg>
+                        <rdg wit="#Z">recepsisset</rdg>
+                    </app>, fuit corona donatus <app>
+                        <lem wit="#KK #P">ab Hunnorum</lem>
+                        <rdg wit="#B #Z #L1 #R #L2 #S1 #S2 #S3 #M">Hunnorum</rdg>
+                    </app> omnium uno consensu anno ab ortu Iesu Christi CCCC <app>
+                        <lem wit="#KK #P #B #Z #L1 #R #L2 #M">primo</lem>
+                        <rdg wit="#S1 #S2 #S3">I.</rdg>
+                    </app>, ab adventu vero ipsius in Pannonias anno octavo et vicesimo, vitam
+                    perduxit ad annum aetatis centesimum et <app>
+                        <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3">vicesimum</lem>
+                        <rdg wit="#M">vigesimum</rdg>
+                    </app> quartum, qui fuit post perdomitas ab ipso Pannonias annus secundus et
+                    septuagesimus.</s>
+                <s n="24">Sub eo occisa fuisse nonnulli putant undecim illa <app>
+                        <lem wit="#KK #P #B">milia</lem>
+                        <rdg wit="#Z #L1 #R #L2 #S1 #S2 #S3 #M">millia</rdg>
+                    </app> virginum, quarum dux fuit beata Ursula regis <app>
+                        <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #M">Britonum</lem>
+                        <rdg wit="#S2 #S3">Brittonum</rdg>
+                    </app> filia, ab exercitu <app>
+                        <lem wit="#KK #P #B">nanque</lem>
+                        <rdg wit="#Z #L1 #R #L2 #S1 #S2 #S3 #M">namque</rdg>
+                    </app> Hunnorum, qui per id temporis <app>
+                        <lem wit="#KK #P #B #L1 #R #L2 #S1 #S2 #S3 #M">Agrippinam</lem>
+                        <rdg wit="#Z">Agripinam</rdg>
+                    </app> Coloniam obsidebant, interfectae fuere.<app>
+                        <lem wit="#P #Z #L1 #R #L2 #S1 #S2 #S3 #M"/>
+                        <rdg wit="#B"><note type="marginalia">vulgo Cöln dictã</note></rdg>
+                    </app></s>
+                <s n="25">Hunnorum dux erat Romanus quidam Iulius nomine, qui <app>
+                        <lem wit="#KK #P #B #Z #L1 #L2 #M">abalienatus</lem>
+                        <rdg wit="#R #S1 #S2 #S3">alienatus</rdg>
+                    </app>
+                    <app>
+                        <lem wit="#KK #P #B #L1 #L2 #S1 #S2 #S3 #M">a patriae</lem>
+                        <rdg wit="#Z #R">ab patriae</rdg>
+                    </app> charitate defecit ad <app>
+                        <lem wit="#KK #P #B #Z #L1 #R #L2 #M">Atilam</lem>
+                        <rdg wit="#S1">Attilam</rdg>
+                        <rdg wit="#S2 #S3">Attylam</rdg>
+                    </app>.</s>
+                <s n="26">Alii perhibent Hunnos, a quibus <app>
+                        <lem wit="#KK #B #Z #L1 #R #L2">interemptae</lem>
+                        <rdg wit="#P">interepte</rdg>
+                        <rdg wit="#S1 #S2 #S3 #M">interemtae</rdg>
+                    </app> sunt <app>
+                        <lem wit="#KK #B #Z #L1 #R #L2 #S1 #S2 #S3 #M">illae</lem>
+                        <rdg wit="#P">ille</rdg>
+                    </app> virgines, descivisse ab <app>
+                        <lem wit="#KK #P #B #Z #L1 #R #L2 #M">Atila</lem>
+                        <rdg wit="#S1">Attila</rdg>
+                        <rdg wit="#S2 #S3">Attyla</rdg>
+                    </app> ipsosque sub duce Iulio postea militasse atque <app>
+                        <lem wit="#KK #P #B #Z #L1 #R #L2">ita</lem>
+                        <rdg wit="#S1 #S2 #S3 #M"/>
+                    </app> pro Romanis Coloniam, quae defecerat ad <app>
+                        <lem wit="#KK #P #B #Z #L1 #R #L2 #M">Atilam</lem>
+                        <rdg wit="#S1">Attilam</rdg>
+                        <rdg wit="#S2 #S3">Attylam</rdg>
+                    </app>, circumsedisse;</s>
+                <s n="27">propterea traditum esse ab eo, qui scripsit <app>
+                        <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M">beatae Ursulae</lem>
+                        <rdg wit="#B">beate Ursule</rdg>
+                    </app>
+                    <app>
+                        <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M">martyrium</lem>
+                        <rdg wit="#B">martirium</rdg>
+                    </app>, <app>
+                        <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #M">Maximinum</lem>
+                        <rdg wit="#S2 #S3">Maximum</rdg>
+                    </app> Romanorum principem misisse <app>
+                        <lem wit="#KK #P #Z #R">nuncium</lem>
+                        <rdg wit="#B #L1 #L2 #S1 #S2 #S3 #M">nuntium</rdg>
+                    </app> ad Iulium Hunnorum ducem, ut educto contra illam virginum multitudinem
+                    exercitu eas <app>
+                        <lem wit="#KK #P #B #Z #L1 #R #L2">(<app>
+                                <lem wit="#KK #P #B">quom</lem>
+                                <rdg wit="#Z #L1 #R #L2">cum</rdg>
+                            </app>
+                            <app>
+                                <lem wit="#KK #P #B #L1 #R #L2">Roma</lem>
+                                <rdg wit="#Z">Rhoma</rdg>
+                            </app> redeuntes venirent Coloniam)</lem>
+                        <rdg wit="#S1 #S2 #S3 #M">cum Roma redeuntes venirent Coloniam</rdg>
+                    </app> ad unum interficerent.</s>
+                <s n="28">Memorant ipsum <app>
+                        <lem wit="#KK #P #B #Z #L1 #R #L2 #M">Atilam</lem>
+                        <rdg wit="#S1">Attilam</rdg>
+                        <rdg wit="#S2 #S3">Attylam</rdg>
+                    </app> in exercitu suo ex solis Hunnis ad decies centena <app>
+                        <lem wit="#KK #P #B #L1">milia</lem>
+                        <rdg wit="#Z #R #L2 #S1 #S2 #S3 #M">milia</rdg>
+                    </app> armatorum habuisse, ex aliis nationibus supra quingenta <app>
+                        <lem wit="#KK #P #B #L1">milia</lem>
+                        <rdg wit="#Z #R #L2 #S1 #S2 #S3 #M">milia</rdg>
+                    </app>, <app>
+                        <lem wit="#KK #P #B #Z #L1 #R #S1 #S2 #S3 #M">curruum et</lem>
+                        <rdg wit="#L2">curruum ex</rdg>
+                    </app> quibus rerum, quae essent usui necessariae, onera comportarentur, et qui
+                    essent ad rem gerendam idonei, <app>
+                        <lem wit="#KK #P #B #L1">decem milia</lem>
+                        <rdg wit="#Z #R #L2 #S1 #S2 #S3 #M">decem millia</rdg>
+                    </app>.</s>
+                <s n="29">Arma omnis generis ac variae tum <app>
+                        <lem wit="#KK #Z #L1 #R #L2 #S1 #S2 #S3 #M">formae</lem>
+                        <rdg wit="#P #B">forme</rdg>
+                    </app> tum magnitudinis tentoria, <app>
+                        <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M">quaecunque</lem>
+                        <rdg wit="#B">quecunque</rdg>
+                    </app>
+                    <app>
+                        <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M">praeterea</lem>
+                        <rdg wit="#B">preterea</rdg>
+                    </app> essent usui rei <app>
+                        <lem wit="#KK #B #Z #L1 #R #L2 #S1 #S2 #S3 #M">bellicae</lem>
+                        <rdg wit="#P">bellice</rdg>
+                    </app> regalisque luxus splendori et ornamento atque voluptati, <app>
+                        <lem wit="#KK #P #B #Z #L1 #R">precii</lem>
+                        <rdg wit="#L2 #S1 #S2 #S3 #M">pretii</rdg>
+                    </app>
+                    <app>
+                        <lem wit="#KK #P #B #L1 #L2 #S1 #S2 #S3 #M">erant</lem>
+                        <rdg wit="#Z #R">erat</rdg>
+                    </app> prorsus <app>
+                        <lem wit="#KK #P #L1 #R #L2 #S1 #S2 #S3 #M">inaestimabilis</lem>
+                        <rdg wit="#B">inextimabilis</rdg>
+                        <rdg wit="#Z">inestimabilis</rdg>
+                    </app>.</s>
+                <s n="30">Fuerunt, qui arbitrati <app>
+                        <lem wit="#KK #P #B">sint</lem>
+                        <rdg wit="#Z #L1 #R #L2 #S1 #S2 #S3 #M">sunt</rdg>
+                    </app> ipsum in cunctis, <app>
+                        <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M">quae</lem>
+                        <rdg wit="#B">que</rdg>
+                    </app> pertinent ad rei<note type="critic">B desinit, foll. 2 sequentia
+                        deperdita sunt.</note>
+                    <app>
+                        <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M">militaris scientiam,
+                            barbararum gentium omnium duces, qui ante se unquam in orbe fuerunt, et <app>
+                                <lem wit="#KK #P #Z #L1 #R #S1 #S2 #S3 #M">inprimis</lem>
+                                <rdg wit="#L2">imprimis</rdg>
+                            </app>
+                            <app>
+                                <lem wit="#KK #P">Hanibalem</lem>
+                                <rdg wit="#Z #L1 #R #L2 #S1 #S2 #S3 #M">Hannibalem</rdg>
+                            </app> superasse.</lem>
+                        <rdg wit="#B"/>
+                    </app></s>
+                <app>
+                    <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M">
+                        <s n="31">Satis iam de <app>
+                                <lem wit="#KK #P #Z #L1 #R #L2 #M">Atila</lem>
+                                <rdg wit="#S1">Attila</rdg>
+                                <rdg wit="#S2 #S3">Attyla</rdg>
+                            </app>.</s>
+                        <s n="32">Memoranda <app>
+                                <lem wit="#KK #P #L1 #M">hinc</lem>
+                                <rdg wit="#Z #R #L2 #S1 #S2 #S3">hic</rdg>
+                            </app> sunt, quae ipso mortuo Hunnorum tam numeroso exercitui
+                            acciderint, quemadmodum videlicet mutata fortuna totus <app>
+                                <lem wit="#KK #Z #S1 #S2">paene</lem>
+                                <rdg wit="#P #L1 #R #L2 #S3 #M">pene</rdg>
+                            </app> deletus sit.</s>
+                    </lem>
+                    <rdg wit="#B"/>
+                </app></p>
+            </div>
+        </body>
+    </text>
+</TEI>

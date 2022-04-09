@@ -1,0 +1,1812 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" 	schematypens="http://purl.oclc.org/dsdl/schematron"?> <TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Index III.</title>
+                <author>
+                    <persName>Petrus Ransanus</persName>
+                    <idno type="KOHA_AUTH">KOHA:169512</idno>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>digital edition</edition>
+                <respStmt>
+                    <resp>project director</resp>
+                    <persName>
+                        <surname>Palkó</surname>
+                        <forename>Gábor</forename>
+                        <idno type="KOHA_AUTH">KOHA_AUTH:121463</idno>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>TEI-specification</resp>
+                    <persName>
+                    <surname>Fellegi</surname>
+                    <forename>Zsófia</forename>
+                </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>XML-editor</resp>
+                    <persName>
+                        <surname>Tubay</surname>
+                        <forename>Tiziano</forename>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>XML-editor</resp>
+                    <persName>
+                        <surname>Bobák</surname>
+                        <forename>Barbara</forename>
+                    </persName>
+                    
+                </respStmt>
+                <respStmt>
+                    <resp>creator</resp>
+                    <orgName> DigiPhil <ref type="url">http://digiphil.hu</ref>
+                    </orgName>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName>Bölcsészettudományi Kutatóközpont, Irodalomtudományi Intézet</orgName>
+                    <ref type="url">http://viaf.org/viaf/312925875/</ref>
+                    <ref type="url">https://iti.btk.mta.hu/</ref>
+                </publisher>
+                <pubPlace>Budapest <ref type="url">http://www.geonames.org/3054643</ref>
+                </pubPlace>
+                <date>2020</date>
+                <availability>
+                    <p>©Free Access - no-reuse <ref type="url"
+                        >http://www.europeana.eu/rights/rr-f/</ref>
+                    </p>
+                </availability>
+                <idno type="PID">o:ransanus.tei.index.3</idno>
+                <idno type="URL">/o:ransanus.tei.index.3</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Bibliotheca Scriptorum Medii Recentisque Aevorum</title>
+                <respStmt>
+                    <resp>condita a</resp>
+                    <persName>Ladislao Juhász</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>consilium editorium</resp>
+                    <persName>Stephanus Borzsák</persName>
+                    <persName>Ioannes Horváth</persName>
+                    <persName>Tiberius Klaniczay</persName>
+                    <persName>Ladislaus Mezei</persName>
+                    <persName>Gabriel Székely</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>redigit</resp>
+                    <persName>Antonius Pirnát</persName>
+                </respStmt>
+                
+            </seriesStmt>
+            <notesStmt>
+                <note type="critIntro">
+                    <p/>
+                </note>
+                
+            </notesStmt>
+            <sourceDesc>
+                <!--<msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <extent>
+                                    <measure type="quantity" unit="folio"/>
+                                    <dimensions unit="mm">
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </extent>
+                                <condition>
+                                    <p/>
+                                </condition>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                <msDesc>-->
+                <bibl>
+                    <author>
+                        <persName>
+                            <surname>Petrus</surname>
+                            <forename>Ransanus</forename>
+                            <idno type="KOHA_AUTH">KOHA:169512</idno>
+                            <idno type="url"
+                                >http://biblio.digiphil.hu/cgi-bin/koha/opac-authoritiesdetail.pl?authid=96679</idno>
+                            <idno type="VIAF">VIAF:95251869</idno>
+                            <idno type="url">http://viaf.org/viaf/95251869</idno>
+                        </persName>
+                    </author>
+                    <title>Epithoma rerum Hungararum</title>
+                    <title type="sub">Id est annalium omnium temporum liber primus et sexagesimus</title>
+                    <idno type="ISBN">ISBN:9630509946</idno>
+                    <respStmt>
+                        <resp>editor</resp>
+                        <persName>
+                            <surname>Petrus</surname>
+                            <forename>Kulcsár</forename>
+                            <idno type="KOHA_AUTH">KOHA:</idno>
+                        </persName>
+                    </respStmt>
+                    <date>1977</date>
+                    <pubPlace>Budapest</pubPlace>
+                    <publisher>Akadémiai Kiadó</publisher>
+                </bibl>
+                <listWit>
+<witness xml:id="KK">Kritikai kiadás</witness>
+ 
+                    <witness xml:id="P">Petri Ransani Siculi Panormitani episcopi Lucerini annales
+                        omnium temporum. Voll. I–VIII. (Il vol. IV era andato perso.) Manoscritto
+                        rubricato, emendato, scritto dall’autore, facente parte del patrimonio
+                        bibliografico della Biblioteca Comunale di Palermo, sotto il n. 3Qq-C-54–60.
+                        Vol. VIII. (n. 3Qq-C-60) foll. 224v–331r: Annalium omnium temporum libri
+                        XLIII–XLIV.</witness>
+                    <witness xml:id="B">Petri Ransani Siculi theologi atque historici, Lucerini
+                        episcopi annalium omnium temporum liber primus et sexagesimus. Manoscritto
+                        miniato su pergamena, nel patrimonio bibliografico della Biblioteca
+                        Nazionale Széchényi di Budapest, sotto il n. Clmae 249.</witness>
+                    <witness xml:id="Z">Epitome rerum Ungaricarum velut per indices descripta autore
+                        Petro Ramano apud Mathiam regem olim triennium legato nunc primum edita una
+                        cum appendice quadam opera Ioannis Sambuci Tirnaviensis Pannonii. Adiecta
+                        est rerum ad Agriam gestarum anno 1552 brevis eiusdem Sambuci narratio...
+                        Viennae Austriae excudebat Raphael Hofhalter Anno M. D. LVIII. Foll. 4
+                        innum., LXIX num., 1 vac., 14 innum. In 4°, segnature S e c in 6°.</witness>
+                    <witness xml:id="L1">Epitome rerum Hungaricarum velut per indices descripta
+                        auctore Petro Ransano apud Mathiam regem olim regis Neapolitani triennium
+                        legato. Impressum Ternaviae elimatione et relectione Lucae Peechi Pannonii,
+                        M. D. LXXXIX. Foll. 188 innum. In 8°, segnatura (:) in 4°.</witness>
+                    <witness xml:id="R">Rerum Hungaricarum scriptores varii historici, geographici
+                        ex veteribus plerique sed iam fugientibus editionibus revocati, quidam nunc
+                        primum editi... [Ed. Iacobus Bongarsius.] Francofurti, apud heredes Andreae
+                        Wecheli, Clau-dium Marnium et Ioannem Aubrium, M. D. C. In 6°.</witness>
+                    <witness xml:id="L2">Epitome rerum Hungaricarum velut per indices descripta
+                        auctore Petro Ransano Siculo episcopo Lucerino, theologo atque historico,
+                        apud Mathiam regem olim regis Neapolitani per triennium legato, annis ab
+                        hinc C LXVII impressa studio et opera Lucae Pecchi[!] Pannonii, nunc demum
+                        ob eius elegantiam recusa. Budae, typis Veronicae Nottensteinin, 1746. pp.
+                        VIII, 298, foll. 10 innum. In 4°, la segnatura Rr in 3°.</witness>
+                    <witness xml:id="S1">Scriptores rerum Hungaricarum veteres ac genuini, partim
+                        primum ex tenebris eruti, partim antehac quidem editi, nunc vero ex
+                        manuscriptis codicibus et rarissimis editionibus bibliothecae Augustae
+                        Vindobonensis ab innumeris mendis vindicati... cum amplissima praefatione
+                        Matthiae Belii ... cura et studio Ioannis Georgii Schwandtneri ... [Vol. I.]
+                        Impensis Ioannis Pauli Kraus bibliopolae Vindobonensis, M DCC XLVI. In
+                        4°.</witness>
+                    <witness xml:id="S2">Scriptores rerum Hungaricarum veteres ac genuini, partim
+                        primum ex tenebris eruti, partim antehac quidem editi, nunc vero ex
+                        manuscriptis codicibus et rarissimis bibliothecae Augustae Vindobonensis ab
+                        innumeris mendis vindica-ti... cum amplissima praefatione Matthiae Belii,
+                        cura et studio Ioannis Georgii Schwandtneri... Pars prima. Tyrnaviae, typis
+                        Collegii Academici Societatis Iesu, anno MDCCLXV. In 8°.</witness>
+                    <witness xml:id="S3">Scriptores rerum Hungaricarum veteres ac genuini, partim
+                        primum ex tenebris eruti, partim antehac quidem editi, nunc vero ex
+                        manuscriptis codicibus et rarissimis editionibus bibliothecae Augustae
+                        Vindobonensis ab innumeris mendis vindicati... cum amplissima praefatione
+                        Mathiae Belii, cura et studio Ioannis Georgii Schwandtneri... et Mariae
+                        Theresiae augustae honoribus dicati a ... Antonio Brunsvick . . . Anno
+                        Salutis MDCCLXVI. Pars prima. Vindobonae, typis Ioannis Thomae nobilis de
+                        Trattnern...</witness>
+                    <witness xml:id="M">Historiae Hungaricae fontes domestici. Vol. IV. Chronica
+                        minora... Petri Ransani epitome rerum Hungaricarum. Recensuit... M.
+                        Florianus. Auspiciis et sumptibus Academiae Scientiarum Hungaricae.
+                        Budapestini 1885. (Quinque-Ecclesiis, typis Michaelis Taizs.) In
+                        8°.</witness>
+                    <witness xml:id="T1">F[erdinando] A[ttilio] Termini: Pietro Ransano umanista palermitano del sec. XV. (con ritratto.) Palermo 1915. In 8°. (Index III. 69–89: pp. 179–180.)</witness>
+                    <witness xml:id="T2">Huszti József: Angelus Callimachus Siculus költeménye Báthori Miklós-hoz. In: Magyar Könyvszemle. A Magyar Nemzeti Múzeum Országos Széchényi Könyvtárának közlönye. Új folyam XXXVI. köt. Budapest 1929. pp. 9–14. (Index III. 69–89)</witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="la"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>krónika</term>
+                </keywords>
+            </textClass>
+            <creation>
+                <date from="1490" to="1492"/>
+            </creation>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <head type="title"><app>
+                        <lem wit="#KK #M #T1 #T2">Index III.</lem>
+                        <rdg wit="#P #Z #R">Index II.</rdg>
+                        <rdg wit="#B">Index tertius</rdg>
+                        <rdg wit="#S1 #L2">Index III., <app>
+                                <lem wit="#L1">in</lem>
+                                <rdg wit="#L2"/>
+                            </app> quo Danubius depingitur</rdg>
+                        <rdg wit="#S1 #S2 #S3">Index II. de Danubii fluminis origine et
+                            decursu</rdg>
+                    </app></head>
+                <p>
+                <app>
+                    <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3 #M">
+                        <s n="1">﻿Ita <app>
+                                <lem wit="#KK #P">descripta Pannonia</lem>
+                                <rdg wit="#B #Z #L1 #R #L2 #S1 #S2 #S3 #M">descriptis
+                                    Pannoniis</rdg>
+                            </app>
+                            <app>
+                                <lem wit="#KK #P">atque ostensa Pannoniae Hungariaeque nominis
+                                    origine ad Danubii descriptionem hinc nos conferamus, id enim
+                                    narrandarum a me rerum ordo postulat.</lem>
+                                <rdg wit="#B #Z #L1 #R #L2 #S1 #S2 #S3 #M"/>
+                            </app></s>
+                        <s n="2"><app>
+                                <lem wit="#KK #P">Nam</lem>
+                                <rdg wit="#B #Z #L1 #R #L2 #S1 #S2 #S3 #M"/>
+                            </app>
+                            <app>
+                                <lem wit="#KK #P">quom</lem>
+                                <rdg wit="#B #Z #L1 #R #L2 #S1 #S2 #S3 #M">cum</rdg>
+                            </app> supra multis in locis meminerim Danubii, qui fluvius est omnium,
+                            qui sunt in tota Europa, clarissimus <app>
+                                <lem wit="#KK #P #B">immo</lem>
+                                <rdg wit="#Z #L1 #R #L2 #S1 #S2 #S3 #M">imo</rdg>
+                            </app> omnium, qui sunt in toto orbe terrarum <app>
+                                <lem wit="#KK #P #B #Z #L1 #R #L2">(<app>
+                                        <lem wit="#KK #P #Z #L1 #R #L2">praeter</lem>
+                                        <rdg wit="#B">preter</rdg>
+                                    </app> Gangem et Nilum)</lem>
+                                <rdg wit="#S1 #S2 #S3 #M">praeter Gangem et Nilum</rdg>
+                            </app>, <app>
+                                <lem wit="#KK #B #Z #L1 #R #L2 #S1 #S2 #S3 #M">ut <app>
+                                        <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3"
+                                            >nonnulli</lem>
+                                        <rdg wit="#M">nonnulll</rdg>
+                                    </app> scriptores affirmant</lem>
+                                <rdg wit="#P"><add type="insert" place="margin">ut nonnulli
+                                        scriptores affirmant</add></rdg>
+                            </app>, <app>
+                                <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M">maximus</lem>
+                                <rdg wit="#B"><del>maximis</del>maximus</rdg>
+                            </app>, non erit <app>
+                                <lem wit="#KK #P #B #Z #L1 #R #L2 #M">ab re</lem>
+                                <rdg wit="#S1 #S2 #S3">abs re</rdg>
+                            </app>, si ipsum <app>
+                                <lem wit="#KK #P #B #L1 #L2">quoque hoc loco</lem>
+                                <rdg wit="#Z #R #S1 #S2 #S3 #M">hoc loco quoque</rdg>
+                            </app> descripsero.</s>
+                        <s n="3">Huic amni duo nomina veteres indidere, quod <app>
+                                <lem wit="#KK #P #B #L1">perquam</lem>
+                                <rdg wit="#Z #R #S1 #S2 #S3 #M">quam</rdg>
+                                <rdg wit="L2">perque</rdg>
+                            </app> paucis expressit de Ponto libro secundo Ovidius his verbis:
+                            vicina <app>
+                                <lem wit="#KK #P #B #Z #R #L2 #S1 #S2 #S3 #M">binominis</lem>
+                                <rdg wit="#L1">binonimis</rdg>
+                            </app> Istri.<note type="critic" corresp="RKK">3 = Ovidius: Epistulae ex
+                                Ponto 1.8.11: „urbs ripae vicina binominis Istri“.</note></s>
+                        <s n="4"><app>
+                                <lem wit="#KK #P #B">Nanque</lem>
+                                <rdg wit="#Z #L1 #R #L2 #S1 #S2 #S3 #M">Namque</rdg>
+                            </app>
+                            <app>
+                                <lem wit="#KK #B #Z #L1 #R #L2 #S1 #S2 #S3 #M">a loco</lem>
+                                <rdg wit="#P">ad a loco</rdg>
+                            </app> sui ortus ad magna multarum regionum, per quas labitur,
+                            intervalla Danubium ipsum appellaverunt, a locis autem vicinis mari
+                            Pontico, in quod influit, cognominaverunt eum Istrum ab Istria, <app>
+                                <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M">quae regio</lem>
+                                <rdg wit="#B">que regio</rdg>
+                            </app>
+                            <app>
+                                <lem wit="#KK #P #L1 #L2">quaedam</lem>
+                                <rdg wit="#B">quedam</rdg>
+                                <rdg wit="#Z #R #S1 #S2 #S3 #M">quidem</rdg>
+                            </app> olim fuit iuxta Pontum, quam tenuerant coloni Milesiorum, ut
+                            proditum est ab Herodoto historiarum libro <app>
+                                <lem wit="#KK #P">II</lem>
+                                <rdg wit="#B #Z #L1 #R #L2 #S1 #S2 #S3 #M">secundo</rdg>
+                            </app>.<note type="critic" corresp="RKK">4 = Strabo 7.3.8.</note></s>
+                        <s n="5">Fuerunt nihilominus, qui <app>
+                                <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M">tradiderunt</lem>
+                                <rdg wit="#B">tradiderint</rdg>
+                            </app>, in <app>
+                                <lem wit="#KK">quis</lem>
+                                <rdg wit="#L2 #M">queis</rdg>
+                                <rdg wit="#S1 #S2 #S3">quibus</rdg>
+                            </app> est Plinius, ipsum Istri nomen accipere in locis, in quibus
+                            incipit <app>
+                                <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M">Illyricum</lem>
+                                <rdg wit="#B">Illiricum</rdg>
+                            </app> attingere, utpote haud procul a Bebiis montibus, quibus dirimitur
+                            inferior Pannonia ab ipsa <app>
+                                <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M">Illyride</lem>
+                                <rdg wit="#B">Illiride</rdg>
+                            </app> iuxta <app>
+                                <lem wit="#KK">Ptolemaei</lem>
+                                <rdg wit="#P">Ptolemei</rdg>
+                                <rdg wit="#B #L1 #L2">Ptolomei</rdg>
+                                <rdg wit="#Z #R #S1 #S2 #S3 #M">Ptolomaei</rdg>
+                            </app> descriptionem.<note type="critic" corresp="RKK">5 Cf. Plinius
+                                4.12, Ptolemaeus 2.14.1.</note></s>
+                        <s n="6">At vero <app>
+                                <lem wit="#KK">Ptolemaeus</lem>
+                                <rdg wit="#P">Ptolemeus</rdg>
+                                <rdg wit="#B #L1 #L2">Ptolomeus</rdg>
+                                <rdg wit="#Z #R #S1 #S2 #S3 #M">Ptolomaeus</rdg>
+                            </app> ipse ait <app>
+                                <lem wit="#KK #P #B #Z #R #L2 #S1 #S2 #S3 #M">appellari</lem>
+                                <rdg wit="#L1">apellari</rdg>
+                            </app> Istrum a loco, ubi est Axium civitas inferioris <app>
+                                <lem wit="#KK #P #L1 #L2">Misiae</lem>
+                                <rdg wit="#B">Misie</rdg>
+                                <rdg wit="#Z #R">Maesiae</rdg>
+                                <rdg wit="#S1 #S2 #S3 #M">Moesiae</rdg>
+                            </app> penes Danubium posita, unde <app>
+                                <lem wit="#KK #P">is</lem>
+                                <rdg wit="#B"><del>his</del>hic</rdg>
+                                <rdg wit="#Z #L1 #R #L2 #S1 #S2 #S3 #M">hic</rdg>
+                            </app> amnis incipit labi in orientem, donec perveniat ad urbem <app>
+                                <lem wit="#KK #P #B #L1 #L2 #S1 #S2 #S3 #M">Dinogetiam</lem>
+                                <rdg wit="#Z #R">Dniogetiam</rdg>
+                            </app>, a quo loco convertitur in meridiem, et ad eam plagam in mare
+                            exit Ponticum.<note type="critic" corresp="RKK">6 = Ptolemaeus
+                                3.10.2.</note></s>
+                        <s n="7">Oritur <app>
+                                <lem wit="#KK #P #B">(teste Plinio Naturalis <app>
+                                        <lem wit="#KK">historiae</lem>
+                                        <rdg wit="#P #B">historie</rdg>
+                                    </app> libro <app>
+                                        <lem wit="#KK #P">IIII.</lem>
+                                        <rdg wit="#B">quarto</rdg>
+                                    </app>)</lem>
+                                <rdg wit="#Z #L1 #R #L2 #S1 #S2 #S3 #M">teste Plinio Naturalis
+                                    historiae quarto</rdg>
+                            </app>, <app>
+                                <lem wit="#KK #P #B #Z #L1 #R #L2">idemque</lem>
+                                <rdg wit="#S1 #S2 #S3 #M">idemque<add type="insert"> in</add></rdg>
+                            </app> suis tabulis ostendit <app>
+                                <lem wit="#KK #Z">Ptolemaeus</lem>
+                                <rdg wit="#P">Ptolemeus</rdg>
+                                <rdg wit="#B #L2">Ptolomeus</rdg>
+                                <rdg wit="#L1 #R #S1 #S2 #S3 #M">Ptolomaeus</rdg>
+                            </app>, in Germaniae iugis montis <app>
+                                <lem wit="#KK #P">Arnobae</lem>
+                                <rdg wit="#B #Z #L1 #R #L2 #M">Arnobe</rdg>
+                                <rdg wit="#S1 #S2 #S3">Anobae</rdg>
+                            </app> ex adverso <app>
+                                <lem wit="#KK #P #B #Z #R #M">Raurici</lem>
+                                <rdg wit="#L1 #L2">Rarici</rdg>
+                                <rdg wit="#S1 #S2 #S3">Rauraci</rdg>
+                            </app>, quod fuit olim Gallorum oppidum.</s>
+                        <s n="8">Hodie ab eius fonte <app>
+                                <lem wit="#KK #P #B #Z #R #S1 #S2 #S3 #M">XL</lem>
+                                <rdg wit="#L1 #L2">XI</rdg>
+                            </app> ferme milia <app>
+                                <lem wit="#KK #S1 #S2 #S3 #M">passuum</lem>
+                                <rdg wit="#P #B #Z #L1 #R #L2"/>
+                            </app> intervallo sita tamen ad ipsius fluvii ripam distat Ulma nobilis <app>
+                                <lem wit="#KK #P">Germanorum civitas</lem>
+                                <rdg wit="#B #Z #L1 #R #L2 #S1 #S2 #S3 #M">civitas Germanorum</rdg>
+                            </app>.</s>
+                        <s n="9">Labitur multis ultra alpes <app>
+                                <lem wit="#KK #P #B">milibus</lem>
+                                <rdg wit="#Z #L1 #R #L2 #S1 #S2 #S3 #M">millibus</rdg>
+                            </app> sed primum quidem septentrionem deinde meridiem versus per <app>
+                                <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #M">innumeras</lem>
+                                <rdg wit="#S2 #S3">numeras</rdg>
+                            </app> gentes.</s>
+                        <s n="10">Linquit autem <app>
+                                <lem wit="#KK #P">primum</lem>
+                                <rdg wit="#B #Z #L1 #R #L2 #S1 #S2 #S3 #M"/>
+                            </app> a sinistris Germanos, a dextris <app>
+                                <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M">Teutones</lem>
+                                <rdg wit="#B"><del>Tutones</del>Teutones</rdg>
+                            </app> et eas gentes, <app>
+                                <lem wit="#KK #P #B #Z #R">quos</lem>
+                                <rdg wit="#L1 #L2 #S1 #S2 #S3 #M">quas</rdg>
+                            </app> vetustas <app>
+                                <lem wit="#KK #P">nominat</lem>
+                                <rdg wit="#B #Z #L1 #R #L2 #S1 #S2 #S3 #M">nominavit</rdg>
+                            </app> Vindelicos et Noricos, <app>
+                                <lem wit="#KK #P">nostri autem saeculi homines</lem>
+                                <rdg wit="#B #Z #L1 #R #L2 #S1 #S2 #S3 #M"/>
+                            </app> Suevos, Bavaros, Austrienses, deinde a <app>
+                                <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M">dextris</lem>
+                                <rdg wit="#B">destris</rdg>
+                            </app> quidem habens Pannonias ac totam superiorem magnamque partem
+                            inferioris <app>
+                                <lem wit="#KK #P #B #M">Misiae</lem>
+                                <rdg wit="#Z">Maesiae</rdg>
+                                <rdg wit="#L1 #L2">Mysiae</rdg>
+                                <rdg wit="#R">Mesiae</rdg>
+                                <rdg wit="#S1 #S2 #S3">Moesiae</rdg>
+                            </app>, a sinistris vero <app>
+                                <lem wit="#KK #P #B #Z #L1 #R #S1 #S2 #S3">Iaziges</lem>
+                                <rdg wit="#L2 #M">Iazyges</rdg>
+                            </app>
+                            <app>
+                                <lem wit="#KK #P #B">Matanastas</lem>
+                                <rdg wit="#Z #R #S1 #S2 #S3 #M">Metanastas</rdg>
+                                <rdg wit="#L1 #L2">Maetanastas</rdg>
+                            </app>, talibus enim nominibus eos appellavit antiquitas, <app>
+                                <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M">Daciam</lem>
+                                <rdg wit="#B">Datiam</rdg>
+                            </app>
+                            <app>
+                                <lem wit="#KK #P #Z #L1 #L2 #S1 #S2 #S3 #M">praeterea</lem>
+                                <rdg wit="#B">preterea</rdg>
+                                <rdg wit="#R">praetetea</rdg>
+                            </app> et partem quandam <app>
+                                <lem wit="#KK #P">Misiae</lem>
+                                <rdg wit="#B">Misie</rdg>
+                                <rdg wit="#Z #R">Maesiae</rdg>
+                                <rdg wit="#L1 #L2">Mysiae</rdg>
+                                <rdg wit="#S1 #S2 #S3 #M">Moesiae</rdg>
+                            </app> inferioris, <app>
+                                <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M">quae</lem>
+                                <rdg wit="#B">que</rdg>
+                            </app> hodie dicitur Bulgaria, longissimo peracto cursu septemque
+                            divisus <app>
+                                <lem wit="#KK #P #B #Z #L1 #R #M">hostiis</lem>
+                                <rdg wit="#L2 #S1 #S2 #S3">ostiis</rdg>
+                            </app>, ut Solinus ait, ut autem Plinius <app>
+                                <lem wit="#KK">Ptolemaeusque</lem>
+                                <rdg wit="#P">Ptolemeusque</rdg>
+                                <rdg wit="#B #L1 #L2">Ptolomeusque</rdg>
+                                <rdg wit="#Z #R #S1 #S2 #S3 #M">Ptolomaeusque</rdg>
+                            </app> auctores sunt, sex in mare Ponticum defluit.</s>
+                        <s n="11">Sed et placet <app>
+                                <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3">afferre</lem>
+                                <rdg wit="#B"><del>afferere</del>afferre</rdg>
+                                <rdg wit="#M">adferre</rdg>
+                            </app>, quae de eius ortu <app>
+                                <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3">atque</lem>
+                                <rdg wit="#M">et</rdg>
+                            </app> vocabulis magnitudineque ac <app>
+                                <lem wit="#KK #P #B #Z #R #S1 #S2 #S3 #M">decursu</lem>
+                                <rdg wit="#L1 #L2">de cursu</rdg>
+                            </app> Pomponius <app>
+                                <lem wit="#KK #P #B #L1 #L2">Mella</lem>
+                                <rdg wit="#Z #R #S1 #S2 #S3 #M">Mela</rdg>
+                            </app> paucissimis prodidit his verbis:<note type="critic" corresp="RKK"
+                                >7–11 Cf. Plinius 4.12, Ptolemaeus 2.11.7, 3.8.3, 8.7.1–2, Solinus
+                                23 (fol. 38r): „Ister... Septem ostiis Pontum influit.“</note></s>
+                        <s n="12">Ille fluvius, qui Scythiae populos a sequentibus dirimit, apertis
+                            in Germania fontibus alio, quam desinit, nomine exoritur, nam per
+                            immania <app>
+                                <lem wit="#KK #P #B #Z #L1 #R #L2">multarum</lem>
+                                <rdg wit="#S1 #S2 #S3 #M">magnarum</rdg>
+                            </app> gentium diu Danubius est, deinde aliter appellantibus accolis
+                            Ister fit, <app>
+                                <lem wit="#KK #Z #R #L2 #S1 #S2 #S3 #M">acceptisque</lem>
+                                <rdg wit="#P">accaeptisque</rdg>
+                                <rdg wit="#B">acceptstisque</rdg>
+                                <rdg wit="#L1">accepistisque</rdg>
+                            </app> aliquot amnibus ingens iam et eorum, qui in nostrum decidunt
+                            mare, tantum Nilo minor totidem <app>
+                                <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3">ille</lem>
+                                <rdg wit="#M"/>
+                            </app>
+                            <app>
+                                <lem wit="#KK #P #B #Z #L1 #R #M">hostiis</lem>
+                                <rdg wit="#L2 #S1 #S2 #S3">ostiis</rdg>
+                            </app>, sed tribus tenuibus, <app>
+                                <lem wit="#KK #B #M">ceteris</lem>
+                                <rdg wit="#P #Z #L1 #R #L2 #S1 #S2 #S3">caeteris</rdg>
+                            </app> navigabilibus in mare Ponticum <app>
+                                <lem wit="#KK #B #L1 #L2 #S1 #S2 #S3 #M">effluit</lem>
+                                <rdg wit="#P"><del>deffluit</del>effluit</rdg>
+                                <rdg wit="#Z #R">efluit</rdg>
+                            </app>.<note type="critic" corresp="RKK">12 = Mela 2.1. – <hi
+                                    rend="italic">in mare Ponticum</hi> cf. Index III.4.</note></s>
+                        <s n="13">Sed magis particulatim demonstranda res est.</s>
+                        <s n="14">Oritur fonte mediocri, <app>
+                                <lem wit="#KK #P #B #L1 #L2">mox</lem>
+                                <rdg wit="#Z #R #S1 #S2 #S3 #M"/>
+                            </app>
+                            <app>
+                                <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M">accessu</lem>
+                                <rdg wit="#B">accaessu</rdg>
+                            </app> multorum amnium exauctus brumalem orientem versus magnis
+                            voluminibus <app>
+                                <lem wit="#KK #P #B #Z #R #S1 #S2 #S3">spaciatur</lem>
+                                <rdg wit="#L1 #L2 #M">spatiatur</rdg>
+                            </app> patentibus <app>
+                                <lem wit="#KK #P">magna</lem>
+                                <rdg wit="#B #Z #L1 #R #L2 #S1 #S2 #S3 #M">maxima</rdg>
+                            </app> ex parte campis, quoad attingit urbem Budam nostro tempore dictam
+                            sed Bledam olim appellatam, a Bleda fratre <app>
+                                <lem wit="#KK #B #Z #L1 #R #L2">Atilae</lem>
+                                <rdg wit="#P #M">Atile</rdg>
+                                <rdg wit="#S1">Attilae</rdg>
+                                <rdg wit="#S2 #S3">Attylae</rdg>
+                            </app> regis antiquissimi Pannoniae conditam et nunc regni Hungarorum
+                            sede clarissimam, hinc ad meridiem tendens labitur semper
+                                angustior.<note type="critic" corresp="RKK">14 Bleda a Bleda – cf.
+                                Index V.12.</note></s>
+                        <s n="15">At ubi per aliquot passuum <app>
+                                <lem wit="#KK #P #B">milia</lem>
+                                <rdg wit="#Z #L1 #R #L2 #S1 #S2 #S3 #M">millia</rdg>
+                            </app> infra urbem, quam vocant Quinqueecclesias, Dravum excipit et
+                            ipsum quidem insignem fluvium, iterum cursum ad <app>
+                                <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S3">hyemalem</lem>
+                                <rdg wit="#S2">hyemaem</rdg>
+                                <rdg wit="#M">hiemalem</rdg>
+                            </app> ortum dirigit, <app>
+                                <lem wit="#KK #P">Vlacumque</lem>
+                                <rdg wit="#B">Vilacumque</rdg>
+                                <rdg wit="#Z #L1 #R #L2 #S1 #S2 #S3 #M">Villacumque</rdg>
+                            </app>
+                            <app>
+                                <lem wit="#KK #P #B #Z #L1 #R #S1 #S2 #S3 #M">ac</lem>
+                                <rdg wit="#L2">et</rdg>
+                            </app>
+                            <app>
+                                <lem wit="#KK #P #B">Batiam</lem>
+                                <rdg wit="#Z #L1 #R #L2 #M">Vatiam</rdg>
+                                <rdg wit="#S1 #S2 #S3">Vaciam</rdg>
+                            </app> et alia nonnulla clara Hungarorum praeterlabitur oppida, donec
+                            apud Taurinum <app>
+                                <lem wit="#KK #P #B #Z #L1 #R #L2 #M">Tribalorum</lem>
+                                <rdg wit="#S1 #S2 #S3">Triballorum</rdg>
+                            </app> olim emporium, quod hodie dicitur Belgradum, <app>
+                                <lem wit="#KK #P #L2 #M">Tibisco</lem>
+                                <rdg wit="#B #Z #L1 #R #S1 #S2 #S3">Tybisco</rdg>
+                            </app> amne ex <app>
+                                <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3"><app>
+                                        <lem wit="#KK #P #B #Z #R #L2 #S1 #S2 #S3 #M"
+                                            >Scythicis</lem>
+                                        <rdg wit="#L1">Schythicis</rdg>
+                                    </app> montibus</lem>
+                                <rdg wit="#M">Scythicis montibus</rdg>
+                            </app>
+                            <app>
+                                <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M">recepto</lem>
+                                <rdg wit="#B">recaepto</rdg>
+                            </app> Savo flumini <app>
+                                <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M">commiscetur</lem>
+                                <rdg wit="#B">conmiscetur</rdg>
+                            </app>.</s>
+                        <s n="16">Hic relicta Pannonia <app>
+                                <lem wit="#KK #P #B">Misiam</lem>
+                                <rdg wit="#Z #R">Maesiam</rdg>
+                                <rdg wit="#L1 #L2">Mysiam</rdg>
+                                <rdg wit="#S1 #S2 #S3 #M">Moesiam</rdg>
+                            </app> dextra <app>
+                                <lem wit="#KK #P #B #Z #L1 #R #L2 #M">(ut ante dictum est)</lem>
+                                <rdg wit="#S1 #S2 #S3">ut ante dictum est</rdg>
+                            </app> pertingens <app>
+                                <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3">paulatim</lem>
+                                <rdg wit="#M"/>
+                            </app> ad aestivum ortum instar pelagi tacitus perfluit.<note
+                                type="critic" corresp="RKK">16 <hi rend="italic">ut ante dictum
+                                    est</hi> cf. Index III.10.</note></s>
+                        <s n="17">Multis in locis flectitur saepeque terras vel <app>
+                                <lem wit="#KK #P #B #Z #R #S1 #M">perrumpens</lem>
+                                <rdg wit="#L1 #L2">praerumpens</rdg>
+                                <rdg wit="#S2 #S3">perumpens</rdg>
+                            </app> vel altius <app>
+                                <lem wit="#KK #P">summovens</lem>
+                                <rdg wit="#B #Z #L1 #R #L2 #S1 #S2 #S3 #M">submovens</rdg>
+                            </app> ad Nicopolim tandem evadit, oppidum <app>
+                                <lem wit="#KK #P #Z #R #L2 #S1 #S2 #S3 #M"/>
+                                <rdg wit="#B"><del>Heracilii</del>Heraclii</rdg>
+                                <rdg wit="#L1">Heracly</rdg>
+                            </app> imperatoris victoria et morte filii <app>
+                                <lem wit="#KK #S1 #S2 #S3">Cosdruae</lem>
+                                <rdg wit="#P #B #Z #L1 #R #L2 #M">Cosdrue</rdg>
+                            </app> regis <app>
+                                <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M">Persarum</lem>
+                                <rdg wit="#B">Parsarum</rdg>
+                            </app> nobile.</s>
+                        <s n="18">Ex eo loco deflectitur in <app>
+                                <lem wit="#KK #P #B">nothum</lem>
+                                <rdg wit="#Z #L1 #R #L2 #S1 #S2 #S3 #M">notum</rdg>
+                            </app> in vicinum procul dubio casurus Euxinum Pontum apud Mesemuriam, <app>
+                                <lem wit="#KK #B #Z #R #S1 #S2 #S3 #M">ni</lem>
+                                <rdg wit="#P #L1 #L2">in</rdg>
+                            </app> vastis montium lateribus prohibitus attingere Thraciam, ab
+                            Asprocastro oppido viam in septentrionem deflectere compelleretur.</s>
+                        <s n="19">Quam viam multis <app>
+                                <lem wit="#KK #P #B">milibus</lem>
+                                <rdg wit="#Z #L1 #R #L2 #S1 #S2 #S3 #M">millibus</rdg>
+                            </app> passuum emensus, ubi primum <app>
+                                <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M">obices</lem>
+                                <rdg wit="#B"><del>obiices</del><add type="corr" place="margin"
+                                        >obices</add></rdg>
+                            </app> montium ipsum a pelago arcentes pervincere potuit, in patentes
+                            excurrens campos inter Ripensem <app>
+                                <lem wit="#KK #P #Z #R #L2 #S1 #S2 #S3 #M">Daciam</lem>
+                                <rdg wit="#B #L1">Datiam</rdg>
+                            </app>, <app>
+                                <lem wit="#KK #P #B #L1 #L2">quae</lem>
+                                <rdg wit="#Z #R #S1 #S2 #S3 #M"/>
+                            </app>
+                            <app>
+                                <lem wit="#KK #P #L2">Valacchia</lem>
+                                <rdg wit="#B #Z #R #S1 #S2 #S3 #M">Vallacchia</rdg>
+                                <rdg wit="#L1">Valachia</rdg>
+                            </app> hodie dicitur, et inferiorem <app>
+                                <lem wit="#KK #P #B">Misiam</lem>
+                                <rdg wit="#Z #R">Maesiam</rdg>
+                                <rdg wit="#L1 #L2">Mysiam</rdg>
+                                <rdg wit="#S1 #S2 #S3 #M">Moesiam</rdg>
+                            </app>
+                            <app>
+                                <lem wit="#KK #P #B #Z #L1 #R #M">hostiis</lem>
+                                <rdg wit="#L2 #S1 #S2 #S3">ostiis</rdg>
+                            </app>, quorum numerus supra explicatus est, in Pontum evolvitur.<note
+                                type="critic" corresp="RKK">19 <hi rend="italic">inter Ripensem
+                                    Daciam... in Pontum evolvitur</hi> cf. Index III.10.</note></s>
+                        <s n="20">In mare autem ipsum influens octo efficit ingentes insulas, septem
+                            in itinere derelinquit, duas videlicet in Germaniae Pannoniaeque
+                            finibus, totidem apud Strigonium Pannoniae metropolim, unam infra Budam,
+                            alteram apud Belgradum, tertiam omnium maximam apud Ripensem Daciam, <app>
+                                <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3">quanquam</lem>
+                                <rdg wit="#M">quamquam</rdg>
+                            </app> aliis multis in locis scissus alias multas parvulas insulas
+                            efficit.</s>
+                        <s n="21">Totus eius decursus frequentibus vicis celebrisque nominis oppidis
+                            utraque ripa exornatus <app>
+                                <lem wit="#KK #P #B #Z #L1 #L2 #S1 #S2 #S3 #M">mille et
+                                    quadringentis</lem>
+                                <rdg wit="#R">1400</rdg>
+                            </app>
+                            <app>
+                                <lem wit="#KK #M">milia</lem>
+                                <rdg wit="#P #B #Z #L1 #R #L2 #S1 #S2 #S3"/>
+                            </app>
+                            <app>
+                                <lem wit="#KK #P #B #Z #L1 #L2 #S1 #S2 #S3 #M">passibus</lem>
+                                <rdg wit="#R">passisibus</rdg>
+                            </app> protenditur.</s>
+                        <s n="22">Toto autem eo <app>
+                                <lem wit="#KK #P #B #Z #L1 #R #M">spacio</lem>
+                                <rdg wit="#L2 #S1 #S2 #S3">spatio</rdg>
+                            </app>
+                            <app>
+                                <lem wit="#KK #P #B #Z #L1 #L2 #M">quatuor et sexaginta</lem>
+                                <rdg wit="#R">64</rdg>
+                                <rdg wit="#S1 #S2 #S3">sexaginta quatuor</rdg>
+                            </app> haud ignobilia <app>
+                                <lem wit="#KK #P #B #Z #L1 #L2 #S1 #S2 #S3 #M">flumina</lem>
+                                <rdg wit="#R">flumlna</rdg>
+                            </app> in ipsum labuntur, nec tot solum verum etiam alia omnia parum
+                            celebria flumina, <app>
+                                <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M">quae, sicut</lem>
+                                <rdg wit="#B">que, sicut</rdg>
+                            </app> illa nobilia, cadunt et a Noricis et ab Illyricis montibus, <app>
+                                <lem wit="#KK #P #B #Z #R #L2 #S1 #S2 #S3 #M">quaeque</lem>
+                                <rdg wit="#L1">quequae</rdg>
+                            </app> e <app>
+                                <lem wit="#KK #P #B">Misia</lem>
+                                <rdg wit="#Z #R">Maesia</rdg>
+                                <rdg wit="#L1 #L2">Mysia</rdg>
+                                <rdg wit="#S1 #S2 #S3 #M">Moesia</rdg>
+                            </app> ac Dacia et <app>
+                                <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3">a</lem>
+                                <rdg wit="#M"/>
+                            </app>
+                            <app>
+                                <lem wit="#KK #P #B #Z #L1 #L2 #S1 #S2 #S3 #M">Scythicis</lem>
+                                <rdg wit="#R">Scyticis</rdg>
+                            </app> regionibus meridiem versus decurrunt<app>
+                                <lem wit="#KK #P #B #Z #L1 #L2 #M">, ideoque impurus ac <app>
+                                        <lem wit="#KK #B #Z #L1 #L2 #M">minime</lem>
+                                        <rdg wit="#P"><del><add type="insert">tu</add></del><note
+                                                type="critic">addit et del.</note></rdg>
+                                    </app> nitidus sed turbidus limosusque fluit</lem>
+                                <rdg wit="#R #S1 #S2 #S3"/>
+                            </app>.</s>
+                        <s n="23">Patet compluribus in locis latitudine plus quam <app>
+                                <lem wit="#KK #P #B #L1 #L2">mille</lem>
+                                <rdg wit="#Z #R #S1 #S2 #S3 #M">millibus</rdg>
+                            </app> passibus, multis in locis ad ducentos pedes altus, piscium varii
+                            ut generis ita et magnitudinis feracissimus.</s>
+                        <s n="24">Totus fere navigabilis <app>
+                                <lem wit="#KK #P #B #Z #L1 #L2 #S2 #S3 #M">hyeme</lem>
+                                <rdg wit="#R #S1">hieme</rdg>
+                            </app>
+                            <app>
+                                <lem wit="#KK #Z #L1 #R #L2 #S1 #S2 #S3 #M">excepta</lem>
+                                <rdg wit="#P #B">excaepta</rdg>
+                            </app>, eo <app>
+                                <lem wit="#KK #P #B">nanque</lem>
+                                <rdg wit="#Z #L1 #R #L2 #S1 #S2 #S3 #M">namque</rdg>
+                            </app> tempore tam alta tamque potenti <app>
+                                <lem wit="#KK #P #B #Z #R #L2 #S1 #S2 #S3 #M">glacie</lem>
+                                <rdg wit="#L1">glaciae</rdg>
+                            </app>
+                            <app>
+                                <lem wit="#KK #B #Z #L1 #R #L2 #S1 #S2 #S3 #M">persaepe</lem>
+                                <rdg wit="#P">persepe</rdg>
+                            </app> solidatur, ut quam gravissimis curribus maximisque exercitibus
+                            tuto transire liceat.<note type="critic" corresp="RKK">24 Cf.
+                                Aristoteles: De mirabilibus auscultationibus 168: „Rhenus et
+                                Ister... aestate alveum habent navigabilem, hyeme vero frigore
+                                concreti velut campi equis calcantur.“ (Ed. cit. vol.
+                                IV.106.)</note></s>
+                        <s n="25">Aristoteles <app>
+                                <lem wit="#KK">Meteurorum</lem>
+                                <rdg wit="#B"><note type="critic">corr. in</note>Meteororum</rdg>
+                                <rdg wit="#Z #L1 #R #L2">Metaeororum</rdg>
+                                <rdg wit="#S1 #S2 #S3 #M">Meteororum</rdg>
+                            </app> libro secundo ait huius amnis singula ora tanta esse, ut ab ipsis <app>
+                                <lem wit="#KK #P #M">ad sexaginta</lem>
+                                <rdg wit="#B #Z #L1 #R #L2 #S1 #S2 #S3">a sexaginta</rdg>
+                            </app>
+                            <app>
+                                <lem wit="#KK #P #B #L1 #L2">milia</lem>
+                                <rdg wit="#Z #R #S1 #S2 #S3 #M">millia</rdg>
+                            </app> passuum <app>
+                                <lem wit="#KK #P #B #Z #L1">longitudinem</lem>
+                                <rdg wit="#R #L2 #S1 #S2 #S3 #M">longitudine</rdg>
+                            </app> mare vincatur.<note type="critic" corresp="RKK">25 Nomen
+                                Aristotelis rectius ad sent. 24. refert.</note></s>
+                        <s n="26">Urbes autem et oppida, quae <app>
+                                <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M">ad eius</lem>
+                                <rdg wit="#B"><del>ab eius</del>ad eius</rdg>
+                            </app> ripas a locis fonti propinquis usque ad <app>
+                                <lem wit="#KK #P #B #Z #L1 #R #M">hostia</lem>
+                                <rdg wit="#L2 #S1 #S2 #S3">ostia</rdg>
+                            </app> illa vel sex vel septem, de quibus supra est iam habita mentio, <app>
+                                <lem wit="#KK #P #B #Z #L1 #R #S1 #S2 #S3 #M">posita</lem>
+                                <rdg wit="#L2">proposita</rdg>
+                            </app> sunt, enumerare difficile est.<note type="critic" corresp="RKK"
+                                >26 <hi rend="italic">supra est iam habita mentio</hi> cf. Index
+                                III.10.</note></s>
+                        <s n="27">Quorum tamen est fama celebrior, quantum ad meam potuit pervenire <app>
+                                <lem wit="#KK #P #L1">noticiam</lem>
+                                <rdg wit="#B #Z #R #L2 #S1 #S2 #S3 #M">notitiam</rdg>
+                            </app>, prout <app>
+                                <lem wit="#KK #Z #L1 #R #L2 #S1 #S2 #S3 #M">accepi</lem>
+                                <rdg wit="#P #B">accaepi</rdg>
+                            </app> a locorum peritis, <app>
+                                <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M">haec</lem>
+                                <rdg wit="#B">hec</rdg>
+                            </app> sunt:<note type="critic" corresp="RKK">27 <hi rend="italic"
+                                    >accepi a locorum peritis</hi> cf. Index II.38.</note></s>
+                        <s n="28">Sub Ulma, de qua urbe est iam facta mentio, ad XII ferme passuum <app>
+                                <lem wit="#KK #P #B">milia</lem>
+                                <rdg wit="#Z #L1 #R #L2 #S1 #S2 #S3 #M">millia</rdg>
+                            </app> est oppidum nomine Leipham.<note type="critic" corresp="RKK">28
+                                    <hi rend="italic">est iam facta mentio</hi> cf. Index
+                                III.8.</note></s>
+                        <s n="29">Utor <app>
+                                <lem wit="#KK #P #B #Z #R #S1 #S2 #S3 #M">enim et</lem>
+                                <rdg wit="#L1 #L2">enim</rdg>
+                            </app> vocabulis et <app>
+                                <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #M">literatura</lem>
+                                <rdg wit="#S3">litteratura</rdg>
+                            </app>, quibus utuntur accolae eorum, <app>
+                                <lem wit="#KK #P">Germanica</lem>
+                                <rdg wit="#B #Z #L1 #R #L2 #S1 #S2 #S3 #M">Germana</rdg>
+                            </app> lingua.</s>
+                        <s n="30">Sub eo ad X milia passuum Gundelfing, sub quo ad duo milia passuum <app>
+                                <lem wit="#KK #P #B #Z #L1 #R #L2">Lauuginghe</lem>
+                                <rdg wit="#S1 #S2 #S3 #M">Lauginghe</rdg>
+                            </app>, inde ad V milia passuum abest Tilinghen, <app>
+                                <lem wit="#KK #S1 #M">postea intervallo V milia passuum</lem>
+                                <rdg wit="#P #B #Z #L1 #R #L2">postea intervallo V milia</rdg>
+                                <rdg wit="#S2 #S3">postea intervallo V passuum milia</rdg>
+                            </app>
+                            <app>
+                                <lem wit="#KK">Hechsteten</lem>
+                                <rdg wit="#Z #L1 #R #S1 #S2 #S3 #M">Hechstetten</rdg>
+                                <rdg wit="#L2">Ho&#868;chstetten<!-- <g>o felett emeletes e</g> --></rdg>
+                            </app>, <app>
+                                <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S3 #M">cuius</lem>
+                                <rdg wit="#S2">euius</rdg>
+                            </app> nominis significatio est alta civitas, sub ea ad milia passuum X <app>
+                                <lem wit="#KK #P #B #L1 #L2">Schvebeschwerd</lem>
+                                <rdg wit="#Z #R #M">Schvebeschwerdt</rdg>
+                                <rdg wit="#S1 #S2 #S3">Schvebischwerdt</rdg>
+                            </app>, <app>
+                                <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M">quae</lem>
+                                <rdg wit="#B">que</rdg>
+                            </app>
+                            <app>
+                                <lem wit="#KK #P #B #L2 #M">interpretatur</lem>
+                                <rdg wit="#Z #R #S1 #S2 #S3">interpretantur</rdg>
+                                <rdg wit="#L1">interpraetatur</rdg>
+                            </app>
+                            <app>
+                                <lem wit="#KK">Schvevae</lem>
+                                <rdg wit="#P">Schveve</rdg>
+                                <rdg wit="#B #Z #L1 #R #L2 #S1 #S2 #S3 #M">Schveva</rdg>
+                            </app> peninsula.</s>
+                        <s n="31">Ea omnia loca ab ipso Danubii fonte hucusque pertinent ad
+                            regionem, quam antiquitas appellavit Vindeliciam, quae cum sit <app>
+                                <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M">Rhetiae</lem>
+                                <rdg wit="#B">Rhetie</rdg>
+                            </app> contermina, fit, ut utraque in unam <app>
+                                <lem wit="#KK #P #B #Z #R #S1 #S2 #S3 #M">coeant</lem>
+                                <rdg wit="#L1 #L2">coeat</rdg>
+                            </app> provinciam, quam hodie appellant <app>
+                                <lem wit="#KK #P #B #L1 #R #L2 #S1 #S2 #S3">Sueviam</lem>
+                                <rdg wit="#Z #M">Schueviam</rdg>
+                            </app>.</s>
+                        <s n="32">Vindeliciam perhibent Germani dictam a duobus fluviis in Danubium
+                            labentibus, quorum alter licet nominetur <app>
+                                <lem wit="#KK #P #B">Licus</lem>
+                                <rdg wit="#Z #L1 #R #L2 #S1 #S2 #S3 #M">Lycus</rdg>
+                            </app>, vulgo tamen apud eam nationem Lech <app>
+                                <lem wit="#KK #P #Z #L1 #R #L2">pronunciatur</lem>
+                                <rdg wit="#B #S1 #S2 #S3 #M">pronuntiatur</rdg>
+                            </app>, alter amnis dicitur vulgo et Vertach et Vinda, quod vocabulum
+                            gentis lingua a vulgo <app>
+                                <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #M">Finda</lem>
+                                <rdg wit="#S2 #S3">Finga</rdg>
+                            </app> profertur, ex utroque <app>
+                                <lem wit="#KK #P #B #L1 #L2">igitur</lem>
+                                <rdg wit="#Z #R #S1">itaque</rdg>
+                                <rdg wit="#S2 #S3 #M"/>
+                            </app> nomine, hoc est Vinda et <app>
+                                <lem wit="#KK #P #B">Licus</lem>
+                                <rdg wit="#Z #L1 #R #L2 #S1 #S2 #S3 #M">Lycus</rdg>
+                            </app>, deductum est vocabulum, quod est Vindelicia.</s>
+                        <s n="33">In ea regione cum sit Augusta clarissima totius <app>
+                                <lem wit="#KK #Z #L1 #R #L2 #S1 #S2 #S3 #M">provinciae</lem>
+                                <rdg wit="#P #B">provincie</rdg>
+                            </app> metropolis, fit, ut ea civitas Augusta Vindelica <app>
+                                <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M">cognominetur</lem>
+                                <rdg wit="#B">cognomietur</rdg>
+                            </app>, illius nobile nomen satis indicat eam fuisse ab aliquo Romanorum
+                            imperatore conditam, quisnam autem fuerit ille, ignorare plane me
+                            fateor, <app>
+                                <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3">quanquam</lem>
+                                <rdg wit="#M">quamquam</rdg>
+                            </app>
+                            <app>
+                                <lem wit="#KK #P #L1 #R #L2 #S1 #S2 #S3 #M">plerique</lem>
+                                <rdg wit="#B"><del>plerisque</del>plerique</rdg>
+                                <rdg wit="#Z">plaerique</rdg>
+                            </app> Germanorum <app>
+                                <lem wit="#KK #P #B #Z #R #L2 #S1 #S2 #S3 #M">nimium</lem>
+                                <rdg wit="#L1">nimiñ</rdg>
+                            </app> vetera repetentes in Octavium Augustum illius referant
+                            conditionem.</s>
+                        <s n="34">Incipit inde regio Noricum a veteribus, nostris vero temporibus
+                            cognominata Bavaria, <app>
+                                <lem wit="#KK">ceterum</lem>
+                                <rdg wit="#P #B #Z #R">caeterum</rdg>
+                                <rdg wit="#L1 #L2">caeteri</rdg>
+                            </app> nonnulli Germani periti locorum aiunt Noricam provinciam in duas
+                            dividi portiones, in superiorem et inferiorem, et in illa quidem esse
+                            Bavariam, in hac <app>
+                                <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3">vero</lem>
+                                <rdg wit="#M"/>
+                            </app> Austriam.</s>
+                        <s n="35">Primum igitur ad ipsum superius <app>
+                                <lem wit="#KK #P #M">pertinens</lem>
+                                <rdg wit="#B #Z #L1 #R #L2 #S1 #S2 #S3"/>
+                            </app> Noricum penesque Danubium positum oppidum nuncupatur <app>
+                                <lem wit="#KK #P #B #L1 #L2">Nouburch</lem>
+                                <rdg wit="#Z #R #M">Nouburgh</rdg>
+                                <rdg wit="#S1 #S2 #S3">Neuburgh</rdg>
+                            </app>, quod abest ab ea, cuius est mentio facta, peninsula milia
+                            passuum XXV.<note type="critic" corresp="RKK">35 <hi rend="italic">est
+                                    mentio facta</hi> cf. Index III.30.</note></s>
+                        <s n="36">Postea <app>
+                                <lem wit="#KK #P #B #Z #R #S1 #S2 #S3 #M">XX milia</lem>
+                                <rdg wit="#L1 #L2">milia XX</rdg>
+                            </app> passuum <app>
+                                <lem wit="#KK #P #B #L1 #L2 #S1 #S2 #S3 #M">intervallo</lem>
+                                <rdg wit="#Z #R">intervallum</rdg>
+                            </app> est <app>
+                                <lem wit="#KK #P">Inghelstavia</lem>
+                                <rdg wit="#B">Inghelstadia<note>p. corr.</note></rdg>
+                                <rdg wit="#Z #L1 #R #L2 #S1 #S2 #S3 #M">Inghelstadia</rdg>
+                            </app> studiis liberalium disciplinarum inclyta civitas Auriapolis
+                            antiquitus dicta.</s>
+                        <s n="37">Inde haud procul abest <app>
+                                <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3">parvula</lem>
+                                <rdg wit="#M">parva</rdg>
+                            </app> peninsula nomine <app>
+                                <lem wit="#KK #P">Fogburh</lem>
+                                <rdg wit="#B #Z #L1 #R #L2 #M">Fogburgh</rdg>
+                                <rdg wit="#S1 #S2 #S3">Fohburgh</rdg>
+                            </app>, ubi est arx munitissima, ex quo loco ortum habuere Bavarorum
+                            marchiones, modico ab eo intervallo distat oppidum, quod vocitant <app>
+                                <lem wit="#KK #P #B">Kelham</lem>
+                                <rdg wit="#Z #L1 #R #S1 #S2 #S3 #M">Kelhem</rdg>
+                                <rdg wit="#L2">Kelheim</rdg>
+                            </app>.</s>
+                        <s n="38">Sub quo <app>
+                                <lem wit="#KK #P #B #Z #R #S1 #M">Reghensburgh</lem>
+                                <rdg wit="#L1 #L2 #S3">Reghenspurgh</rdg>
+                                <rdg wit="#S2">Reghenshurgh</rdg>
+                            </app>, quae civitas vulgatissimo nomine dicitur <app>
+                                <lem wit="#KK #P #B #Z #L1 #R #S1 #S2 #S3 #M">Ratispona</lem>
+                                <rdg wit="#L2">Ratisbona</rdg>
+                            </app>, episcopatu Alberti Magni olim clarissima propter viri doctrinam
+                            vitaeque sanctitatem et apud philosophos auctoritatem illustrem, distat
+                            autem ab <app>
+                                <lem wit="#KK #P #B">Inghelstavia</lem>
+                                <rdg wit="#Z #R">Ingelstadia</rdg>
+                                <rdg wit="#L1 #L2 #S1 #S2 #S3 #M">Inghelstadia</rdg>
+                            </app>, cuius modo meminimus, milia passuum ferme XL.<note type="critic"
+                                corresp="RKK">38 <hi rend="italic">modo meminimus</hi> cf. Index
+                                III.36.</note></s>
+                        <s n="39"><app>
+                                <lem wit="#KK #P #B #Z #L1 #R #S1 #S2 #S3 #M">Ratisponae</lem>
+                                <rdg wit="#L2">Ratisbonae</rdg>
+                            </app> multa esse indita nomina <app>
+                                <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M">indigenae</lem>
+                                <rdg wit="#B">indigene</rdg>
+                            </app> affirmant.</s>
+                        <s n="40">Quadratam quippe ab eorum maioribus eo dictam ipsam dicunt, vel
+                            quod eius murus <app>
+                                <lem wit="#KK #B #Z #L1 #R #L2 #S1 #S2 #S3 #M">quadrato</lem>
+                                <rdg wit="#P">quadratus</rdg>
+                            </app> sit structus saxo, vel quod in quadrati forma fuerit a conditore
+                            aedificata.</s>
+                        <s n="41"><app>
+                                <lem wit="#KK #P #B #Z #L1 #R #L2 #M">Tyberinam</lem>
+                                <rdg wit="#S1 #S2 #S3">Tiberinam</rdg>
+                            </app> a <app>
+                                <lem wit="#KK #P #B #Z #L1 #R #L2 #M">Tyberio</lem>
+                                <rdg wit="#S1 #S2 #S3">Tiberio</rdg>
+                            </app>, ex quo tempore gessit adversus <app>
+                                <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3">Rhetios</lem>
+                                <rdg wit="#M">Rhaetios</rdg>
+                            </app> et Vindelicos bellum, Hiataspolim <app>
+                                <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3">ab Hiataso</lem>
+                                <rdg wit="#M">a Hiataso</rdg>
+                            </app>, qui dux ei civitati olim imperavit, Regenopolim a flumine Regen
+                            appellato, quod modico ab ea urbe intervallo labitur in Danubium, <app>
+                                <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M">praeterea</lem>
+                                <rdg wit="#B">preterea</rdg>
+                            </app> Imbripolim ab eodem flumine, cui Imbri quoque est nomen.</s>
+                        <s n="42">Nomen autem eiusdem civitatis vulgatissimum nonnulli indigenarum
+                            scribunt per p <app>
+                                <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #M">literam</lem>
+                                <rdg wit="#S3">litteram</rdg>
+                            </app>, alii per b scribendum malunt.</s>
+                        <s n="43">Duplicem igitur esse volunt eius nominis <app>
+                                <lem wit="#KK #P #B #Z #R #L2 #S1 #S2 #S3 #M">interpretationem</lem>
+                                <rdg wit="#L1">interpraetationem</rdg>
+                            </app>, <app>
+                                <lem wit="#KK #P #B">nanque</lem>
+                                <rdg wit="#Z #L1 #R #L2 #S1 #S2 #S3 #M">namque</rdg>
+                            </app> Ratisponam dictam volunt propter lapideum et <app>
+                                <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M">eximiae</lem>
+                                <rdg wit="#B">eximie</rdg>
+                            </app> magnitudinis pontem supra Danubium, qui urbem ipsam interfluit,
+                            miro structum artificio, dici itaque <app>
+                                <lem wit="#KK #B #Z #L1 #S1 #S2 #S3 #M">perhibent</lem>
+                                <rdg wit="#P #R #L2">perhibet</rdg>
+                            </app> Ratisponam, quod eo in loco per pontem non minus quam per ratem
+                            tutus ac facilis sit euntium atque venientium transitus.</s>
+                        <s n="44">Qui vero <app>
+                                <lem wit="#KK #P">dicendum</lem>
+                                <rdg wit="#B"><del>dicendi</del>dicere</rdg>
+                                <rdg wit="#Z #L1 #R #L2 #S1 #S2 #S3 #M">dicere</rdg>
+                            </app> malunt <app>
+                                <lem wit="#KK #P #B #Z #L1 #R #L2 #S2 #S3 #M">Ratisbonam</lem>
+                                <rdg wit="#S1">Ratisponam</rdg>
+                            </app>, hi vocabulum ipsum <app>
+                                <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #M">ratem</lem>
+                                <rdg wit="#S3">ratam</rdg>
+                            </app> bonam interpretantur, idque propterea quod non mediocris
+                            concursus <app>
+                                <lem wit="#KK #S1 #S2 #S3 #M">ratium</lem>
+                                <rdg wit="#P #B #Z #L1 #R #L2">ratum</rdg>
+                            </app>
+                            <app>
+                                <lem wit="#KK #P #B #Z #R #S1 #S2 #S3 #M">ac</lem>
+                                <rdg wit="#L1 #L2">et</rdg>
+                            </app> navium est ad eam urbem mercimonii gratia, <app>
+                                <lem wit="#KK #P #B">ea</lem>
+                                <rdg wit="#Z #L1 #R #L2 #S1 #S2 #S3 #M">ibi</rdg>
+                            </app> vero hominum frequentiam maximam iam olim fuisse <app>
+                                <lem wit="#KK #P #S1 #S2 #S3 #M">Ratisponenses</lem>
+                                <rdg wit="#B #Z #R">Ratiponenses</rdg>
+                                <rdg wit="#L1 #L2">Ratisbonenses</rdg>
+                            </app> ferunt, cum esset <app>
+                                <lem wit="#KK #P">is</lem>
+                                <rdg wit="#B #Z #L1 #R #L2 #S1 #S2 #S3 #M">hic</rdg>
+                            </app> locus nobile totius regionis <app>
+                                <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M">emporium</lem>
+                                <rdg wit="#B">emperium</rdg>
+                            </app>.</s>
+                        <s n="45">Sub ea urbe ad milia passuum V arx est rebus omnibus munitissima
+                            Stauf nomine, ad milia <app>
+                                <lem wit="#KK #P #B #Z #L1 #R #S1 #S2 #S3 #M">dehinc</lem>
+                                <rdg wit="#L2">deinde</rdg>
+                            </app> passuum XXV <app>
+                                <lem wit="#KK #P #Z #R">Strauubingh</lem>
+                                <rdg wit="#B">Stauubingh </rdg>
+                                <rdg wit="#L1">Stanubingh </rdg>
+                                <rdg wit="#L2 #S1 #S2 #S3 #M">Straubingh</rdg>
+                            </app>, sub ea ad <app>
+                                <lem wit="#KK #S1 #S2 #S3 #M">XX milia</lem>
+                                <rdg wit="#P #B #Z #L1 #R #L2">XX</rdg>
+                            </app> passuum <app>
+                                <lem wit="#KK #P #Z #L1 #R #L2 #M">Tekendorf</lem>
+                                <rdg wit="#B">Tekcndors</rdg>
+                                <rdg wit="#S1 #S2 #S3">Dekendorf</rdg>
+                            </app>, <app>
+                                <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3">inde ad</lem>
+                                <rdg wit="#M">inde</rdg>
+                            </app>
+                            <app>
+                                <lem wit="#KK #P #B #Z #R #L2 #S1 #S2 #S3 #M">totidem</lem>
+                                <rdg wit="#L1">tottidem</rdg>
+                            </app>
+                            <app>
+                                <lem wit="#KK #P #B #L1">milia</lem>
+                                <rdg wit="#Z #R #L2 #S1 #S2 #S3 #M">millia</rdg>
+                            </app>
+                            <app>
+                                <lem wit="#KK #P #B">Filzhovem</lem>
+                                <rdg wit="#Z #L1 #R #L2 #S1 #S2 #S3 #M">Filzhoven</rdg>
+                            </app>.</s>
+                        <s n="46">Inde ad tot altera <app>
+                                <lem wit="#KK #P #B">milia</lem>
+                                <rdg wit="#Z #L1 #R #L2 #S1 #S2 #S3 #M">millia</rdg>
+                            </app> Passau, quae Latino verbo dicitur Patavia ab Italo Patavio <app>
+                                <lem wit="#KK #P #B #Z #L1 #R #L2 #M">(ut <app>
+                                        <lem wit="#KK #P #Z #L1 #R #L2 #M">perhibent</lem>
+                                        <rdg wit="#B">peribent</rdg>
+                                    </app> accolae)</lem>
+                                <rdg wit="#S1 #S2 #S3">ut perhibent accolae</rdg>
+                            </app> cognominata, posteri <app>
+                                <lem wit="#KK #P #B #L1">nanque</lem>
+                                <rdg wit="#Z #R #L2 #S1 #S2 #S3 #M">namque</rdg>
+                            </app>
+                            <app>
+                                <lem wit="#KK #P #B">Anthenoris</lem>
+                                <rdg wit="#Z #L1 #R #L2 #S1 #S2 #S3 #M">Antenoris</rdg>
+                            </app> feruntur ipsam condidisse, ut <app>
+                                <lem wit="#KK #P #B #L1 #L2 #S1 #S2 #S3 #M">plerique</lem>
+                                <rdg wit="#Z #R">plaerique</rdg>
+                            </app> Germanorum <app>
+                                <lem wit="#KK #P #B #Z #L1 #R #L2">astruunt</lem>
+                                <rdg wit="#S1 #S2 #S3 #M">adstruunt</rdg>
+                            </app>.</s>
+                        <s n="47">Est totius <app>
+                                <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3">Austriae</lem>
+                                <rdg wit="#M">Bavariae</rdg>
+                            </app> metropolis clarissima, vetustissimam eam esse asserunt <app>
+                                <lem wit="#KK #B #Z #L1 #R #L2 #S1 #S2 #S3 #M">indigenae</lem>
+                                <rdg wit="#P">indigene</rdg>
+                            </app>.</s>
+                        <s n="48">Tres in ipsam influunt amnes, <app>
+                                <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M">Enus</lem>
+                                <rdg wit="#B"><del>Enpus</del>Enus</rdg>
+                            </app>, Ilzt, Danubius, quibus ipsa in <app>
+                                <lem wit="#KK #P #B">tris</lem>
+                                <rdg wit="#Z #L1 #R #L2 #S1 #S2 #S3 #M">tres</rdg>
+                            </app> est divisa partes.</s>
+                        <s n="49">Sub ea ad totidem milia passuum intervallum <app>
+                                <lem wit="#KK #P #B">Zel</lem>
+                                <rdg wit="#Z #L1 #R #L2 #S1 #S2 #S3 #M">Zell</rdg>
+                            </app>, cuius oppidi agro terminatur Bavaria.</s>
+                        <s n="50">Principium deinde est Norici inferioris, quod a nonnullis dicitur
+                            Noricum Ripense, ab aliis Austria superior, a quibusdam terra supra <app>
+                                <lem wit="#KK #P">Anisum</lem>
+                                <rdg wit="#B">Anasum<note>p. corr.</note></rdg>
+                                <rdg wit="#Z #R #L2 #S1 #S2 #S3 #M">Anasum</rdg>
+                                <rdg wit="#L1">Amasum</rdg>
+                            </app> fluvium, <app>
+                                <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3">quanquam</lem>
+                                <rdg wit="#M">quamquam</rdg>
+                            </app> est et <app>
+                                <lem wit="#KK #P">Anisum</lem>
+                                <rdg wit="#B">et Anasum<note>p. corr.</note></rdg>
+                                <rdg wit="#Z #L1 #R #L2 #S1 #S2 #S3 #M">Anasum</rdg>
+                            </app> archiepiscopali sede insignis civitas, quod Laureacum olim
+                            appellatum est.</s>
+                        <s n="51">Huius regionis prius <app>
+                                <lem wit="#KK #P #B #Z #R #S1 #S2 #S3 #M">occurrens</lem>
+                                <rdg wit="#L1 #L2">accurrens</rdg>
+                            </app> oppidum dicitur <app>
+                                <lem wit="#KK #P #B">Linz</lem>
+                                <rdg wit="#Z #L1 #R #L2 #S1 #S2 #S3 #M">Lintz</rdg>
+                            </app>, quod abest ab urbe Vienna centum ferme passuum milia.</s>
+                        <s n="52">Intra quod intervallum sita sunt haec oppida in hunc ordinem: <app>
+                                <lem wit="#KK #P #B #Z #L1 #R #L2 #M">Grain</lem>
+                                <rdg wit="#S1 #S2 #S3">Crain</rdg>
+                            </app>, Ens, quod et Anasum, de qua civitate modo mentio facta est, <app>
+                                <lem wit="#KK #P #B #Z #L1 #R #S1 #S2 #S3 #M">Pechlern</lem>
+                                <rdg wit="#L2">Pechlarn</rdg>
+                            </app>, id est praeclara, in cuius fronte ex altera Danubii ripa positum
+                            est <app>
+                                <lem wit="#KK #P #B #Z #R #S1 #S2 #S3 #M">Alt Pechlern</lem>
+                                <rdg wit="#L1">Altpechlerẽ</rdg>
+                                <rdg wit="#L2">Altpechlarn</rdg>
+                            </app>, cuius vocabuli significantia est <app>
+                                <lem wit="#KK #P #B #L1 #R #L2 #S1 #S2 #S3 #M">antiquum</lem>
+                                <rdg wit="#Z">antiqum</rdg>
+                            </app> praeclarum, <app>
+                                <lem wit="#KK #P #B #Z #L1 #R #M">Melch</lem>
+                                <rdg wit="#L2">Melck</rdg>
+                                <rdg wit="#S1 #S2 #S3">Mölck</rdg>
+                            </app>, <app>
+                                <lem wit="#KK #P #B #Z #R #S1 #S2 #S3 #M">Neuburgh</lem>
+                                <rdg wit="#L1 #L2">Neuburg</rdg>
+                            </app>, <app>
+                                <lem wit="#KK #P #B">Spiz</lem>
+                                <rdg wit="#Z #L1 #R #L2 #S1 #S2 #S3 #M">Spitz</rdg>
+                            </app>, <app>
+                                <lem wit="#KK #P #B #Z #R #M">Tirenstan</lem>
+                                <rdg wit="#L1 #L2 #S1 #S2 #S3">Tirenstain</rdg>
+                            </app>, <app>
+                                <lem wit="#KK #P #B #Z #L1 #R #M">Stan</lem>
+                                <rdg wit="#L2">Stein</rdg>
+                                <rdg wit="#S1 #S2 #S3">Stain</rdg>
+                            </app>, Crems, contra quod ex altera fluvii parte situm est <app>
+                                <lem wit="#KK #P #B #Z #L1 #R #L2 #M">Mauter</lem>
+                                <rdg wit="#S1 #S2 #S3">Mautern</rdg>
+                            </app>.<note type="critic" corresp="RKK">52 <hi rend="italic">modo
+                                    mentio facta est</hi> cf. Index III.50.</note></s>
+                        <s n="53">Sub Crems Tulna, postea <app>
+                                <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #M">Closter</lem>
+                                <rdg wit="#S2">C oster</rdg>
+                                <rdg wit="#S3">Coster</rdg>
+                            </app>, id est Claustralis <app>
+                                <lem wit="#KK #P #B #Z #L1 #R #M">Nauburgh</lem>
+                                <rdg wit="#L2">Neuburg</rdg>
+                                <rdg wit="#S1 #S2 #S3">Neuburgh</rdg>
+                            </app>, cum ibi sit nobile canonicorum regularium monasterium, ubi
+                            conditum est sancti Leopoldi corpus.</s>
+                        <s n="54">Ex loci huius conspectu trans eundem amnem <app>
+                                <lem wit="#KK #P">situm</lem>
+                                <rdg wit="#B #Z #L1 #R #L2 #S1 #S2 #S3 #M">situm<add type="insert">
+                                        est</add></rdg>
+                            </app>
+                            <app>
+                                <lem wit="#KK #P">Carnnauburgh</lem>
+                                <rdg wit="#B #Z #R">Cornnauburgh</rdg>
+                                <rdg wit="#L1">Cornnauburg</rdg>
+                                <rdg wit="#L2">Cornneuburg</rdg>
+                                <rdg wit="#S1 #S2 #S3">Corn-neuburgh</rdg>
+                                <rdg wit="#M">Cornauburgh</rdg>
+                            </app>, id est <app>
+                                <lem wit="#KK #P #B #Z #R #M">Forensis Nauburgh</lem>
+                                <rdg wit="#L1">Forensis Nauburg</rdg>
+                                <rdg wit="#L2">Forensis Neuburg</rdg>
+                                <rdg wit="#S1 #S2 #S3">Forensis Neuburgh</rdg>
+                            </app>, ita nominatum, quod is locus <app>
+                                <lem wit="#KK #P #B #L1 #L2">forum sit</lem>
+                                <rdg wit="#Z #R #S1 #S2 #S3 #M">sit forum</rdg>
+                            </app> rerum venalium.</s>
+                        <s n="55">Inde ad milia passuum ferme V est Vienna totius non modo
+                            superioris verum etiam inferioris Austriae clarissimi nominis urbs, quae
+                            olim <app>
+                                <lem wit="#KK #P #B #Z #L1 #L2 #S1 #S2 #S3 #M">Flavianum</lem>
+                                <rdg wit="#R">Flavionum</rdg>
+                            </app> nuncupata est, satis <app>
+                                <lem wit="#KK #P #B #L1 #L2">iam sit</lem>
+                                <rdg wit="#Z #R #S1 #S2 #S3 #M">sit iam</rdg>
+                            </app>
+                            <app>
+                                <lem wit="#KK #P #B #Z #L1 #R #S1 #S2 #S3 #M">haec de ipsa</lem>
+                                <rdg wit="#L2">de ipsa haec</rdg>
+                            </app> nunc attigisse, suo <app>
+                                <lem wit="#KK #P #B">nanque</lem>
+                                <rdg wit="#Z #L1 #R #L2 #S1 #S2 #S3 #M">namque</rdg>
+                            </app> loco de tanta urbe multa mentione digna memoranda mihi sunt.</s>
+                        <s n="56">Principium ab ea <app>
+                                <lem wit="#KK #P #B #Z #R #S1 #S2 #S3 #M">fit</lem>
+                                <rdg wit="#L1 #L2">sit</rdg>
+                            </app> Austriae inferioris, quae ibi desinit, unde superior incipit
+                            Pannonia.</s>
+                        <s n="57">Sub Vienna ad milia passuum octo <app>
+                                <lem wit="#KK #P #B">Encisfor</lem>
+                                <rdg wit="#Z #R">Encisford</rdg>
+                                <rdg wit="#L1 #S1 #S2 #S3 #M">Encisdorf</rdg>
+                                <rdg wit="#L2">Enzersdorff</rdg>
+                            </app>, a quo haud procul abest <app>
+                                <lem wit="#KK #P #B">Fischenmud</lem>
+                                <rdg wit="#Z #R">Fischemũnd</rdg>
+                                <rdg wit="#L1 #L2">Fischeamend</rdg>
+                                <rdg wit="#S1 #S2 #S3">Fischemund</rdg>
+                                <rdg wit="#M">Fischemünd</rdg>
+                            </app>, sub quo ad XII milia passuum Petronella, quae ob magnitudinem
+                            appellata olim fuit Troia Minor ab indigenis, appellata <app>
+                                <lem wit="#KK">quoque fuit</lem>
+                                <rdg wit="#L1 #L2">quoque</rdg>
+                            </app> et <app>
+                                <lem wit="#KK #P">Celeia</lem>
+                                <rdg wit="#B #Z #L1 #R #L2 #S1 #S2 #S3 #M">Celetia</rdg>
+                            </app> et Celectum, hodie licet iaceat <app>
+                                <lem wit="#KK #P #B">(diruta nanque fuerunt eius aedificia bello
+                                    gesto a Mathia Hungarorum rege adversus Federicum Romanorum
+                                    imperatorem)</lem>
+                                <rdg wit="#Z #L1 #R #L2 #S1 #S2 #S3 #M">diruta <app>
+                                        <rdg wit="#L1">nanque</rdg>
+                                        <rdg wit="#Z #R #L2 #S1 #S2 #S3 #M">namque</rdg>
+                                    </app> fuerunt eius aedificia bello gesto a <app>
+                                        <rdg wit="#Z #L1 #R #L2 #S2 #M">Mathia</rdg>
+                                        <rdg wit="#S1 #S3">Matthia</rdg>
+                                    </app> Hungarorum rege adversus <app>
+                                        <rdg wit="#Z #R">Federicum</rdg>
+                                        <rdg wit="#L1 #L2">Fridericum</rdg>
+                                        <rdg wit="#S1 #S2 #S3 #M">Fredericum</rdg>
+                                    </app> Romanorum imperatorem</rdg>
+                            </app>, semper tamen erit illustris ortu sancti Maximiliani Pataviensis
+                            antistitis.</s>
+                        <s n="58">Sub ea ad milia passuum VIII <app>
+                                <lem wit="#KK #P">Haenburgh</lem>
+                                <rdg wit="#B"><del>Hahenburgh</del>Hainburgh</rdg>
+                                <rdg wit="#Z #R #M">Humburgh</rdg>
+                                <rdg wit="#L1 #L2">Hamburgh</rdg>
+                                <rdg wit="#S1 #S2 #S3">Haimburgh</rdg>
+                            </app>, quod designat castellum Hunnorum.</s>
+                        <s n="59">In hoc tantum loco remansit Hunnae gentis nomen, quod olim fuerat
+                            terrori universis orbis <app>
+                                <lem wit="#KK #P #B #Z #L1 #R #S1 #S2 #S3 #M">terrae</lem>
+                                <rdg wit="#L2"/>
+                            </app> nationibus.</s>
+                        <s n="60">Eius autem castelli agro Austria dirimitur a Pannonia, illic enim
+                            desinunt Norici montes, quibus Pannoniam ipsam ab occidente terminari <app>
+                                <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3">nos</lem>
+                                <rdg wit="#M"/>
+                            </app>
+                            <app>
+                                <lem wit="#KK #P #B #Z #R #L2 #S1 #S2 #S3 #M">supra</lem>
+                                <rdg wit="#L1">supta</rdg>
+                            </app> ostendimus.<note type="critic" corresp="RKK">60 <hi rend="italic"
+                                    >supra ostendimus</hi> cf. Index II.5.</note></s>
+                        <s n="61">Licet enim montes, ad quorum radices situm est <app>
+                                <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3">id</lem>
+                                <rdg wit="#M"/>
+                            </app> oppidum, non sint nimiae <app>
+                                <lem wit="#KK #Z #L1 #R #L2 #S1 #S2 #S3 #M">excelsitatis</lem>
+                                <rdg wit="#P #B">excaelsitatis</rdg>
+                            </app>, protenduntur tamen intra occidentem et aquilonem, quousque se <app>
+                                <lem wit="#KK #P #B #Z #R #L2 #S1 #S2 #S3 #M">coniungant</lem>
+                                <rdg wit="#L1">coniugant</rdg>
+                            </app> Noricis aliis, qui sunt illis <app>
+                                <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M">excelsiores</lem>
+                                <rdg wit="#B">excaelsiores</rdg>
+                            </app>.</s>
+                        <s n="62">Ex pertinentibus autem ad Pannoniam, seu malueris dicere
+                            Hungariam, primum <app>
+                                <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3">omnium</lem>
+                                <rdg wit="#M"/>
+                            </app> occurrit Posonium a sinistra fluvii <app>
+                                <lem wit="#KK"><app>
+                                        <lem wit="#KK #P">editoque</lem>
+                                        <rdg wit="#B">aeditoque</rdg>
+                                    </app><app>
+                                        <lem wit="#KK #P"> in loco</lem>
+                                        <rdg wit="#B"/>
+                                    </app></lem>
+                                <rdg wit="#Z #L1 #R #L2 #S1 #S2 #S3 #M"/>
+                            </app> positum oppidum, quod <app>
+                                <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3">pulchritudine</lem>
+                                <rdg wit="#M">pulcritudine</rdg>
+                            </app> arceque loci natura atque opere munitissima insigne admodum est,
+                            et <app>
+                                <lem wit="#KK #P #L1 #S3">distat ab</lem>
+                                <rdg wit="#B #Z #R #L2 #S1 #S2 #M">distat a</rdg>
+                            </app>
+                            <app>
+                                <lem wit="#KK #P #B">Haenburgh</lem>
+                                <rdg wit="#Z #R #M">Humburgh</rdg>
+                                <rdg wit="#L1 #L2">Hamburgh</rdg>
+                                <rdg wit="#S1 #S2 #S3">Haimburgh</rdg>
+                            </app> VIII milia passuum.</s>
+                        <s n="63">Inde ad <app>
+                                <lem wit="#KK #P #S1 #S2 #S3 #M">milia passuum X</lem>
+                                <rdg wit="#B">milia passuum <del>et</del> X</rdg>
+                                <rdg wit="#Z #R">millia passuum et X</rdg>
+                                <rdg wit="#L1">milia passuum et X</rdg>
+                                <rdg wit="#L2">passuum milia VIII et X</rdg>
+                            </app> Altemburgh, quod Latine <app>
+                                <lem wit="#KK #P #B #Z #R #L2 #S1 #S2 #S3 #M">interpretatum</lem>
+                                <rdg wit="#L1">interpraetatum</rdg>
+                            </app> dicitur vetus castellum, postea <app>
+                                <lem wit="#KK #P #L2 #S1 #S2 #S3 #M">ad milia passuum XXX</lem>
+                                <rdg wit="#B #Z #L1 #R">ad milia XXX</rdg>
+                            </app> a fluvii dextra sita est civitas Germanorum lingua appellata <app>
+                                <lem wit="#KK #P #B #Z #R #S1 #S2 #S3 #M">Rab</lem>
+                                <rdg wit="#L1">Ráb</rdg>
+                                <rdg wit="#L2">Raab</rdg>
+                            </app>, sed vulgatissimo apud Hungaros nomine dicitur Iaurinum, <app>
+                                <lem wit="#KK #P #B #Z #R #S1 #S2 #S3 #M">Iarnum</lem>
+                                <rdg wit="#L1 #L2">Iaurinum</rdg>
+                            </app> dictum a veteribus.</s>
+                        <s n="64"><app>
+                                <lem wit="#KK #Z #L1 #R #L2 #S1 #S2 #S3 #M">Praeest</lem>
+                                <rdg wit="#P #B">Preest</rdg>
+                            </app> episcopali dignitate eius <app>
+                                <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3">ecclesiae</lem>
+                                <rdg wit="#M"/>
+                            </app> Thomas <app>
+                                <lem wit="#KK #P #B">Erded</lem>
+                                <rdg wit="#Z #R #S1 #S2 #S3 #M">Erdeudy</rdg>
+                                <rdg wit="#L1">Erdeudi</rdg>
+                                <rdg wit="#L2">Erdo&#868;di<!-- <g>o felett emeletes e betű</g> --></rdg>
+                            </app> vir excellenti ingenio et cum <app>
+                                <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #M">literarum</lem>
+                                <rdg wit="#S3">litterarum</rdg>
+                            </app> Latinarum <app>
+                                <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3">peritiam</lem>
+                                <rdg wit="#M">peritia</rdg>
+                            </app> callens tum in <app>
+                                <lem wit="#KK #S3 #M">ceteris</lem>
+                                <rdg wit="#P #B #Z #L1 #R #L2 #S1 #S2">caeteris</rdg>
+                            </app> laude dignis disciplinis <app>
+                                <lem wit="#KK #P #Z #R #S1 #S2 #S3 #M">inprimis</lem>
+                                <rdg wit="#B #L1 #L2">imprimis</rdg>
+                            </app> eruditus.</s>
+                        <s n="65">Spectata eius fide <app>
+                                <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #M">Mathias</lem>
+                                <rdg wit="#S3">Matthias</rdg>
+                            </app> Corvinus Hungarorum rex animadversa ipsum inter omnes amplissimi
+                            regni sui ecclesiarum antistites elegit, qui apud se secretarii uteretur
+                            officio.</s>
+                        <s n="66">Ab eo loco abest Cumara vetustum adhuc retinens nomen, quod in <app>
+                                <lem wit="#KK #P #B #Z #R #L2 #S1 #S2 #S3 #M">Asiatica</lem>
+                                <rdg wit="#L1">Asiastica</rdg>
+                            </app> Scythia olim ei fuerat, milia passuum XXV, sub eo XX milia
+                            passuum intervallo Labatlan.<app>
+                                <lem wit="#B #Z #L1 #R #L2 #S1 #S2 #S3 #M #T1 #T2"/>
+                                <rdg wit="#P"><note type="marginalia">Cumara</note></rdg>
+                            </app></s>
+                        <s n="67">Sub quo ad milia <app>
+                                <lem wit="#KK #S1 #S2 #S3 #M">passuum</lem>
+                                <rdg wit="#P #B #Z #L1 #R #L2"/>
+                            </app> XXV Strigonium Istripolis antiquitus dicta totius Hungariae <app>
+                                <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M">praeclara</lem>
+                                <rdg wit="#B">preclara</rdg>
+                            </app> metropolis, cui <app>
+                                <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M">praeest</lem>
+                                <rdg wit="#B">preest</rdg>
+                            </app> hodie <app>
+                                <lem wit="#KK #P #B #Z #R #S1 #S2 #M">Hippolytus</lem>
+                                <rdg wit="#L1 #L2">Hyppolitus</rdg>
+                                <rdg wit="#S3">Hippolitus</rdg>
+                            </app>
+                            <app>
+                                <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M">Estensis</lem>
+                                <rdg wit="#B">Extensis</rdg>
+                            </app> eximiae indolis adolescens, Herculis Ferrariensium ducis <app>
+                                <lem wit="#KK #P #B #L1">filius et</lem>
+                                <rdg wit="#Z #R #L2 #S1 #S2 #S3 #M">filius ac</rdg>
+                            </app> Ferdinandi Siciliae citra Pharum regis ex Dianora filia nepos.<app>
+                                <lem wit="#Z #L1 #R #L2 #S1 #S2 #S3 #M #T1 #T2"/>
+                                <rdg wit="#P"><note type="marginalia">Strigonium</note></rdg>
+                                <rdg wit="#B"><note type="marginalia">Estensis</note></rdg>
+                            </app></s>
+                        <s n="68">Sub ea civitate <app>
+                                <lem wit="#KK #P #B #Z #R #L2 #S1 #S2 #S3 #M">ad</lem>
+                                <rdg wit="#L1">ast</rdg>
+                            </app>
+                            <app>
+                                <lem wit="#KK #P #B #Z #R #S1 #S2 #S3 #M">milia</lem>
+                                <rdg wit="#L1 #L2">V</rdg>
+                            </app> passuum X situm est Vicegradum pulcherrima et ornatissima a divo <app>
+                                <lem wit="#KK #P #B #Z #L1 #R #L2 #S2 #M">Mathia</lem>
+                                <rdg wit="#S1 #S3">Matthia</rdg>
+                            </app> structa regia <app>
+                                <lem wit="#KK #P">inclytum</lem>
+                                <rdg wit="#B #Z #L1 #R #L2 #S1 #S2 #S3 #M"/>
+                            </app>.<app>
+                                <lem wit="#B #Z #L1 #R #L2 #S1 #S2 #S3 #M #T1 #T2"/>
+                                <rdg wit="#P"><note type="marginalia">Vicegradum</note></rdg>
+                            </app></s>
+                    </lem>
+                    <rdg wit="#T1 #T2"/>
+                </app>
+                <s n="69"><app>
+                        <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3 #M">Sub eo</lem>
+                        <rdg wit="#T1 #T2"/>
+                    </app> a <app>
+                        <lem wit="#KK #Z #L1 #R #L2 #S1 #S2 #S3 #M #T1 #T2">laeva</lem>
+                        <rdg wit="#P #B">leva</rdg>
+                    </app> Danubii <app>
+                        <lem wit="#KK #P #B">est</lem>
+                        <rdg wit="#Z #L1 #R #L2 #S1 #S2 #S3 #M"/>
+                        <rdg wit="#T1 #T2">(est)</rdg>
+                    </app>
+                    <app>
+                        <lem wit="#KK #P #T1 #T2">Vacia</lem>
+                        <rdg wit="#B #Z #R #S1 #S2 #S3 #M">Batia</rdg>
+                        <rdg wit="#L1 #L2">Vatia</rdg>
+                    </app> episcopali sede illustris civitas.<app>
+                        <lem wit="#Z #L1 #R #L2 #S1 #S2 #S3 #M #T1 #T2"/>
+                        <rdg wit="#P #B"><note type="marginalia">Vacia</note></rdg>
+                    </app><note type="critic">
+                        <s n="69">BZLRSM desinunt, sentt. 70–89. tantum in P et T leguntur.</s>
+                    </note></s>
+                <app>
+                    <lem wit="#KK #P #T1 #T2">
+                        <s n="70">Eius ecclesiae antistes dignissimus est Nicolaus Bator omni
+                            virtutum genere et studiis humanitatis insignis, Italorum amantissimus,
+                            utpote quos ad se accedentes alicuius vel virtutis vel <app>
+                                <lem wit="#KK #P">opificii</lem>
+                                <rdg wit="#T1 #T2">officii</rdg>
+                            </app> gratia benignissime suscipit <app>
+                                <lem wit="#KK #P">hospicio</lem>
+                                <rdg wit="#T1 #T2">hospitio</rdg>
+                            </app> et muneribus cumulat.<app>
+                                <lem wit="#B #Z #L1 #R #L2 #S1 #S2 #S3 #M #T1 #T2"/>
+                                <rdg wit="#P"><note type="marginalia">Nicolaus Bator fr
+                                        vaivodae</note></rdg>
+                            </app></s>
+                        <s n="71">Ex quibus unus Angelus Callimachus Siculus et Mazariensis vir
+                            eruditus et doctorum observantissimus ab eo honorifice receptus et aureo
+                            munere donatus est, quom illum elegia laudasset, cuius partem subiicere
+                            volui ob patriae charitatem:<note type="critic" corresp="RKK">71 De
+                                Angelo Callimacho disseruit József Huszti in ephemeride: Magyar
+                                Könyvszemle 1929. 9–14.</note></s>
+                        <quote>
+                            <milestone unit="lg"/>
+                                <milestone unit="line"/>
+                                    <s n="72">Ordiar unde prius?</s>
+                                    <s n="73">Claudent ubi carmina finem?</s>
+                                
+                                <s n="74">
+                                    <milestone unit="line"/>Quis mihi tam facili riserit ore deus?
+                                </s>
+                            
+                                <s n="75">
+                                    <milestone unit="line"/>Distrahor in varias quaerens primordia partes, 
+                                    <milestone unit="line"/>Nescit, quos aditus nostra <app>
+                                            <lem wit="#KK #P">camena</lem>
+                                            <rdg wit="#T1 #T2">camoena</rdg>
+                                        </app> petat.
+                                </s>
+                            
+                                <s n="76">
+                                    <milestone unit="line"/>An genus antiquum referam nomenque tuorum, 
+                                    <milestone unit="line"/>Quo nullum maius Pannonis ora videt?
+                                </s>
+                           
+                            <s n="77">
+                                
+                                    <milestone unit="line"/>Hoc Stephanus frater claro cognomine Bator 
+                                    <milestone unit="line"/>Illustrat meritis et pietate fovet 
+                                
+                                    <milestone unit="line"/>Armipotens, validis Turcas dum viribus urget, 
+                                    <milestone unit="line"/>Protegit et mira conditione fidem, 
+                               
+                                    <milestone unit="line"/>Pro qua non dubitat caput obiectare periclis 
+                                    <milestone unit="line"/>Et totiens pulchram laetus adire necem, 
+                                
+                                    <milestone unit="line"/>Quod tua significant effusi signa cruoris 
+                                    <milestone unit="line"/>Tres cunei in campo candidiore nive.
+                                
+                            </s>
+                                <s n="78">
+                                    <milestone unit="line"/>An potius genii dotes, quas Iupiter omnes 
+                                    <milestone unit="line"/>Contulit, an mores et pia facta canam?
+                                </s>
+                            
+                            <s n="79">
+                                
+                                    <milestone unit="line"/>Tu certe eloquii decus immortale 
+                                    <milestone unit="line"/>Latini Et dici ex Grais Attica musa potes, 
+                                
+                                
+                                    <milestone unit="line"/>Idem <app>
+                                            <lem wit="#KK #P">iusticiae</lem>
+                                            <rdg wit="#T1 #T2">iustitiae</rdg>
+                                        </app> cultor legisque severae, 
+                                    <milestone unit="line"/>Alter consiliis et gravitate Cato.
+                                
+                            </s>
+                                <s n="80">
+                                    <milestone unit="line"/>Te duce partus honor doctis et certa laborum 
+                                    <milestone unit="line"/>Praemia, quae vigiles reddere saepe solent.
+                                </s>
+                            
+                                <s n="81">
+                                    <milestone unit="line"/>Sordida flaventis non te iuvat unda metalli, 
+                                    <milestone unit="line"/>Hermus et occiduo quod vehit orbe Tagus.
+                                </s>
+                            
+                                <s n="81">
+                                    <milestone unit="line"/>Spernis Heritreos rigida quoque mente lapillos, 
+                                    <milestone unit="line"/>Atque tuo residet semper in ore sophos.
+                                </s>
+                            
+                                <s n="83">
+                                    <milestone unit="line"/>In te cana fides pietasque immensa refulgent 
+                                    <milestone unit="line"/>Mirificusque sacrae relligionis amor.
+                                </s>
+                            
+                            <s n="84">
+                                
+                                    <milestone unit="line"/>Hac virtute tibi populos, his artibus omnes 
+                                    <milestone unit="line"/>Devincis reges conciliasque duces, 
+                                
+                                
+                                    <milestone unit="line"/>Hinc te Mathias regum fortissimus ornat 
+                                    <milestone unit="line"/>Admittens rebus <app>
+                                            <lem wit="#KK #P">conciliisque</lem>
+                                            <rdg wit="#T1 #T2">consiliisque</rdg>
+                                        </app> suis.
+                                
+                            </s>
+                                <s n="85">
+                                    <milestone unit="line"/>Diligeris cunctis, meriti redduntur <app>
+                                            <lem wit="#KK #T1 #T2">honores</lem>
+                                            <rdg wit="#P">honoris</rdg>
+                                        </app>, 
+                                    <milestone unit="line"/>Curia nil non te tota probante probat.
+                                </s>
+                            
+                                <s n="86">
+                                    <milestone unit="line"/>Et merito, quid enim nisi iusta probandaque cunctis 
+                                    <milestone unit="line"/>Inter praecipuos consulis ipse patres?
+                                </s>
+                            
+                                <s n="87">
+                                    <milestone unit="line"/>Atque ita deficio et tanti gravitate fatigor 
+                                    <milestone unit="line"/>Muneris incertus, quo vehat unda ratem.
+                                </s>
+                            
+                                <s n="88">
+                                    <milestone unit="line"/>Sed dabitur tempus, liceat quo currere aperto 
+                                    <milestone unit="line"/>Aequore et in tutos vela referre sinus.
+                                </s>
+                            
+                            <s n="89">
+                                
+                                    <milestone unit="line"/>Tunc equidem grandi scribam tua gesta cothurno 
+                                    <milestone unit="line"/>Digna Maronea vel meliore tuba, 
+                                
+                                
+                                    <milestone unit="line"/>Interea contentus eris hoc carmine tantum 
+                                    <milestone unit="line"/>Accipiens animos et sine labe fidem.<note type="critic">T
+                                            desinit.</note><!--sorpárok: ellenőrizendő!  -->
+                                
+                            </s>
+                        </quote>
+                    </lem>
+                    <rdg wit="#B #Z #L1 #R #L2 #S1 #S2 #S3 #M"/>
+                </app>
+                <app>
+                    <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3 #M">
+                        <s n="90">In dextra deinde eiusdem <app>
+                                <lem wit="#KK #P">Danubii est</lem>
+                                <rdg wit="#B #L1 #L2">fluvii</rdg>
+                                <rdg wit="#Z #R #S1 #S2 #S3 #M"/>
+                            </app> pagus sancti Andreae in <app>
+                                <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M">Romanae</lem>
+                                <rdg wit="#B">Romane</rdg>
+                            </app> legionis <app>
+                                <lem wit="#KK">situs</lem>
+                                <rdg wit="#P #Z #L1 #R #L2 #S1 #S2 #S3 #M">situm</rdg>
+                                <rdg wit="#B">situs<note type="critic">corr.
+                                        ex:</note><del>situm</del></rdg>
+                            </app> vestigiis, ubi complura Romanorum <app>
+                                <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3">extant</lem>
+                                <rdg wit="#M">exstant</rdg>
+                            </app> epitaphia, sub quo milia <app>
+                                <lem wit="#KK #S1 #S2 #S3 #M">passuum</lem>
+                                <rdg wit="#P #B #Z #L1 #R #L2"/>
+                            </app> XLIII intervallo occurrit Buda regni Hungariae caput et sedes
+                            illustris.</s>
+                        <s n="91">In eius <app>
+                                <lem wit="#KK #P #B #L1 #L2">autem</lem>
+                                <rdg wit="#Z #R #S1 #S2 #S3 #M"/>
+                            </app> contraria ripa situm est oppidum, quod Pestum appellatur, fama et
+                            ipsum propter Budae vicinitatem non ignobile.</s>
+                        <s n="92">A Buda abest <app>
+                                <lem wit="#KK #P #Z #L1 #R #L2 #M">Nanderalba</lem>
+                                <rdg wit="#B">Nanderalha</rdg>
+                                <rdg wit="#S1 #S2 #S3">Nándoralba</rdg>
+                            </app>, qui locus dicitur alio nomine Belgradum, <app>
+                                <lem wit="#KK #P #B">milia</lem>
+                                <rdg wit="#Z #L1 #R #L2 #S1 #S2 #S3 #M">millia</rdg>
+                            </app>, quibus utuntur Hungari, quatuor et quadraginta, quae sunt
+                            Romanorum, quibus hoc opere utimur, milia <app>
+                                <lem wit="#KK #S1 #S2 #S3 #M">passuum</lem>
+                                <rdg wit="#P #B #Z #L1 #R #L2"/>
+                            </app> CCXX.</s>
+                        <s n="93">Intra quod intervallum multa quidem sunt loca culta, sed mentione
+                            digniora <app>
+                                <lem wit="#KK #P #B #Z #L1 #R #S1 #S2 #S3 #M">hoc</lem>
+                                <rdg wit="#L2">haec</rdg>
+                            </app> sita sunt ordine:</s>
+                        <s n="94">Tolna, <app>
+                                <lem wit="#KK #B">Sacsart</lem>
+                                <rdg wit="#P">Saesart</rdg>
+                                <rdg wit="#Z #R #S1 #S2 #S3 #M">Sexsart</rdg>
+                                <rdg wit="#L1">Sacsard</rdg>
+                                <rdg wit="#L2">Sicsard</rdg>
+                            </app>, Baia, <app>
+                                <lem wit="#KK #P #B #Z #R #S1 #S2 #S3 #M">Bata</lem>
+                                <rdg wit="#L1 #L2">Bara</rdg>
+                            </app>, <app>
+                                <lem wit="#KK #P">Bodorc</lem>
+                                <rdg wit="#B #L1 #L2">Bodore</rdg>
+                                <rdg wit="#Z #R">Bodorg</rdg>
+                                <rdg wit="#S1 #S2 #S3 #M">Bodrog</rdg>
+                            </app>, Apat, Erduit, <app>
+                                <lem wit="#KK #P #Z #R #S1 #S2 #S3 #M">Bore</lem>
+                                <rdg wit="#B #L1 #L2">Borc</rdg>
+                            </app>, <app>
+                                <lem wit="#KK #P #B #Z #R #S1 #S2 #S3 #M">Sata</lem>
+                                <rdg wit="#L1 #L2">Sara</rdg>
+                            </app>, Axia, Drassat, <app>
+                                <lem wit="#KK #P #B">Banmonostra</lem>
+                                <rdg wit="#Z #R #M">Bakonostra</rdg>
+                                <rdg wit="#L1 #L2">Bachmonostra</rdg>
+                                <rdg wit="#S1 #S2 #S3">Bakmonostra</rdg>
+                            </app>, quibus in locis est ea regiuncula, quam vocitant <app>
+                                <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M">Sirmiam</lem>
+                                <rdg wit="#B"><del>Sirimiam</del>Sirmiam</rdg>
+                            </app> ita cognominatam ab oppido vetustissimo, quod Sirmium apud
+                            veteres geographos dicitur, terra ferax est vini apud Hungaros quam
+                            laudatissimi.</s>
+                        <s n="95">Occurrit <app>
+                                <lem wit="#KK #P #B #Z #R #S1 #S2 #S3 #M">deinde</lem>
+                                <rdg wit="#L1 #L2"/>
+                            </app>
+                            <app>
+                                <lem wit="#KK #P #B">Huliac</lem>
+                                <rdg wit="#Z #L1 #R">Viiliac</rdg>
+                                <rdg wit="#L2">Ujlac</rdg>
+                                <rdg wit="#S1 #S2 #S3 #M">Vylak</rdg>
+                            </app>, in quo oppido Ioannis Capistrani viri dei corpus conditur, quod
+                            divina virtute multis fertur clarere miraculis, sub eo loco Xerut, sub
+                            quo Beiem, contra quod, hoc est ab adversa <app>
+                                <lem wit="#KK #P #B #Z #R #L2 #S1 #S2 #S3 #M">Danubii</lem>
+                                <rdg wit="#L1">Dunubii</rdg>
+                            </app> ripa, situm est <app>
+                                <lem wit="#KK #P #B">Futah</lem>
+                                <rdg wit="#Z #L1 #R #L2 #S1 #S2 #S3 #M">Futach</rdg>
+                            </app>.</s>
+                        <s n="96">Ab altera parte post Beiem Chamans, postea Petri Varadina, <app>
+                                <lem wit="#KK #P #B">Charom</lem>
+                                <rdg wit="#Z #L1 #R #L2 #S1 #S2 #S3 #M">Charum</rdg>
+                            </app>, <app>
+                                <lem wit="#KK #P #B">Sallom Chemim</lem>
+                                <rdg wit="#Z #R #M">Sallamkhemim</rdg>
+                                <rdg wit="#L1 #L2">Sallamkemen</rdg>
+                                <rdg wit="#S1 #S2 #S3">Sallankhemen</rdg>
+                            </app>, <app>
+                                <lem wit="#KK #P #B #Z #L1 #R #M">Zemlim</lem>
+                                <rdg wit="#L2 #S1 #S2 #S3">Zemlin</rdg>
+                            </app>.</s>
+                        <s n="97">Hisque in locis inferior desinit Pannonia, hic se Savus Danubio
+                            miscet, quibus fluminibus superior <app>
+                                <lem wit="#KK #P #B">Misia</lem>
+                                <rdg wit="#Z #R">Maesia</rdg>
+                                <rdg wit="#L1 #L2">Mysia</rdg>
+                                <rdg wit="#S1 #S2 #S3 #M">Moesia<note type="critic">bis</note></rdg>
+                            </app> a Pannonia ipsa dirimitur, dicitur autem vulgo ea Misia Servia,
+                            cuius primam occurrentem ex his locis partem appellant hodie
+                                Rasciam.<note type="critic" corresp="RKK">97 = Index II.4, 32, Index
+                                III.16.</note></s>
+                        <s n="98">Huius vero primum contraque Pannoniam positum <app>
+                                <lem wit="#KK #P">est oppidum</lem>
+                                <rdg wit="#B #Z #L1 #R #L2 #S1 #S2 #S3 #M">oppidum est</rdg>
+                            </app> Belgradum, quod licet sit ultra Hungariae terminos, tenetur tamen
+                            ditione regum Hungarorum.</s>
+                        <s n="99">Est id oppidum natura loci atque opere munitissimum et insigne ea
+                            clarissima victoria, qua Ioannes Corvinus profligavit <app>
+                                <lem wit="#KK #P">Mahammectum</lem>
+                                <rdg wit="#B">Mahamettum</rdg>
+                                <rdg wit="#Z #R #M">Mahametum</rdg>
+                                <rdg wit="#L1 #L2">Mahumetum</rdg>
+                                <rdg wit="#S1 #S2 #S3">Mahumetem</rdg>
+                            </app> Turcarum imperatorem verso illo in fugam illiusque numeroso fuso
+                            exercitu, ut libro huius operis primo et <app>
+                                <lem wit="#KK #P">XL-mo</lem>
+                                <rdg wit="#B #Z #L1 #R #L2 #S1 #S2 #S3 #M">quadragesimo</rdg>
+                            </app> prodidimus, prodemusque hoc volumine, <app>
+                                <lem wit="#KK #P #B">quom</lem>
+                                <rdg wit="#Z #L1 #R #L2 #S1 #S2 #S3 #M">cum</rdg>
+                            </app> in eiusdem victoriae prolixam mentionem pervenerimus.<note
+                                type="critic" corresp="RKK">99 <hi rend="italic">prodemus hoc
+                                    volumine</hi> cf. Indices XXVI–XXVII.</note></s>
+                        <s n="100">Inde ad milia passuum ferme XX distat Smedris, hoc est sancti <app>
+                                <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M">Andreae</lem>
+                                <rdg wit="#B">Andree</rdg>
+                            </app> nobile Rascianorum oppidum, quod ita loci natura munitum est, ut
+                            sit expugnatu difficile, paret imperio Turcarum, quod nostra memoria ea
+                            gens in suam <app>
+                                <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M">redegit</lem>
+                                <rdg wit="#B">redaegit</rdg>
+                            </app> potestatem.</s>
+                        <s n="101">Inde ad locum, unde est <app>
+                                <lem wit="#KK #P #B">Misiae</lem>
+                                <rdg wit="#Z #R">Maesiae</rdg>
+                                <rdg wit="#L1 #L2">Mysiae</rdg>
+                                <rdg wit="#S1 #S2 #S3 #M">Moesiae</rdg>
+                            </app> inferioris utpote regionis <app>
+                                <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3">Bulgarorum</lem>
+                                <rdg wit="#M">Bulgariae</rdg>
+                            </app> principium, est oppidum Bdiognum nomine <app>
+                                <lem wit="#KK #P #B #L1 #L2 #S1 #S2 #S3 #M">parvum</lem>
+                                <rdg wit="#Z #R">partim</rdg>
+                            </app> quidem sed situm in loco <app>
+                                <lem wit="#KK #P #B #Z #R #S1 #S2 #S3 #M">ita</lem>
+                                <rdg wit="#L1 #L2"/>
+                            </app> suapte natura <app>
+                                <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #M">idoneo</lem>
+                                <rdg wit="#B"><del>ideneo</del>idoneo</rdg>
+                                <rdg wit="#S3">idonea</rdg>
+                            </app>, ut <app>
+                                <lem wit="#KK #S1 #S2">paene</lem>
+                                <rdg wit="#P #B #Z #L1 #R #L2 #S3 #M">pene</rdg>
+                            </app> sit inexpugnabile, quod et ipsum ditione tenetur Turcarum.</s>
+                        <s n="102">A sinistra deinde Danubii in regione <app>
+                                <lem wit="#KK #P #B">Valacchorum</lem>
+                                <rdg wit="#Z #L1 #R #L2 #S1 #S2 #S3 #M">Vallachorum</rdg>
+                            </app> est oppidum cum arce munitissima, cui <app>
+                                <lem wit="#KK #P #B">Savarino</lem>
+                                <rdg wit="#Z #L1 #R #L2 #S1 #S2 #S3 #M">Severino</rdg>
+                            </app> est nomen, estque ditionis <app>
+                                <lem wit="#KK #P #B #Z #L1 #R #L2 #S2 #M">Mathiae</lem>
+                                <rdg wit="#S1 #S3">Matthiae</rdg>
+                            </app> regis Hungarorum.</s>
+                        <s n="103">Postea ad intervallum supra centum milia passuum a Danubii <app>
+                                <lem wit="#KK #P #B #Z #R #S1 #S2 #S3 #M">dextera</lem>
+                                <rdg wit="#L1 #L2">dextra</rdg>
+                            </app> posita est urbs totius Bulgariae opulentissima Nicopolis nomine
+                            ita Graeco verbo <app>
+                                <lem wit="#KK #P #B #Z #R #L2 #S1 #S2 #S3 #M">appellata</lem>
+                                <rdg wit="#L1">apellata</rdg>
+                            </app> a victoria, quam adeptus olim fuit Romanorum imperator Heraclius
+                            deleto ingenti <app>
+                                <lem wit="#KK #Z #L1 #R #L2 #S1 #S2 #S3 #M">Cosdroae</lem>
+                                <rdg wit="#P #B">Cosdroe</rdg>
+                            </app> Persarum regis exercitu illiusque filio interfecto, <app>
+                                <lem wit="#KK #P #B #Z #L1 #R #S1 #S2 #S3 #M">ut et</lem>
+                                <rdg wit="#L2">ut</rdg>
+                            </app> ante dictum est.<note type="critic" corresp="RKK">103 De Nicopoli
+                                eiusque nomine v. Index III.17.</note></s>
+                        <s n="104">Ea autem civitas una cum <app>
+                                <lem wit="#KK #P #B #Z #R #S1 #S2 #S3 #M">tota</lem>
+                                <rdg wit="#L1 #L2"/>
+                            </app> regione, in qua est sita, Turcarum <app>
+                                <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M">paret</lem>
+                                <rdg wit="#B"><del>patet</del>paret</rdg>
+                            </app> imperatori.</s>
+                        <s n="105">Postremo ab eiusdem amnis <app>
+                                <lem wit="#KK #Z #L1 #R #L2 #S1 #S2 #S3 #M">laeva</lem>
+                                <rdg wit="#P #B">leva</rdg>
+                            </app> sita est in finibus <app>
+                                <lem wit="#KK #S1 #S2 #S3 #M">Europaeorum</lem>
+                                <rdg wit="#P #B #Z #L1 #R #L2">Europeorum</rdg>
+                            </app> Sarmatarum civitas, quam appellant Dieliam, a qua <app>
+                                <lem wit="#KK #P #B #Z #R #L2 #S1 #S2 #S3 #M">intervallo</lem>
+                                <rdg wit="#L1">intetvallo</rdg>
+                            </app> milia <app>
+                                <lem wit="#KK #S1 #S2 #S3 #M">passuum</lem>
+                                <rdg wit="#P #B #Z #L1 #R #L2"/>
+                            </app> ferme quatuor Danubius in mare Ponticum septem <app>
+                                <lem wit="#KK #P #B #Z #L1 #R #M">hostiis</lem>
+                                <rdg wit="#L2 #S1 #S2 #S3">ostiis</rdg>
+                            </app>
+                            <app>
+                                <lem wit="#KK #P #B #L1 #L2">(ut supra ostendimus)</lem>
+                                <rdg wit="#Z #R #S1 #S2 #S3 #M">ut supra ostendimus</rdg>
+                            </app> irrumpit, quae civitas Turcarum quoque ditioni subiicitur.<note
+                                type="critic" corresp="RKK">105 <hi rend="italic">ut supra
+                                    ostendimus</hi> cf. Index III.10, 26.</note></s>
+                        <s n="106">Ita descripta utraque Pannonia atque Danubio <app>
+                                <lem wit="#KK #P #B #Z #R #L2 #S1 #S2 #S3 #M">consequens</lem>
+                                <rdg wit="#L1">conconsequens</rdg>
+                            </app> est, ut iuxta ordinem, qui nobis initio constitutus est,
+                            Hungarorum regum seriem ab Hunnis eorumque duce <app>
+                                <lem wit="#KK #P #B #Z #L1 #R #L2 #M">Atila</lem>
+                                <rdg wit="S1">Attila</rdg>
+                                <rdg wit="#S2 #S3">Attyla</rdg>
+                            </app> principium facientes <app>
+                                <lem wit="#KK #P #B #L1 #L2">adoriamur</lem>
+                                <rdg wit="Z">oriamur</rdg>
+                                <rdg wit="#R #S1 #S2 #S3 #M">ordiamur</rdg>
+                            </app>.</s>
+                    </lem>
+                    <rdg wit="#T1 #T2"/>
+                </app>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

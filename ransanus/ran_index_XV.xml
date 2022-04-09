@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" 	schematypens="http://purl.oclc.org/dsdl/schematron"?> <TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Index XV.</title>
+                <author>
+                    <persName>Petrus Ransanus</persName>
+                    <idno type="KOHA_AUTH">KOHA:169512</idno>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>digital edition</edition>
+                <respStmt>
+                    <resp>project director</resp>
+                    <persName>
+                        <surname>Palkó</surname>
+                        <forename>Gábor</forename>
+                        <idno type="KOHA_AUTH">KOHA_AUTH:121463</idno>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>TEI-specification</resp>
+                    <persName>
+                    <surname>Fellegi</surname>
+                    <forename>Zsófia</forename>
+                </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>XML-editor</resp>
+                    <persName>
+                        <surname>Tubay</surname>
+                        <forename>Tiziano</forename>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>XML-editor</resp>
+                    <persName>
+                        <surname>Bobák</surname>
+                        <forename>Barbara</forename>
+                    </persName>
+                    
+                </respStmt>
+                <respStmt>
+                    <resp>creator</resp>
+                    <orgName> DigiPhil <ref type="url">http://digiphil.hu</ref>
+                    </orgName>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName>Bölcsészettudományi Kutatóközpont, Irodalomtudományi Intézet</orgName>
+                    <ref type="url">http://viaf.org/viaf/312925875/</ref>
+                    <ref type="url">https://iti.btk.mta.hu/</ref>
+                </publisher>
+                <pubPlace>Budapest <ref type="url">http://www.geonames.org/3054643</ref>
+                </pubPlace>
+                <date>2020</date>
+                <availability>
+                    <p>©Free Access - no-reuse <ref type="url"
+                        >http://www.europeana.eu/rights/rr-f/</ref>
+                    </p>
+                </availability>
+                <idno type="PID">o:ransanus.tei.index.15</idno>
+                <idno type="URL">/o:ransanus.tei.index.15</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Bibliotheca Scriptorum Medii Recentisque Aevorum</title>
+                <respStmt>
+                    <resp>condita a</resp>
+                    <persName>Ladislao Juhász</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>consilium editorium</resp>
+                    <persName>Stephanus Borzsák</persName>
+                    <persName>Ioannes Horváth</persName>
+                    <persName>Tiberius Klaniczay</persName>
+                    <persName>Ladislaus Mezei</persName>
+                    <persName>Gabriel Székely</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>redigit</resp>
+                    <persName>Antonius Pirnát</persName>
+                </respStmt>
+                
+            </seriesStmt>
+            <notesStmt>
+                <note type="critIntro">
+                    <p/>
+                </note>
+                
+            </notesStmt>
+            <sourceDesc>
+                <!--<msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <extent>
+                                    <measure type="quantity" unit="folio"/>
+                                    <dimensions unit="mm">
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </extent>
+                                <condition>
+                                    <p/>
+                                </condition>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                <msDesc>-->
+                <bibl>
+                    <author>
+                        <persName>
+                            <surname>Petrus</surname>
+                            <forename>Ransanus</forename>
+                            <idno type="KOHA_AUTH">KOHA:169512</idno>
+                            <idno type="url"
+                                >http://biblio.digiphil.hu/cgi-bin/koha/opac-authoritiesdetail.pl?authid=96679</idno>
+                            <idno type="VIAF">VIAF:95251869</idno>
+                            <idno type="url">http://viaf.org/viaf/95251869</idno>
+                        </persName>
+                    </author>
+                    <title>Epithoma rerum Hungararum</title>
+                    <title type="sub">Id est annalium omnium temporum liber primus et sexagesimus</title>
+                    <idno type="ISBN">ISBN:9630509946</idno>
+                    <respStmt>
+                        <resp>editor</resp>
+                        <persName>
+                            <surname>Petrus</surname>
+                            <forename>Kulcsár</forename>
+                            <idno type="KOHA_AUTH">KOHA:</idno>
+                        </persName>
+                    </respStmt>
+                    <date>1977</date>
+                    <pubPlace>Budapest</pubPlace>
+                    <publisher>Akadémiai Kiadó</publisher>
+                </bibl>
+                <listWit>
+<witness xml:id="KK">Kritikai kiadás</witness>
+ 
+                    <witness xml:id="P">Petri Ransani Siculi Panormitani episcopi Lucerini annales
+                        omnium temporum. Voll. I–VIII. (Il vol. IV era andato perso.) Manoscritto
+                        rubricato, emendato, scritto dall’autore, facente parte del patrimonio
+                        bibliografico della Biblioteca Comunale di Palermo, sotto il n. 3Qq-C-54–60.
+                        Vol. VIII. (n. 3Qq-C-60) foll. 224v–331r: Annalium omnium temporum libri
+                        XLIII–XLIV.</witness>
+                    <witness xml:id="Z">Epitome rerum Ungaricarum velut per indices descripta autore
+                        Petro Ramano apud Mathiam regem olim triennium legato nunc primum edita una
+                        cum appendice quadam opera Ioannis Sambuci Tirnaviensis Pannonii. Adiecta
+                        est rerum ad Agriam gestarum anno 1552 brevis eiusdem Sambuci narratio...
+                        Viennae Austriae excudebat Raphael Hofhalter Anno M. D. LVIII. Foll. 4
+                        innum., LXIX num., 1 vac., 14 innum. In 4°, segnature S e c in 6°.</witness>
+                    <witness xml:id="L1">Epitome rerum Hungaricarum velut per indices descripta
+                        auctore Petro Ransano apud Mathiam regem olim regis Neapolitani triennium
+                        legato. Impressum Ternaviae elimatione et relectione Lucae Peechi Pannonii,
+                        M. D. LXXXIX. Foll. 188 innum. In 8°, segnatura (:) in 4°.</witness>
+                    <witness xml:id="R">Rerum Hungaricarum scriptores varii historici, geographici
+                        ex veteribus plerique sed iam fugientibus editionibus revocati, quidam nunc
+                        primum editi... [Ed. Iacobus Bongarsius.] Francofurti, apud heredes Andreae
+                        Wecheli, Clau-dium Marnium et Ioannem Aubrium, M. D. C. In 6°.</witness>
+                    <witness xml:id="L2">Epitome rerum Hungaricarum velut per indices descripta
+                        auctore Petro Ransano Siculo episcopo Lucerino, theologo atque historico,
+                        apud Mathiam regem olim regis Neapolitani per triennium legato, annis ab
+                        hinc C LXVII impressa studio et opera Lucae Pecchi[!] Pannonii, nunc demum
+                        ob eius elegantiam recusa. Budae, typis Veronicae Nottensteinin, 1746. pp.
+                        VIII, 298, foll. 10 innum. In 4°, la segnatura Rr in 3°.</witness>
+                    <witness xml:id="S1">Scriptores rerum Hungaricarum veteres ac genuini, partim
+                        primum ex tenebris eruti, partim antehac quidem editi, nunc vero ex
+                        manuscriptis codicibus et rarissimis editionibus bibliothecae Augustae
+                        Vindobonensis ab innumeris mendis vindicati... cum amplissima praefatione
+                        Matthiae Belii ... cura et studio Ioannis Georgii Schwandtneri ... [Vol. I.]
+                        Impensis Ioannis Pauli Kraus bibliopolae Vindobonensis, M DCC XLVI. In
+                        4°.</witness>
+                    <witness xml:id="S2">Scriptores rerum Hungaricarum veteres ac genuini, partim
+                        primum ex tenebris eruti, partim antehac quidem editi, nunc vero ex
+                        manuscriptis codicibus et rarissimis bibliothecae Augustae Vindobonensis ab
+                        innumeris mendis vindica-ti... cum amplissima praefatione Matthiae Belii,
+                        cura et studio Ioannis Georgii Schwandtneri... Pars prima. Tyrnaviae, typis
+                        Collegii Academici Societatis Iesu, anno MDCCLXV. In 8°.</witness>
+                    <witness xml:id="S3">Scriptores rerum Hungaricarum veteres ac genuini, partim
+                        primum ex tenebris eruti, partim antehac quidem editi, nunc vero ex
+                        manuscriptis codicibus et rarissimis editionibus bibliothecae Augustae
+                        Vindobonensis ab innumeris mendis vindicati... cum amplissima praefatione
+                        Mathiae Belii, cura et studio Ioannis Georgii Schwandtneri... et Mariae
+                        Theresiae augustae honoribus dicati a ... Antonio Brunsvick . . . Anno
+                        Salutis MDCCLXVI. Pars prima. Vindobonae, typis Ioannis Thomae nobilis de
+                        Trattnern...</witness>
+                    <witness xml:id="M">Historiae Hungaricae fontes domestici. Vol. IV. Chronica
+                        minora... Petri Ransani epitome rerum Hungaricarum. Recensuit... M.
+                        Florianus. Auspiciis et sumptibus Academiae Scientiarum Hungaricae.
+                        Budapestini 1885. (Quinque-Ecclesiis, typis Michaelis Taizs.) In
+                        8°.</witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="la"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>krónika</term>
+                </keywords>
+            </textClass>
+            <creation>
+                <date from="1490" to="1492"/>
+            </creation>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <head type="title"><app>
+                        <lem wit="#KK">Index XV.</lem>
+                        <rdg wit="#P">Index VI.</rdg>
+                        <rdg wit="#Z #R">Index XIIII.</rdg>
+                        <rdg wit="#L1 #L2">Index XV., in quo regnum sex virorum describitur</rdg>
+                        <rdg wit="#S1 #S2 #S3">Index XIV. de Bela coeco, Geysa II., Stephano III., Bela III., Emerico et Ladislao regibus</rdg>
+                    </app></head>
+                <p>
+                <s n="1">﻿Bela igitur consensu senatus rex constituitur.<app>
+                        <lem wit="#B #Z #L1 #R #L2 #S1 #S2 #S3 #M"/>
+                        <rdg wit="#P"><note type="marginalia">Bela rex .XI</note></rdg>
+                    </app></s>
+                <s n="2">Fuit is captus quidem corporis oculis, mentis vero lumine quam acutissimus,
+                    inimicorum <app>
+                        <lem wit="#KK #P">nanque</lem>
+                        <rdg wit="#Z #L1 #R #L2 #S1 #S2 #S3 #M">namque</rdg>
+                    </app> et vigilanter evitare scivit insidias et regni sui rem publicam prudenter
+                    administravit.</s>
+                <s n="3">Eius uxor matrona singulari prudentia <app>
+                        <lem wit="#KK #P #Z #R #L2 #S1 #S2 #S3 #M">Helena</lem>
+                        <rdg wit="#L1">Haelena</rdg>
+                    </app> dicta est, quam perhibent neptem ex sorore fuisse Constantinopolitani
+                    imperatoris.</s>
+                <s n="4"><app>
+                        <lem wit="#KK #P #Z #R #L2 #S1 #S2 #S3 #M">Quatuor</lem>
+                        <rdg wit="#L1">Quattuor</rdg>
+                    </app> ex illa filios <app>
+                        <lem wit="#KK #Z #L1 #R #L2 #S1 #S2 #S3 #M">suscepit</lem>
+                        <rdg wit="#P">suscaepit</rdg>
+                    </app>, <app>
+                        <lem wit="#KK #P #Z #R">Geisam</lem>
+                        <rdg wit="#L1">Geyssam</rdg>
+                        <rdg wit="#L2 #S1 #S2 #S3">Geysam</rdg>
+                        <rdg wit="#M">Geissam</rdg>
+                    </app>, Ladislaum, <app>
+                        <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3">Stephanum</lem>
+                        <rdg wit="#M">Stephanum<add type="insert"> et</add></rdg>
+                    </app>, Almum.</s>
+                <s n="5">Huius regis probitatem <app>
+                        <lem wit="#KK #P #Z #L1 #R #S1 #S2 #S3 #M">admirati</lem>
+                        <rdg wit="#L2">admirari</rdg>
+                    </app> plerique atque praecipui Hungariae proceres ob rei indignitatem adducti
+                    sunt, ut dum apud Albam optimatum conventus ageretur, facto impetu interfecerint
+                    illos, quorum consiliis Colimanus sui nepotis, hoc est Belae, de cuius regno <app>
+                        <lem wit="#KK #Z #L1 #R #L2 #S1 #S2 #S3 #M">nunc</lem>
+                        <rdg wit="#P">nuc</rdg>
+                    </app>
+                    <app>
+                        <lem wit="#KK #P #L1 #L2">scribimus</lem>
+                        <rdg wit="#Z #R #S1 #S2 #S3 #M">scripsimus</rdg>
+                    </app>, eruerat oculos.</s>
+                <s n="6"><app>
+                        <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3">Nefas quippe ducebant videre <app>
+                                <lem wit="#KK #P #L1 #L2">caecum</lem>
+                                <rdg wit="#Z #R #S1 #S2 #S3">coecum</rdg>
+                            </app> hominum pravitate factum virum, qui suum regnum prudentissime
+                            sanctissimeque moderaretur.</lem>
+                        <rdg wit="#M"/>
+                    </app></s>
+                <s n="7">Occisorum postea villas et <app>
+                        <lem wit="#KK #S3 #M">cetera</lem>
+                        <rdg wit="#P #Z #L1 #R #L2 #S1 #S2">caetera</rdg>
+                    </app>, quaecunque in vita illi possederant, rex una et universa in eo conventu
+                    congregata nobilitas praecipuis per Hungariam constitutis ecclesiis
+                    distribuerunt, ex eo itaque tempore Hungariae ecclesiae <app>
+                        <lem wit="#KK #P">opulente</lem>
+                        <rdg wit="#Z #L1 #R #L2 #S1 #S2 #S3 #M">opulentae</rdg>
+                    </app> in hanc diem perseveravere.</s>
+                <s n="8">Adversus hunc Borichus Colimani filius natus ex pellice auxiliis <app>
+                        <lem wit="#KK #P #Z #L1 #R #L2">Rhutenorum</lem>
+                        <rdg wit="#S1 #S2 #S3 #M">Ruthenorum</rdg>
+                    </app> ac Polonorum profectus est ad Hungariae fines, ut eo <app>
+                        <lem wit="#KK #P #L1">regno paterno</lem>
+                        <rdg wit="#Z #R #L2 #S1 #S2 #S3 #M">paterno regno</rdg>
+                    </app> eiecto Hungaria ipse <app>
+                        <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3">postea</lem>
+                        <rdg wit="#M"/>
+                    </app> potiretur, at rex divina fretus ope adiutusque a proceribus, quorum
+                    fideli opera aliis multis in rebus antea fuerat usus, illum vertit in fugam <app>
+                        <lem wit="#KK #P">profligato</lem>
+                        <rdg wit="#Z #L1 #R #L2">profligavit</rdg>
+                        <rdg wit="#S1 #S2 #S3 #M">profligavitque</rdg>
+                    </app>
+                    <app>
+                        <lem wit="#KK #P">exercitu</lem>
+                        <rdg wit="#Z #L1 #R #L2 #S1 #S2 #S3 #M">exercitum</rdg>
+                    </app> illorum, qui illi <app>
+                        <lem wit="#KK #P">auxilia</lem>
+                        <rdg wit="#Z #L1 #R #L2 #S1 #S2 #S3 #M">auxilium</rdg>
+                    </app> tulerant, Hungaros autem, qui illius faverant partibus, interfecit.</s>
+                <s n="9">Regnum tenuit annos ferme decem, decessit Christianissime, <app>
+                        <lem wit="#KK #P">sepultusque</lem>
+                        <rdg wit="#Z #L1 #R #L2 #S1 #S2 #S3 #M">sepultus</rdg>
+                    </app> est Albae anno ab incarnato dei filio primo et quadragesimo supra
+                    millesimum et centesimum.<note type="critic" corresp="RKK">1–9 = Th 2.64. – 5
+                            <hi rend="italic">Albam</hi>: comitia in oppido Arad habita sunt, quod
+                        et Th notat, sed Ransanus, ut videtur, hoc oppidum idem esse ac Orodium in
+                        sent. 98. Indicis II. memoratum cognitum habere nequit.</note></s>
+                <s n="10">Successit ei <app>
+                        <lem wit="#KK #P #L1">Geisa</lem>
+                        <rdg wit="#Z #R #M">Geissa</rdg>
+                        <rdg wit="#L2 #S1 #S2 #S3">Geysa</rdg>
+                    </app> filius fratrum suorum natu maximus.<app>
+                        <lem wit="#B #Z #L1 #R #L2 #S1 #S2 #S3 #M"/>
+                        <rdg wit="#P"><note type="marginalia">Geisa rex .XII.</note></rdg>
+                    </app></s>
+                <s n="11">Fuit is vir Christiana pietate <app>
+                        <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #M">insignis</lem>
+                        <rdg wit="#S3">infignis</rdg>
+                    </app>, adolescens adhuc fudit <app>
+                        <lem wit="#KK #P">Theutonum</lem>
+                        <rdg wit="#Z #L1 #R #L2 #S1 #S2 #S3 #M">Teutonum</rdg>
+                    </app> ac Saxonum Austriensiumque et Bavarorum copias, quae Hungariam
+                    invaserant.</s>
+                <s n="12">Albae mira cum religione migravit e vita anno ab incarnatione salvatoris
+                    centesimo et sexagesimo primo supra millesimum.</s>
+                <s n="13">Regnavit annos viginti, menses III, dies XV.<note type="critic"
+                        corresp="RKK">10–13 = Th 2.65–66.</note></s>
+                <s n="14">Post eum regnum tenuit Stephanus filius annos ferme <app>
+                        <lem wit="#KK #P">XII</lem>
+                        <rdg wit="#Z #L1 #R #L2 #S1 #S2 #S3 #M">duodecim</rdg>
+                    </app>, obiit absque liberis Albae anno a Iesu Christi <app>
+                        <lem wit="#KK #P #Z #L1 #L2 #S1 #S2 #S3 #M">ortu</lem>
+                        <rdg wit="#R">orta</rdg>
+                    </app> septuagesimo secundo supra millesimum et centesimum.<app>
+                        <lem wit="#B #Z #L1 #R #L2 #S1 #S2 #S3 #M"/>
+                        <rdg wit="#P"><note type="marginalia">Stephanus rex .XIII.</note></rdg>
+                    </app><note type="critic" corresp="RKK">14 = Th 2.67.</note></s>
+                <s n="15">Bela frater eius successit, hic regnum suum latronibus et furibus, quorum
+                    ingens tum erat in tota Hungaria copia, intentissima cura purgavit.<app>
+                        <lem wit="#B #Z #L1 #R #L2 #S1 #S2 #S3 #M"/>
+                        <rdg wit="#P"><note type="marginalia">Bela rex
+                                .XIII<supplied>I</supplied><!--ellenőrizendő--></note></rdg>
+                    </app></s>
+                <s n="16">Diem <app>
+                        <lem wit="#KK #P #Z #R #S1 #S2 #S3 #M">obivit</lem>
+                        <rdg wit="#L1 #L2">obiit</rdg>
+                    </app> anno salutis centesimo et nonagesimo supra millesimum <app>
+                        <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3">Calendis</lem>
+                        <rdg wit="#M">Kalendis</rdg>
+                    </app>
+                    <app>
+                        <lem wit="#KK #P #R #L2 #S1 #S2 #S3 #M">Maii</lem>
+                        <rdg wit="#Z #L1">May</rdg>
+                    </app>, corpus eius Albae iacet, ubi et mortuus est, praefuit regno annos <app>
+                        <lem wit="#KK #P #Z #R #S1 #S2 #S3 #M">tres</lem>
+                        <rdg wit="#L1 #L2">decem</rdg>
+                    </app> et <app>
+                        <lem wit="#KK #P">XX-ti</lem>
+                        <rdg wit="#Z #R #S1 #S2 #S3 #M">viginti</rdg>
+                        <rdg wit="#L1 #L2">octo</rdg>
+                    </app>.<note type="critic" corresp="RKK">15–16 = Th 2.69.</note></s>
+                <s n="17">Ei successit Emericus filius, qui regnavit annos octo, menses VII, dies
+                    VI, mortem obiit Agriae anno humanae salutis MCC. pridie <app>
+                        <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3">Calendas</lem>
+                        <rdg wit="#M">Kalendas</rdg>
+                    </app>
+                    <app>
+                        <lem wit="#KK #P #L1 #R #L2 #S3">Decembris</lem>
+                        <rdg wit="#Z #S1 #S2 #M">Decembres</rdg>
+                    </app>.<app>
+                        <lem wit="#B #Z #L1 #R #L2 #S1 #S2 #S3 #M"/>
+                        <rdg wit="#P"><note type="marginalia">Emericus rex XV.</note></rdg>
+                    </app><note type="critic" corresp="RKK">17 = Th 2.70.</note></s>
+                <s n="18">Post quem regno praefuit Ladislaus eius filius sex tantum mensibus.<app>
+                        <lem wit="#B #Z #L1 #R #L2 #S1 #S2 #S3 #M"/>
+                        <rdg wit="#P"><note type="marginalia">Ladislaus
+                                    r<supplied>ex<!--ellenőrizendő--></supplied> .XVI.</note></rdg>
+                    </app><note type="critic" corresp="RKK">18 = Th 2.71. <p>Auctor capita fontis
+                            astricta celerrime percurrit, quamobrem reges Ladislaus II. et Stephanus
+                            IV. praetermittuntur (cf. Index indicum 16).</p></note></s>
+            </p>
+            </div>
+        </body>
+    </text>
+</TEI>

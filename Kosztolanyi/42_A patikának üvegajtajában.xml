@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" 	schematypens="http://purl.oclc.org/dsdl/schematron"?> <TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+	<fileDesc>
+		<titleStmt>
+			 <title type="main">A patikának üvegajtajában</title>
+			 <author>
+				  <persName>
+						<surname>Kosztolányi</surname>
+						<forename>Dezső</forename>
+						<idno type="KOHA_AUTH">KOHA_AUTH:95108</idno>
+						<ref type="url"
+							 >http://biblio.digiphil.hu/cgi-bin/koha/opac-authoritiesdetail.pl?authid=95108</ref>
+						<idno type="VIAF">VIAF:56604836</idno>
+						<ref type="url">http://viaf.org/viaf/56604836/</ref>
+				  </persName>
+			 </author>
+		</titleStmt>
+		<editionStmt>
+			 
+			 <edition>digital edition</edition>
+			 <respStmt>
+				  <resp>editor</resp>
+<persName><surname>Palkó</surname><forename>Gábor</forename><idno type="KOHA_AUTH">KOHA_AUTH:121463</idno>
+				  </persName>
+
+			 </respStmt>
+			 <respStmt>
+				  <resp>XML-editor</resp>
+				  <persName><surname>Horváth</surname><forename>Péter</forename></persName>
+				  <persName><surname>Fellegi</surname><forename>Zsófia</forename></persName>
+			 </respStmt>
+			 <respStmt>
+				  <resp>XML-control</resp>
+				  <persName/>
+			 </respStmt>
+			 <respStmt>
+				  <resp>creator</resp>
+				  <orgName>DigiPhil <ref type="url">http://digiphil.hu</ref>
+				  </orgName>
+			 </respStmt>
+		</editionStmt>
+		<publicationStmt>
+
+			 <publisher>
+				  <orgName>Petőfi Irodalmi Múzeum</orgName>
+				  <ref type="url">http://viaf.org/viaf/152132060/</ref>
+				  <ref type="url">http://www.pim.hu</ref>
+			 </publisher>
+			 <publisher>
+				  <orgName>Magyar Tudományos Akadémia Bölcsészettudományi Kutatóközpont
+						Irodalomtudományi Intézet</orgName>
+				  <ref type="url">http://viaf.org/viaf/312925875</ref>
+				  <ref type="url">https://iti.btk.mta.hu/</ref>
+			 </publisher>
+			 <pubPlace>Budapest <idno type="KOHA_AUTH">KOHA_AUTH:9227</idno>
+				  <ref type="url"
+						>http://biblio.digiphil.hu/cgi-bin/koha/opac-authoritiesdetail.pl?authid=9227</ref>
+			 </pubPlace>
+			 <date>2020</date>
+			 <availability>
+				  <p>©Free Access – no-reuse<ref type="url"
+							 >"http://www.europeana.eu/rights/rr-f/"</ref></p>
+				  <p>©In Copyright<ref type="url"
+							 >"http://rightsstatements.org/page/InC/1.0/"</ref></p>
+			 </availability>
+			 <idno type="PID">o:kd-szkp.tei.42</idno>
+			 <idno type="url">/o:kd-szkp.tei.42</idno>
+		</publicationStmt>
+		<seriesStmt>
+			 <title level="s">Kosztolányi Dezső Összes Művei. Kritikai kiadás</title>
+			 <respStmt>
+				  <resp>responsible publisher:</resp>
+				  <persName><surname>Dobos</surname><forename>István</forename><idno type="KOHA">KOHA:106758</idno></persName>
+				  <persName><surname>Szegedy-Maszák</surname><forename>Mihály</forename><idno type="KOHA">KOHA:125715</idno></persName>
+				<persName><surname>Veres</surname><forename>András</forename><idno type="KOHA">KOHA:128638</idno></persName>
+			 </respStmt>
+		</seriesStmt>
+		<notesStmt>
+			<note type="critIntro">
+				<p>A JKK-ban a vers a 42. helyen áll. A további kiadásokban a vers helye a következő:</p>
+				<p><ref target="/o:kd-szkp.tei.41">41</ref> ←[SZKP4–6, OGYK]→ <ref target="/o:kd-szkp.tei.43">43</ref></p>
+			</note>
+		</notesStmt>
+		<sourceDesc>
+			 <bibl>
+				  <author>
+										  <persName><surname>Kosztolányi</surname><forename>Dezső</forename><idno type="KOHA">KOHA:116439</idno>
+							 <idno type="VIAF">VIAF:17232459</idno>
+						</persName>
+				  </author>
+				  <title>A szegény kisgyermek panaszai</title>
+				  <respStmt>
+						<resp>editor:</resp>
+										  <persName><surname>Győrei</surname><forename>Zsolt</forename><idno type="KOHA">KOHA:172982</idno></persName>
+				  </respStmt>
+				  <respStmt>
+						<resp>arranged for publication:</resp>
+										  <persName><surname>Győrei</surname><forename>Zsolt</forename><idno type="KOHA">KOHA:172982</idno></persName>
+										  <persName><surname>Lovas</surname><forename>Borbála</forename></persName>
+										  <persName><surname>Józan</surname><forename>Ildikó</forename><idno type="KOHA">KOHA:313350</idno></persName>
+				  </respStmt>
+				  <respStmt>
+						<resp>lector:</resp>
+										  <persName><surname>Horváth</surname><forename>Iván</forename><idno type="KOHA">KOHA:113410</idno></persName>
+										  <persName><surname>Józan</surname><forename>Ildikó</forename><idno type="KOHA">KOHA:313350</idno></persName>
+										  <persName><surname>Veres</surname><forename>András</forename><idno type="KOHA">KOHA:128638</idno></persName>
+									  <persName><surname>Sárközi</surname><forename>Éva</forename><idno type="KOHA">KOHA:313361</idno></persName>
+				  </respStmt>
+				  <date>2014</date>
+				  <pubPlace>Pozsony</pubPlace>
+				  <publisher>Kalligram Kiadó</publisher>
+				  <idno type="ISBN">ISBN 978-615-5454-10-3</idno>
+			 </bibl>
+			<listWit>
+				<witness xml:id="KK">Kritikai kiadás</witness>
+				<witness xml:id="Ny">Nyugat <bibl><hi rend="italic">Nyugat</hi>, 1911/23, [december 1.], 921.</bibl>
+											Annotáció a vers után: <hi rend="italic">(Szabadka.)</hi>. Három vers együtt
+											közölve a 921–923. oldalakon: <title rend="italic">A patikának üvegajtajában</title>
+											(<title rend="italic">Kisvárosi fotográfia</title> címmel); <title rend="italic">Panoptikum</title>
+											(kötetben: Mágia1, 37–38; Mágia2, 39–40); <title rend="italic">Csendes, tiszta vers</title>
+											(kötetben: Mágia1, 79, Mágia2, 81, <title rend="italic">Csöndes, tiszta vers</title> címmel,
+											ÖGYK, 145).</witness>
+				<witness xml:id="V">Világ <bibl><hi rend="italic">Világ</hi>, 1912/206, [szeptember 1.], 1.</bibl></witness>
+				<witness xml:id="Mag1">Mágia1, 31-32. <bibl><hi rend="smallcap">Kosztolányi</hi> Dezső, <title rend="italic">Mágia.
+											  Kosztolányi Dezső verseskönyve</title>, Békéscsaba, Tevan, 1912.</bibl> Annotáció a vers
+											  után: <hi rend="italic">(Szabadka)</hi>.</witness>
+				<witness xml:id="H">A Hét <bibl><hi rend="italic">A Hét</hi>, 1912, 48/1186, [december 1.], 762.</bibl>
+										  Három vers együtt közölve ugyanezen az oldalon: <title rend="italic">A patikának
+										  üvegajtajában</title> (<title rend="italic">Kisvárosi fotografia</title> címmel);
+										  <title rend="italic">Csendes tiszta vers</title>. (kötetben: Mágia1, 79; Mágia2,
+										  81; <title rend="italic">Csöndes, tiszta vers</title> címmel, ÖGYK, 145);
+										  <title rend="italic">Fohász csillagtalan éjjel</title>. (kötetben: Mágia1, 64–65; Mágia2,
+										  66–67; ÖGYK, 138–139).</witness>
+				<witness xml:id="SZKP4">SZKP4, 49-50. <bibl><hi rend="smallcap">Kosztolányi</hi>
+												Dezső, <title rend="italic">A szegény kisgyermek panaszai</title>,
+												Békéscsaba, Tevan, 1913.</bibl></witness>
+				<witness xml:id="PN">Pesti Napló <bibl><hi rend="italic">Pesti Napló</hi>, 1917/46, [február 15.], 15.
+											Rovatcím: <title rend="italic">Versek</title>.</bibl></witness>
+				<witness xml:id="SZKP5">SZKP5, 58-59. <bibl><hi rend="smallcap">Kosztolányi</hi>
+												Dezső, <title rend="italic">A szegény kisgyermek panaszai</title>,
+												Budapest, Athenaeum, 1919.</bibl></witness>
+				<witness xml:id="Mag2">Mágia2, 33-34. <bibl><hi rend="smallcap">Kosztolányi</hi> Dezső, <title rend="italic">Mágia.
+											  Kosztolányi Dezső verseskönyve</title>, Békéscsaba, Tevan, 1920.</bibl> Annotáció a vers
+											  után: <hi rend="italic">(Szabadka)</hi>.</witness>
+				<witness xml:id="SZKP6">SZKP6, 54-55. <bibl><hi rend="smallcap">Kosztolányi</hi>
+												Dezső, <title rend="italic">A szegény kisgyermek panaszai</title>,
+												Budapest, Genius, 1923.</bibl></witness>
+				<witness xml:id="EU">Az Érdekes Újság <bibl><hi rend="italic">Az Érdekes Újság</hi>, 1923/24, [június 14.],
+											6.</bibl></witness>
+				<witness xml:id="KORR1">Korrektúralapok 1 <bibl>PIM, V. 4966/1–2, 25–26. (= SZKP6, 54–55.)</bibl></witness>
+				<witness xml:id="OGYK">ÖGYK, 66-67. <bibl><hi rend="smallcap">Kosztolányi</hi> Dezső <title rend="italic">Összegyűjtött
+											  költeményei. 1907–1935</title>, Budapest, Révai, 1935.</bibl></witness>
+				<witness xml:id="UMaK">ÚMaK <bibl><hi rend="italic">Új magyar költők</hi>,
+											  szerk. <hi rend="smallcap">Vajthó</hi> László, Budapest, Királyi Magyar
+											  Egyetemi Nyomda, 1936, 213 (A Tanítás Problémái, 12). Összefoglaló
+											  cím: <title rend="italic">„A szegény kisgyermek panaszai”-ból</title>.</bibl> Öt
+											  vers együtt közölve a 210–213. oldalakon: <title rend="italic">Mint aki a sínek közé
+											  esett…</title>; <title rend="italic">Azon az éjjel</title>; <title rend="italic">Este,
+											  este…</title>; <title rend="italic">Lánc, lánc, eszterlánc</title> (<title rend="italic">Lánc,
+											  lánc…</title> címmel); <title rend="italic">A patikának üvegajtajában</title>.</witness>
+			</listWit>
+		</sourceDesc>
+	</fileDesc>
+</teiHeader>
+   <text>
+      <body>
+         <div xml:id="d.1">
+            <head type="title">
+               <app>
+                  <lem wit="#KK #SZKP4 #SZKP5 #SZKP6 #KORR1 #OGYK #UMaK"/>
+                  <rdg wit="#Ny #V">Kisvárosi fotográfia</rdg>
+                  <rdg wit="#Mag1 #PN #Mag2">Kisvárosi fotografia</rdg>
+                  <rdg wit="#H #EU">Kisvárosi fotografia.</rdg>
+                  <rdg/>
+               </app>
+            </head>
+            <lg xml:id="lg.1">
+               <l xml:id="l.1">A patikának üvegajtajában</l>
+               <l xml:id="l.2">
+                  <app>
+                     <lem wit="#KK #V #Mag1 #SZKP4 #SZKP5 #Mag2 #SZKP6 #KORR1 #OGYK #UMaK">búsul, búsul</lem>
+                     <rdg wit="#Ny">Búsul búsul</rdg>
+                     <rdg wit="#H #PN #EU">Busul, busul</rdg>
+                  </app>
+               </l>
+               <l xml:id="l.3">egy <app>
+                     <lem wit="#KK #Ny #V #Mag1 #H #SZKP4 #PN #SZKP5 #Mag2 #SZKP6 #EU #KORR1 #UMaK">gyógyszerészsegéd.</lem>
+                     <rdg wit="#OGYK">gyógyszereszsegéd.<note type="critic">Nyomdahiba miatt a főszövegben javítva.</note>
+                     </rdg>
+                  </app>
+               </l>
+            </lg>
+            <lg xml:id="lg.2">
+               <l xml:id="l.4">És fuvolája egyre fujdogálja</l>
+               <l xml:id="l.5">szegény, szegény</l>
+               <l xml:id="l.6">
+                  <app>
+                     <lem wit="#KK #SZKP4 #OGYK #UMaK">egyűgyű</lem>
+                     <rdg wit="#Ny">Egyűgyü</rdg>
+                     <rdg wit="#V #Mag1 #H #PN #Mag2 #EU">Együgyü</rdg>
+                     <rdg wit="#SZKP5 #SZKP6 #KORR1">együgyű</rdg>
+                  </app> énekét.</l>
+            </lg>
+            <lg xml:id="lg.3">
+               <l xml:id="l.7">Ha elmehetnék innen messze tájra,</l>
+               <l xml:id="l.8">igen, igen,</l>
+               <l xml:id="l.9">
+                  <app>
+                     <lem wit="#KK #Ny #SZKP5 #SZKP6 #KORR1 #OGYK #UMaK">így</lem>
+                     <rdg wit="#V #Mag1 #H #SZKP4 #PN #Mag2 #EU">Igy</rdg>
+                  </app>szól a fuvola.</l>
+            </lg>
+            <lg xml:id="lg.4">
+               <l xml:id="l.10">Csak menni, menni, mindörökre menni,</l>
+               <l xml:id="l.11">tovább, tovább</l>
+               <l xml:id="l.12">s nem tudni, hogy hova.</l>
+            </lg>
+            <lg xml:id="lg.5">
+               <l xml:id="l.13">A temetésemen sok <app>
+                     <lem wit="#KK #OGYK #UMaK">nefelejcs</lem>
+                     <rdg wit="#Ny #V #Mag1 #H #SZKP4 #PN #SZKP5 #Mag2 #SZKP6 #EU">nefelejts</rdg>
+                     <rdg wit="#KORR1">nefele<del>jts</del>
+                        <add type="corr">jcs</add>
+                     </rdg>
+                  </app> lesz,</l>
+               <l xml:id="l.14">virág, <app>
+                     <lem wit="#KK #Ny #V #SZKP4 #SZKP5 #SZKP6 #KORR1 #OGYK #UMaK">virág,</lem>
+                     <rdg wit="#Mag1 #H #PN #Mag2 #EU">virág.</rdg>
+                  </app>
+               </l>
+               <l xml:id="l.15">virágos <app>
+                     <lem wit="#KK #V #SZKP5 #SZKP6 #KORR1 #OGYK #UMaK">sír</lem>
+                     <rdg wit="#Ny #Mag1 #H #SZKP4 #PN #Mag2 #EU">sir</rdg>
+                  </app> fogad.</l>
+            </lg>
+            <lg xml:id="lg.6">
+               <l xml:id="l.16">Fiatal szája <app>
+                     <lem wit="#KK #Ny #SZKP5 #SZKP6 #KORR1 #OGYK #UMaK">így</lem>
+                     <rdg wit="#V #Mag1 #H #SZKP4 #PN #Mag2 #EU">igy</rdg>
+                  </app>
+                  <app>
+                     <lem wit="#KK #V #SZKP4 #SZKP5 #SZKP6 #KORR1 #OGYK #UMaK">ríkatja</lem>
+                     <rdg wit="#Ny #Mag1 #H #PN #Mag2 #EU">rikatja</rdg>
+                  </app> folyton</l>
+               <l xml:id="l.17">
+                  <app>
+                     <lem wit="#KK #V #SZKP5 #SZKP6 #KORR1 #OGYK #UMaK">búsan, búsan</lem>
+                     <rdg wit="#Ny #Mag1 #SZKP4 #Mag2">Búsan, búsan,</rdg>
+                     <rdg wit="#H #PN #EU">Busan, busan,</rdg>
+                  </app>
+               </l>
+               <l xml:id="l.18">az ódon <app>
+                     <lem wit="#KK #Ny #SZKP4 #SZKP5 #SZKP6 #KORR1 #OGYK #UMaK">sípokat.</lem>
+                     <rdg wit="#V #Mag1 #H #PN #Mag2 #EU">sipokat.</rdg>
+                  </app>
+               </l>
+            </lg>
+            <lg xml:id="lg.7">
+               <l xml:id="l.19">Ki <app>
+                     <lem wit="#KK #SZKP5 #SZKP6 #KORR1 #OGYK #UMaK">tudja,</lem>
+                     <rdg wit="#Ny #V #Mag1 #H #SZKP4 #PN #Mag2 #EU">tudja</rdg>
+                  </app>
+                  <app>
+                     <lem wit="#KK #SZKP6 #KORR1 #OGYK #UMaK">mért</lem>
+                     <rdg wit="#Ny #V #Mag1 #H #PN #Mag2 #EU">mért,</rdg>
+                     <rdg wit="#SZKP4 #SZKP5">miért</rdg>
+                  </app> s ki tudja, hogy <app>
+                     <lem wit="#KK #V #OGYK #UMaK">mióta</lem>
+                     <rdg wit="#Ny #Mag1 #H #SZKP4 #PN #SZKP5 #Mag2 #SZKP6 #EU">mióta?</rdg>
+                     <rdg wit="#KORR1">mióta<del>?</del>
+                        <add type="corr">?</add>
+                        <note type="critic">A sorvégi kérdőjel kihúzva, majd újra kiírva.</note>
+                     </rdg>
+                  </app>
+               </l>
+               <l xml:id="l.20">
+                  <app>
+                     <lem wit="#KK #Ny #V #Mag1 #H #SZKP4 #PN #SZKP5 #Mag2 #SZKP6 #EU #OGYK #UMaK">Zenél,</lem>
+                     <rdg wit="#KORR1">
+                        <del>Z</del>
+                        <del>
+                           <add type="corr">z</add>
+                        </del>
+                        <add type="corr">Z</add>
+                        <note type="critic">Az előző sorvégi írásjel javítása után a sor eleji nagybetű előbb kisbetűre javítva, majd nagybetűre visszajavítva.</note>
+                     </rdg>
+                  </app> zenél</l>
+               <l xml:id="l.21">s ki tudja, hova jut?</l>
+            </lg>
+            <lg xml:id="lg.8">
+               <l xml:id="l.22">Az ablakon lenéz egy szőke <app>
+                     <lem wit="#KK #OGYK #UMaK">asszony,</lem>
+                     <rdg wit="#Ny #V #Mag1 #H #SZKP4 #PN #SZKP5 #Mag2 #SZKP6 #EU">asszony.</rdg>
+                     <rdg wit="#KORR1">asszony<del>.</del>
+                        <add type="corr">,</add>
+                     </rdg>
+                  </app>
+               </l>
+               <l xml:id="l.23">lenéz, <app>
+                     <lem wit="#KK #V #PN #EU #OGYK #UMaK">lenéz,</lem>
+                     <rdg wit="#Ny #Mag1 #H #SZKP4 #SZKP5 #Mag2 #SZKP6">lenéz.</rdg>
+                     <rdg wit="#KORR1">lenéz<del>.</del>
+                        <add type="corr">,</add>
+                     </rdg>
+                  </app>
+               </l>
+               <l xml:id="l.24">de oly sötét az <app>
+                     <lem wit="#KK #Ny #V #Mag1 #SZKP4 #SZKP5 #Mag2 #SZKP6 #KORR1 #OGYK #UMaK">út.</lem>
+                     <rdg wit="#H #PN #EU">ut.</rdg>
+                  </app>
+               </l>
+            </lg>
+            <lg xml:id="lg.9">
+               <l xml:id="l.25">Olajlámpája vérvörösen ég <app>
+                     <lem wit="#KK #Ny #V #Mag1 #H #SZKP4 #SZKP5 #Mag2 #SZKP6 #EU #KORR1 #OGYK #UMaK">már,</lem>
+                     <rdg wit="#PN">már.</rdg>
+                  </app>
+               </l>
+               <l xml:id="l.26">lobog, lobog</l>
+               <l xml:id="l.27">és künn köd és homály.</l>
+            </lg>
+            <lg xml:id="lg.10">
+               <l xml:id="l.28">Kopott <app>
+                     <lem wit="#KK #Mag1 #H #SZKP4 #PN #SZKP5 #Mag2 #SZKP6 #EU #KORR1 #OGYK #UMaK">ezüstbillentyükön</lem>
+                     <rdg wit="#Ny">ezüstbillentyűkön</rdg>
+                     <rdg wit="#V">ezüst billentyükön</rdg>
+                  </app> az <app>
+                     <lem wit="#KK #Ny #V #SZKP6 #KORR1 #OGYK #UMaK">újja</lem>
+                     <rdg wit="#Mag1 #H #SZKP4 #PN #SZKP5 #Mag2 #EU">ujja</rdg>
+                  </app>
+               </l>
+               <l xml:id="l.29">s az ősz, az ősz</l>
+               <l xml:id="l.30">
+                  <app>
+                     <lem wit="#KK #OGYK #UMaK">ő vele</lem>
+                     <rdg wit="#Ny #V #Mag1 #H #SZKP4 #PN #SZKP5 #Mag2 #SZKP6">Ő véle</rdg>
+                     <rdg wit="#EU">Ővéle</rdg>
+                     <rdg wit="#KORR1">
+                        <del>Ő</del>
+                        <add type="corr">ő</add> véle</rdg>
+                  </app> fuvolál…</l>
+            </lg>
+         </div>
+      </body>
+   </text>
+</TEI>

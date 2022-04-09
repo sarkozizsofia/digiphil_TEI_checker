@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" 	schematypens="http://purl.oclc.org/dsdl/schematron"?> <TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Dedicatoria</title>
+                <author>
+                    <persName>Petrus Ransanus</persName>
+                    <idno type="KOHA_AUTH">KOHA:169512</idno>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>digital edition</edition>
+                <respStmt>
+                    <resp>project director</resp>
+                    <persName>
+                        <surname>Palkó</surname>
+                        <forename>Gábor</forename>
+                        <idno type="KOHA_AUTH">KOHA_AUTH:121463</idno>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>TEI-specification</resp>
+                    <persName>
+                    <surname>Fellegi</surname>
+                    <forename>Zsófia</forename>
+                </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>XML-editor</resp>
+                    <persName>
+                        <surname>Tubay</surname>
+                        <forename>Tiziano</forename>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>XML-editor</resp>
+                    <persName>
+                        <surname>Bobák</surname>
+                        <forename>Barbara</forename>
+                    </persName>
+                    
+                </respStmt>
+                <respStmt>
+                    <resp>creator</resp>
+                    <orgName> DigiPhil <ref type="url">http://digiphil.hu</ref>
+                    </orgName>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName>Bölcsészettudományi Kutatóközpont, Irodalomtudományi Intézet</orgName>
+                    <ref type="url">http://viaf.org/viaf/312925875/</ref>
+                    <ref type="url">https://iti.btk.mta.hu/</ref>
+                </publisher>
+                <pubPlace>Budapest <ref type="url">http://www.geonames.org/3054643</ref>
+                </pubPlace>
+                <date>2020</date>
+                <availability>
+                    <p>©Free Access - no-reuse <ref type="url"
+                        >http://www.europeana.eu/rights/rr-f/</ref>
+                    </p>
+                </availability>
+                <idno type="PID">o:ransanus.tei.dedicatoria</idno>
+                <idno type="URL">/o:ransanus.tei.dedicatoria</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Bibliotheca Scriptorum Medii Recentisque Aevorum</title>
+                <respStmt>
+                    <resp>condita a</resp>
+                    <persName>Ladislao Juhász</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>consilium editorium</resp>
+                    <persName>Stephanus Borzsák</persName>
+                    <persName>Ioannes Horváth</persName>
+                    <persName>Tiberius Klaniczay</persName>
+                    <persName>Ladislaus Mezei</persName>
+                    <persName>Gabriel Székely</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>redigit</resp>
+                    <persName>Antonius Pirnát</persName>
+                </respStmt>
+                
+            </seriesStmt>
+            <notesStmt>
+                <note type="critIntro">
+                    <p/>
+                </note>
+                
+            </notesStmt>
+            <sourceDesc>
+                <!--<msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <extent>
+                                    <measure type="quantity" unit="folio"/>
+                                    <dimensions unit="mm">
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </extent>
+                                <condition>
+                                    <p/>
+                                </condition>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                <msDesc>-->
+                <bibl>
+                    <author>
+                        <persName>
+                            <surname>Petrus</surname>
+                            <forename>Ransanus</forename>
+                            <idno type="KOHA_AUTH">KOHA:169512</idno>
+                            <idno type="url"
+                                >http://biblio.digiphil.hu/cgi-bin/koha/opac-authoritiesdetail.pl?authid=96679</idno>
+                            <idno type="VIAF">VIAF:95251869</idno>
+                            <idno type="url">http://viaf.org/viaf/95251869</idno>
+                        </persName>
+                    </author>
+                    <title>Epithoma rerum Hungararum</title>
+                    <title type="sub">Id est annalium omnium temporum liber primus et
+                        sexagesimus</title>
+                    <idno type="ISBN">ISBN:9630509946</idno>
+                    <respStmt>
+                        <resp>editor</resp>
+                        <persName>
+                            <surname>Petrus</surname>
+                            <forename>Kulcsár</forename>
+                            <idno type="KOHA_AUTH">KOHA:</idno>
+                        </persName>
+                    </respStmt>
+                    <date>1977</date>
+                    <pubPlace>Budapest</pubPlace>
+                    <publisher>Akadémiai Kiadó</publisher>
+                </bibl>
+                <listWit>
+                    <witness xml:id="KK">Kritikai kiadás</witness>
+                    <witness xml:id="B">Petri Ransani Siculi theologi atque historici, Lucerini
+                        episcopi annalium omnium temporum liber primus et sexagesimus. Manoscritto
+                        miniato su pergamena, nel patrimonio bibliografico della Biblioteca
+                        Nazionale Széchényi di Budapest, sotto il n. Clmae 249. (foll.
+                        8r–10v)</witness>
+                    <witness xml:id="L1">Epitome rerum Hungaricarum velut per indices descripta
+                        auctore Petro Ransano apud Mathiam regem olim regis Neapolitani triennium
+                        legato. Impressum Ternaviae elimatione et relectione Lucae Peechi Pannonii,
+                        M. D. LXXXIX. Foll. 188 innum. In 8°, segnatura (:) in 4°. (foll.
+                        A1r–A2v)</witness>
+                    <witness xml:id="L2">Epitome rerum Hungaricarum velut per indices descripta
+                        auctore Petro Ransano Siculo episcopo Lucerino, theologo atque historico,
+                        apud Mathiam regem olim regis Neapolitani per triennium legato, annis ab
+                        hinc C LXVII impressa studio et opera Lucae Pecchi[!] Pannonii, nunc demum
+                        ob eius elegantiam recusa. Budae, typis Veronicae Nottensteinin, 1746. pp.
+                        VIII, 298, foll. 10 innum. In 4°, la segnatura Rr in 3°. (pp. III–VII =
+                        foll. §2r–§4r)</witness>
+                    <witness xml:id="M">Historiae Hungaricae fontes domestici. Vol. IV. Chronica
+                        minora... Petri Ransani epitome rerum Hungaricarum. Recensuit... M.
+                        Florianus. Auspiciis et sumptibus Academiae Scientiarum Hungaricae.
+                        Budapestini 1885. (Quinque-Ecclesiis, typis Michaelis Taizs.) In 8°. (pp.
+                        116–118)</witness>
+                    <witness xml:id="H">Analecta nova ad historiam renascendum in Hungaria
+                        litterarum spectantia... Ex scriptis ab Eugenio Abel relictis cum
+                        commentariis edidit partimque auxit Stephanus Hegedűs. Budapestini, typis
+                        Victoris Hornyánszky. 1903. In 8°. (pp. 428–430)</witness>
+                </listWit>
+                <bibl><hi rend="italic"/></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="la"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>krónika</term>
+                </keywords>
+            </textClass>
+            <creation>
+                <date when="1490"/>
+            </creation>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <p><s n="1"> ﻿Petrus Ransanus Siculus episcopus Lucerinus divo <app>
+                        <lem wit="#KK #B #L2 #M">Mathiae</lem>
+                        <rdg wit="#L1 #H">Matthiae</rdg>
+                    </app> Hungarorum regi potentissimo ac sapientissimo utriusque vitae <app>
+                        <lem wit="#KK #B #L2 #M">felicitatem</lem>
+                        <rdg wit="#L1 #H">faelicitatem</rdg>
+                    </app>. </s></p>
+                <p><s n="2">Solent nonnulli, quum discedunt ab eo, quem amaverunt, aliquid <app>
+                            <lem wit="#B #L1 #L2 #H">illi</lem>
+                            <rdg wit="#M"/>
+                        </app> relinquere, quod sit veluti pignus quoddam sincerae et non simulatae
+                        charitatis officium<app>
+                            <lem wit="#KK #B #L1 #L2 #M">, quod humanitatis officium prudentissimus
+                                quisque recte semper mirificeque laudavit et quidem non iniuria, eo
+                                namque fit, ut licet sit absens, qui amavit, in eo tamen, qui amatus
+                                est, dulcis quaedam et, quae non facile aboleri possit,
+                                benevolentiae memoria perseverat</lem>
+                            <rdg wit="#H"/>
+                        </app>.<note type="critic" corresp="RKK">2 <hi rend="italic">sincerae et non
+                                simulatae charitatis officium</hi> cf. Index I.30, 1 Tim.
+                        5.</note></s>
+                <s n="3">Cum igitur in regia tua biennio ipse<app>
+                            <lem wit="#B #L2 #M"/>
+                            <rdg wit="#L1 #H">ferme</rdg>
+                        </app> sim versatus, ac propterea satis animadverterim inesse tibi permultas
+                        rege optimo dignas corporis animique virtutes, fieri profecto nequivit, quo
+                        minus ad te diligendum vehementer allicerer, eo deinde magis est auctus amor<app>
+                            <lem wit="#B #L2 #M"> </lem>
+                            <rdg wit="#L1 #H">in te</rdg>
+                        </app>meus, quod non solum, quum primum perveni in regnum hoc tuum, me tu et
+                        suscepisti benigne et habuisti perliberaliter, sed <app>
+                            <lem wit="#KK #B #M #H">quamdiu</lem>
+                            <rdg wit="#L1 #L2">quandiu</rdg>
+                        </app> etiam apud te fui, me non <app>
+                            
+                                <lem wit="#KK #B #L1 #L2">mediocri</lem>
+                                <rdg wit="#M">mediori</rdg>
+                                <rdg wit="#H">mediocriter</rdg>
+                            
+                        </app> honore affecisti.</s>
+                <s n="4">Iure igitur es, humanissime rex, meo aliquo dono dignissimus.</s>
+                <s n="5">Fateor tamen ingenue mihi non esse vel argentum vel gemmas aut
+                    aurum, quo donem regem, quem nullus mortalium dubitat esse omni
+                    divitiarum genere locupletissimum.</s>
+                <s n="6">Est nihilominus <app>
+                        <lem wit="#KK #B #L1 #L2 #H">mihi</lem>
+                        <rdg wit="#M"/>
+                    </app> dei <app>
+                        <lem wit="#KK #L1 #L2 #M #H">naturaeque</lem>
+                        <rdg wit="#B">natureque</rdg>
+                    </app> beneficio vis tum mentis tum animi, qua sum ausus quaedam tuae maiestati
+                    exigui ingenii mei dedicare monumenta.</s>
+                <s n="7">Sed ostendam paucis, unde mihi <app>
+                        <lem wit="#KK #L1 #L2 #M #H">incesserit</lem>
+                        <rdg wit="#B">incaesserit</rdg>
+                    </app> ea excitandi ingenii seu cupido seu cogitatio.</s>
+                <s n="8">Cum superioris anni hyeme <app>
+                        <lem wit="#KK #L1 #L2 #M #H">Viennae</lem>
+                        <rdg wit="#B">Viennae</rdg>
+                    </app> agerem, tua Beatrix regina sapientissima tradidit mihi legendum codicem <app>
+                        <lem wit="#KK #B #H">quendam</lem>
+                        <rdg wit="#L1 #L2">quendam in</rdg>
+                        <rdg wit="#M">quemdam</rdg>
+                    </app>, quo scribitur series principum, qui ab Atila ad tuam usque tempestatem
+                    regnum in Hungaria tenuere.</s>
+                <s n="9">Cumque perlecto libro animadvertissem eam seriem non tali nitore orationis <app>
+                        <lem wit="#KK #B">explicitam</lem>
+                        <rdg wit="#L1 #L2 #H">explicatam</rdg>
+                        <rdg wit="#M">explicitum</rdg>
+                    </app>, qualem rerum maiestas ac dignitas postulasset, regina ipsa hortante
+                    contuli me ad scribendum stilo <app>
+                        <lem wit="#KK #B #L1 #L2 #H">paulo</lem>
+                        <rdg wit="#M">paulum</rdg>
+                    </app> cultiore, quaecunque de Hungarorum <app>
+                        <lem wit="#KK #B #L1 #L2 #M">principum</lem>
+                        <rdg wit="#H">principium</rdg>
+                    </app> regno atque ordine libri <app>
+                        <lem wit="#KK #B #L1 #L2 #H">illius</lem>
+                        <rdg wit="#M">eius</rdg>
+                    </app> auctor non satis Latina oratione <app>
+                        <lem wit="#KK #B #L2 #M">prodiderat</lem>
+                        <rdg wit="#L1 #H">prodiderit</rdg>
+                    </app>.</s>
+                <s n="10">Sum nihilominus <app>
+                        <lem wit="#KK #B #L1 #M #H">hac usus</lem>
+                        <rdg wit="#L2">usus hac</rdg>
+                    </app> licentia, ut nonnulla, quorum ille non meminerat, suis scriptis
+                    adiecerim, quaedam autem, quae redundare parumque ad rem valere sunt visa,
+                    detraxerim.</s>
+                <s n="11">Quod eo feci, quia non fuit mihi animo prolixam scribere historiam <app>
+                        <lem wit="#KK #B #L1 #L2 #H">sed <app>
+                                <lem wit="#KK #B #L1 #H">epithoma</lem>
+                                <rdg wit="#L2">epitoma</rdg>
+                            </app> quoddam condere rerum Hungararum</lem>
+                        <rdg wit="#M"/>
+                    </app>, quod pro tui ingenii excellentia uno <app>
+                        <lem wit="#KK">paene</lem>
+                        <rdg wit="#B #L1 #L2 #M #H">pene</rdg>
+                    </app> spiritu posses ipse perlegere.</s>
+                <s n="12">Quae vero his de rebus ex eo, quem dixi, codice decerpta a me collectaque
+                    sunt, ea aliaque illa, quae superaddidisse me dixi, adieci ego <app>
+                        <lem wit="#KK #B #L1 #M #H">ingenti cuidam</lem>
+                        <rdg wit="#L2">cuidam ingenti</rdg>
+                    </app> operi meo a triginta <app>
+                        <lem wit="#KK #B #L1 #M #H">iam annis</lem>
+                        <rdg wit="#L2">annis iam</rdg>
+                    </app>
+                    <app>
+                        <lem wit="#KK #L1 #L2 #M">incepto</lem>
+                        <rdg wit="#B #H">incoepto</rdg>
+                    </app> et <app>
+                        <lem wit="#KK #L1 #L2 #M #H">ad</lem>
+                        <rdg wit="#B">ab</rdg>
+                    </app> haec usque tempora continuato nondum tamen <app>
+                        <lem wit="#KK #L2 #M #H">edito</lem>
+                        <rdg wit="#B #L1">aedito</rdg>
+                    </app>, quod inscribo Omnium temporum annales.</s>
+                <s n="13">Eius operis sexaginta iam volumina absoluta mihi sunt, quocirca fit, ut <app>
+                            <lem wit="#B #L1 #L2 #H">eis</lem>
+                            <rdg wit="#M">is</rdg>
+                        </app>, qui est de rebus Hungaricis, sit ipsorum Annalium liber primus et
+                        sexagesimus.</s>
+                <s n="14"><app>
+                        <lem wit="#KK #B #L1 #L2 #H">Quanquam</lem>
+                        <rdg wit="#M">Quamquam</rdg>
+                    </app> et alia occurrit causa, <app>
+                        <lem wit="#KK #H">qua</lem>
+                        <rdg wit="#B #L1 #L2 #M">quo</rdg>
+                    </app> in condendo rerum Hungararum <app>
+                        <lem wit="#KK #B #L1 #M #H">epithomate</lem>
+                        <rdg wit="#L2">epitomate</rdg>
+                    </app> versari decreverim.</s>
+                <s n="15">Opere <app>
+                        <lem wit="#KK #B #H">nanque</lem>
+                        <rdg wit="#L1 #L2 #M">namque</rdg>
+                    </app> illo meo, cuius memini et memoravi, quae pertinere <app>
+                        <lem wit="#KK #B #L1 #L2 #H">sunt visa</lem>
+                        <rdg wit="#M">visa sunt</rdg>
+                    </app> ad regna <app>
+                        <lem wit="#KK">paene</lem>
+                        <rdg wit="#B #L1 #L2 #M #H">pene</rdg>
+                    </app> omnia, quae a multiplicatione generis humani post diluvium ad hoc usque <app>
+                        <lem wit="#KK #B #L1 #L2 #H">saeculum</lem>
+                        <rdg wit="#M">seculum</rdg>
+                    </app> magis in orbe clara magisque celebrata fuere, solum praetermiseram regnum
+                    hoc tuum non plane, quod illud describere me piguerit, fuit autem mihi
+                    impedimento, quod nunquam fui <app>
+                        <lem wit="#KK #B #L1 #M #H">in Italia</lem>
+                        <rdg wit="#L2"/>
+                    </app> nactus hominem, quo docente rerum, de quibus loquor, veram atque exactam
+                    potuissem habere <app>
+                        <lem wit="#KK #B #L1">noticiam</lem>
+                        <rdg wit="#L2 #M #H">notitiam</rdg>
+                    </app>.</s>
+                <s n="16">Me itaque in Hungaria agente ac veniente in manus meas opusculo, quod
+                        dixi, narrantibus praeterea compluribus <app>
+                            <lem wit="#KK #B #M #H">autoritate</lem>
+                            <rdg wit="#L1 #L2">authoritate</rdg>
+                        </app> praestantibus viris tum rerum tum locorum eiusdem tui amplissimi
+                        florentissimique regni peritis scribendi ea laborem <app>
+                            <lem wit="#KK #L1 #L2 #M #H">suscepi</lem>
+                            <rdg wit="#B">suscaepi</rdg>
+                        </app>, <app>
+                            <lem wit="#KK #B #M #H">quem <app>
+                                    <lem wit="#KK #B #H">(uti par est)</lem>
+                                    <rdg wit="#M">uti par est</rdg>
+                                </app></lem>
+                            <rdg wit="#L1 #L2">(quem uti par est)</rdg>
+                        </app> tuae maiestati et quidem non invitus dedicavi.<note type="critic"
+                            corresp="RKK">16 <hi rend="italic">viris tum rerum tum locorum...
+                                peritis</hi> cf. Index II.38.</note></s>
+                <s n="17"><app>
+                        <lem wit="#KK #L1 #L2 #M #H">Quae</lem>
+                        <rdg wit="#B">Que</rdg>
+                    </app> vero a me eo libro commemorantur, ea tu perquam maxime intelliges ex
+                    indicibus, qui <app>
+                        <lem wit="#KK #B #L1 #M #H">ante</lem>
+                        <rdg wit="#L2">post</rdg>
+                    </app><app>
+                        <lem wit="#KK #B #L1 #M #H"> ipsius libri</lem>
+                        <rdg wit="#L2">libri ipsius</rdg>
+                    </app>
+                    <app>
+                        <lem wit="#KK #L1 #M #H">initium</lem>
+                        <rdg wit="#B">initicium</rdg>
+                        <rdg wit="#L2">finem</rdg>
+                    </app> adnotati sunt.</s>
+                    <s n="18">Bene vale, rex optime!</s></p>                  
+            </div>
+        </body>
+    </text>
+</TEI>

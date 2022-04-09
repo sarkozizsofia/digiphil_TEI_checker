@@ -1,0 +1,1082 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" 	schematypens="http://purl.oclc.org/dsdl/schematron"?> <TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>De Ioanne Corvino</title>
+                <author>
+                    <persName>Petrus Ransanus</persName>
+                    <idno type="KOHA_AUTH">KOHA:169512</idno>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>digital edition</edition>
+                <respStmt>
+                    <resp>project director</resp>
+                    <persName>
+                        <surname>Palkó</surname>
+                        <forename>Gábor</forename>
+                        <idno type="KOHA_AUTH">KOHA_AUTH:121463</idno>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>TEI-specification</resp>
+                    <persName>
+                    <surname>Fellegi</surname>
+                    <forename>Zsófia</forename>
+                </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>XML-editor</resp>
+                    <persName>
+                        <surname>Tubay</surname>
+                        <forename>Tiziano</forename>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>XML-editor</resp>
+                    <persName>
+                        <surname>Bobák</surname>
+                        <forename>Barbara</forename>
+                    </persName>
+                    
+                </respStmt>
+                <respStmt>
+                    <resp>creator</resp>
+                    <orgName> DigiPhil <ref type="url">http://digiphil.hu</ref>
+                    </orgName>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName>Bölcsészettudományi Kutatóközpont, Irodalomtudományi Intézet</orgName>
+                    <ref type="url">http://viaf.org/viaf/312925875/</ref>
+                    <ref type="url">https://iti.btk.mta.hu/</ref>
+                </publisher>
+                <pubPlace>Budapest <ref type="url">http://www.geonames.org/3054643</ref>
+                </pubPlace>
+                <date>2020</date>
+                <availability>
+                    <p>©Free Access - no-reuse <ref type="url"
+                        >http://www.europeana.eu/rights/rr-f/</ref>
+                    </p>
+                </availability>
+                <idno type="PID">o:ransanus.tei.de.ioanne.corvino</idno>
+                <idno type="URL">/o:ransanus.tei.de.ioanne.corvino</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Bibliotheca Scriptorum Medii Recentisque Aevorum</title>
+                <respStmt>
+                    <resp>condita a</resp>
+                    <persName>Ladislao Juhász</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>consilium editorium</resp>
+                    <persName>Stephanus Borzsák</persName>
+                    <persName>Ioannes Horváth</persName>
+                    <persName>Tiberius Klaniczay</persName>
+                    <persName>Ladislaus Mezei</persName>
+                    <persName>Gabriel Székely</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>redigit</resp>
+                    <persName>Antonius Pirnát</persName>
+                </respStmt>
+                
+            </seriesStmt>
+            <notesStmt>
+                <note type="critIntro">
+                    <p>Particulae minores suos titulos habent, titulus vero totius capitis a nobis
+                        inscriptus est. Hoc caput in editionibus typis impressis adhuc legi non
+                        potuit, quia manuscriptum <hi rend="bold">B</hi> eo caret. Sentt. 1–70. ante victoriam
+                        Belgradensem (1456) atque etiam ante expugnationem urbis Constantinopolis
+                        (1453) compositae sunt, neque tamen a <persName>Ransano</persName>, qui
+                            <title>Annales</title> suos circa annos <date>1458–1460</date> incepit.
+                        Hanc partem sentt. 71–75. <title>Epithomati</title> adiungunt, quae inter
+                        annos 1490 et 1492 conscriptae sunt, ipsum vero <title>Epithoma</title>
+                        initium a sent. 76. capit.</p>
+                </note>
+                
+            </notesStmt>
+            <sourceDesc>
+                <!--<msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <extent>
+                                    <measure type="quantity" unit="folio"/>
+                                    <dimensions unit="mm">
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </extent>
+                                <condition>
+                                    <p/>
+                                </condition>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                <msDesc>-->
+                <bibl>
+                    <author>
+                        <persName>
+                            <surname>Petrus</surname>
+                            <forename>Ransanus</forename>
+                            <idno type="KOHA_AUTH">KOHA:169512</idno>
+                            <idno type="url"
+                                >http://biblio.digiphil.hu/cgi-bin/koha/opac-authoritiesdetail.pl?authid=96679</idno>
+                            <idno type="VIAF">VIAF:95251869</idno>
+                            <idno type="url">http://viaf.org/viaf/95251869</idno>
+                        </persName>
+                    </author>
+                    <title>Epithoma rerum Hungararum</title>
+                    <title type="sub">Id est annalium omnium temporum liber primus et sexagesimus</title>
+                    <idno type="ISBN">ISBN:9630509946</idno>
+                    <respStmt>
+                        <resp>editor</resp>
+                        <persName>
+                            <surname>Petrus</surname>
+                            <forename>Kulcsár</forename>
+                            <idno type="KOHA_AUTH">KOHA:</idno>
+                        </persName>
+                    </respStmt>
+                    <date>1977</date>
+                    <pubPlace>Budapest</pubPlace>
+                    <publisher>Akadémiai Kiadó</publisher>
+                </bibl>
+                <listWit>
+<witness xml:id="KK">Kritikai kiadás</witness>
+ 
+                   
+                    <witness xml:id="P">Petri Ransani Siculi Panormitani episcopi Lucerini annales
+                        omnium temporum. Voll. I–VIII. (Il vol. IV era andato perso.) Manoscritto
+                        rubricato, emendato, scritto dall’autore, facente parte del patrimonio
+                        bibliografico della Biblioteca Comunale di Palermo, sotto il n. 3Qq-C-54–60.
+                        Sui margini numerose annotazioni di Tommaso Fazello ed altri. (foll.
+                        224v–234r)</witness>
+                    <witness xml:id="B">Petri Ransani Siculi theologi atque historici, Lucerini
+                        episcopi annalium omnium temporum liber primus et sexagesimus. Manoscritto
+                        miniato su pergamena, nel patrimonio bibliografico della Biblioteca
+                        Nazionale Széchényi di Budapest, sotto il n. Clmae 249. (foll.
+                        10v–11r)</witness>
+                    <witness xml:id="Z">Epitome rerum Ungaricarum velut per indices descripta autore
+                        Petro Ramano apud Mathiam regem olim triennium legato nunc primum edita una
+                        cum appendice quadam opera Ioannis Sambuci Tirnaviensis Pannonii. Adiecta
+                        est rerum ad Agriam gestarum anno 1552 brevis eiusdem Sambuci narratio...
+                        Viennae Austriae excudebat Raphael Hofhalter Anno M. D. LVIII. Foll. 4
+                        innum., LXIX num., 1 vac., 14 innum. In 4°, segnature S e c in 6°. (fol. A3v)</witness>
+                    <witness xml:id="L1">Epitome rerum Hungaricarum velut per indices descripta
+                        auctore Petro Ransano apud Mathiam regem olim regis Neapolitani triennium
+                        legato. Impressum Ternaviae elimatione et relectione Lucae Peechi Pannonii,
+                        M. D. LXXXIX. Foll. 188 innum. In 8°, segnatura (:) in 4°. (foll.
+                        A2v–A3r)</witness>
+                    <witness xml:id="L2">Epitome rerum Hungaricarum velut per indices descripta
+                        auctore Petro Ransano Siculo episcopo Lucerino, theologo atque historico,
+                        apud Mathiam regem olim regis Neapolitani per triennium legato, annis ab
+                        hinc C LXVII impressa studio et opera Lucae Pecchi[!] Pannonii, nunc demum
+                        ob eius elegantiam recusa. Budae, typis Veronicae Nottensteinin, 1746. pp.
+                        VIII, 298, foll. 10 innum. In 4°, la segnatura Rr in 3°. (fol. §4v)</witness>
+                    <witness xml:id="M">Historiae Hungaricae fontes domestici. Vol. IV. Chronica
+                        minora... Petri Ransani epitome rerum Hungaricarum. Recensuit... M.
+                        Florianus. Auspiciis et sumptibus Academiae Scientiarum Hungaricae.
+                        Budapestini 1885. (Quinque-Ecclesiis, typis Michaelis Taizs.) In
+                        8°. (p. 118)</witness>
+                    <witness xml:id="H">Analecta nova ad historiam renascendum in Hungaria
+                        litterarum spectantia... Ex scriptis ab Eugenio Abel relictis cum
+                        commentariis edidit partimque auxit Stephanus Hegedűs. Budapestini, typis
+                        Victoris Hornyánszky. 1903. In 8°. (p. 430)</witness>
+                    
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="la"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>krónika</term>
+                </keywords>
+            </textClass>
+            <creation>
+                <date when="1490"/>
+            </creation>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <head type="title">
+                <app>
+                    <lem wit="#KK"><supplied>De Ioanne
+                        Corvino</supplied></lem>
+                    <rdg wit="#P">Liber XLIII. foeliciter incipit.</rdg>
+                    <rdg wit="#B #Z #L1 #L2 #M"/>
+                </app>
+                </head>
+                    <app>
+                        <lem wit="#KK #P">
+                            <p>
+                                <s n="1"><choice>
+                                    <orig>nno</orig>
+                                    <supplied>Anno<note type="critic">A: littera omissa textus
+                                            originalis</note></supplied>
+                                </choice>﻿ <app>
+                                    <lem wit="#KK">humanae</lem>
+                                    <rdg wit="#P">humane</rdg>
+                                </app> salutis tertio et quadragesimo supra millesimum et
+                                quadringentesimum haec relatu digna fuisse facta feruntur.</s>
+                            </p>
+                            <p>
+                                <s n="2">Turcarum ingens exercitus duce Amoratto eorum rege haud
+                                    procul a Danubio ducibus Vladislao Poloniae rege ac Ioanne
+                                    Hunniate Ianco vulgo cognominato cruentissimo praelio
+                                    profligatus a Christianis est, qui traiecto Danubio fluvio
+                                    hostium fines magno animo ingressi sunt Turcarum supra
+                                        <hi rend="overline">XL</hi> caesa, capta cum ingenti 
+                                    praeda <hi rend="overline">XXIII</hi>.</s>
+                                <s n="3">E nostris Vladislaus rem strenuissime agens una cum octo
+                                    ferme milibus occisus est.</s>
+                                <s n="4">Iulianus Caesarinus sancti Angeli cardinalis pontificis
+                                    legatus fuit a Turcis (uti plerique affirmant) captus multisque
+                                    suppliciis affectus, alii perhibent eum, dum caeso Vladislao per
+                                    viarum quosdam amfractus cum paucis <app>
+                                        <lem wit="#KK">effugeret</lem>
+                                        <rdg wit="#P"><del>effugit</del>effugeret</rdg>
+                                    </app> non ad evitandam quidem mortem sed ad animandos nostrorum
+                                    animos atque <app>
+                                        <lem wit="#KK">instaurandos</lem>
+                                        <rdg wit="#P"><del>instaurandi</del>instaurandos</rdg>
+                                    </app> exercitus, ictu sagittae percussum interiisse, sunt et,
+                                    qui affirment eum fuisse ab hostibus captum et in fluvium
+                                    quendam submersum; licet itaque in hanc diem in diversum
+                                    multorum opinio traxerit, quonam genere mortis e vita
+                                    discesserit, non tamen est ambiguum, quin gloriosissime utpote
+                                    ad tuendam Christianam pietatem mortem obiverit.</s>
+                            </p>
+                            <milestone unit="emptyLine"/>
+                           <p> <s n="5">Iulianus <app>
+                                    <lem wit="#KK">Caesarinus</lem>
+                                    <rdg wit="#P">Cesarinus</rdg>
+                                </app> cardinalis.</s>
+                           </p>
+                            <milestone unit="emptyLine"/>
+                            <p>
+                                <s n="6">Fuit is Romae clarissimo loco natus cultuique ac
+                                    disciplinae ecclesiasticae ab ineunte aetate dedicatus vir
+                                    profecto magno animo et excellenti ingenio multaque bonarum
+                                    artium doctrina praeclarus, denique omnium virtutum ac laudum
+                                    genere praestantissimus, cuius diligentia, consilio, fideli
+                                    opera Romanae ecclesiae patres et inprimis ipsi pontifices in
+                                    multis arduissimis rebus persaepe usi sunt.</s>
+                                <s n="7">Inter <app>
+                                        <lem wit="#KK">ceteras</lem>
+                                        <rdg wit="#P">caeteras</rdg>
+                                    </app> autem animi corporisque virtutes, quibus vir tantus
+                                    explenduit, illud de eo potissimum praedicant, quod humanitate
+                                    mortalibus omnibus, qui toto orbe sua tempestate fuerunt,
+                                    antecelluit.</s>
+                            </p>
+                            <milestone unit="emptyLine"/>
+                            <p><s n="8">Vladislai regis Poloniae et Ioannis Ianci laudes et quemadmodum
+                                commissum sit praelium, quo Iulianus et Vladislaus vitam
+                                amisere.</s>
+                            <milestone unit="emptyLine"/>
+                            </p>
+                            <p>
+                                <s n="9">Sed hortatur locus, ut de Vladislao quoque deque Ioanne
+                                Ianco, cum viri fuerint, a quibus admodum hoc saeculum illustratum
+                                est, mentionem habeamus, nec minus postulare videtur res, ut et
+                                ostendatur, quemadmodum sit commissum praelium, quo Turcae et victi
+                                sunt a nostris et interfecti deinde duobus viris insignibus fuerunt
+                                ad extremum victoriam assecuti.<note type="critic" corresp="RKK">1–9
+                                    Ioannes Hunyadi quattuor mensibus postremis anni 1443 in agros
+                                    hostium prospere irruit, quare imperator Turcorum pacem in annos
+                                    decem petere adductus est. Anno sequenti rex Vladislaus et
+                                    cardinalis Iulianus et Ioannes Hunyadi contra pacis conditiones
+                                    iterum invaserunt in fines Bulgariae. Clades Varnensis die 10.
+                                    Novembris 1444 hic enarrata hanc invasionem sequitur. Titulus et
+                                    primae sententiae capitis de his duobus expeditionibus mentionem
+                                    promiscue faciunt cladi speciem victoriae imponentes. Narratio
+                                    haec quoad argumenta magnamque partem verborum cum sentt. 17–39.
+                                    congruit. Qua re existimari potest eundem ac illic auctorem
+                                    sequi, scilicet Poggium, cuius Historia (v. inferius) anno iam
+                                    1448 in promptu fuerat. (Cf. Ernst Walter: <title>Poggius
+                                        Florentinus. Leben und Werke</title>. Leipzig–Berlin 1914.
+                                    235.) Verum tamen occisi Christiani apud Poggium 3000, apud
+                                    Ransanum vero (sentt. 3. et 38.) tum totidem, tum 8000
+                                    numerantur, qua de re hic et alio nuntio uti videtur. Ransanus
+                                    mortem cardinalis pluribus verbis quam Poggius persequitur.
+                                    Rumores tunc temporis incerti erant et inter se pugnabant; ne
+                                    pontifex maximus quidem 9. Iulii 1445. fidem nuntio mortis
+                                    tribuit. (Cf. Fraknói Vilmos: <title>Cesarmi Julián bíbornok
+                                        magyarországi pápai követ élete</title>. Budapest 1890. 128,
+                                    de rumoribus v. ibidem et in Poggii Historia inferius citata p.
+                                    119, nota sub littera a.)</note></s>
+                            </p>
+                            <p>
+                                <s n="10">Vladislaus mortuo patre, qui in Polonia multos annos
+                                    regnaverat, dum adhuc esset adolescens, in regnum successit.</s>
+                                <s n="11">Erat tunc <app>
+                                        <lem wit="#KK">peregregiae</lem>
+                                        <rdg wit="#P">peraegregiae</rdg>
+                                    </app> indolis multasque virtutes rege dignas, miram praesertim
+                                    quandam animi magnitudinem prae se ferebat, Christianae pietatis
+                                    erat praecipuus cultor, dederat operam (superstite adhuc patre)
+                                    Latinis literis, tantumque in bonarum disciplinarum studiis
+                                    versatus ingenii sui hubertate mirabili profecerat, ut a viris
+                                    doctis non mediocriter doctus iudicaretur.</s>
+                                <s n="12">Dum autem cum summa omnium pace paternum regnum optinet,
+                                Albertus Romanorum imperator ac Bohemiae et Hungariae rex, <app>
+                                    <lem wit="#KK">quem</lem>
+                                    <rdg wit="#P">quem<del><add type="insert">
+                                            libro</add></del><note type="critic">P addit et
+                                            del.</note></rdg>
+                                </app> supra dixi Sigismundo imperatori successisse, moritur, qui,
+                                cum nullus ei filius esset, qui Hungariae regno succederet,
+                                animadverteret autem Helisabectam uxorem ex se gravem esse, moriens
+                                posthumam prolem regni heredem (constitutis testamento tutoribus)
+                                    declaravit.<note type="critic" corresp="RKK">12 <hi
+                                        rend="italic">supra dixi</hi> cf. <title>Annales</title>
+                                    vol. VIII. fol. 154r, textum v. in nota ad: Index
+                                XXI.9.</note></s>
+                                <s n="13">Verum ubi discessit e vita, plerique regni proceres
+                                    permoleste ferentes tutorum imperium Vladislaum a Polonia in
+                                    Hungariam accitum regem faciunt repugnantibus tamen regni aliis
+                                    quibusdam optimatibus, illis praecipue, quos Albertus tutores
+                                    constituerat.</s>
+                                <s n="14"><app>
+                                        <lem wit="#KK">Ceterum</lem>
+                                        <rdg wit="#P">Caeterum</rdg>
+                                    </app> impedimento esse nequivere, quo minus Vladislaus in magna
+                                    Hungariae parte, Budae praesertim, quae urbs est totius gentis
+                                    et regni caput, tres annos regnaverit.</s>
+                            </p>
+                            <p>
+                                <s n="15">Interim Helisabecta regina, quae filia fuerat Sigismundi
+                                    imperatoris, filium ex Alberto peperit, ipsumque Ladislaum
+                                    nominavit, mox ei regni coronam de more imposuit, nec multis
+                                    dein interiectis diebus infantem ipsum transmisit ad Federicum
+                                    imperatorem, ut ab ipso verus regni Hungariae <app>
+                                        <lem wit="#KK">heres</lem>
+                                        <rdg wit="#P">haeres</rdg>
+                                    </app> educaretur.</s>
+                                <s n="16">Transmissum ille ad se suaeque fidei commissum puerum
+                                    libens gaudensque <app>
+                                        <lem wit="#KK">suscepit</lem>
+                                        <rdg wit="#P">suscaepit</rdg>
+                                    </app>, curavitque quam primum, ut fideliter et ingenue et, ut
+                                    regium deceret puerum, ab eo, quem educatorem eius esse voluit,
+                                    haberetur.</s>
+                            </p>
+                            <p>
+                                <s n="17">Inter haec Amoractus Turcarum tyrannus, qui Hungariae
+                                regnum cum maximo exercitu infestabat, multis proeliis diversis in
+                                locis commissis duce Ioanne Ianco superatur.<note type="critic"
+                                    corresp="RKK"><p>17 <hi rend="italic">multis proeliis...
+                                        superatur</hi> cf. <title>Annales</title> vol. VIII. fol.
+                                        214v:</p><p>„Amoractus Turcarum tyrannus Hungaros bello infestat, Hun-
+                                    gari autem duce Ioanne Vaivoda, quem Blancum vulgus cognominat,
+                                    et hostibus resistit [!] et eos profligat [!]. Amoractus
+                                    Turcarum tyrannus coacto exercitu, in quo erant ad octoginta
+                                    armatorum milia, Hungaros huius anni aestate ingenti bello
+                                    infestavit. Hungari tamen genus hominum ferox et bello
+                                    asperrimum coactis non contemnendis copiis duce Ioanne Vaivoda
+                                    seu Hunniate (Blancus is vulgo cognominabatur) hostibus aegregie
+                                    restiterunt. Ad extremum Idibus luniis collatis signis commissum
+                                    est praelium, Turcarumque exercitum fuderunt viginti ex eis
+                                    milibus caesis. Coeterum cum Amoractus exercitum intra dies
+                                    quinque et sexaginta instaurasset, Hungariaeque fines
+                                    infestissimis armis ingredi conaretur, eius copias denuo Hungari
+                                    profligaverunt, ipsum vero in fugam verterunt, parumque abfuit,
+                                    quin caperetur, caesa ex illis ad quindecim milia, ex nostris
+                                    mille et quadraginta. Ioannis Blanci virtus ad caelum a
+                                    Christianis efficitur, de quo iuxta eius merita mentio habebitur
+                                    volumine proximo.“</p><p>Hoc loco <title>Annales</title> primam mentionem Ioannis Hunyadi faciunt. Verba „volumen
+                                        proximum“ ad <title>Epithoma</title> referuntur.</p></note></s>
+                                <s n="18">Multorum fert opinio, quod nisi ea optimatium de creando
+                                    rege discordia maximo rebus gerendis impedimento fuisset, tantas
+                                    copias potuisset Ioannes Iancus adversus Turcarum impetum hoc
+                                    tempore facile contrahere, ut haud dubie Amoractum non solum ab
+                                    Hungariae sed a Graeciae quoque finibus et a tota Macedonia
+                                    pepulisset.</s>
+                                <s n="19">Itaque Eugenius pontifex, quo omnis discordiae causa
+                                    tolleretur, Iulianum Caesarinum cardinalem in Hungariam legatum
+                                    misit, qui de pace cum regni primoribus ageret, qua tandem
+                                    composita Vladislaum in primis, deinde proceres et omnem
+                                    multitudinem ad suscipiendum in expeditionem adhortaretur.</s>
+                                <s n="20">Profectus igitur ille, quo pontifex iussit, omni
+                                diligentia, consilio, solertia usus id tandem <app>
+                                    <lem wit="#KK">egit</lem>
+                                    <rdg wit="#P">aegit</rdg>
+                                </app>, ut inter Vladislaum et eos, quos posthumi <app>
+                                    <lem wit="#KK">filii</lem>
+                                    <rdg wit="#P">filii<add type="insert"> et</add></rdg>
+                                </app> tutores Albertus imperator moriens constituerat (ut ante
+                                diximus), pacem cum summo omnium gaudio composuerit, atque ita
+                                Hungaris universis persuasit, ut in hostes Christianae pietatis arma
+                                    expedirent.<note type="critic" corresp="RKK">20 <hi
+                                        rend="italic">ut ante diximus</hi> cf.
+                                        <title>Annales</title> vol. VIII. fol. 154r, textum v. in
+                                    nota ad: Index XXI.9.</note></s>
+                            </p>
+                            <p>
+                                <s n="21">Comparatis non multo post, quae bello gerendo visa sunt
+                                    necessaria, Vladislaus una cum legato pontificis et Ioanne Ianco
+                                    ac proceribus Polonis et Hungaris atque aliis permultis ex
+                                    utroque regno delectis viris fortissimis adversus Amoractum
+                                    proficiscitur.</s>
+                                <s n="22">Erat profecto nostrorum exercitus ingens et hostibus
+                                    maxime formidabilis, ideoque brevi complures urbes, quae fuerant
+                                    antea ditionis regum Hungariae, recuperavit, hostiumque multa
+                                    milia huius anni aestate absumpsit, et nisi tum <app>
+                                        <lem wit="#KK">asperrimae</lem>
+                                        <rdg wit="#P">asperrime</rdg>
+                                    </app> hyemis interventu tum ob inopiam commeatuum esset
+                                    compulsus, ut rediret in Hungariam, actum profecto esset de
+                                    Amoracti imperio.</s>
+                                <s n="23">At Iulianus apostolicus legatus, cum videret nostros rem
+                                    bene prospereque gessisse, Turcarum autem vires pene confractas,
+                                    Vladislaum multis adhortationibus flexit, ut alteram adversus
+                                    Amoractum pararet expeditionem.</s>
+                                <s n="24">Qua re cognita confestim in Asiam traiecit Amoractus, ut,
+                                    quantas maxime posset, copias contraheret.</s>
+                                <s n="25">Sed ubi Romanus pontifex, cuius haec nutu agebantur, de
+                                    Amoracti consilio per legati ac regis literas et nuncios certior
+                                    est factus, curat, uti Venetiis compararetur atque instauraretur
+                                    classis quatuor et XX<hi rend="super">ti</hi> triremium,
+                                    mittereturque in Hellespontum, quo Amoracti ex Asia in Europam
+                                    reditus impediretur.</s>
+                                <s n="26">Erat profecto id sapientissimum ducum consilium, quod si
+                                    homines illi, quicunque fuerint, quibus fuit instruendae <app>
+                                        <lem wit="#KK">mittendaeque</lem>
+                                        <rdg wit="#P">mittendeque</rdg>
+                                    </app> classis datum negocium, ea essent celeritate usi, qua
+                                    Turcarum copiarum transitus interclusus in tempore fuisset,
+                                    foeliciterque haud dubie nostri omne bellum confecissent.</s>
+                                <s n="27">Ob ignaviam enim illius (ut perhibent), quem senatus
+                                    Venetus classi praefecit, qui diem de die proferens nequaquam
+                                    oportuno tempore pervenit in Hellespontum, ad triginta hostium
+                                    milia ex Asia in Europam, qua commodior traiectus fuit,
+                                    transivere.</s>
+                                <s n="28">Eas copias aliis Amoractus adiunxit, quas per suos
+                                    contrahi iusserat in Europa, utpote in regionibus, quae suae
+                                    erant ditionis, igitur iunctis utriusque copiis supra centum
+                                    armatorum milia in eius exercitu fuere.</s>
+                            </p>
+                            <p>
+                                <s n="29">Vladislaus putans Turcarum transitum a nostra classe
+                                    perfacile impediendum (constituto nanque tempore credebat
+                                    triremes ad constituta loca navigasse) cum triginta solum
+                                    armatorum milibus primo anni sequentis vere fuerat Macedoniae
+                                    Thraciaeque fines ingressus, earumque provinciarum maximam
+                                    partem in suam <app>
+                                        <lem wit="#KK">redegerat</lem>
+                                        <rdg wit="#P">redaegerat</rdg>
+                                    </app> potestatem.</s>
+                                <s n="30">Tanti successus causa fuit, quod ad primam famam
+                                    Christiani exercitus ex Hungaria moventis tantus terror
+                                    invaserat Turcas, qui urbium <app>
+                                        <lem wit="#KK">praesidio</lem>
+                                        <rdg wit="#P">presidio</rdg>
+                                    </app> fuerant ab Amoracto relicti, ut <app>
+                                        <lem wit="#KK">deseruerint</lem>
+                                        <rdg wit="#P"><del>desueruerint</del>deseruerint</rdg>
+                                    </app> quam primum Albaniam, Macedoniam, Serviam, Achaiam et
+                                    ceteras omnes provincias, quas antea in Europa <app>
+                                        <lem wit="#KK">subegerant</lem>
+                                        <rdg wit="#P">subaegerant</rdg>
+                                    </app>.</s>
+                                <s n="31">Pars autem <sic>confugerant</sic> Hadrianopolim, alii
+                                    Calliopolim, plerique ad Amoracti castra, quae ille in Asiam
+                                    profecturus in Thracia locata reliquerat.</s>
+                                <s n="32">Dum tamen Christianus exercitus variis laetus victoriis
+                                    ultra iam progredi decerneret, motisque castris prima diei luce
+                                    iter Hadrianopolim versus facere nostri coepissent, per
+                                    speculatores Vladislao nunciatum est Amoractum cum maximo
+                                    exercitu prope esse et iam adventare composito agmine, ut
+                                    Christianos improvisus adoriretur.</s>
+                                <s n="33">Eo nuncio nostri terrefacti adeo sunt, ut nec consultandi,
+                                    quid facto opus foret, tempus daretur, tandem ordinata pro
+                                    temporis angustia acie Agriensis episcopus et genere praeclarus
+                                    et magno animo vir omnium primus impetum fecit in hostes.</s>
+                                <s n="34">Acriter utrinque multis cadentibus pugnatur, qui ex
+                                    nostris in cornu dextro erant, adeo strenue rem egerunt, ut
+                                    superiores facti magna <app>
+                                        <lem wit="#KK">edita</lem>
+                                        <rdg wit="#P">aedita</rdg>
+                                    </app> strage Turcas in fugam verterint, hac itaque elati
+                                    victoria Vladislaum deserunt, ingentique onusti praeda abeunt,
+                                    nec amplius curant, ut suis subsidio (uti decuerat) essent.</s>
+                                <s n="35">Sinistrum vero cornu, in quo et ipse rex fortissime
+                                    pugnabat, et Amoractus contra eum maxima suorum parte instabat,
+                                    licet multitudine certantium urgeretur, a nostris tamen
+                                    equitatus omnis hostium <app>
+                                        <lem wit="#KK">saucio</lem>
+                                        <rdg wit="#P">faucio</rdg>
+                                    </app> etiam eorum imperatore partim caesus partim dissipatus
+                                    est, restabant integrae peditum copiae (equites nanque diversa
+                                    petiverant).</s>
+                                <s n="36">Quom defessis iam omnibus et sole declinante ad vesperum
+                                complures Vladislao suaderent, ut ea contentus victoria pedem
+                                referret, ille, ne fugere videretur, iuvenilique impetu maioris
+                                victoriae gloriae cupidus cum eis, qui supererant, pedestrem
+                                Turcarum aciem aggreditur, ubi cum per horam ferme rem strenuissime
+                                gereret, hostium equites, qui erant dissipati (uti modo dicebam),
+                                facto globo Vladislaum circundant, multosque nostrorum opprimunt,
+                                plerosque ad fugam compellunt.<note type="critic" corresp="RKK">36
+                                        <hi rend="italic">uti modo dicebam</hi> cf. sent.
+                                34.</note></s>
+                                <s n="37">Ipse rex viriliter pugnans <app>
+                                        <lem wit="#KK">accepto</lem>
+                                        <rdg wit="#P">accaepto</rdg>
+                                    </app> ad postremum et in femore et in brachio vulnere
+                                    opprimitur, quanquam sunt, qui dicant nullum mortis Vladislai
+                                    certum fuisse auctorem; quidam vero perhibent allocutos se esse
+                                    complures, qui ipsum viderunt in praelio, dum dimicaret, fuisse
+                                    vulneratum atque ita equo decidisse et tandem multitudine
+                                    oppressum periisse; alii, cum circa solis occasum in proximas
+                                    silvas effugisset, impatientem eum vulneris sub quercu (equo
+                                    enim ob debilitatem desiliverat) noctu occubuisse; plures (quod
+                                    magis creditur), cum se in peditum aciem immisisset, succisis
+                                    equi poplitibus ad terram ipsum una cum equo decidisse caesumque
+                                    a Turcis truncato capite fuisse anno aetatis primo et
+                                    vigesimo.</s>
+                                <s n="38">Hostium supra quadraginta milia eo praelio cecidere et in
+                                    iis optimus quisque bello dux, e nostris ad tria, ut nonnulli
+                                    affirmant, ut alii, ad octo milia, capta ex illis
+                                        <hi rend="overline">XXIII</hi>, e nostris
+                                        <hi rend="overline">III</hi>CCCC, <app>
+                                        <lem wit="#KK">ceteri</lem>
+                                        <rdg wit="#P">coeteri</rdg>
+                                    </app> per aspera atque invia ad sua redivere.</s>
+                                <s n="39">Cardinalis (ut ante dictum est) seu <app>
+                                    <lem wit="#KK">accepto</lem>
+                                    <rdg wit="#P">accaepto</rdg>
+                                </app> vulnere seu submersus in fluvium seu affectus a Turcis variis
+                                suppliciis sit, illud tamen non potest in diversum trahi, quin eo
+                                praelio vitam amiserit.<note type="critic" corresp="RKK">39 <hi
+                                        rend="italic">ut ante dictum est</hi> cf. sent.
+                                    4.</note><note type="critic" corresp="RKK">10–39 = <title>Poggii
+                                        Bracciolini Florentini historiae de varietate fortunae libri
+                                        quatuor...</title> editi et notis illustrati a Dominico
+                                    Georgie... Lutetiae Parisiorum 1723. pp. 115–119: „Ladislaus
+                                    magni animi adolescens mortuo patre pubes adhuc in regno
+                                    Poloniae successit eruditus Latinis literis et Christianae
+                                    religionis praecipuus cultor. Hic defuncto Alberto Hungarorum
+                                    rege natione Alamanno, cui Hungariae regnum matrimonio cesserat,
+                                    prolesque posthuma orta erat, a magna procerum parte in regnum
+                                    Hungarorum accitus rex factus est multis, qui infanti haerebant,
+                                    repugnantibus, sed tamen Budam caput regni tenuit, maiorique
+                                    parti tribus annis imperitavit. Accidit interim, ut Teucri, qui
+                                    Graeciam, omnem ferme Epirum, Macedoniam, Dardanos, Thraciam,
+                                    utramque et Asiam occuparant, regnum infestantes maximis
+                                    praeliis diversis in locis superarentur. Has memorabiles
+                                    ediderat pugnas Iohannes quidam Vaivoda cognominatus, vir bello
+                                    strenuus et consilio vigens, qui adeo vires illorum attriverat,
+                                    ut spes iniiceretur posse illos deleri funditus ac de Europae
+                                    finibus pelli. Itaque [per] Iulianum cardinalem S. Angeli
+                                    Eugenii pontificis legatum pace inter regem infantisque tutores
+                                    constituta prima expeditio in Teucros facta est quibusdam
+                                    provinciis, quae suae ditionis factae erant, receptis multisque
+                                    hostium millibus bello absumptis. Cum hyems et commeatuum inopia
+                                    urgeret, sese in Hungariam receperunt. Ea hyeme secunda
+                                    expeditio, hortantur [!] legato, cum vires hostium confractae
+                                    essent, parabatur. Quod praesentiens Teucrorum imperator ad
+                                    parandas pro defensione copias in Asiam transiit. Id ne
+                                    impedimento ad expeditionem regi Poloniae fieret, Eugenius
+                                    avidus Europae ab infidelibus liberandae, cuius suasu expeditio
+                                    fiebat, classem paravit XXIIII triremium, quibus hostium in
+                                    Europam transitus impediretur, ei classi praeter legatum
+                                    pontificis Veneti ducem praefecerunt. Quae in Hellespontum
+                                    profecta ob praefecti classis ignaviam nulla re usui fuit, nam
+                                    cum rex huius classis fiducia in Macedoniam Thraciamque cum XXX
+                                    millibus equitum transiisset, multasque nationes in suam
+                                    ditionem redegisset confisus Teucris in Europam transitum a
+                                    triremibus impediri, hostium imperator nihil obsistente classe
+                                    cum magna equitum peditumque multitudine (hi ad triginta millia
+                                    erant) mare Hellespontum transiit, iunctisque, quae in Europa
+                                    praeparatae fuerant ad bellum, copiis ingenti exercitu et, qui
+                                    centum millium numerum excederet, Christianos de improviso paulo
+                                    post ortum solis adortus est. Paulum nostri insperato Teucrorum
+                                    adventu stetere ita, ut ne consultandi, quid optimum factu
+                                    esset, tempus daretur. Quidam opponendos currus impedimentoque
+                                    censebant, quibus veluti moenibus ab insultu hostium se
+                                    tutarentur, aliorum sententia erat armis in aperto decertandum.
+                                    Ordinata pro tempore acie episcopus Agriensis (is genere
+                                    insignis erat) primus in Teucros erupit. Commisso praelio,
+                                    sublato clamore summa vi certabatur multis utrimque cadentibus.
+                                    Alterum ex nostris cornu superior hostis fudit ac fugavit magna
+                                    strage edita. Narravit mihi quidam, qui pugnae interfuit, inter
+                                    victores ab se occisum ducem quemdam ex primoribus ereptamque ab
+                                    se mortui vaginam auream et aureum calcar pretii aureorum
+                                    centum. Relicto rege victores onusti praeda abierunt, neque
+                                    amplius subsidio fuere suis. Alterum vero, in quo rex erat,
+                                    cornu, cui imperator hostium cum maiori copiarum parte erat
+                                    oppositus, licet multitudine oppugnantium urgeretur, tamen
+                                    equitatus omnis hostium imperatore saucio caesus ac dissipatus
+                                    est, restabant integrae pedestres copiae, equites diversa
+                                    petierant loca. Cum fessis omnibus (iam sol ad vesperam
+                                    inclinarat) plures suadent regi, ut pedem referret ea victoria
+                                    contentus, ille ignominiam fugae veritus, simul iuvenili impetu
+                                    victoriae cupidus cum paucis, qui supererant, pedestrem aciem
+                                    aggreditur, ubi cum diutius pugnaret, dissipati hostium equites
+                                    globo facto regem circumveniunt. Magna vi utrimque certatum est
+                                    multis ultro citroque vulneribus acceptis, tandem multitudine
+                                    infidelium oppressi Christiani ad fugam compelluntur. Rex
+                                    viriliter circa signa pugnans saucius femur brachiumque
+                                    opprimitur. Diversa (nam verus certe auctor mortis nullus extat)
+                                    fama est, quidam in bello dimicantem periisse aiunt, qui eum
+                                    pugnantem sauciumque viderant; alii, cum circa solis occasum cum
+                                    paucis aufugisset in proximas silvas, noctu impatientem vulneris
+                                    sub quercu (ex equo enim ob debilitatem descenderat) occubuisse;
+                                    plures, quod vero similius videtur, cum in aciem se peditum
+                                    immisisset, sauciis equi poplitibus regem ad terram una cum equo
+                                    decidisse atque ab hostibus truncato capite occisum ferunt anno
+                                    aetatis vigesimo primo. Ad quadraginta hostium millia eo praelio
+                                    cecidisse dicuntur et in his optimus quisque bello dux, e
+                                    nostris vero ad tria millia ex his, qui cum rege erant,
+                                    desiderati, plures capti, reliqui per aspera atque invia ad sua
+                                    abierunt. Cardinalis quoque accepto in acie vulnere in fuga
+                                    expiravit.“ </note></s>
+                                <s n="40">Labor itaque omnis cum <app>
+                                        <lem wit="#KK">susceptae</lem>
+                                        <rdg wit="#P"><del>suscaeptae</del>susceptae</rdg>
+                                    </app> expeditionis tum vero tot victoriarum uno die factus
+                                    irritus est, et nisi Ioannis Ianci virtute esset factum, ut
+                                    Christiani exercitus reliquiae quaedam tum equitum tum peditum,
+                                    eorum <app>
+                                        <lem wit="#KK">praesertim</lem>
+                                        <rdg wit="#P">presertim</rdg>
+                                    </app>, qui sub eo merebant, <app>
+                                        <lem wit="#KK">egregie</lem>
+                                        <rdg wit="#P">aegregie</rdg>
+                                    </app> defendissent Hungariae Valachiaeque fines, actum omnino
+                                    fuisset de Christianis hominibus, qui eas incolunt regiones.</s>
+                            </p>
+                            <p><milestone unit="emptyLine"/>
+                            <s n="41">Ioannis Blanci patria, genus, virtus.</s>
+                            <milestone unit="emptyLine"/>
+                            </p>
+                            <p>
+                                <s n="42">Oriundus is fuit a regione, quam appellant Valacchiam,
+                                    parte quadam decursus Danubii a Pannoniis disterminatur, Daciam
+                                    eam nominavit antiquitas, <app>
+                                        <lem wit="#KK">ceterum</lem>
+                                        <rdg wit="#P">coeterum</rdg>
+                                    </app> eius portio, quae Danubii alveo propinqua est, a
+                                    nonnullis <app>
+                                        <lem wit="#KK">Ripensis</lem>
+                                        <rdg wit="#P"><del>Repensis</del>Ripensis</rdg>
+                                    </app> Dacia dicitur, quos igitur vetustissimi terrarum
+                                    descriptores Dacos nominavere, eos hodie Valacchos nos
+                                    vocitamus.</s>
+                                <s n="43">Dicitur autem Valacchia corrupte a vulgo pronunciato
+                                    vocabulo, nanque a P. Flacco Romano homine, qui colonias eo
+                                    deduxit, Flaccia primum dicta est, progressu vero temporum
+                                    convenientibus illuc finitimis, qui Romanorum lingua loqui
+                                    nesciebant, Valacchiam pro Flaccia pronunciavere, vicit deinde
+                                    ita vulgi obstinatio, ut etiam apud Romanorum posteros corruptum
+                                    regionis nomen in hanc diem remanserit.</s>
+                                <s n="44">Valacchi igitur se Italorum esse posteros affirmant, idque
+                                    hoc praecipue confirmant argumento, quod ipsorum lingua permulta
+                                    efferuntur, quae sunt sermoni Italorum affinia.</s>
+                                <s n="45">Quo vero tempore Italorum coloniae deductae in Daciam <app>
+                                        <lem wit="#KK">fuerint</lem>
+                                        <rdg wit="#P">fuerit</rdg>
+                                    </app>, ex quorundam Graecorum scriptis ita proditum reperi.</s>
+                            </p>
+                            <p>
+                                <s n="46">Transmigrans Flavius Magnus Constantinus ab Italia in
+                                    Thraciam, ut conditam a se amplissimam urbem, quam Romaneam, id
+                                    est Romam novam, appellari voluit, claritudine incolarum
+                                    redderet clariorem, ex Roma atque aliis multis praeclaris
+                                    Italiae civitatibus innumeros cuiusque ordinis viros secum
+                                    adduxit, qui non modo novam urbem verum etiam ipsius Thraciae
+                                    Graeciaeque et aliarum, quae inde haud procul absunt, regionum
+                                    loca incolerent.</s>
+                                <s n="47">Nimium postea abundante Italorum multitudine delegit
+                                    aliquot e suis Romanis viros primarios, quibus fidebat, quos ad
+                                    provincias, quarum erat suspecta fides, ad deducendas colonias
+                                    misit, ita aliis aliae sed Flacco Dacia decernitur.</s>
+                            </p>
+                            <p>
+                                <s n="48">Ad eam regionem ipse una et alii complures e Romana
+                                    nobilitate viri profecti idoneis in locis colonias
+                                    constituunt.</s>
+                                <s n="49">Plena tunc erat Dacia Italorum hominum, civium praesertim
+                                    Romanorum, quibus cum regio mire placuisset, Italiae eos <app>
+                                        <lem wit="#KK">cepit</lem>
+                                        <rdg wit="#P">caepit</rdg>
+                                    </app> oblivio, igitur iunctis sibi matrimonio <app>
+                                        <lem wit="#KK">feminis</lem>
+                                        <rdg wit="#P">foeminis</rdg>
+                                    </app> tum indigenarum tum finitimorum, qui fuerant Itali, Daci
+                                    seu Valacchi effecti sunt.</s>
+                            </p>
+                            <p>
+                                <s n="50">Ab ea regione Ioannes, cui Ianco apud Italos est cognomen,
+                                    ex praeclaris natus maioribus, hoc est ex Romanorum posteris,
+                                    oriundus est, genus nanque suum refert in antiquissimam
+                                    Corvinorum familiam.</s>
+                                <s n="51">Quam rem cum aliis tum vero maxime his ostendi ait (sicuti
+                                    ego ex nonnullis Hungaris <app>
+                                        <lem wit="#KK">accepi</lem>
+                                        <rdg wit="#P">accaepi</rdg>
+                                    </app>) indiciis.</s>
+                                <s n="52">Adiacet Valacchiae culta <app>
+                                        <lem wit="#KK">quaedam</lem>
+                                        <rdg wit="#P">quedam</rdg>
+                                    </app> insula, quae fit scissione Danubii, ea Corvina
+                                    nominatur.</s>
+                                <s n="53">Qui eius accolis dominantur, cognomen adhuc retinent
+                                    Corvinorum propterea, quod a Romanis Corvinis eorum maiores
+                                    defluxerunt, perhibent enim cuidam strenuo viro genere veterum
+                                    Corvinorum exorto a Magno Constantino huius insulae fuisse datum
+                                    imperium, ab illo <app>
+                                        <lem wit="#KK">perhibent insulae</lem>
+                                        <rdg wit="#P">perhibent insule</rdg>
+                                    </app> inditum fuisse vocabulum.</s>
+                                <s n="54">Huic <app>
+                                        <lem wit="#KK">accedit</lem>
+                                        <rdg wit="#P">accaedit</rdg>
+                                    </app>, quod maiorum suorum insigne corvi imago est, quale et
+                                    fuisse insigne veterum Corvinorum satis est vero simile,
+                                    scilicet celebratissimum est apud Romanarum rerum scriptores <app>
+                                        <lem wit="#KK">egregium</lem>
+                                        <rdg wit="#P">aegregium</rdg>
+                                    </app> illud facinus, cuius gratia Corvina gens nobile atque
+                                    aeternum cognomen sibi commeruit, quod quam brevissime
+                                    attingendum mihi nunc est.</s>
+                            </p>
+                            <p>
+                                <s n="55">Pugnante pro patria L. Valerio singulari certamine cum
+                                    homine <app>
+                                        <lem wit="#KK">quodam</lem>
+                                        <rdg wit="#P">quidam</rdg>
+                                    </app> natione Gallo, qui cum <app>
+                                        <lem wit="#KK">ceterorum</lem>
+                                        <rdg wit="#P">caeterorum</rdg>
+                                    </app> Gallorum ingenti manu venerat ad Romanae gentis nomen et
+                                    gloriam atque imperium extinguendum, nutu divino novum quoddam
+                                    et nunquam antea vel visum vel auditum latum illi auxilium fuit,
+                                    quo gloriosam victoriam assecutus est, corvus enim galeae eius
+                                    insedit, alisque et ungulis Galli verberavit oculos, ne rectum
+                                    aspiceret.</s>
+                                <s n="56">Valerius igitur eo interfecto spolia retulit, ob tam autem
+                                    clarum admirationeque dignum facinus hanc sibi comparavit
+                                    gloriam, ut et ipse Corvinus et sui posteri, quorum permulti
+                                    fuere viri armis ac magnarum rerum doctrina insignes, Corvini
+                                    cognominarentur.</s>
+                            </p>
+                            <p>
+                                <s n="57">Eo genere Ioannes exortus a maiorum suorum virtute
+                                    haudquaquam degeneravit.</s>
+                                <s n="58">Sunt, qui tria ipsius afferant cognomenta, Iancum,
+                                    Vaivodam, Hunniatem, sed singulorum reddenda ratio est.</s>
+                                <s n="59">Qui Iancum dicunt, <app>
+                                        <lem wit="#KK">inepte</lem>
+                                        <rdg wit="#P">inaepte</rdg>
+                                    </app> loquuntur propterea, quod idem repetunt vocabulum
+                                    ignorantes Valacchorum lingua Ioannis et Ianci nomine
+                                    significari, hoc solum est inter ea discriminis, quod Iancus
+                                    Ioannis est diminutivum; Vaivodam Hungari eum vocitant, quem
+                                    Latino verbo nos dicimus gubernatorem, Vaivoda igitur eo
+                                    cognominatus est, quod universum Hungariae regnum multos annos
+                                    cum imperio magna cum laude administravit; Hunniatem eum vocant
+                                    ab oppido, in quo natus est, et cui ipse paterna hereditate
+                                    dominatur, quanquam longe plura et quidem nobilia Hungariae
+                                    oppida eius ditione tenentur; ego autem, quotiens posthac in
+                                    mentionem ipsius venero, Corvini utar cognomine.</s>
+                            </p>
+                            <p>
+                                <s n="60">Is hanc gloriam est inter omnes sui saeculi mortales
+                                    consecutus, quod cum nihil ei desit ex virtutibus, quibus
+                                    nobilissimi copiarum duces eminere debent, ob quod eius opes
+                                    maxime augeri possent, si qua regnandi libido eius invaderet
+                                    animum, solum tamen adversus Christiani nominis hostes bella
+                                    gerit, quanquam nonnunquam, semel videlicet et iterum, cum
+                                    Christianis virtuti eius invidentibus ideoque vitae eius
+                                    insidias parantibus manus cum illorum maximo detrimento
+                                    conseruit.</s>
+                                <s n="61">Vir profecto, qui inter Germanos et Dacos Pannoniosque et
+                                    Misios ac <app>
+                                        <lem wit="#KK">ceteras</lem>
+                                        <rdg wit="#P">caeteras</rdg>
+                                    </app> omnes nationes, quae his proximas tenent provincias,
+                                    solus pene est ad rei bellicae munera natus, ad pericula
+                                    subeunda impavidus, animi eius magnitudo pene immensa, consilio
+                                    nemini secundus, solertia, quae virtus in ducibus maxime laudari
+                                    solet, nemo est, qui par ei iudicetur, laborum in eo mira
+                                    patientia, algoris, famis, sitis, vigiliarum incredibilis
+                                    tolerantia, et licet virtus nomenque suum terrori semper fuerit
+                                    hostibus, celeritas tamen, qua semper in rebus gerendis utitur,
+                                    Amoracto Turcarum tyranno est et formidini et admirationi.</s>
+                                <s n="62">Princeps it in praelium, eo confecto postremus
+                                    excidit.</s>
+                                <s n="63">Magnitudini animi eius respondet corporis robur, quamvis
+                                    mediocri sit statura, capitis magnitudine, quae tamen nulli ipsi
+                                    corpori est deformitati, prae se fert fortissimi viri
+                                    prudentiam; est rubricante colore, sufflavo capillo, vultu
+                                    ilari, nisi quom tristicia afficitur.</s>
+                                <s n="64">Irascitur quidem aliquando in suos, sed cito redit in
+                                    gratiam, ad incendendos militum vel ad arma capienda vel ad rem
+                                    gerendam animos nihil sua oratione vehementius nihilque
+                                    efficacius; dum <app>
+                                        <lem wit="#KK">proelium</lem>
+                                        <rdg wit="#P">prelium</rdg>
+                                    </app> committitur, et boni militis et fortis ducis officio
+                                    utitur.</s>
+                            </p>
+                            <p>
+                                <s n="65">His atque aliis multis praeditus virtutibus saepe cum
+                                    Turcis pugnans insigni eos clade fugavit, septies illos fudit
+                                    duce vel Amoracto vel Mahammecto illius filio, qui illi in
+                                    regnum successit, bis ipsum illi profligavere, eo duce perhibent
+                                    fuisse a nostris caesa diversis tamen temporibus Turcarum supra
+                                    centum et octoginta milia.</s>
+                                <s n="66">Si in praelio, de quo modo memini, rem Vladislaus eius
+                                    consilio gessisset, nequaquam ipse vitam fortasse amisisset, rei
+                                    vero <app>
+                                        <lem wit="#KK">publicae</lem>
+                                        <rdg wit="#P">publice</rdg>
+                                    </app> Christianae consultum longe melius fuisset.</s>
+                                <s n="67">Sed paucis ostendendum est, quo adducti consilio ipsius
+                                    parentes ex Valacchia in Hungariam transmigravere.</s>
+                            </p>
+                            <p>
+                                <s n="68">Insula, de qua supra mentionem habui, haud procul abest a
+                                    Turcarum imperii finibus, saepe igitur evenit, ut ea gens
+                                    insulam ipsam infestis armis invaserit, omnisque generis praedam
+                                    inde retulerit, quocirca Ioannis parens, licet esset domi
+                                    potens, imparem tamen se Turcarum viribus animadvertens veritus
+                                    est, ne etiam eveniret, ut insula ab illis expugnata ipse et sui
+                                    omnes aut ad unum trucidarentur aut adducerentur in
+                                    servitutem.</s>
+                                <s n="69">Inde itaque exportata omni, quae ingens ei erat,
+                                    supellectili sub rege Sigismundo petivit Hungariam, in qua
+                                    regione existimavit se vivere posse tutius atque tranquillius,
+                                    ibi coemptis aliquot villis atque castellis reliquum <app>
+                                        <lem wit="#KK">vitae suae</lem>
+                                        <rdg wit="#P">vite sue</rdg>
+                                    </app> tempus pro dignitate <app>
+                                        <lem wit="#KK">peregit</lem>
+                                        <rdg wit="#P">peraegit</rdg>
+                                    </app>, rex ipse, cui fuit incredibiliter charus, dedit ei
+                                    oppidi Hunniaci imperium.</s>
+                                <s n="70"><app>
+                                        <lem wit="#KK">Suscepit</lem>
+                                        <rdg wit="#P">Suscaepit</rdg>
+                                    </app> illic ex uxore Ioannem, de quo est mihi nunc mentio,
+                                    terribile belli nostro saeculo fulmen, qui animi magnitudine
+                                    laudeque rerum gestarum a Corvinorum veterum, quorum sanguine
+                                    ductum eum supra docuimus, gloria non modo non degeneravit, sed
+                                    illorum etiam virtutem <app>
+                                        <lem wit="#KK">coaequavit felicissime</lem>
+                                        <rdg wit="#P">coequavit foelicissime</rdg>
+                                    </app>.</s>
+                                <s n="71"><app>
+                                        <lem wit="#KK">Ceterum</lem>
+                                        <rdg wit="#P">Coeterum</rdg>
+                                    </app> cum sit mihi facta mentio aliquot Hungarorum regum
+                                    ipsiusque Hungariae et Ioannis Corvini, hortatur locus, ut
+                                    Hungariae gentis scribam historiam.</s>
+                                <s n="72">Regio igitur, quam tenent, primum describenda est, deinde
+                                    dicendum est, unde ei genti fuerit origo, atque ita me postea
+                                    conferam ad texendam regum Hungarorum seriem ab Atila, qui
+                                    primus in ea regione regnum regis nomine tenuit, ad hunc usque,
+                                    qui hoc tempore regnat, pervenieturque paulatim ad alia fortia
+                                    gesta mortemque Corvini Christianissimam.</s>
+                                <s n="73">Ne autem sit fastidio legentibus rei narrandae prolixitas,
+                                    non fuimus imo tantum contenti, sed duobus libris historiam
+                                    omnem expediemus, libros autem ipsos, ut in plerisque ex
+                                    superioribus fecimus, certis dividemus indicibus, quibus fiet
+                                    rerum, quas narrabimus, noticia clarior atque facilior.</s>
+                                
+                            </p>
+                            </lem>
+                        <rdg wit="#B #Z #L1 #L2 #M #H"/>
+                    </app>
+                            <p>
+                    <app>
+                        <lem wit="#KK #P">
+                            <s n="74">Satis huc usque, quantum visus est locus exigere, de Ioannis
+                                Corvini patria, gente, virtutibus dixerim.</s>
+                            <s n="75">Quom autem pervenero in mentionem eorum, <app>
+                                    <lem wit="#KK">quae in</lem>
+                                    <rdg wit="#P">que in</rdg>
+                                </app> orbe obtigerunt anno salutis humanae M CCCC LVI., scribam,
+                                quae gloriosissime gessit apud Belgradum contra Mahammectum Turcarum
+                                imperatorem, cumque non multo post adeptam de eo hoste victoriam
+                                occubuerit, ibidem ostendam, quam pie vita excesserit.<note
+                                    type="critic" corresp="RKK">75 <hi rend="italic">Quom autem
+                                        pervenero</hi> etc. Exemplar <persName>Annalium</persName>
+                                    quod exstat, rebus hic memoratis caret, res apud Belgradum
+                                    gestas aeque ac mortem Ioannis Hunyadi solum
+                                        <title>Epithoma</title> enarrat.</note></s>
+                        </lem>
+                        <rdg wit="#B #Z #L1 #L2 #M #H"/>
+                    </app>
+                    <s n="76"><app>
+                            <lem wit="#KK #P #L1 #L2 #M #H #B"><app>
+                                    <lem wit="#KK #P #L1 #L2 #M #H">Quae</lem>
+                                    <rdg wit="#B">Que</rdg>
+                                </app> vero <app>
+                                    <lem wit="#KK #B #L1 #L2 #M #H">eo libro</lem>
+                                    <rdg wit="#P">in his duobus libris</rdg>
+                                </app> traduntur, ex his delecta sunt <app>
+                                    <lem wit="#KK #P #B #M #H">auctoribus</lem>
+                                    <rdg wit="#L1 #L2">authoribus</rdg>
+                                </app></lem>
+                            <rdg wit="#Z">Authores, ex quibus haec delecta sunt</rdg>
+                        </app>: <app>
+                            <lem wit="#KK #P #B #L1 #L2 #H">beato</lem>
+                            <rdg wit="#Z #M">beatus</rdg>
+                        </app>
+                        <app>
+                            <lem wit="#KK #P #B #H">Matheo</lem>
+                            <rdg wit="#Z #M">Matthaeus</rdg>
+                            <rdg wit="#L1">Mattheo</rdg>
+                            <rdg wit="#L2">Matthaeo</rdg>
+                        </app> evangelista, <app>
+                            <lem wit="#KK #P #B #L1 #L2 #H">beato</lem>
+                            <rdg wit="#Z #M">beatus</rdg>
+                        </app>
+                        <app>
+                            <lem wit="#KK #P">Hieronymo</lem>
+                            <rdg wit="#B">Iheronimo</rdg>
+                            <rdg wit="#Z #M">Hieronimo</rdg>
+                            <rdg wit="#L1 #L2 #H">Hieronimo</rdg>
+                        </app>, <app>
+                            <lem wit="#KK #P #B #L1 #L2 #H">beato</lem>
+                            <rdg wit="#Z #M">beatus</rdg>
+                        </app>
+                        <app>
+                            <lem wit="#KK #P #B #L1 #L2 #H">Augustino</lem>
+                            <rdg wit="#Z #M">Augustinus</rdg>
+                        </app>, <app>
+                            <lem wit="#KK #P #B #L1 #L2 #H">Caesariensi Eusebio</lem>
+                            <rdg wit="#Z #M">Eusebius Caesariensis</rdg>
+                        </app>, <app>
+                            <lem wit="#KK #P #B #L1 #L2 #H">Herodoto</lem>
+                            <rdg wit="#Z #M">Herodotus</rdg>
+                        </app>, <app>
+                            <lem wit="#KK #P #B #L1 #L2 #H">Aristotele</lem>
+                            <rdg wit="#Z #M">Aristoteles</rdg>
+                        </app>, <app>
+                            <lem wit="#KK #P #B #L1 #L2 #H">Strabone</lem>
+                            <rdg wit="#Z #M">Strabo</rdg>
+                        </app>, <app>
+                            <lem wit="#KK #P #B #L1 #L2 #H">Plinio</lem>
+                            <rdg wit="#Z #M">Plinius</rdg>
+                        </app>, <app>
+                            <lem wit="#KK #P #B #H">Solino</lem>
+                            <rdg wit="#Z #M">Solinus</rdg>
+                            <rdg wit="#L1 #L2">Solnio</rdg>
+                        </app>, <app>
+                            <lem wit="#KK #P #B #L1 #H">Pomponio Mella</lem>
+                            <rdg wit="#Z #M">Pomponius Mela</rdg>
+                            <rdg wit="#L2">Pomponio, Mella</rdg>
+                        </app>, <app>
+                            <lem wit="#KK #P #B #L1 #L2 #H">ex</lem>
+                            <rdg wit="#Z #M"/>
+                        </app> vita beati Martini, <app>
+                            <lem wit="#KK #P #B #L1 #L2 #H">ex</lem>
+                            <rdg wit="#Z #M"/>
+                        </app> vita <app>
+                            <lem wit="#KK #P #B #L1 #L2 #H">beati</lem>
+                            <rdg wit="#Z #M"/>
+                        </app> Leonis <app>
+                            <lem wit="#KK #P #Z #L1 #L2 #M #H">papae</lem>
+                            <rdg wit="#B">pape</rdg>
+                        </app>, <app>
+                            <lem wit="#KK #P #B #L1 #L2 #H">ex</lem>
+                            <rdg wit="#Z #M"/>
+                        </app>
+                        <app>
+                            <lem wit="#KK #P #B #L1 #L2 #H">gestis</lem>
+                            <rdg wit="#Z #M">gesta</rdg>
+                        </app> Romanorum principum, <app>
+                            <lem wit="#KK #P #B #L1 #L2 #H">ex</lem>
+                            <rdg wit="#Z #M"/>
+                        </app> vita <app>
+                            <lem wit="#KK #P #B #L1 #L2 #H">sanctarum</lem>
+                            <rdg wit="#Z #M"/>
+                        </app> undecim <app>
+                            <lem wit="#KK #P #B #Z #L1 #H">milium</lem>
+                            <rdg wit="#L2 #M">millium</rdg>
+                        </app> virginum, <app>
+                            <lem wit="#KK #P #B #L1 #L2 #H">ex</lem>
+                            <rdg wit="#Z #M"/>
+                        </app> vita beati Stephani <app>
+                            <lem wit="#KK #P #B #L1 #L2 #H">Hungarorum regis, ex</lem>
+                            <rdg wit="#Z #M"/>
+                        </app> vita <app>
+                            <lem wit="#KK #P #Z #L2 #M #H">beatae</lem>
+                            <rdg wit="#B #L1">beate</rdg>
+                        </app>
+                        <app>
+                            <lem wit="#KK #P #L1 #L2 #M #H">Margaritae</lem>
+                            <rdg wit="#B">Margarite</rdg>
+                            <rdg wit="#Z">Margaretae</rdg>
+                        </app>
+                        <app>
+                            <lem wit="#KK #P #B #L1 #L2 #M #H">filiae <app>
+                                    <lem wit="#KK #P #B #L2 #H">Beli</lem>
+                                    <rdg wit="#L1">Belii</rdg>
+                                    <rdg wit="#M">Belae</rdg>
+                                </app>
+                                <app>
+                                    <lem wit="#KK #P">quarti</lem>
+                                    <rdg wit="#B #L1 #M">IIII.</rdg>
+                                    <rdg wit="#L2 #H">IV.</rdg>
+                                </app>
+                                <app>
+                                    <lem wit="#KK #P #B #L1 #L2 #H">regis <app>
+                                            <lem wit="#KK #P #L1 #L2 #H">Hungariae</lem>
+                                            <rdg wit="#B">Hungarie</rdg>
+                                        </app>, ex historia</lem>
+                                    <rdg wit="#M"/>
+                                </app></lem>
+                            <rdg wit="#Z"/>
+                        </app>
+                        <app>
+                            <lem wit="#KK #B #L1 #L2 #H">Elinii</lem>
+                            <rdg wit="#P">Elinii<note type="critic">P littera n in ras.</note></rdg>
+                            <rdg wit="#Z #M">Elinius</rdg>
+                        </app> de origine <app>
+                            <lem wit="#KK #P #B #L1 #L2 #H">barbararum</lem>
+                            <rdg wit="#Z #M">barbarorum</rdg>
+                        </app><app>
+                            <lem wit="#KK #P #B #L1 #L2 #H"> nationum post Constantinum, ex</lem>
+                            <rdg wit="#Z #M"/>
+                        </app> vita Caroli Magni<app>
+                            <lem wit="#KK #P #B #L1 #L2 #M #H"><app>
+                                    <lem wit="#KK #P #B #L1 #L2 #H"> scripta ab <app>
+                                            <lem wit="#KK #P #B #H">Angelo</lem>
+                                            <rdg wit="#L1 #L2">Angelio</rdg>
+                                        </app> Acciaiolo Florentino, ex quadam <app>
+                                            <lem wit="#KK #P #L1 #L2 #H">papae</lem>
+                                            <rdg wit="#B">pape</rdg>
+                                        </app> Pii epistola, qua Viennam urbem descripsit</lem>
+                                    <rdg wit="#M"/>
+                                </app>, ex scriptore <app>
+                                    <lem wit="#KK #P #H">Hungaricae</lem>
+                                    <rdg wit="#B #L1 #L2 #M">Hungarice</rdg>
+                                </app> historiae</lem>
+                            <rdg wit="#Z"/>
+                        </app>.<note type="critic" corresp="RKK">76 Matheus - recte: Lucas. -
+                            Angelus Acciaiolus - recte: Donatus.</note></s>
+                </p>
+                            
+                        
+                        
+                    
+               
+                
+               
+            </div>
+        </body>
+    </text>
+</TEI>

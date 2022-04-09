@@ -1,0 +1,596 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" 	schematypens="http://purl.oclc.org/dsdl/schematron"?> <TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Index IV.</title>
+                <author>
+                    <persName>Petrus Ransanus</persName>
+                    <idno type="KOHA_AUTH">KOHA:169512</idno>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>digital edition</edition>
+                <respStmt>
+                    <resp>project director</resp>
+                    <persName>
+                        <surname>Palkó</surname>
+                        <forename>Gábor</forename>
+                        <idno type="KOHA_AUTH">KOHA_AUTH:121463</idno>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>TEI-specification</resp>
+                    <persName>
+                    <surname>Fellegi</surname>
+                    <forename>Zsófia</forename>
+                </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>XML-editor</resp>
+                    <persName>
+                        <surname>Tubay</surname>
+                        <forename>Tiziano</forename>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>XML-editor</resp>
+                    <persName>
+                        <surname>Bobák</surname>
+                        <forename>Barbara</forename>
+                    </persName>
+                    
+                </respStmt>
+                <respStmt>
+                    <resp>creator</resp>
+                    <orgName> DigiPhil <ref type="url">http://digiphil.hu</ref>
+                    </orgName>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName>Bölcsészettudományi Kutatóközpont, Irodalomtudományi Intézet</orgName>
+                    <ref type="url">http://viaf.org/viaf/312925875/</ref>
+                    <ref type="url">https://iti.btk.mta.hu/</ref>
+                </publisher>
+                <pubPlace>Budapest <ref type="url">http://www.geonames.org/3054643</ref>
+                </pubPlace>
+                <date>2020</date>
+                <availability>
+                    <p>©Free Access - no-reuse <ref type="url"
+                        >http://www.europeana.eu/rights/rr-f/</ref>
+                    </p>
+                </availability>
+                <idno type="PID">o:ransanus.tei.index.4</idno>
+                <idno type="URL">/o:ransanus.tei.index.4</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Bibliotheca Scriptorum Medii Recentisque Aevorum</title>
+                <respStmt>
+                    <resp>condita a</resp>
+                    <persName>Ladislao Juhász</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>consilium editorium</resp>
+                    <persName>Stephanus Borzsák</persName>
+                    <persName>Ioannes Horváth</persName>
+                    <persName>Tiberius Klaniczay</persName>
+                    <persName>Ladislaus Mezei</persName>
+                    <persName>Gabriel Székely</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>redigit</resp>
+                    <persName>Antonius Pirnát</persName>
+                </respStmt>
+                
+            </seriesStmt>
+            <notesStmt>
+                <note type="critIntro">
+                    <p/>
+                </note>
+                
+            </notesStmt>
+            <sourceDesc>
+                <!--<msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <extent>
+                                    <measure type="quantity" unit="folio"/>
+                                    <dimensions unit="mm">
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </extent>
+                                <condition>
+                                    <p/>
+                                </condition>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                <msDesc>-->
+                <bibl>
+                    <author>
+                        <persName>
+                            <surname>Petrus</surname>
+                            <forename>Ransanus</forename>
+                            <idno type="KOHA_AUTH">KOHA:169512</idno>
+                            <idno type="url"
+                                >http://biblio.digiphil.hu/cgi-bin/koha/opac-authoritiesdetail.pl?authid=96679</idno>
+                            <idno type="VIAF">VIAF:95251869</idno>
+                            <idno type="url">http://viaf.org/viaf/95251869</idno>
+                        </persName>
+                    </author>
+                    <title>Epithoma rerum Hungararum</title>
+                    <title type="sub">Id est annalium omnium temporum liber primus et sexagesimus</title>
+                    <idno type="ISBN">ISBN:9630509946</idno>
+                    <respStmt>
+                        <resp>editor</resp>
+                        <persName>
+                            <surname>Petrus</surname>
+                            <forename>Kulcsár</forename>
+                            <idno type="KOHA_AUTH">KOHA:</idno>
+                        </persName>
+                    </respStmt>
+                    <date>1977</date>
+                    <pubPlace>Budapest</pubPlace>
+                    <publisher>Akadémiai Kiadó</publisher>
+                </bibl>
+                <listWit>
+<witness xml:id="KK">Kritikai kiadás</witness>
+                   
+                    <witness xml:id="P">Petri Ransani Siculi Panormitani episcopi Lucerini annales
+                        omnium temporum. Voll. I–VIII. (Il vol. IV era andato perso.) Manoscritto
+                        rubricato, emendato, scritto dall’autore, facente parte del patrimonio
+                        bibliografico della Biblioteca Comunale di Palermo, sotto il n. 3Qq-C-54–60.
+                        Vol. VIII. (n. 3Qq-C-60) foll. 224v–331r: Annalium omnium temporum libri
+                        XLIII–XLIV.</witness>
+                    <witness xml:id="B">Petri Ransani Siculi theologi atque historici, Lucerini
+                        episcopi annalium omnium temporum liber primus et sexagesimus. Manoscritto
+                        miniato su pergamena, nel patrimonio bibliografico della Biblioteca
+                        Nazionale Széchényi di Budapest, sotto il n. Clmae 249.</witness>
+                    <witness xml:id="Z">Epitome rerum Ungaricarum velut per indices descripta autore
+                        Petro Ramano apud Mathiam regem olim triennium legato nunc primum edita una
+                        cum appendice quadam opera Ioannis Sambuci Tirnaviensis Pannonii. Adiecta
+                        est rerum ad Agriam gestarum anno 1552 brevis eiusdem Sambuci narratio...
+                        Viennae Austriae excudebat Raphael Hofhalter Anno M. D. LVIII. Foll. 4
+                        innum., LXIX num., 1 vac., 14 innum. In 4°, segnature S e c in 6°.</witness>
+                    <witness xml:id="L1">Epitome rerum Hungaricarum velut per indices descripta
+                        auctore Petro Ransano apud Mathiam regem olim regis Neapolitani triennium
+                        legato. Impressum Ternaviae elimatione et relectione Lucae Peechi Pannonii,
+                        M. D. LXXXIX. Foll. 188 innum. In 8°, segnatura (:) in 4°.</witness>
+                    <witness xml:id="R">Rerum Hungaricarum scriptores varii historici, geographici
+                        ex veteribus plerique sed iam fugientibus editionibus revocati, quidam nunc
+                        primum editi... [Ed. Iacobus Bongarsius.] Francofurti, apud heredes Andreae
+                        Wecheli, Clau-dium Marnium et Ioannem Aubrium, M. D. C. In 6°.</witness>
+                    <witness xml:id="L2">Epitome rerum Hungaricarum velut per indices descripta
+                        auctore Petro Ransano Siculo episcopo Lucerino, theologo atque historico,
+                        apud Mathiam regem olim regis Neapolitani per triennium legato, annis ab
+                        hinc C LXVII impressa studio et opera Lucae Pecchi[!] Pannonii, nunc demum
+                        ob eius elegantiam recusa. Budae, typis Veronicae Nottensteinin, 1746. pp.
+                        VIII, 298, foll. 10 innum. In 4°, la segnatura Rr in 3°.</witness>
+                    <witness xml:id="S1">Scriptores rerum Hungaricarum veteres ac genuini, partim
+                        primum ex tenebris eruti, partim antehac quidem editi, nunc vero ex
+                        manuscriptis codicibus et rarissimis editionibus bibliothecae Augustae
+                        Vindobonensis ab innumeris mendis vindicati... cum amplissima praefatione
+                        Matthiae Belii ... cura et studio Ioannis Georgii Schwandtneri ... [Vol. I.]
+                        Impensis Ioannis Pauli Kraus bibliopolae Vindobonensis, M DCC XLVI. In
+                        4°.</witness>
+                    <witness xml:id="S2">Scriptores rerum Hungaricarum veteres ac genuini, partim
+                        primum ex tenebris eruti, partim antehac quidem editi, nunc vero ex
+                        manuscriptis codicibus et rarissimis bibliothecae Augustae Vindobonensis ab
+                        innumeris mendis vindica-ti... cum amplissima praefatione Matthiae Belii,
+                        cura et studio Ioannis Georgii Schwandtneri... Pars prima. Tyrnaviae, typis
+                        Collegii Academici Societatis Iesu, anno MDCCLXV. In 8°.</witness>
+                    <witness xml:id="S3">Scriptores rerum Hungaricarum veteres ac genuini, partim
+                        primum ex tenebris eruti, partim antehac quidem editi, nunc vero ex
+                        manuscriptis codicibus et rarissimis editionibus bibliothecae Augustae
+                        Vindobonensis ab innumeris mendis vindicati... cum amplissima praefatione
+                        Mathiae Belii, cura et studio Ioannis Georgii Schwandtneri... et Mariae
+                        Theresiae augustae honoribus dicati a ... Antonio Brunsvick . . . Anno
+                        Salutis MDCCLXVI. Pars prima. Vindobonae, typis Ioannis Thomae nobilis de
+                        Trattnern...</witness>
+                    <witness xml:id="M">Historiae Hungaricae fontes domestici. Vol. IV. Chronica
+                        minora... Petri Ransani epitome rerum Hungaricarum. Recensuit... M.
+                        Florianus. Auspiciis et sumptibus Academiae Scientiarum Hungaricae.
+                        Budapestini 1885. (Quinque-Ecclesiis, typis Michaelis Taizs.) In
+                        8°.</witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="la"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>krónika</term>
+                </keywords>
+            </textClass>
+            <creation>
+                <date from="1490" to="1492"/>
+            </creation>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <head type="title"><app>
+                        <lem wit="#KK #Z #M">Index IV.</lem>
+                        <rdg wit="#P #R">Index III.</rdg>
+                        <rdg wit="#B">Index quartus</rdg>
+                        <rdg wit="#L1 #L2">Index <app>
+                                <rdg wit="#L1">IIII.</rdg>
+                                <rdg wit="#L2">IV.</rdg>
+                            </app>, in quo describitur origo Hunnorum</rdg>
+                        <rdg wit="#S1 #S2 #S3">Index III. de Hunnis eorumque ingressu in
+                            Pannoniam</rdg>
+                    </app></head>
+                <p>
+                <s n="1">﻿Postulat autem res, ut pro dicendarum rerum exactiore <app>
+                        <lem wit="#KK #P">noticia</lem>
+                        <rdg wit="#B #Z #L1 #R #L2 #S1 #S2 #S3 #M">notitia</rdg>
+                    </app> haec pauca altius repetamus.</s>
+                <s n="2">Romano <app>
+                        <lem wit="#KK #P #B #L1 #L2">illo olim</lem>
+                        <rdg wit="#Z #R #S1 #S2 #S3 #M">olim illo</rdg>
+                    </app> amplissimo imperio paulatim declinante surrexerunt barbarae quaedam <app>
+                        <lem wit="#KK #B #L1 #R #L2 #S1 #S2 #S3 #M">efferataeque</lem>
+                        <rdg wit="#P #Z">efferateque</rdg>
+                    </app> nationes diversis tamen temporibus, <app>
+                        <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M">quae</lem>
+                        <rdg wit="#B">que</rdg>
+                    </app> Romanas provincias multis variisque vastationibus et cladibus <app>
+                        <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M">afflictas</lem>
+                        <rdg wit="#B">efflictas</rdg>
+                    </app> sibi occupavere.</s>
+                <s n="3">Ex illis hae fuerunt, quae prae <app>
+                        <lem wit="#KK #P #S3 #M">ceteris</lem>
+                        <rdg wit="#B #Z #L1 #R #L2 #S1 #S2">caeteris</rdg>
+                    </app> a rerum scriptoribus maxime celebratae sunt: Persae, Gothi, Vandali,
+                    Hunni, Quadi, Alani, Marcomani, Eruli, Suevi, Turingi, Hungari, Longobardi,
+                    Franci, Burgundi, Saxones, Alemani, <app>
+                        <lem wit="#KK #P #B #L1 #L2">Sarraceni</lem>
+                        <rdg wit="#Z #R #S1 #S2 #S3 #M">Saraceni</rdg>
+                    </app>, Tartari, <app>
+                        <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M">Turcae</lem>
+                        <rdg wit="#B">Turce</rdg>
+                    </app>.</s>
+                <s n="4"><app>
+                        <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M">Qua</lem>
+                        <rdg wit="#B"><del>Quo</del>Qua</rdg>
+                    </app> vero tempestate <app>
+                        <lem wit="#KK #P #Z #R #L2 #S1 #S2 #S3 #M">unaquaeque</lem>
+                        <rdg wit="#B"> unaqueque</rdg>
+                        <rdg wit="#L1">una quequae</rdg>
+                    </app> earum <app>
+                        <lem wit="#KK #P #B #Z #R #S1 #S2 #S3 #M">surrexerit</lem>
+                        <rdg wit="#L1 #L2">surrexit</rdg>
+                    </app>, quibusque e locis <app>
+                        <lem wit="#KK #P #B #L1 #L2">fuerit earum</lem>
+                        <rdg wit="#Z #R #S1 #S2 #S3 #M">earum fuerit</rdg>
+                    </app> origo atque profectio, <app>
+                        <lem wit="#KK #P #B #Z #R #S1 #S2 #S3 #M">quis</lem>
+                        <rdg wit="#L1 #L2">qui</rdg>
+                    </app>
+                    <app>
+                        <lem wit="#KK #P #B #L1 #R #L2 #S1 #S2 #S3 #M">praeterea</lem>
+                        <rdg wit="#Z">preterea</rdg>
+                    </app>
+                    <app>
+                        <lem wit="#KK #P">qualisque</lem>
+                        <rdg wit="#B #Z #L1 #R #L2 #S1 #S2 #S3 #M">qualesque</rdg>
+                    </app> fuisse <app>
+                        <lem wit="#KK #P #B">feratur</lem>
+                        <rdg wit="#Z #L1 #R #L2 #S1 #S2 #S3 #M">ferantur</rdg>
+                    </app> singularum progressus ac finis rerum gestarum, suis in locis superioribus
+                    libris satis ostendimus.<note type="critic" corresp="RKK">Sentt. 1–4. volumina
+                        Annalium anteriora significant, in quibus populi hic memorati passim
+                        laudantur et quidem auctoritate Flavii Biondi, cuius operis titulum
+                            (<title>Historiarum ab inclinato Romanorum imperio decades, ed. in:
+                            Biondi Flavii Forliviensis de Roma triumphante libri decem...</title>
+                        Basileae 1531) sent. 2. citare videtur: <hi rend="italic">Romano...
+                            imperio... declinante</hi>. Auctor noster mentionem harum gentium
+                        nonnunquam faciens illum locum suorum Annalium iterum atque iterum testatur,
+                        ubi historias earum ad compendium redactas narrat seu narrabit, sed haec
+                        pars, ut credendum, nunquam perfecta est. Una sola pars duas Scythias et
+                        Sarmatiam describens invenitur (Annales vol. I. foll. 60r–61r et ultra),
+                        alterum caput de origine et progressu gentis Gothorum tractat (vol. VII.
+                        foll. 287r–291v), et vol. VIII. folia nonnulla de historia Longobardorum,
+                        Francorum, Bulgarorum habet (foll. 44v–45r etc.).</note></s>
+                <s n="5"><app>
+                        <lem wit="#KK #S1 #S2 #S3 #M">Ceterum</lem>
+                        <rdg wit="#P">Coeterum</rdg>
+                        <rdg wit="#B #Z #L1 #R #L2">Caeterum</rdg>
+                    </app> eas omnes nationes missas nunc facimus, de <app>
+                        <lem wit="#KK #B #Z #L1 #R #L2 #S1 #S2 #S3 #M">Hunnis</lem>
+                        <rdg wit="#P">huius</rdg>
+                    </app>
+                    <app>
+                        <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M">tantum</lem>
+                        <rdg wit="#B">tanntum</rdg>
+                    </app>
+                    <app>
+                        <lem wit="#KK #P #B #L1 #L2">nobis habenda est</lem>
+                        <rdg wit="#Z #R #S1 #S2 #S3 #M">habenda est nobis</rdg>
+                    </app> mentio, <app>
+                        <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M">quae</lem>
+                        <rdg wit="#B">que</rdg>
+                    </app> gens Valentis Romani principis aetate <app>
+                        <lem wit="#KK #P #B #Z">(duce Atila)</lem>
+                        <rdg wit="#L1 #R #L2 #S1 #S2 #S3 #M">duce <app>
+                                <rdg wit="#L1 #R #L2 #M">Atila</rdg>
+                                <rdg wit="#S1">Attila</rdg>
+                                <rdg wit="#S2 #S3">Attyla</rdg>
+                            </app></rdg>
+                    </app>
+                    <app>
+                        <lem wit="#KK #Z #L1 #R #L2 #S1 #S2 #S3 #M">subegit</lem>
+                        <rdg wit="#P #B">subaegit</rdg>
+                    </app>
+                    <app>
+                        <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M">suae</lem>
+                        <rdg wit="#B">sue</rdg>
+                    </app> ditioni Pannonias, ubi et sedes sibi postea magna cum gloria <app>
+                        <lem wit="#KK #P">rerum</lem>
+                        <rdg wit="#B #Z #L1 #R #L2 #S1 #S2 #S3 #M">rerumque</rdg>
+                    </app> gestarum <app>
+                        <lem wit="#KK #L2 #S1 #S2 #S3 #M">felicitate</lem>
+                        <rdg wit="#P #B #Z #R">foelicitate</rdg>
+                        <rdg wit="#L1">faelicitate</rdg>
+                    </app> locavit, <app>
+                        <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3">quanquam</lem>
+                        <rdg wit="#M">quamquam</rdg>
+                    </app> aliquot <app>
+                        <lem wit="#KK #P #R #S1 #S2 #S3 #M">ante</lem>
+                        <rdg wit="#B #Z #L1 #L2"/>
+                    </app> eundem principem annis utpote sub seniore Theodosio ea natio magnos in
+                    quibusdam aliis Europae locis motus exciverat.<note type="critic" corresp="RKK"
+                        >5 <p><hi rend="italic">Valentis... aetate</hi> = Th 1.10. Cf. Annales vol. VI.
+                        foll. 349v–350r: „Tercio decimo autem imperii Valentis anno, hoc est paulo
+                        post, quam Valens ipse per totum orientem ecclesiarum lacerationes
+                        sanctorumque caedes aegerat, radix illa miseriarum nostrarum copiosissimos
+                        frutices germinavit. Siquidem gens Hunnorum diu inaccessis seclusa montibus
+                        repentina rabie percite exsarsit in Gothos, eosque sparsim conturbatos ab
+                        antiquis sedibus expulit.“</p><p>Nec Thuróczy, nec Annales res Hunnorum sub
+                        Theodosio seniore gestas describunt. Imperator Theodosius imperium non ante
+                        sed post Valentem tenuit, ergo Ransanus fortasse non de eo, sed de patre suo
+                        Flavio agit.</p></note></s>
+                <s n="6">Sed non erit <app>
+                        <lem wit="#KK #P #B #Z #L1 #R #L2 #M">ab re</lem>
+                        <rdg wit="#S1 #S2 #S3">abs re</rdg>
+                    </app>, si hoc quoque loco ostendamus<note type="critic">rectius:
+                        ostendemus</note>, unde Hunni profecti sint in ipsas Pannonias, quamvis
+                    repetere <app>
+                        <lem wit="#KK #P #B #Z #R #S1 #S2 #S3 #M">nos</lem>
+                        <rdg wit="#L1 #L2">non</rdg>
+                    </app> oporteat perpauca ex eis, <app>
+                        <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M">quae</lem>
+                        <rdg wit="#B">que</rdg>
+                    </app> supra a nobis sunt explicata prolixius.<note type="critic" corresp="RKK"
+                        >Sent. 6. locos Annalium anteriores significat ac foll, quidem 476v–477r,
+                        478r voluminis III., 349v–350v voluminis VI., 291v, 292v, 419r, 420, 423v,
+                        424v–425r, 429v, 439v–440r et 487v voluminis VII., 9v–10r voluminis VIII.
+                        (de Avaribus sub nomine Hunnorum). Textus v. idoneis locis
+                        inferius.</note></s>
+                <s n="7">Memoriae nobis est nos libro huius operis <app>
+                        <lem wit="#KK #P #B #R #L2 #S1 #S2 #S3 #M">VII-o</lem>
+                        <rdg wit="#Z #L1">VII.</rdg>
+                    </app>, quo descripsimus, quae pertinuerunt ad Scythiam regnumque Scytharum,
+                    meminisse Sarmaticarum regionum atque locorum, <app>
+                        <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M">quae sunt</lem>
+                        <rdg wit="#B">que sunt</rdg>
+                    </app>
+                    <app>
+                        <lem wit="#KK #P #B">Rhipheis</lem>
+                        <rdg wit="#Z #R #S1 #S2 #S3 #M">Riphaeis</rdg>
+                        <rdg wit="#L1 #L2">Ripheis</rdg>
+                    </app> montibus proxima et haud procul ab illis <app>
+                        <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M">Hunnos</lem>
+                        <rdg wit="#B">Hunmos</rdg>
+                    </app> solum habuisse natale, <app>
+                        <lem wit="#KK #P #B #R #S1 #S2 #S3 #M">docuimusque</lem>
+                        <rdg wit="#Z">docuimus quae</rdg>
+                        <rdg wit="#L1 #L2">docuimus</rdg>
+                    </app> eam gentem ita <app>
+                        <lem wit="#KK #P #B #L1 #R #L2 #S1 #S2 #S3 #M">cognominatam</lem>
+                        <rdg wit="#Z">cognominatem</rdg>
+                    </app>
+                    <app>
+                        <lem wit="#KK #P #B #R #S1 #S2 #S3 #M">non a</lem>
+                        <rdg wit="#Z #L1 #L2">nova</rdg>
+                    </app> patria, cum nulla sit <app>
+                        <lem wit="#KK #P">illic</lem>
+                        <rdg wit="#B #Z #L1 #R #L2 #S1 #S2 #S3 #M">ibi</rdg>
+                    </app> regio, <app>
+                        <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M">quae</lem>
+                        <rdg wit="#B">que</rdg>
+                    </app>
+                    <app>
+                        <lem wit="#KK #P #B #Z #R #S1 #S2 #S3 #M">nominatur</lem>
+                        <rdg wit="#L1">nominetur</rdg>
+                        <rdg wit="#L2">nominaretur</rdg>
+                    </app> Hunnia, sed ab illorum duce, qui Hunnus vocatus est.</s>
+                <s n="8">Cumque ex eo loco fuerit eorum profectio, idcirco eodem libro prodidimus
+                    ipsos nationem fuisse Sarmaticam.</s>
+                <s n="9">Nec tamen ea nostra traditio adversatur ei, quod Hungari quidam affirmant
+                    perhibentes Scythici generis se maiores habuisse, <app>
+                        <lem wit="#KK #P #B">nanque</lem>
+                        <rdg wit="#Z #L1 #R #L2 #S1 #S2 #S3 #M">namque</rdg>
+                    </app>
+                    <app>
+                        <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M">Sarmatarum</lem>
+                        <rdg wit="#B">Sarnatarum</rdg>
+                    </app> nationes, quae duae sunt, <app>
+                        <lem wit="#KK #Z #R #S1 #S2 #S3 #M">Europaea</lem>
+                        <rdg wit="#P #B #L1 #L2">Europea</rdg>
+                    </app> videlicet et Asiatica, ex Scytharum genere defluxerunt, affirmantes
+                    itaque nos Hungaros exortos fuisse natione Sarmatica, non propterea inficiamur
+                    ipsos <app>
+                        <lem wit="#KK #P #B #L1 #L2">habuisse a Scythis</lem>
+                        <rdg wit="#Z #R #S1 #S2 #S3 #M">a Scythis habuisse</rdg>
+                    </app> originem.</s>
+                <s n="10">Scribens <app>
+                        <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M">praeterea</lem>
+                        <rdg wit="#B">preterea</rdg>
+                    </app> ego ea, quae obtigerunt memoratu digna anno salutis <app>
+                        <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M">humanae</lem>
+                        <rdg wit="#B">humane</rdg>
+                    </app> CCCLXXIII, prodidisse me memini, quemadmodum abundante multitudine
+                    Sarmatarum tenentium loca <app>
+                        <lem wit="#KK #P #B">Rhipheis</lem>
+                        <rdg wit="#Z #R">Rhiphaeis</rdg>
+                        <rdg wit="#L1 #L2">Ripheis</rdg>
+                        <rdg wit="#S1 #S2 #S3 #M">Riphaeis</rdg>
+                    </app> propinqua montibus multa <app>
+                        <lem wit="#KK #P #B">milia</lem>
+                        <rdg wit="#Z #L1 #R #L2 #S1 #S2 #S3 #M">millia</rdg>
+                    </app> illorum deseruere patriam, seque coniunxere exercitui <app>
+                        <lem wit="#KK #P #B #Z #R #L2 #S1 #S2 #S3 #M">Gothorum</lem>
+                        <rdg wit="#L1">Gotthorum</rdg>
+                    </app>, qui et ipsi aliquot ante <app>
+                        <lem wit="#KK #P #B #Z #L1 #R #S1 #S2 #S3 #M">annis</lem>
+                        <rdg wit="#L2">annos</rdg>
+                    </app> suis sedibus <app>
+                        <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M">excesserant</lem>
+                        <rdg wit="#B">excaesserant</rdg>
+                    </app>.</s>
+                <s n="11">Ortis deinde inter se capitalibus odiis alteri ab alteris abalienati inter
+                    se contulerunt arma, sed <app>
+                        <lem wit="#KK #P #B #L2 #S1 #S2 #S3 #M">Gothis</lem>
+                        <rdg wit="#Z #L1 #R">Gotthis</rdg>
+                    </app> tandem victis, qua via data est, Sarmatiae locis illis excessere, duceque
+                    Hunno <app>
+                        <lem wit="#KK #P">(id enim erat viro, uti paulo ante dixi, nomen)</lem>
+                        <rdg wit="#B #Z #L1 #R #L2 #S1 #S2 #S3 #M">id enim erat viro, <app>
+                                <rdg wit="#Z #L1 #R #L2 #S1 #S2 #S3 #M">uti paulo ante dixi</rdg>
+                                <rdg wit="#B">(uti paulo ante dixi)</rdg>
+                            </app>, nomen</rdg>
+                    </app> processerunt ulterius, ac pervastatis subactisque mediis regionibus
+                    pervenerunt tandem usque in Pannonias, quas et <app>
+                        <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M">subegerunt</lem>
+                        <rdg wit="#B">subaegerunt</rdg>
+                    </app> et in eis sedes posuerunt.</s>
+                <s n="12">Primos, qui ei genti persuasere, ut desererent patriam, fuisse eodem libro
+                    ostendimus Hunnum, prius a quo genti nomen <app>
+                        <lem wit="#KK #P #B #L1 #L2">datum est</lem>
+                        <rdg wit="#Z #R #S1 #S2 #S3 #M">est datum</rdg>
+                    </app>, post quem <app>
+                        <lem wit="#KK #P">Coctarem</lem>
+                        <rdg wit="#B #Z #L1 #R #L2 #S1 #S2 #S3 #M">Cottarem</rdg>
+                    </app> et Rhoam fratres, <app>
+                        <lem wit="#KK #P #B">Munde Zeturi</lem>
+                        <rdg wit="#Z #R #S1 #S2 #S3 #M">Mundae Zeturi</rdg>
+                        <rdg wit="#L1 #L2">Mundezuturi</rdg>
+                    </app> filios, quibus mortuis <app>
+                        <lem wit="#KK #P #B #Z #L1 #R #L2 #M">Atilam</lem>
+                        <rdg wit="#S1">Attilam</rdg>
+                        <rdg wit="#S2 #S3">Attylam</rdg>
+                    </app> et Bledam fratres regio exortos genere illorum fuisse duces, quorum
+                    auspiciis eam gentem contra alios <app>
+                        <lem wit="#KK #Z #L1 #R #S1 #S2 #S3 #M">Europaeos</lem>
+                        <rdg wit="#P #B #L2">Europeos</rdg>
+                    </app> Sarmatas bella fortiter <app>
+                        <lem wit="#KK #L2 #S1 #S2 #S3 #M">feliciterque</lem>
+                        <rdg wit="#P #B #Z #R">foeliciterque</rdg>
+                        <rdg wit="#L1">faeliciterque</rdg>
+                    </app> gessisse.</s>
+                <s n="13">Diximus praeterea eos multa per totam <app>
+                        <lem wit="#KK">paene</lem>
+                        <rdg wit="#P">pene</rdg>
+                        <rdg wit="#B">vere</rdg>
+                        <rdg wit="#Z #L1 #R #L2 #S1 #S2 #S3 #M">fere</rdg>
+                    </app> Europam postea gessisse bella adversus et Romanos principes et populos
+                    Christi cultores, quorum multas provincias perdomuere.</s>
+                <s n="14">En, perventum <app>
+                        <lem wit="#KK">est iam nobis</lem>
+                        <rdg wit="#P">est iam nobis<add type="insert"> est</add></rdg>
+                        <rdg wit="#B #L1 #L2">iam nobis est</rdg>
+                        <rdg wit="#Z #R">est nobis</rdg>
+                        <rdg wit="#S1 #S2 #S3 #M">est nobis iam</rdg>
+                    </app> in mentionem <app>
+                        <lem wit="#KK #B #L1 #L2 #M">Atilae</lem>
+                        <rdg wit="#P">Atile</rdg>
+                        <rdg wit="#Z #R #S1">Attilae</rdg>
+                        <rdg wit="#S2 #S3">Attylae</rdg>
+                    </app>, qui primus Sarmaticae gentis Romanorum imperium ac omnes, quotquot
+                    erant, <app>
+                        <lem wit="#KK #P">dei veri</lem>
+                        <rdg wit="#B #Z #L1 #R #L2 #S1 #S2 #S3 #M">veri dei</rdg>
+                    </app> cultores <app>
+                        <lem wit="#KK #P">summovit</lem>
+                        <rdg wit="#B #Z #L1 #R #L2 #S1 #S2 #S3 #M">submovit</rdg>
+                    </app> e Pannoniis, primusque in eis regnum post illos <app>
+                        <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M">obtinuit</lem>
+                        <rdg wit="#B">optinuit</rdg>
+                    </app>, regnum <app>
+                        <lem wit="#KK #Z #L1 #R #L2 #S1 #S2 #S3 #M">praeterea</lem>
+                        <rdg wit="#P #B">preterea</rdg>
+                    </app> Hunnorum ibidem constituit.</s>
+                <s n="15">Satis igitur fuerit nobis paucis de ipso deque suis Hunnis ea nunc
+                    repetivisse, quae supra libro, qui dictus est, ostenderamus, itaque
+                    praetermissis aliis, <app>
+                        <lem wit="#KK #B #Z #L1 #R #L2 #S1 #S2 #S3 #M">quae ibi</lem>
+                        <rdg wit="#P">que ibi</rdg>
+                    </app> prodidimus, texere hinc incipiemus Hunnorum Hungarorumque <app>
+                        <lem wit="#KK #P #B #Z #L1 #R #S1 #S2 #S3 #M">regum ac</lem>
+                        <rdg wit="#L2">regum</rdg>
+                    </app> ducum <app>
+                        <lem wit="#KK #P #B #L1 #L2 #S1 #S2 #S3 #M">catalogum</lem>
+                        <rdg wit="#Z #R">catologum</rdg>
+                    </app>, quo tandem perveniamus ad divum <app>
+                        <lem wit="#KK #P #B #Z #L1 #R #L2 #S2 #M">Mathiam</lem>
+                        <rdg wit="#S1 #S3">Matthiam</rdg>
+                    </app> Corvinum, qui per haec <app>
+                        <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S3 #M">tempora</lem>
+                        <rdg wit="#S2">tempota</rdg>
+                    </app> regnat in Hungaria.<note type="critic" corresp="RKK">
+                        <p>Sentt. 7., 8., 15. et probabiliter 10. ad primam compositionem Annalium
+                            attinent. Compositio hodierna de origine Hunnorum primum in libro
+                            XXXIII. loquitur, animum lectoris, qui de particulis sciscitatur, ad
+                            librum LXI. (Epithoma) convertit.</p>
+                        <p>Annales vol. VII. fol. 291v: (in marg. „De Hunnis mentio.“) „Quo tempore
+                            Hunni gens et ipsa Scythica, ut infra dicetur, Ostrogotos sibi
+                            subaegerunt. Sunt autem Hunni eo quam Gothi efferacior natio, quod loca
+                            Rhipheis montibus propiora tenentes magis septemtrionum rigoribus
+                            exponuntur. Satis autem sit de ea gente hoc loco brevem fecisse
+                            mencionem, suo nanque loco de eis infra paulo prolixius scribam, quantum
+                            ad rem pertinuerit. Sed de eisdem loquar prolixissime perveniens ad
+                            tempora, in quibus fieri de Hungarorum regno mencionem idoneus locus
+                            postulare videbitur.“</p>
+                        <p>Ibidem fol. 292v: ,,Quid autem de gentis Hunnorum egressu scripserit
+                            Orosius, supra in vita Valentis demonstratum est, sed ut pauca eius
+                            verba in memoriam revocemus: Gens, inquit, Hunnorum diu inaccessis
+                            seclusa montibus repentina rabie percita exarsit in Visigotos, eosque
+                            sparsim conturbatos ab antiquis expulit sedibus. Is gentis eiusdem motus
+                            ille fuit, de quo beatus Hieronymus ad Oceanum scribens de morte
+                            Fabiolae: Ecce, inquit, subito discurrentibus nunciis oriens totus
+                            intonuit. Ab ultima Meothide inter glacialem Tanaim et Massagetarum
+                            immanes populos, ubi clausis rupibus feras gentes Alexandri claustra
+                            cohibent, erupisse Hunnorum examina, quae pernicibus equis huc illucque
+                            volitancia caedis pariter ac terroris cuncta complerent. Affirmat
+                            Ablabius Ostrogotis ab Hunnis superatis Visigotos sibi metuentes in
+                            Romanorum fidem tutelamque confugere... “</p>
+                        <p>Fol. 420v voluminis VII. manifesto Epithoma affert: ,,De eius autem
+                            gentis et origine variisque progressibus ac regni fine [a. corr. finn]
+                            suo loco dicendum reservo, hoc est, quom (deo bene iuvante) pervenero ad
+                            scribendum regnum Hungarorum.“</p>
+                        <p>Cf. et Index VII.12, ubi librum VII. Annalium significat, et ibidem
+                            20–22.</p>
+                    </note><note type="critic" corresp="RKK">15 <hi rend="italic">Hunnorum
+                            Hungarorumque regum ac ducum catalogum</hi> cf. Dedicatoria
+                    8.</note></s>
+                <s n="16">Sed ante omnia, quinam fuerint <app>
+                        <lem wit="#KK #P #B #L1 #L2 #M">Atilae</lem>
+                        <rdg wit="#Z #R #S1">Attilae</rdg>
+                        <rdg wit="#S2 #S3">Attylae</rdg>
+                    </app> mores qualeque ingenium, doceamus.<app>
+                        <lem wit="#B #Z #L1 #R #L2 #S1 #S2 #S3 #M"/>
+                        <rdg wit="#P"><note type="marginalia">Atila</note></rdg>
+                    </app></s>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

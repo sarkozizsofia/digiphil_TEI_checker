@@ -1,0 +1,2298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" 	schematypens="http://purl.oclc.org/dsdl/schematron"?> 
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Index I.</title>
+                <author>
+                    <persName>Petrus Ransanus</persName>
+                    <idno type="KOHA_AUTH">KOHA:169512</idno>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>digital edition</edition>
+                <respStmt>
+                    <resp>project director</resp>
+                    <persName>
+                        <surname>Palkó</surname>
+                        <forename>Gábor</forename>
+                        <idno type="KOHA_AUTH">KOHA_AUTH:121463</idno>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>TEI-specification</resp>
+                    <persName>
+                    <surname>Fellegi</surname>
+                    <forename>Zsófia</forename>
+                </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>XML-editor</resp>
+                    <persName>
+                        <surname>Tubay</surname>
+                        <forename>Tiziano</forename>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>XML-editor</resp>
+                    <persName>
+                        <surname>Bobák</surname>
+                        <forename>Barbara</forename>
+                    </persName>
+                    
+                </respStmt>
+                <respStmt>
+                    <resp>creator</resp>
+                    <orgName> DigiPhil <ref type="url">http://digiphil.hu</ref>
+                    </orgName>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName>Bölcsészettudományi Kutatóközpont, Irodalomtudományi Intézet</orgName>
+                    <ref type="url">http://viaf.org/viaf/312925875/</ref>
+                    <ref type="url">https://iti.btk.mta.hu/</ref>
+                </publisher>
+                <pubPlace>Budapest <ref type="url">http://www.geonames.org/3054643</ref>
+                </pubPlace>
+                <date>2020</date>
+                <availability>
+                    <p>©Free Access - no-reuse <ref type="url"
+                        >http://www.europeana.eu/rights/rr-f/</ref>
+                    </p>
+                </availability>
+                <idno type="PID">o:ransanus.tei.index.1</idno>
+                <idno type="URL">/o:ransanus.tei.index.1</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Bibliotheca Scriptorum Medii Recentisque Aevorum</title>
+                <respStmt>
+                    <resp>condita a</resp>
+                    <persName>Ladislao Juhász</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>consilium editorium</resp>
+                    <persName>Stephanus Borzsák</persName>
+                    <persName>Ioannes Horváth</persName>
+                    <persName>Tiberius Klaniczay</persName>
+                    <persName>Ladislaus Mezei</persName>
+                    <persName>Gabriel Székely</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>redigit</resp>
+                    <persName>Antonius Pirnát</persName>
+                </respStmt>
+                
+            </seriesStmt>
+            <notesStmt>
+                <note type="critIntro">Hic index statim post auctoris ad Viennam adventum (anno
+                        <date>1488</date>) compositus est (cf. sent. 104.: <hi rend="italic"
+                        >superioribus diebus, dum Viennam versus iter ad te facerem</hi>); ad
+                    narrationem historicam re ipsa non pertinet, ideoque manuscriptum <hi
+                        rend="bold">P</hi> et editiones <hi rend="bold">ZRS</hi> eum in se non
+                    continent. Neque fontibus eiusdem generis ac indices sequentes (imprimis
+                        <title>Chronica Hungarorum</title>) utitur; ea, quae ad historiam Hungaricam
+                    attinent, non ex Hungarica sed Italica fama orta sunt, unde et caput <title>De
+                        Ioanne Corvino</title> inscriptum et ipsi <title>Annales</title> omnes
+                    eiusdem argumenti partes hauriebant.</note>
+                
+            </notesStmt>
+            <sourceDesc>
+                <!--<msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <extent>
+                                    <measure type="quantity" unit="folio"/>
+                                    <dimensions unit="mm">
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </extent>
+                                <condition>
+                                    <p/>
+                                </condition>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                <msDesc>-->
+                <bibl>
+                    <author>
+                        <persName>
+                            <surname>Petrus</surname>
+                            <forename>Ransanus</forename>
+                            <idno type="KOHA_AUTH">KOHA:169512</idno>
+                            <idno type="url"
+                                >http://biblio.digiphil.hu/cgi-bin/koha/opac-authoritiesdetail.pl?authid=96679</idno>
+                            <idno type="VIAF">VIAF:95251869</idno>
+                            <idno type="url">http://viaf.org/viaf/95251869</idno>
+                        </persName>
+                    </author>
+                    <title>Epithoma rerum Hungararum</title>
+                    <title type="sub">Id est annalium omnium temporum liber primus et sexagesimus</title>
+                    <idno type="ISBN">ISBN:9630509946</idno>
+                    <respStmt>
+                        <resp>editor</resp>
+                        <persName>
+                            <surname>Petrus</surname>
+                            <forename>Kulcsár</forename>
+                            <idno type="KOHA_AUTH">KOHA:</idno>
+                        </persName>
+                    </respStmt>
+                    <date>1977</date>
+                    <pubPlace>Budapest</pubPlace>
+                    <publisher>Akadémiai Kiadó</publisher>
+                </bibl>
+                <listWit>
+                    <witness xml:id="KK">Kritikai kiadás</witness>
+                    <witness xml:id="P">Petri Ransani Siculi Panormitani episcopi Lucerini annales
+                        omnium temporum. Voll. I–VIII. (Il vol. IV era andato perso.) Manoscritto
+                        rubricato, emendato, scritto dall’autore, facente parte del patrimonio
+                        bibliografico della Biblioteca Comunale di Palermo, sotto il n. 3Qq-C-54–60.
+                        Vol. VIII. (n. 3Qq-C-60) foll. 224v–331r: Annalium omnium temporum libri
+                        XLIII–XLIV.</witness>
+                    <witness xml:id="B">Petri Ransani Siculi theologi atque historici, Lucerini
+                        episcopi annalium omnium temporum liber primus et sexagesimus. Manoscritto
+                        miniato su pergamena, nel patrimonio bibliografico della Biblioteca
+                        Nazionale Széchényi di Budapest, sotto il n. Clmae 249.</witness>
+                    <witness xml:id="Z">Epitome rerum Ungaricarum velut per indices descripta autore
+                        Petro Ramano apud Mathiam regem olim triennium legato nunc primum edita una
+                        cum appendice quadam opera Ioannis Sambuci Tirnaviensis Pannonii. Adiecta
+                        est rerum ad Agriam gestarum anno 1552 brevis eiusdem Sambuci narratio...
+                        Viennae Austriae excudebat Raphael Hofhalter Anno M. D. LVIII. Foll. 4
+                        innum., LXIX num., 1 vac., 14 innum. In 4°, segnature S e c in 6°.</witness>
+                    <witness xml:id="L1">Epitome rerum Hungaricarum velut per indices descripta
+                        auctore Petro Ransano apud Mathiam regem olim regis Neapolitani triennium
+                        legato. Impressum Ternaviae elimatione et relectione Lucae Peechi Pannonii,
+                        M. D. LXXXIX. Foll. 188 innum. In 8°, segnatura (:) in 4°.</witness>
+                    <witness xml:id="R">Rerum Hungaricarum scriptores varii historici, geographici
+                        ex veteribus plerique sed iam fugientibus editionibus revocati, quidam nunc
+                        primum editi... [Ed. Iacobus Bongarsius.] Francofurti, apud heredes Andreae
+                        Wecheli, Clau-dium Marnium et Ioannem Aubrium, M. D. C. In 6°.</witness>
+                    <witness xml:id="L2">Epitome rerum Hungaricarum velut per indices descripta
+                        auctore Petro Ransano Siculo episcopo Lucerino, theologo atque historico,
+                        apud Mathiam regem olim regis Neapolitani per triennium legato, annis ab
+                        hinc C LXVII impressa studio et opera Lucae Pecchi[!] Pannonii, nunc demum
+                        ob eius elegantiam recusa. Budae, typis Veronicae Nottensteinin, 1746. pp.
+                        VIII, 298, foll. 10 innum. In 4°, la segnatura Rr in 3°.</witness>
+                    <witness xml:id="S1">Scriptores rerum Hungaricarum veteres ac genuini, partim
+                        primum ex tenebris eruti, partim antehac quidem editi, nunc vero ex
+                        manuscriptis codicibus et rarissimis editionibus bibliothecae Augustae
+                        Vindobonensis ab innumeris mendis vindicati... cum amplissima praefatione
+                        Matthiae Belii ... cura et studio Ioannis Georgii Schwandtneri ... [Vol. I.]
+                        Impensis Ioannis Pauli Kraus bibliopolae Vindobonensis, M DCC XLVI. In
+                        4°.</witness>
+                    <witness xml:id="S2">Scriptores rerum Hungaricarum veteres ac genuini, partim
+                        primum ex tenebris eruti, partim antehac quidem editi, nunc vero ex
+                        manuscriptis codicibus et rarissimis bibliothecae Augustae Vindobonensis ab
+                        innumeris mendis vindica-ti... cum amplissima praefatione Matthiae Belii,
+                        cura et studio Ioannis Georgii Schwandtneri... Pars prima. Tyrnaviae, typis
+                        Collegii Academici Societatis Iesu, anno MDCCLXV. In 8°.</witness>
+                    <witness xml:id="S3">Scriptores rerum Hungaricarum veteres ac genuini, partim
+                        primum ex tenebris eruti, partim antehac quidem editi, nunc vero ex
+                        manuscriptis codicibus et rarissimis editionibus bibliothecae Augustae
+                        Vindobonensis ab innumeris mendis vindicati... cum amplissima praefatione
+                        Mathiae Belii, cura et studio Ioannis Georgii Schwandtneri... et Mariae
+                        Theresiae augustae honoribus dicati a ... Antonio Brunsvick . . . Anno
+                        Salutis MDCCLXVI. Pars prima. Vindobonae, typis Ioannis Thomae nobilis de
+                        Trattnern...</witness>
+                    <witness xml:id="M">Historiae Hungaricae fontes domestici. Vol. IV. Chronica
+                        minora... Petri Ransani epitome rerum Hungaricarum. Recensuit... M.
+                        Florianus. Auspiciis et sumptibus Academiae Scientiarum Hungaricae.
+                        Budapestini 1885. (Quinque-Ecclesiis, typis Michaelis Taizs.) In
+                        8°.</witness>
+                    <witness xml:id="H">Analecta nova ad historiam renascendum in Hungaria
+                        litterarum spectantia... Ex scriptis ab Eugenio Abel relictis cum
+                        commentariis edidit partimque auxit Stephanus Hegedűs. Budapestini, typis
+                        Victoris Hornyánszky. 1903. In 8°. (p. 431)</witness>
+                    <witness xml:id="J">Monumenta Latina litteraturam Hungaricam illustrantia.
+                        Edidit Ladislaus Juhász. Tom. IV. (1472–1490), pars I, fasciculus I. Petrus
+                        Ransanus. Budapest, Királyi Magyar Egyetemi Nyomda, MCMXXXI. pp. 20. (pp.
+                        4–16)</witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="la"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>krónika</term>
+                </keywords>
+            </textClass>
+            <creation>
+                <date from="1490" to="1492"/>
+            </creation>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <head type="title">
+                    <app>
+                        <lem wit="#KK #P #Z #R #S1 #S2 #S3 #M">Index I.</lem>
+                        <rdg wit="#B"/>
+                        <rdg wit="#L1 #L2 #H">Index primus continens orationem authoris ad regem 
+                            <app>
+                                <rdg wit="#L2">Mathiam</rdg>
+                                <rdg wit="#L1 #H">Matthiam</rdg>
+                            </app> et reginam Beatricem</rdg>
+                        <rdg wit="#J">Oratio ad Mathiam Hungarorum regem. Praefatio orationis</rdg>
+                    </app></head>
+                <p><s n="1">﻿
+                    <app>
+                            <lem wit="#KK #P #B #Z #L1 #R #S1 #S2 #S3 #M #H #J">Anno salutis humanae
+                                octogesimo octavo supra millesimum et <app>
+                                    <lem wit="#KK #P #B #Z #L1 #R #S1 #S2 #S3 #H #J"
+                                        >quadringentesimum</lem>
+                                    <rdg wit="#M">quadrigentesimum</rdg>
+                                </app> missus ego sum a divo Ferdinando 
+                                <app>
+                                    <lem wit="#KK #P #Z #R #S1 #S2 #S3 #M #H #J">magnae</lem>
+                                    <rdg wit="#B #L1">magni</rdg>
+                                </app> Siciliae rege ad divum <app>
+                                    <lem wit="#KK #P #Z #R #L2 #S1 #S2 #S3 #M #H #J">Mathiam</lem>
+                                    <rdg wit="#B">Matiam</rdg>
+                                    <rdg wit="#L1">Matthiam</rdg>
+                                </app> regem atque ad Beatricem reginam Hungariae legatus.</lem>
+                            <rdg wit="#L2"/>
+                        </app></s>
+                    <app>
+                        <lem wit="#KK #P #B #Z #L1 #R #S1 #S2 #S3 #M #H #J">
+                            <s n="2">Quibus vero de causis fuerim eo missus, aliqua ex parte
+                                explicatur oratione, quam ad eosdem principes habui, cuius hoc est <app>
+                                    <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3 #M #J"
+                                        >exemplar</lem>
+                                    <rdg wit="#H">exemplum<note type="critic">H desinit</note></rdg>
+                                </app>.</s>
+                        </lem>
+                        <rdg wit="#L2"/>
+                    </app></p>
+                
+                        <p>
+                            <s n="3">Veni ad tuam praestantissimam maiestatem, <app>
+                                    <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M #J">Mathia</lem>
+                                    <rdg wit="#B">Matthia</rdg>
+                                </app> Hungarorum potentissime rex, atque ad te, <app>
+                                    <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M #J">Beatrix</lem>
+                                    <rdg wit="#B">Beatix</rdg>
+                                </app> omni virtutum genere ornatissima <app>
+                                    <lem wit="#KK #P #B #Z #L1 #R #S1 #S2 #S3 #M #J">regina</lem>
+                                    <rdg wit="#L2">regina<add type="insert"> (a divo Ferdinando
+                                            Siciliae rege potentissimo ad vos missus)</add></rdg>
+                                </app>.</s>
+                            <s n="4">Missus, inquam, <app>
+                                    <lem wit="#KK #P #B #Z #R #S1 #S2 #S3 #M #J">sum</lem>
+                                    <rdg wit="#L1 #L2">veni</rdg>
+                                </app> ipsius verbis multa vobiscum communicaturus.</s>
+                            <s n="5"><app>
+                                    <lem wit="#KK #P #Z #R #S1 #S2 #S3 #M #J">Ceterum</lem>
+                                    <rdg wit="#B #L1 #L2">Caeterum</rdg>
+                                </app> cum ex mandatis, quae sum expositurus, aliquot huiuscemodi
+                                sint, quae locum postulant secretiorem, ea tunc explicanda reservo, <app>
+                                    <lem wit="#KK #P #B #Z #R #S1 #S2 #S3">quom</lem>
+                                    <rdg wit="#L1 #L2 #M">quum</rdg>
+                                    <rdg wit="#J">cum</rdg>
+                                </app> locum ipsum tempusque idoneum mihi pro vestra prudentia
+                                constitueritis.</s>
+                            <s n="6">Nunc, quoniam ornatissimus hic locus, ad quem video permultos
+                                regni huius amplissimi optimates <app>
+                                    <lem wit="#KK #P #B #Z #R #L2 #S1 #S2 #S3 #M #J">aliosque</lem>
+                                    <rdg wit="#L1">aliosquae</rdg>
+                                </app> viros magna <app>
+                                    <lem wit="#KK #P #B #Z #R #S1 #S2 #S3 #M #J">auctoritate</lem>
+                                    <rdg wit="#L1 #L2">aucthoritate</rdg>
+                                </app>
+                                <app>
+                                    <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M #J"
+                                        >praestantes</lem>
+                                    <rdg wit="#B">prestantes</rdg>
+                                </app> convenisse, merito videtur exigere, ut apud vestras
+                                maiestates a me saltem brevis habeatur oratio, fortasse rem
+                                pergratam vobis fecero, si ea, quae palam commemorari <app>
+                                    <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3 #J">possunt</lem>
+                                    <rdg wit="#M">possunt<add type="insert"> et</add></rdg>
+                                </app>, a legationis <app>
+                                    <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M #J">meae</lem>
+                                    <rdg wit="#B">mee</rdg>
+                                </app> munere nequaquam abhorrent, in medium attulero.</s>
+                            <s n="7">Veni igitur, Christianissime rex, primum ut <app>
+                                    <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3 #J">te ac</lem>
+                                    <rdg wit="#M">te et</rdg>
+                                </app> reginam <app>
+                                    <lem wit="#KK #P #B #Z #L1 #R #S1 #S2 #S3 #M #J">uxorem</lem>
+                                    <rdg wit="#L2"/>
+                                </app> tuam Ferdinandi regis Alfonsique liberorum eius natu maximi <app>
+                                    <lem wit="#KK #P #B #Z #R #S1 #S2 #S3">Calabryae</lem>
+                                    <rdg wit="#L1 #L2 #M #J">Calabriae</rdg>
+                                </app> ducis nomine salutarem ac viserem, deinde ut utrique vestrum
+                                congratularer pro re quidem honestissima, de qua non multo post
+                                verba faciam, <app>
+                                    <lem wit="#KK #P #B #Z #R #S1 #S2 #S3">tercio</lem>
+                                    <rdg wit="#L1 #L2 #M #J">tertio</rdg>
+                                </app> ut tuam <app>
+                                    <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M #J"
+                                        >celsitudinem</lem>
+                                    <rdg wit="#B">caelsitudinem</rdg>
+                                </app>, optime rex, prosequerer honore etsi non tali, quali pro
+                                tuarum et virtutum excellentia et gestarum rerum magnitudine dignus
+                                es, tali saltem, quali te prosequi mei ingenii mediocritas
+                                poterit.</s>
+                        </p>
+                        <p>
+                            <s n="8"><app>
+                                    <lem wit="#KK #P #Z #R #S1 #S2 #S3 #J">Pars prima.</lem>
+                                    <rdg wit="#B #L1 #L2"/>
+                                    <rdg wit="M">I.</rdg>
+                                </app></s>
+                            <s n="9">Ut autem, quod primo loco me dicturum proposui, <app>
+                                    <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3 #M">exequar</lem>
+                                    <rdg wit="#J">exsequar</rdg>
+                                </app>, facile profecto tibi persuadere potes, rex prudentissime, me
+                                non sine <app>
+                                    <lem wit="#KK #P #B #Z #R #S1 #S2 #S3 #M #J"
+                                        >providentissimo</lem>
+                                    <rdg wit="#L1 #L2">prudentissimo</rdg>
+                                </app> consilio <app>
+                                    <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M #J">visendi</lem>
+                                    <rdg wit="#B">viscendi</rdg>
+                                </app> tui gratia a Neapolitano regno non solum in Hungariam verum
+                                etiam in Austriam usque venisse.</s>
+                            <s n="10">Nemo vir prudens <app>
+                                    <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3 #M"
+                                        >inficiari</lem>
+                                    <rdg wit="#J">infitiari</rdg>
+                                </app>
+                                <app>
+                                    <lem wit="#KK #P #Z #R #S1 #S2 #S3 #M">unquam</lem>
+                                    <rdg wit="#B #L1 #L2">nunquam</rdg>
+                                    <rdg wit="#J">umquam</rdg>
+                                </app> posset te a Ferdinando humanissimo benignissimoque rege non <app>
+                                    <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M #J">admodum</lem>
+                                    <rdg wit="#B">admodum<add type="insert"> diligi</add></rdg>
+                                </app>
+                                <app>
+                                    <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3 #J">amari,
+                                        diligi</lem>
+                                    <rdg wit="#M">diligi, amari</rdg>
+                                </app>, coli, observari, venerari, neque enim vel cogitari vel dici
+                                vel fieri potest, ut bonus rex regem bonum, ut vir fortis ac prudens
+                                fortem prudentemque <app>
+                                    <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3 #J">virum</lem>
+                                    <rdg wit="#M">vir</rdg>
+                                </app>, ut amicus amicum, <app>
+                                    <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3">ut
+                                        Christianus</lem>
+                                    <rdg wit="#M #J">Christianus</rdg>
+                                </app> princeps principem Christianum, ut socer generum, ut pater
+                                filium, ut homo, cui insunt multae variaeque <app>
+                                    <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M #J">virtutes</lem>
+                                    <rdg wit="#B"/>
+                                </app>, hominem multis ac variis virtutum generibus eminentem non
+                                omni complectatur <app>
+                                    <lem wit="#KK #P #B #Z #R #S1 #S2 #S3 #M">benivolentia</lem>
+                                    <rdg wit="#L1 #L2 #J">benevolentia</rdg>
+                                </app>.</s>
+                            <s n="11">Affirmare <app>
+                                    <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M #J"
+                                        >praeterea</lem>
+                                    <rdg wit="#B">preterea</rdg>
+                                </app> nullus nisi mentis inops posset, quin pater filiam eandemque
+                                reginam, reginam, inquam, regni huius amplissimi et eandem tot
+                                Aragonum Hispanorumque regum ac reginarum exortam genere, eandem
+                                praeterea <app>
+                                    <lem wit="#KK #P #Z #R #S1 #S2 #S3 #M #J">feminam</lem>
+                                    <rdg wit="#B">foeminam</rdg>
+                                    <rdg wit="#L1 #L2">foeminam</rdg>
+                                </app> et aetate florentem et forma insignem, eandem denique
+                                maternam pudicissimam aliarumque virtutum omnium, quibus decet
+                                decoratas esse reginas, excellentia praestantem non ingenti
+                                prosequatur charitate?</s>
+                            <s n="12">His itaque aliisque multis, quas nimis longum esset <app>
+                                    <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3 #M">afferre</lem>
+                                    <rdg wit="#J">affere</rdg>
+                                </app>, rationibus et causis Ferdinandus rex adductus supra, quam
+                                est <app>
+                                    <lem wit="#KK #P #Z #R #S1 #S2 #S3 #M #J">cuique</lem>
+                                    <rdg wit="#B #L1 #L2">cuiquam</rdg>
+                                </app>
+                                <app>
+                                    <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M #J"
+                                        >credibile</lem>
+                                    <rdg wit="#B">dedibile</rdg>
+                                </app>, cupit videre et te, rex <app>
+                                    <lem wit="#KK #P #B #Z #R #L2 #S1 #S2 #S3 #M">inclyte</lem>
+                                    <rdg wit="#L1 #J">inclite</rdg>
+                                </app>, et tuam istam <app>
+                                    <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3 #M">thori</lem>
+                                    <rdg wit="#J">tori</rdg>
+                                </app> consortem amantissimam.</s>
+                            <s n="13">Et, si facile fieri potuisset, ne <app>
+                                    <lem wit="#KK #P #Z #R #S1 #S2 #S3 #J">dubitate</lem>
+                                    <rdg wit="#B">dubitata</rdg>
+                                    <rdg wit="#L1 #L2 #M">dubita</rdg>
+                                </app>, fuisset plane vel mari vel terrestri itinere ad te
+                                profectus, quo te <app>
+                                    <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M #J">tuaeque</lem>
+                                    <rdg wit="#B">tueque</rdg>
+                                </app> coniugis dulcissimo conspectu frueretur.</s>
+                            <s n="14">At non tam locorum magna distantia quam <app>
+                                    <lem wit="#KK #P #B #Z #R #S1 #S2 #S3 #M">malivolorum</lem>
+                                    <rdg wit="#L1 #L2 #J">malevolorum</rdg>
+                                </app> hominum maxima pravitas ei fuit impedimento, quominus ad vos
+                                visendos saltem usque Seniam, quae civitas tuo paret imperio, <app>
+                                    <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3 #M"
+                                        >adnavigasset</lem>
+                                    <rdg wit="#J">annavigasset</rdg>
+                                </app>.</s>
+                            <s n="15">Satis enim <app>
+                                    <lem wit="#KK #P #B #Z #R #S1 #S2 #S3 #M #J">ei </lem>
+                                    <rdg wit="#L1 #L2"/>
+                                </app>esse instructarum triremium <app>
+                                    <lem wit="#KK #P #Z #R #L2 #S1 #S2 #S3 #M #J">ceterorumque</lem>
+                                    <rdg wit="#B #L1">caeterorumque</rdg>
+                                </app> generum navigiorum, nemo est, qui nesciat.</s>
+                            <s n="16">Non igitur vel difficultas itinerum vel labores atque
+                                discrimina, <app>
+                                    <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M #J">quae</lem>
+                                    <rdg wit="#B">que</rdg>
+                                </app> potuissent occurrere, sed Italorum <app>
+                                    <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M #J"
+                                        >discordiae</lem>
+                                    <rdg wit="#B">discordie</rdg>
+                                </app> Turcarumque minae ac multiplices <app>
+                                    <lem wit="#KK #P #Z #R #L2 #S1 #S2 #S3 #M #J">ceterorum</lem>
+                                    <rdg wit="#B #L1">caeterorum</rdg>
+                                </app> hostium insidiae ipsum a pleno charitatis proposito <app>
+                                    <lem wit="#KK #P #Z #R #L2 #S1 #S2 #S3 #M #J">averterunt</lem>
+                                    <rdg wit="#B #L1">adverterunt</rdg>
+                                </app>.</s>
+                            <s n="17">Idem tibi velim, persuadeas de Alfonso <app>
+                                    <lem wit="#KK #P #B #Z #R #S1 #S2 #S3">Calabryae</lem>
+                                    <rdg wit="#L1">Calabriiae</rdg>
+                                    <rdg wit="#L2 #M #J">Calabriae</rdg>
+                                </app> magnanimo duce.</s>
+                            <s n="18">Venisset et ipse profecto, saepeque numero ad vos visendos
+                                venire decrevit, <app>
+                                    <lem wit="#KK #P #Z #R #L2 #S1 #S2 #S3 #M #J">ceterum</lem>
+                                    <rdg wit="#B #L1">caeterum</rdg>
+                                </app>
+                                <app>
+                                    <lem wit="#KK #P #B #Z #R #S1 #S2 #S3 #M #J">difficillimis</lem>
+                                    <rdg wit="#L1 #L2">dificillimis</rdg>
+                                </app> bellis a multis iam annis implicitus Italia excedere sine
+                                maximo paterni suique regni detrimento minime potuit.</s>
+                            <s n="19">In quot autem et qualibus quantisque vitae periculis versatus
+                                sit tribus proximis annis, non tantum omnis Italia sed omnis etiam
+                                Europa magnaque pars Asiae atque <app>
+                                    <lem wit="#KK #P #B #Z #L1 #R #S1 #S2 #S3 #M">Aphricae</lem>
+                                    <rdg wit="#L2 #J">Africae</rdg>
+                                </app> satis superque compertum habuere.</s>
+                            <s n="20">At vero ipse magno animo virtuteque illa, qua mortalibus
+                                omnibus antecellit, insuperabilis universis undequaque <app>
+                                    <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3 #M"
+                                        >occurrentibus</lem>
+                                    <rdg wit="#J">occurentibus</rdg>
+                                </app> hostibus restitit, nec obstitit tantum, sed multos etiam
+                                eorum ex paterno regno fugavit, <app>
+                                    <lem wit="#KK #P #B #Z #L1 #R #S1 #S2 #S3 #M #J">multos
+                                        armis</lem>
+                                    <rdg wit="#L2">multos etiam armis</rdg>
+                                </app> vicit, complures, qui rebellaverant, pristino sui parentis
+                                imperio parere <app>
+                                    <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M #J">coegit</lem>
+                                    <rdg wit="#B">coaegit</rdg>
+                                </app>, nonnullos debita <app>
+                                    <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M #J">poena</lem>
+                                    <rdg wit="#B">paena</rdg>
+                                </app>
+                                <app>
+                                    <lem wit="#KK #P #B #Z #R #S1 #S2 #S3 #M #J">multavit</lem>
+                                    <rdg wit="#L1 #L2">mulctavit</rdg>
+                                </app>.</s>
+                            <s n="21">Sed his de rebus alias et quidem familiarius volo tecum, <app>
+                                    <lem wit="#KK">regina <app>
+                                            <lem wit="#KK #P #B #Z #R #S1 #S2 #S3 #M">inclyta</lem>
+                                            <rdg wit="#J">inclita</rdg>
+                                        </app></lem>
+                                    <rdg wit="#L1 #L2">inclyta regina</rdg>
+                                </app>, <app>
+                                    <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M #J">quae</lem>
+                                    <rdg wit="#B">que</rdg>
+                                </app> tanti viri es soror, meminisse, nunc ad id, unde parum
+                                excesseram, redeo.</s>
+                            <s n="22">Ad hoc tuum regnum, prudentissime rex, <app>
+                                    <lem wit="#KK #P #B #Z #R #L2 #S1 #S2 #S3 #M #J">Calabriae</lem>
+                                    <rdg wit="#L1">Calabryae</rdg>
+                                </app> ducis adventum multae et quidem amoris plenae causae
+                                cohortabantur.</s>
+                            <s n="23">Earum erant hae praecipuae.</s>
+                            <s n="24">Contracta ab ipso tecum iam pridem affinitas, tuae multae et
+                                magnae ad <app>
+                                    <lem wit="#KK #P #B #Z #R #S1 #S2 #S3 #J">caelum</lem>
+                                    <rdg wit="#L1 #L2 #M">coelum</rdg>
+                                </app> efferendae virtutes, rerum praeterea a te gestarum
+                                celeberrima fama, quae per omnem terrarum orbem longe lateque
+                                vagatur, qua etiam apud Christianas omnes nationes singulari laude
+                                celebraris.</s>
+                            <s n="25">Adducebatur insuper, ut regnum hoc tuum <app>
+                                    <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M #J">peteret</lem>
+                                    <rdg wit="#B">pateret</rdg>
+                                </app>, ob incredibilem in suam sororem amorem, non enim fuerunt
+                                ipse et regina ex <app>
+                                    <lem wit="#KK #P #B #Z #L1 #R #S1 #S2 #S3 #M #J">patre</lem>
+                                    <rdg wit="#L2">parte</rdg>
+                                </app> tantum sed ex utroque parente, hoc est ex Ferdinando rege et
+                                Isabella regina, nati <app>
+                                    <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3 #J">ac</lem>
+                                    <rdg wit="#M">et</rdg>
+                                </app> apud eosdem regali luxu regioque sumptu educati, qui una a
+                                primis annis in eadem regia crevere atque una multos vitae annos <app>
+                                    <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M #J"
+                                        >transegere</lem>
+                                    <rdg wit="#B">transaegere</rdg>
+                                </app>.</s>
+                            <s n="26"><app>
+                                    <lem wit="#KK #P #B #Z #R #S1 #S2 #S3">Quor</lem>
+                                    <rdg wit="#L1 #L2 #M #J">Cur</rdg>
+                                </app> igitur <app>
+                                    <lem wit="#KK #P #B #Z #L1 #R #S1 #S2 #S3 #M #J">Alfonsus</lem>
+                                    <rdg wit="#L2">Alphonsus</rdg>
+                                </app> frater eius, cum sit vir humanissimus <app>
+                                    <lem wit="#KK #P #B #Z #R #S1 #S2 #S3 #M #J">suorumque mortalium
+                                        omnium amantissimus</lem>
+                                    <rdg wit="#L1 #L2">(suorumque mortalium omnium
+                                        amantissimus)</rdg>
+                                </app>, non debuit iure optimo <app>
+                                    <lem wit="#KK #P #B #Z #L1 #R #S1 #S2 #S3 #M #J">moveri</lem>
+                                    <rdg wit="#L2">moneri</rdg>
+                                </app> flagrantissimo suae sororis desiderio?</s>
+                            <s n="27"><app>
+                                    <lem wit="#KK #P #B #Z #R #L2 #S1 #S2 #S3 #M #J"
+                                        >Verumtamen</lem>
+                                    <rdg wit="#L1">Veruntamen</rdg>
+                                </app> quod corporum praesentia neque Ferdinandus rex neque <app>
+                                    <lem wit="#KK #P #B #Z #R #S1 #S2 #S3 #M #J">Alfonsus</lem>
+                                    <rdg wit="#L1 #L2">Alphonsus</rdg>
+                                </app>
+                                <app>
+                                    <lem wit="#KK #P #B #Z #R #S1 #S2 #S3">Calabryae</lem>
+                                    <rdg wit="#L1 #L2 #M #J">Calabriae</rdg>
+                                </app> dux facere potuerunt, voluerunt per me fieri, ideoque me huc
+                                usque miserunt, qui utriusque vestrum <app>
+                                    <lem wit="#KK #P #B #Z #R #L2 #S1 #S2 #S3 #M #J"
+                                        >maiestatem</lem>
+                                    <rdg wit="#L1">maiestatatem</rdg>
+                                </app> ipsorum et nomine viserem et verbis salutarem, quam ob rem
+                                benigno vos pro humanitate vestra animo, placida mente, iucunda
+                                fronte, sereno vultu meam hanc visitationem salutationemque
+                                suscipite.</s>
+                            <s n="28">Persuadeatis autem vobis ipsum Ferdinandum liberosque eius
+                                omnes ac nepotes <app>
+                                    <lem wit="#KK #P #B #Z #R #S1 #S2 #S3 #M #J">et neptes</lem>
+                                    <rdg wit="#L1 #L2"/>
+                                </app> eo <app>
+                                    <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3 #J">esse ac</lem>
+                                    <rdg wit="#M">esse et</rdg>
+                                </app> fore animo in utriusque vestrum maiestatem, ut non solum vos
+                                ament incredibiliter, sed ut se ipsos etiam <app>
+                                    <lem wit="#KK #P #B #Z #R #S1 #S2 #S3 #M #J">regnumque et</lem>
+                                    <rdg wit="#L1 #L2">regnumque ac</rdg>
+                                </app> fortunas eorum vobis offerant atque ita, ut eis pro vestro
+                                arbitrio ut vestris rebus utamini.</s>
+                            <s n="29">Deinde orant <app>
+                                    <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3 #M">(<app>
+                                            <lem wit="#KK #P #B #Z #R #S1 #S2 #S3 #M">quamquam</lem>
+                                            <rdg wit="#L1 #L2">quanquam</rdg>
+                                        </app> eis hoc non est ambiguum)</lem>
+                                    <rdg wit="#J">quamquam eis hoc non est ambiguum</rdg>
+                                </app>, ut vos <app>
+                                    <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3 #J">quoque</lem>
+                                    <rdg wit="#M">quoque<add type="insert"> eos</add></rdg>
+                                </app>
+                                <app>
+                                    <lem wit="#KK #P #B #Z #R #L2 #S1 #S2 #S3 #M #J">sincere</lem>
+                                    <rdg wit="#L1">syncere</rdg>
+                                </app>
+                                <app>
+                                    <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3 #J">ipsos</lem>
+                                    <rdg wit="#M"/>
+                                </app> ametis, sitque inter vos mutua et sancta atque in Spiritu
+                                Sancto firmiter fundata dilectio.</s>
+                            <s n="30">Id si omni studio feceritis, manebit in vobis gratia dei et
+                                domini nostri Iesu Christi, qua decorari solent mentes animique
+                                illorum, qui sunt non <app>
+                                    <lem wit="#KK #P #Z #R #L2 #S1 #S2 #S3 #M #J">simulata</lem>
+                                    <rdg wit="#B #L1">simula</rdg>
+                                </app> sed <app>
+                                    <lem wit="#KK #P #B #Z #R #L2 #S1 #S2 #S3 #M #J">sincere</lem>
+                                    <rdg wit="#L1">syncere</rdg>
+                                </app> coniuncti <app>
+                                    <lem wit="#KK #P #B #Z #R #S1 #S2 #S3 #M">benivolentia</lem>
+                                    <rdg wit="#L1 #L2 #J">benevolentia</rdg>
+                                </app>.<note type="critic" corresp="RKK">29–30 Cf. Rom. 12.9:
+                                    „Dilectio sine simulatione“, 1 Tim. 5.</note></s>
+                            <s n="31">Satis iam de <app>
+                                    <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3 #M"
+                                        >visitatione</lem>
+                                    <rdg wit="#J">visitatatione</rdg>
+                                </app>
+                                <app>
+                                    <lem wit="#KK"><app>
+                                            <lem wit="#KK #P #B #Z #R #S1 #S2 #S3 #M #J">ac</lem>
+                                            <rdg wit="#M">et</rdg>
+                                        </app> salutatione</lem>
+                                    <rdg wit="#L1 #L2"/>
+                                </app>, transeo hinc ad ea, <app>
+                                    <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M #J">quae</lem>
+                                    <rdg wit="#B">que</rdg>
+                                </app> dicere secundo loco decreveram.</s>
+                        </p>
+                        <p>
+                            <s n="32"><app>
+                                    <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #J">Pars
+                                        secunda.</lem>
+                                    <rdg wit="#B"/>
+                                    <rdg wit="#M">II.</rdg>
+                                </app></s>
+                            <s n="33">Neque paucis neque facile explicare possem, sapientissime rex,
+                                quanto gaudio quantaque laetitia sit affectus Ferdinandus rex
+                                eiusque liberi nepotesque omnes, Ioanna praeterea eius uxor atque
+                                Hippolita dux seu (ut vocitat vulgus) ducissa <app>
+                                    <lem wit="#KK #P #B #Z #R #S1 #S2 #S3">Calabryae</lem>
+                                    <rdg wit="#L1 #L2 #M #J">Calabriae</rdg>
+                                </app> ob affinitatem, quam <app>
+                                    <lem wit="#KK #P #B #Z #R #L2 #S1 #S2 #S3 #M #J">cum</lem>
+                                    <rdg wit="#L1">quum</rdg>
+                                </app> Ioanne <app>
+                                    <lem wit="#KK #P #B #Z #R #S1 #S2 #S3 #M">Galeaccio</lem>
+                                    <rdg wit="#L1 #L2 #J">Galeacio</rdg>
+                                </app> illustrissimo Mediolanensium duce nuper contraxisti.</s>
+                            <s n="34">Matrimonium <app>
+                                    <lem wit="#KK #P #B #Z #R #S1 #S2 #S3">nanque</lem>
+                                    <rdg wit="#L1 #L2 #M #J">namque</rdg>
+                                </app>, <app>
+                                    <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3 #J">quo</lem>
+                                    <rdg wit="#M">qno</rdg>
+                                </app> Blanca eius soror Ioanni filio tuo sociata est, causa erit,
+                                ut inter praeclarissimos Hungarorum Aragonumque ac Mediolanensium
+                                principes et, qui estis hodie superstites, et natos natorum et, qui
+                                nascentur a vobis, sit et agendarum omnium gerendarumque rerum summa
+                                consensio et mentium atque animorum neque interrumpenda neque <app>
+                                    <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3 #M">unquam</lem>
+                                    <rdg wit="#J">umquam</rdg>
+                                </app> dissolvenda coniunctio.<note type="critic" corresp="RKK">34
+                                    Vergilius: Aen. 3.98: „natos natorum et qui nascentur ab
+                                    illis“.</note></s>
+                            <s n="35">Novum profecto charitatis vinculum ex eo connubio tribus iis,
+                                quarum memini, familiis <app>
+                                    <lem wit="#KK #P #Z #R #S1 #S2 #S3 #J">caelestia</lem>
+                                    <rdg wit="#B">celestia</rdg>
+                                    <rdg wit="#L1 #L2 #M">coelestia</rdg>
+                                </app> numina addiderunt.</s>
+                            <s n="36">Si divino huic consilio audiveritis, consenseritis, <app>
+                                    <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3 #M"
+                                        >acquieveritis</lem>
+                                    <rdg wit="#J">acquieritis</rdg>
+                                </app>, nemo vos ab ea honestissima coniunctione separabit, nullae
+                                mortalium vires potentiae <app>
+                                    <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M #J">vestrae</lem>
+                                    <rdg wit="#B">vestre</rdg>
+                                </app> poterunt <app>
+                                    <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3 #M">unquam</lem>
+                                    <rdg wit="#J">umquam</rdg>
+                                </app>
+                                <app>
+                                    <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3 #J"
+                                        >obsistere</lem>
+                                    <rdg wit="#M">resistere</rdg>
+                                </app>.</s>
+                            <s n="37">Tres hos potentatus vinculo, <app>
+                                    <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3 #J">quod</lem>
+                                    <rdg wit="#M">quo</rdg>
+                                </app> dixi, ita concordes nullorum principum arma vel terrebunt vel <app>
+                                    <lem wit="#KK #P #B #Z #R #L2 #S1 #S2 #S3 #M #J"
+                                        >infringent</lem>
+                                    <rdg wit="#L1">infrigent</rdg>
+                                </app> vel dissolvent vel dissipabunt.</s>
+                            <s n="38">Vos interim obnixe hoc agite, hoc etiam diligenter
+                                vigilanterque curate, hoc <app>
+                                    <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3 #J">omni</lem>
+                                    <rdg wit="#M"/>
+                                </app>
+                                <app>
+                                    <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3 #J"
+                                        >omniumque</lem>
+                                    <rdg wit="#M">omnium</rdg>
+                                </app> industria atque <app>
+                                    <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3 #M">solertia</lem>
+                                    <rdg wit="#J">sollertia</rdg>
+                                </app> efficite, ut tam honeste <app>
+                                    <lem wit="#KK #P #B #Z #R #L2 #S1 #S2 #S3 #M #J">coepta</lem>
+                                    <rdg wit="#L1">caepta</rdg>
+                                </app> coniunctio perseveret diutius.</s>
+                            <s n="39">Ne facile praebete aures illis, qui solent inter fratres
+                                seminare discordias, est enim id septimum inter ea, quae sacra
+                                scriptura affirmat deum maxime detestari, et ut beati apostoli Pauli
+                                verbis utar, nolite locum dare <app>
+                                    <lem wit="#KK #P #B #Z #R #L2 #S1 #S2 #S3 #M #J">diabolo</lem>
+                                    <rdg wit="#L1">diabulo</rdg>
+                                </app>, dignaque laude est illa <app>
+                                    <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M #J">divinae</lem>
+                                    <rdg wit="#B">divine</rdg>
+                                </app> quoque <app>
+                                    <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M #J"
+                                        >scripturae</lem>
+                                    <rdg wit="#B">scripture</rdg>
+                                </app> sententia, quam ego rei, de qua verba nunc facio, <app>
+                                    <lem wit="#KK #P #Z #R #L2 #S1 #S2 #S3 #M #J">accommodare</lem>
+                                    <rdg wit="#B #L1">accomodare</rdg>
+                                </app> possum aptissime: funiculus triplex <app>
+                                    <lem wit="#KK #P #B #Z #L1 #R #S1 #S2 #S3 #M #J">difficile</lem>
+                                    <rdg wit="#L2">difficillime</rdg>
+                                </app> rumpitur.<note type="critic" corresp="RKK">39 Cf. Prov.
+                                    6.16–19: „Sex sunt, quae odit dominus, et septimum detestatur
+                                    anima eius“ etc., Ephes. 4.27, Eccle. 4.12.</note></s>
+                            <s n="40">Triplex funiculus vos estis, de quibus in praesentia loquor,
+                                qui <app>
+                                    <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3 #M">nunquam</lem>
+                                    <rdg wit="#J">numquam</rdg>
+                                </app> plane rumpemini, si, quod vestram decebit prudentiam, eritis
+                                non simulate sed vere et sincere concordes.</s>
+                            <s n="41">Hoc vos ante omnia <app>
+                                    <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3 #J">decebit</lem>
+                                    <rdg wit="#M">decebat</rdg>
+                                </app>, ut ne quid mente teneatis, quod distet a labiis, sit vobis
+                                idem velle idemque nolle.</s>
+                            <s n="42">Sin aliter feceritis, heu, magnanimi principes, mihi credite,
+                                suas partes interponet pessimus Sathanas, qui navabit operam, ut
+                                corruatis, dissipemini, infringamini, dilabamini.</s>
+                            <s n="43">Recte igitur dixit <app>
+                                    <lem wit="#KK #P #B #Z #R #S1 #S2 #S3 #M">Masanissa</lem>
+                                    <rdg wit="#L1 #L2 #J">Masinissa</rdg>
+                                </app> Numidarum rex apud <app>
+                                    <lem wit="#KK #P #B #Z #R #L2 #S1 #S2 #S3 #M #J">Crispum</lem>
+                                    <rdg wit="#L1">Chrispum</rdg>
+                                </app>
+                                <app>
+                                    <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3 #M"
+                                        >Salustium</lem>
+                                    <rdg wit="#J">Sallustium</rdg>
+                                </app> historicum eloquentissimum: Concordia <app>
+                                    <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M #J">parvae</lem>
+                                    <rdg wit="#B">parve</rdg>
+                                </app> res crescunt, discordia <app>
+                                    <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M #J">maximae</lem>
+                                    <rdg wit="#B">maxime</rdg>
+                                </app> dilabuntur.<note type="critic" corresp="RKK">43 = Sallustius:
+                                    Iugurtha 10.6.</note></s>
+                            <s n="44">Illudque et quidem non inepte venit in mentem, quod et brevius
+                                et multo sapientius ait humani generis salvator in evangelio
+                                secundum Lucam: Omne regnum in se ipsum divisum <app>
+                                    <lem wit="#KK #P #B #Z #R #L2 #S1 #S2 #S3 #M #J"
+                                        >desolabitur</lem>
+                                    <rdg wit="#L1">desosabitur</rdg>
+                                </app>.<note type="critic" corresp="RKK">44 = Luc. 11.17.</note></s>
+                            <s n="45">Et ut tandem ad id veniam, cuius gratia fuerunt <app>
+                                    <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M #J">haec</lem>
+                                    <rdg wit="#B">hec</rdg>
+                                </app> altius a me <app>
+                                    <lem wit="#KK #P #B #Z #L1 #R #S1 #S2 #S3 #M #J">repetita</lem>
+                                    <rdg wit="#L2">repetiva</rdg>
+                                </app>, tibi, <app>
+                                    <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3 #J"
+                                        >fortunatissime</lem>
+                                    <rdg wit="#M">fortissime</rdg>
+                                </app> princeps, ob eam affinitatem, cuius paulo ante memini, optimi
+                                regis mei suique amantissimi filii <app>
+                                    <lem wit="#KK #P #B #Z #R #S1 #S2 #S3 #M #J">Alfonsi</lem>
+                                    <rdg wit="#L1 #L2">Alphonsi</rdg>
+                                </app> primogeniti nomine gratulor.</s>
+                            <s n="46"><app>
+                                    <lem wit="#KK #P #Z #R #L2 #S1 #S2 #S3 #M #J">Felix</lem>
+                                    <rdg wit="#B #L1">Foelix</rdg>
+                                </app> profecto es, qui Ioannem filium tuum praestantissimae
+                                Italorum omnium familiae sociasti, faciat te deus avum <app>
+                                    <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3 #J">pulchra</lem>
+                                    <rdg wit="#M">pulcra</rdg>
+                                </app> et <app>
+                                    <lem wit="#KK #P #Z #R #L2 #S1 #S2 #S3 #M #J">fortunata</lem>
+                                    <rdg wit="#B #L1">fortuna</rdg>
+                                </app> prole <app>
+                                    <lem wit="#KK #P #Z #R #L2 #S1 #S2 #S3 #M #J">felicem</lem>
+                                    <rdg wit="#B #L1">foelicem</rdg>
+                                </app>.</s>
+                            <s n="47">Gratulor et ipsi Ioanni, cui Blanca nobilissima, <app>
+                                    <lem wit="#KK #P #B #Z #R #L2 #S1 #S2 #S3 #M #J"
+                                        >pulcherrima</lem>
+                                    <rdg wit="#L1">pulcherima</rdg>
+                                </app>, pudicissima puella nuptui tradita est.</s>
+                            <s n="48"><app>
+                                    <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3">Signent</lem>
+                                    <rdg wit="#B">Signant</rdg>
+                                    <rdg wit="#M #J">Sint</rdg>
+                                </app>, oro, liberi, qui talibus sint ornati virtutibus, qualibus <app>
+                                    <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M #J">praediti</lem>
+                                    <rdg wit="#B">prediti</rdg>
+                                </app> et sunt et fuerunt gloriosissimi principes, quorum genere
+                                ipsi exorti sunt.</s>
+                            <s n="49">Gratulor et Blancae sponsae, <app>
+                                    <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3">quanquam</lem>
+                                    <rdg wit="#M #J">quamquam</rdg>
+                                </app> est absens, <app>
+                                    <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M #J">quae</lem>
+                                    <rdg wit="#B">que</rdg>
+                                </app> matrimonio est destinata filio <app>
+                                    <lem wit="#KK #P #B #Z #R #S1 #S2 #S3 #M #J">Mathiae</lem>
+                                    <rdg wit="#L1 #L2">Matthiae</rdg>
+                                </app> Hungarorum regis ut potentissimi<app>
+                                    <lem wit="#KK #P #B #Z #R #S1 #S2 #S3 #M #J"> ita et
+                                        invictissimi</lem>
+                                    <rdg wit="#L1 #L2"/>
+                                </app>, spero equidem <app>
+                                    <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3 #J">ipsum</lem>
+                                    <rdg wit="#M">eum</rdg>
+                                </app> talem fore, qui a parentis virtutibus nequaquam sit
+                                degeneraturus.</s>
+                            <s n="50">Gratulor et tibi, o Beatrix regina sapientissima, cui
+                                singulari quodam immortalis dei dono data est ex eo connubio tam
+                                nobilis filia, gaudebit <app>
+                                    <lem wit="#KK #P #Z #R #S1 #S2 #S3 #M #J">quidem</lem>
+                                    <rdg wit="#B">quidam</rdg>
+                                    <rdg wit="#L1 #L2">quondam</rdg>
+                                </app> atque <app>
+                                    <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M #J"
+                                        >laetabitur</lem>
+                                    <rdg wit="#B">letabitur</rdg>
+                                </app> Blanca honestissimo contubernio tuo, sub tua laudatissima
+                                disciplina vitam aget adeo <app>
+                                    <lem wit="#KK">obedienter</lem>
+                                    <rdg wit="#J">oboedienter</rdg>
+                                </app>, ut semper morem tuae sit gestura voluntati, tu vero admodum
+                                delectaberis dulci consuetudine sua, ipsa praeterea te perinde ac
+                                matrem, quae eam genuisset, semper et colet et observabit.</s>
+                            <s n="51">E diverso tu eam diliges et amabis non minus, <app>
+                                    <lem wit="#KK #P #B #Z #R #S1 #S2 #S3 #M #J">quam</lem>
+                                    <rdg wit="#L1 #L2"/>
+                                </app> si ipsam ex tuo utero <app>
+                                    <lem wit="#KK #P #Z #R #L2 #S1 #S2 #S3 #M #J">edidisses</lem>
+                                    <rdg wit="#B #L1">aedidisses</rdg>
+                                </app>, est enim mitissimo <app>
+                                    <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3">(ut <app>
+                                            <lem wit="#KK #P #Z #R #L2 #S1 #S2 #S3">perhibent</lem>
+                                            <rdg wit="#B #L1">prohibent</rdg>
+                                        </app> )</lem>
+                                    <rdg wit="#M #J">ut perhibent</rdg>
+                                </app> ingenio eisque ornata moribus ac decorata virtutibus, ut non
+                                immerito tuo sit amore et quidem vehementissimo digna, itaque ipsa
+                                te, tu ipsam semper habebis in <app>
+                                    <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3">delitiis</lem>
+                                    <rdg wit="#M #J">deliciis</rdg>
+                                </app>.</s>
+                            <s n="52">Faustum sit eiusce matrimonium, <app>
+                                    <lem wit="#KK #P #Z #R #L2 #S1 #S2 #S3 #M #J">felix</lem>
+                                    <rdg wit="#B #L1">foelix</rdg>
+                                </app> sit ea affinitas, fortunata sit ea <app>
+                                    <lem wit="#KK #P #B #Z #R #L2 #S1 #S2 #S3 #M #J"
+                                        >coniunctio</lem>
+                                    <rdg wit="#L1">coniuntio</rdg>
+                                </app> cum corporum tum <app>
+                                    <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M #J"
+                                        >praecipue</lem>
+                                    <rdg wit="#B">precipue</rdg>
+                                </app> animorum!</s>
+                            <s n="53">Id certo Ferdinandus rex, id liberi, id nepotes, id alii
+                                omnes, qui sunt ei <app>
+                                    <lem wit="#KK #P #B #Z #R #L2 #S1 #S2 #S3 #M #J"
+                                        >cognatione</lem>
+                                    <rdg wit="#L1">cognitione</rdg>
+                                </app> affinitateque ac familiaritate coniuncti, <app>
+                                    <lem wit="#KK #P #B #Z #R #S1 #S2 #S3 #M #J">mire</lem>
+                                    <rdg wit="#L1 #L2">iure</rdg>
+                                </app> et incredibiliter exoptant, piis <app>
+                                    <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M #J"
+                                        >praeterea</lem>
+                                    <rdg wit="#B">preterea</rdg>
+                                </app> assiduisque <app>
+                                    <lem wit="#KK #P #B #Z #R #L2 #S1 #S2 #S3 #M #J">precibus</lem>
+                                    <rdg wit="#L1">praecibus</rdg>
+                                </app> dei supplicant benignitati, ut ipsi sponsus et sponsa
+                                eorumque posteri bene semper in hac vita beateque vivant, eaque cum
+                                laeta senecta peracta aeternam, <app>
+                                    <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M #J">quae</lem>
+                                    <rdg wit="#B">que</rdg>
+                                </app> erit in altera vita, beatitudinem consequantur.</s>
+                            <s n="54">Explicatis iam iis, <app>
+                                    <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M #J">quae</lem>
+                                    <rdg wit="#B">que</rdg>
+                                </app> ad salutationem et gratulationem pertinere sunt visa, hinc ad
+                                postremum <app>
+                                    <lem wit="#KK #P #B #Z #R #S1 #S2 #S3 #M #J">coeptae</lem>
+                                    <rdg wit="#L1 #L2">caeptae</rdg>
+                                </app> mihi orationis locum me confero.</s>
+                        </p>
+                    
+                <p><app>
+                        <lem wit="#KK">
+                            <s n="55"><app>
+                                    <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3 #J">Pars
+                                        tertia.</lem>
+                                    <rdg wit="#M">III.</rdg>
+                                </app></s>
+                            <s n="56">Huic parti, <app>
+                                    <lem wit="#KK #P #Z #R #L2 #S1 #S2 #S3 #M #J">felicissime</lem>
+                                    <rdg wit="#B">foelicissime</rdg>
+                                    <rdg wit="#L1">faelicissime</rdg>
+                                </app> princeps, satis ego facerem, si <app>
+                                    <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M #J">tuae</lem>
+                                    <rdg wit="#B">tue</rdg>
+                                </app>
+                                <app>
+                                    <lem wit="#KK #P #Z #R #L2 #S1 #S2 #S3 #M #J"
+                                        >eminentissimae</lem>
+                                    <rdg wit="#B #L1">eminentissime</rdg>
+                                </app> maiestati <app>
+                                    <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3 #J">honorem
+                                        ac</lem>
+                                    <rdg wit="#M">honorem et</rdg>
+                                </app> reverentiam capite ac <app>
+                                    <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M #J">poplite</lem>
+                                    <rdg wit="#B">poplitae</rdg>
+                                </app> flexo tantummodo exhiberem.</s>
+                            <s n="57">Idque non solum hodierno die atque hoc in loco facerem verum
+                                etiam semper et ubique, <app>
+                                    <lem wit="#KK #P #B #Z #L1 #R #S1 #S2 #S3 #M">quotiens</lem>
+                                    <rdg wit="#L2 #J">quoties</rdg>
+                                </app> tuam istam viderem maiestatem tuumque nomen celebrari
+                                audirem, cum sit celebratu honoratuque ac veneratu ss
+                                dignissimum.</s>
+                            <s n="58">Nec id solum efficerem iussus a rege, a quo sum ad tuam <app>
+                                    <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M #J"
+                                        >celsitudinem</lem>
+                                    <rdg wit="#B">caelsitudinem</rdg>
+                                </app> missus, sed iussione quoque regis regum et domini
+                                dominantium, per quem <app>
+                                    <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3 #M">(teste <app>
+                                            <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3"
+                                                >divina</lem>
+                                            <rdg wit="#M"/>
+                                        </app> scriptura)</lem>
+                                    <rdg wit="#J">teste divina scriptura</rdg>
+                                </app> reges regnant.<note type="critic" corresp="RKK">58 Cf. 1 Tim.
+                                    6.15: „rex regum et dominus dominantium“, Deut. 10.17, Apoc.
+                                    17.14, Prov. 8.15: „Per me reges regnant“.</note></s>
+                            <s n="59">Voce <app>
+                                    <lem wit="#KK #P #B #Z #R #S1 #S2 #S3">nanque</lem>
+                                    <rdg wit="#L1 #L2 #M #J">namque</rdg>
+                                </app> beati Petri apostoli ipse locutus: regem, inquit,
+                                honorificate, eiusce rei causam reddidit beatus apostolus Paulus:
+                                propterea quod omnis potestas a deo est, ipse <app>
+                                    <lem wit="#KK #P #B #Z #L1 #R #S1 #S2 #S3">nanque in</lem>
+                                    <rdg wit="#L2 #M #J">namque in</rdg>
+                                </app> terris constituit reges, condit regna, distribuit
+                                    imperia.<note type="critic" corresp="RKK">59 = 1 Pet. 2.17:
+                                    „regem honorificate“, cf. Rom. 13.1, Coloss. 1.16, Act.
+                                    13.19.</note></s>
+                            <s n="60">Redeo iam ad id, quod dicere <app>
+                                    <lem wit="#KK #P #B #Z #R #S1 #S2 #S3 #M #J">coeperam</lem>
+                                    <rdg wit="#L1 #L2">caeperam</rdg>
+                                </app>.</s>
+                            <s n="61">Si, inquam, modo, quem explicui, te <app>
+                                    <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M #J">honore</lem>
+                                    <rdg wit="#B">honorem</rdg>
+                                </app> tantum prosequerer, mihi nequaquam <app>
+                                    <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3 #J">plane</lem>
+                                    <rdg wit="#M"/>
+                                </app> facerem satis.</s>
+                            <s n="62">Satisfaciam igitur flagrantissimo desiderio meo, si aliquot
+                                praestantium virtutum tuarum <app>
+                                    <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3 #J">laudes</lem>
+                                    <rdg wit="#M">laudem</rdg>
+                                </app> vel breviter attigero.</s>
+                            <s n="63">Brevibus, inquam, quoniam si cuncta mei corporis membra
+                                verterentur in linguas omnesque mei <app>
+                                    <lem wit="#KK #P #B #Z #R #S1 #S2 #S3">arctus</lem>
+                                    <rdg wit="#L1 #L2 #M #J">artus</rdg>
+                                </app> humana voce sonarent, nihil dignum tuis virtutibus dicerem,
+                                fieretque, ut multo facilius huius<app>
+                                    <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M #J">huius</lem>
+                                    <rdg wit="#B">huis</rdg>
+                                </app> orationis principium quam finis inveniretur.</s>
+                            <s n="64">Tu igitur pro humanitate praecipua tua non dedignaberis, si
+                                pauca de tuis amplissimis laudibus attingam.</s>
+                            <s n="65">Quin supplex oro, ut versari me in brevi commemoratione
+                                quarundam excellentium virtutum, quibus te mortales <app>
+                                    <lem wit="#KK #P #Z #R #S1 #S2 #S3 #J">paene</lem>
+                                    <rdg wit="#B #L1 #L2 #M">pene</rdg>
+                                </app> omnes concelebrant, <app>
+                                    <lem wit="#KK #P #Z #R #L2 #S1 #S2 #S3 #M #J">patiaris</lem>
+                                    <rdg wit="#B #L1">partiaris</rdg>
+                                </app>.</s>
+                            <s n="66">Magnis te possum extollere laudibus, primum quidem ex
+                                clarissimo atque antiquissimo genere, quandoquidem maiores, quibus
+                                exortus es, a veteribus Romanis originem sine <app>
+                                    <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3 #J">ulla</lem>
+                                    <rdg wit="#M"/>
+                                </app> dubitatione traxerunt.</s>
+                            <s n="67">At vero non ab illis orti sunt, qui ex humili abiectoque
+                                ordine in civitate Romana fuere, sed ex patriciis atque primariis,
+                                id est ex <app>
+                                    <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3">ordinibus</lem>
+                                    <rdg wit="#M #J">ordinis</rdg>
+                                </app>
+                                <app>
+                                    <lem wit="#KK #P #Z #R #S1 #S2 #S3">senatoriis</lem>
+                                    <rdg wit="#B #L1 #L2 #M #J">senatorii</rdg>
+                                </app>, viris, quorum <app>
+                                    <lem wit="#KK #P #B #Z #R #L2 #S1 #S2 #S3 #M #J">summa</lem>
+                                    <rdg wit="#L1">summam</rdg>
+                                </app> fuit apud <app>
+                                    <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3 #J">suos</lem>
+                                    <rdg wit="#M"/>
+                                </app> concives <app>
+                                    <lem wit="#KK #P #B #Z #L1 #R #S1 #S2 #S3 #M #J"
+                                        >auctoritas</lem>
+                                    <rdg wit="#L2">authoritas</rdg>
+                                </app> magnaque in urbe potentia et virtus haud mediocriter
+                                commendanda.</s>
+                            <s n="68">Romanus itaque es genere, Romanus es origine, Romanum te ac
+                                Latinum hominem nos Itali asserimus, <app>
+                                    <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3 #J"
+                                        >affirmamus</lem>
+                                    <rdg wit="#M"/>
+                                </app>, praedicamus.<note type="critic" corresp="RKK">66–68 = De
+                                    Ioanne Corvino 48–57.</note></s>
+                            <s n="69">Nec id, quod nos asserimus, tui Hungari <app>
+                                    <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3 #M"
+                                        >inficiantur</lem>
+                                    <rdg wit="#J">infitiantur</rdg>
+                                </app>.</s>
+                            <s n="70">Ea igitur causa est, <app>
+                                    <lem wit="#KK #P #B #Z #R #S1 #S2 #S3">quor</lem>
+                                    <rdg wit="#L1 #L2 #M #J">cur</rdg>
+                                </app> multi Latini generis homines in Hungariam veniunt, quo
+                                videlicet te visant, et veluti quoddam novum e <app>
+                                    <lem wit="#KK #P #Z #R #S1 #S2 #S3 #J">caelo</lem>
+                                    <rdg wit="#B">celo</rdg>
+                                    <rdg wit="#L1 #L2 #M">coelo</rdg>
+                                </app> terris datum numen venerentur, uno quippe consensu <app>
+                                    <lem wit="#KK #P #B #Z #R #S1 #S2 #S3 #M #J">Itali</lem>
+                                    <rdg wit="#L1 #L2">tale</rdg>
+                                </app> omnes, qui noverunt genus, unde tu exortus es, astruunt se
+                                intueri in praestantissima ista maiestate tua, veluti Troiugenam ac <app>
+                                    <lem wit="#KK #P #B #Z #R #L2 #S1 #S2 #S3">Romulidam</lem>
+                                    <rdg wit="#L1">Rumulidam</rdg>
+                                    <rdg wit="#M">Rumulidum</rdg>
+                                </app> aliquem ex illis veteribus, qui per <app>
+                                    <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M #J">haec</lem>
+                                    <rdg wit="#B">hec</rdg>
+                                </app> tempora Pannoniis <app>
+                                    <lem wit="#KK #P #Z #R #S1 #S2 #S3 #M #J">imperas</lem>
+                                    <rdg wit="#B">imperias</rdg>
+                                    <rdg wit="#L1 #L2">imperitas</rdg>
+                                </app>, quibus olim Romani multis <app>
+                                    <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #J">saeculis</lem>
+                                    <rdg wit="#B #M">seculis</rdg>
+                                </app> imperitavere.</s>
+                            <s n="71">A Corvinorum enim familia <app>
+                                    <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3 #M">(ut <app>
+                                            <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M"
+                                                >praeclaris</lem>
+                                            <rdg wit="#B">preclaris</rdg>
+                                        </app> progenitorum tuorum constat <app>
+                                            <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3"
+                                                >monumentis</lem>
+                                            <rdg wit="#M">documentis</rdg>
+                                        </app>)</lem>
+                                    <rdg wit="#J">ut praeclaris progenitorum tuorum constat
+                                        monumentis</rdg>
+                                </app> defluxisti, quam rem cum alia multa, quae missa nunc facio,
+                                demonstrant, tum vero hoc potissimum ostenditur argumento, quod
+                                corvi <app>
+                                    <lem wit="#KK #P #B #Z #R #L2 #S1 #S2 #S3 #M #J">imagine</lem>
+                                    <rdg wit="#L1">imagigine</rdg>
+                                </app>
+                                <app>
+                                    <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M #J">familiae</lem>
+                                    <rdg wit="#B">familie</rdg>
+                                </app>
+                                <app>
+                                    <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M #J">tuae</lem>
+                                    <rdg wit="#B">tue</rdg>
+                                </app> insignia condecorantur, qualia perhibent veterum fuisse
+                                Corvinorum, quod fieri non permisissent atavi tui, nisi fuissent
+                                conscii vetustae clarissimaeque successionis maiorum, ex quibus tam <app>
+                                    <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3 #M">inclytam</lem>
+                                    <rdg wit="#J">inclitam</rdg>
+                                </app> posteritatem noverant emanasse.<note type="critic"
+                                    corresp="RKK">71 = De Ioanne Corvino 53, 54.</note></s>
+                            <s n="72">Testimonio quoque esse potest Corvina, <app>
+                                    <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M #J">quae</lem>
+                                    <rdg wit="#B">que</rdg>
+                                </app> est Danubii insula, quam cognati tui <app>
+                                    <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3 #M">ditione</lem>
+                                    <rdg wit="#J">dicione</rdg>
+                                </app> perdiu tenuere.<note type="critic" corresp="RKK">72 = De
+                                    Ioanne Corvino 52.</note></s>
+                            <s n="73">Quis, obsecro, dubitat eam insulam a tuis Corvinis clarum <app>
+                                    <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M #J"
+                                        >accepisse</lem>
+                                    <rdg wit="#B">accepissae</rdg>
+                                </app>
+                                <app>
+                                    <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M #J">cognomen</lem>
+                                    <rdg wit="#B">cognomem</rdg>
+                                </app>, ex quo tempore Magnus Flavius Constantinus instaurata urbe <app>
+                                    <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3 #M">Bizantio</lem>
+                                    <rdg wit="#J">Byzantio</rdg>
+                                </app> Constantinopolitanum <app>
+                                    <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3 #J"
+                                        >constituit</lem>
+                                    <rdg wit="#M">construxit</rdg>
+                                </app> imperium?<note type="critic" corresp="RKK">73 = De Ioanne
+                                    Corvino 46.</note></s>
+                            <s n="74">Duxit tunc secum permultos e <app>
+                                    <lem wit="#KK #P #Z #R #S1 #S2 #S3 #M #J">Romana</lem>
+                                    <rdg wit="#B">Romanos</rdg>
+                                    <rdg wit="#L1 #L2">Romanis</rdg>
+                                </app> nobilitate viros, quorum unicuique postea suam <app>
+                                    <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M #J">dedit</lem>
+                                    <rdg wit="#B">dedi</rdg>
+                                </app>
+                                <app>
+                                    <lem wit="#KK #P #B #Z #R #S1 #S2 #S3">provintiam</lem>
+                                    <rdg wit="#L1 #L2 #M #J">provinciam</rdg>
+                                </app>, ut quisque <app>
+                                    <lem wit="#KK #P #B #Z #R #S1 #S2 #S3 #M #J">illam</lem>
+                                    <rdg wit="#L1 #L2">eam</rdg>
+                                </app> regeret atque in Romani imperii <app>
+                                    <lem wit="#KK #P #B #Z #R #S1 #S2 #S3 #M">fide</lem>
+                                    <rdg wit="#L1">fidẽ</rdg>
+                                    <rdg wit="#L2">fidem</rdg>
+                                </app> teneret, in provincia autem, quae forte tunc Corvinis
+                                obvenit, fuit insula, cuius est habita mentio, cuique ex se illi
+                                cognomen indidere.<note type="critic" corresp="RKK">74 = De Ioanne
+                                    Corvino 47; cf. Index I.72.</note></s>
+                            <s n="75">Ab ea tuus paternus proavus discessit, <app>
+                                    <lem wit="#KK #P #B #Z #R #S1 #S2 #S3 #M #J">quamquam</lem>
+                                    <rdg wit="#L1 #L2">quanquam</rdg>
+                                </app> insula sua erat, tradidit autem imperium <app>
+                                    <lem wit="#KK #P #B #Z #R #S1 #S2 #S3 #J">cognatis suis</lem>
+                                    <rdg wit="#L1 #L2 #M">suis cognatis</rdg>
+                                </app>, fecit id vir prudentissimus, quod animadvertit fore, ut
+                                paucis post diebus <app>
+                                    <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3 #J">ea</lem>
+                                    <rdg wit="#M"/>
+                                </app> insula in Turcarum potestatem redigeretur.<note type="critic"
+                                    corresp="RKK">75 = De Ioanne Corvino 68.</note></s>
+                            <s n="76">Habitationis suae locum delegit <app>
+                                    <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3">regionem, quam
+                                        vocant</lem>
+                                    <rdg wit="#M #J"/>
+                                </app>
+                                <app>
+                                    <lem wit="#KK #P #B #Z #R #S1 #S2 #S3 #M #J">Transilvaniam</lem>
+                                    <rdg wit="#L1 #L2">Transylvaniam</rdg>
+                                </app>, ubi maluit privatus vivere quam <app>
+                                    <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M #J">insulae</lem>
+                                    <rdg wit="#B">insule</rdg>
+                                </app> princeps videre patriam parere hostibus <app>
+                                    <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M #J"
+                                        >Christianae</lem>
+                                    <rdg wit="#B">Christiane</rdg>
+                                </app> religionis.</s>
+                            <s n="77">Es deinde non mediocri laude efferendus, quod tibi fuerunt
+                                parentes magnis ornati virtutibus.</s>
+                            <s n="78">Primum autem de <app>
+                                    <lem wit="#KK #P #B #Z #R #S1 #S2 #S3 #M #J">Elisabetta</lem>
+                                    <rdg wit="#L1">Elizabeta</rdg>
+                                    <rdg wit="#L2">Elizabetha</rdg>
+                                </app> matre tua perpauca quidem, sed quae fuerint mentione digna,
+                                memorabo.</s>
+                            <s n="79">Quis <app>
+                                    <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3 #M">unquam</lem>
+                                    <rdg wit="#J">umquam</rdg>
+                                </app> digne laudare eam posset, cum <app>
+                                    <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3 #M"
+                                        >quicunque</lem>
+                                    <rdg wit="#J">quicumque</rdg>
+                                </app> ipsam <app>
+                                    <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M #J">noverunt</lem>
+                                    <rdg wit="#B">moverunt</rdg>
+                                </app>, non <app>
+                                    <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3 #J">dubitent</lem>
+                                    <rdg wit="#M">dubitem</rdg>
+                                </app> affirmare nullam se novisse nostro <app>
+                                    <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3 #J">saeculo</lem>
+                                    <rdg wit="#M">seculo</rdg>
+                                </app>
+                                <app>
+                                    <lem wit="#KK #P #Z #R #S1 #S2 #S3 #M #J">feminam</lem>
+                                    <rdg wit="#B">foeminam</rdg>
+                                    <rdg wit="#L1 #L2">faeminam</rdg>
+                                </app> ipsa <app>
+                                    <lem wit="#KK #P #Z #R #S1 #S2 #S3 #J">pudiciorem</lem>
+                                    <rdg wit="#B #L1">pudiciciorem</rdg>
+                                    <rdg wit="#L2 #M">pudicitiorem</rdg>
+                                </app>, <app>
+                                    <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3 #J"
+                                        >constantiorem</lem>
+                                    <rdg wit="#M"/>
+                                </app>, prudentiorem, denique Christiana pietate insigniorem?</s>
+                            <s n="80">Sed ut <app>
+                                    <lem wit="#KK #P #Z #R #S1 #S2 #S3 #M #J">ceteras</lem>
+                                    <rdg wit="#B #L1 #L2">caeteras</rdg>
+                                </app> eius virtutes praetermittam, eo prudentia eius praecipua
+                                ostensa est, quod ipsius ope et opera consilioque ac mira et viro
+                                potius quam <app>
+                                    <lem wit="#KK #P #Z #R #S1 #S2 #S3 #M #J">femina</lem>
+                                    <rdg wit="#B">foemina</rdg>
+                                    <rdg wit="#L1 #L2">faemina</rdg>
+                                </app> digna diligentia ad regnum pervenisti, <app>
+                                    <lem wit="#KK #P #B #Z #R #S1 #S2 #S3 #M #J">quamquam</lem>
+                                    <rdg wit="#L1 #L2">quanquam</rdg>
+                                </app> nulli mortalium est ambiguum, quin futura tua virtus <app>
+                                    <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M #J">divinae</lem>
+                                    <rdg wit="#B">divine</rdg>
+                                </app> maiestati cognita ante fuerit, qua effectum est, ut <app>
+                                    <lem wit="#KK #P #B #Z #R #S1 #S2 #S3 #M #J">constituto</lem>
+                                    <rdg wit="#L1 #L2"/>
+                                </app> a sua <app>
+                                    <lem wit="#KK #P #B #Z #R #S1 #S2 #S3 #M #J">providentia</lem>
+                                    <rdg wit="#L1 #L2">prudentia</rdg>
+                                </app> tempore commerueris ad regii fastigii culmen exaltari.<note
+                                    type="critic" corresp="RKK">80 Cf. Index XXX.5.</note></s>
+                            <s n="81">Quod autem benignitati dei de te placuerat, antequam mater suo
+                                te utero <app>
+                                    <lem wit="#KK #P #Z #R #S1 #S2 #S3 #J">ederet</lem>
+                                    <rdg wit="#B #L1">aederet</rdg>
+                                </app>, ipsa postea tacta <app>
+                                    <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3 #M"
+                                        >inspirataque</lem>
+                                    <rdg wit="#J">inspiritaque</rdg>
+                                </app> divinitus <app>
+                                    <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3 #M">executa</lem>
+                                    <rdg wit="#J">exsecuta</rdg>
+                                </app> est, quare fit, ut affirmari vere possit te fuisse et <app>
+                                    <lem wit="#KK #P #B #Z #R #S1 #S2 #S3 #J">caelesti</lem>
+                                    <rdg wit="#L1 #L2 #M">coelesti</rdg>
+                                </app> miraculo et virtute tua et <app>
+                                    <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M #J">tuae</lem>
+                                    <rdg wit="#B">tue</rdg>
+                                </app> matris prudentia ab adversariorum manibus carcere, quo <app>
+                                    <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3 #J"
+                                        >asservabaris</lem>
+                                    <rdg wit="#M">tenebaris</rdg>
+                                </app>, ereptum ad <app>
+                                    <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #J">regiae</lem>
+                                    <rdg wit="#B #M">regie</rdg>
+                                </app> dignitatis fastigium evectum.<note type="critic"
+                                    corresp="RKK">81 Cf. Index XXX.28–32.</note></s>
+                            <s n="82">Nonne, obsecro, <app>
+                                    <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3 #J">o</lem>
+                                    <rdg wit="#M"/>
+                                </app> viri clarissimi, maximi facienda ac immortalibus <app>
+                                    <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M #J">ad</lem>
+                                    <rdg wit="#B">ac</rdg>
+                                </app>
+                                <app>
+                                    <lem wit="#KK #P #B #Z #R #S1 #S2 #S3 #J">caelum</lem>
+                                    <rdg wit="#L1 #L2 #M">coelum</rdg>
+                                </app> usque efferenda est laudibus <app>
+                                    <lem wit="#KK #P #Z #R #S1 #S2 #S3 #M #J">femina</lem>
+                                    <rdg wit="#B">foemina</rdg>
+                                    <rdg wit="#L1 #L2">faemina</rdg>
+                                </app>, quae sua prudentia tantum valuit, ut causam praebuerit non
+                                plane mediocrem, qua eius filius fuerit coronam regni huius
+                                nobilissimi consecutus?</s>
+                            <s n="83">Satis iam de matre dictum mihi fuerit, transeo ad patris tui
+                                laudes <app>
+                                    <lem wit="#KK #P #B #Z #R #L2 #S1 #S2 #S3 #M"
+                                        >immortalitate</lem>
+                                    <rdg wit="#L1">immorlitate</rdg>
+                                </app> certe, id est <app>
+                                    <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M #J">futuris</lem>
+                                    <rdg wit="#B">futurus</rdg>
+                                </app> omnibus <app>
+                                    <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #J">saeculis</lem>
+                                    <rdg wit="#B #M">seculis</rdg>
+                                </app>
+                                <app>
+                                    <lem wit="#KK #P #Z #R #S1 #S2 #S3 #M #J">celebrando</lem>
+                                    <rdg wit="#B">celebranda</rdg>
+                                    <rdg wit="#L1 #L2">celebrandas</rdg>
+                                </app>, dignissimas.</s>
+                            <s n="84">Scilicet notissimum est apud plerosque rerum <app>
+                                    <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3 #J">saeculi</lem>
+                                </app>seculi nostri scriptores <app>
+                                    <lem wit="#KK #P #B #Z #R #S1 #S2 #S3">Iohannis</lem>
+                                    <rdg wit="#L1 #L2 #M #J">Ioannis</rdg>
+                                </app>
+                                <app>
+                                    <lem wit="#KK #P #B #Z #L1 #R #S1 #S2 #S3 #J">Hunniatis</lem>
+                                    <rdg wit="#L2">Hunniadis</rdg>
+                                    <rdg wit="#M">Huniatis</rdg>
+                                </app>, quem occidentalium nationum vulgus solet cognominare Ioannem <app>
+                                    <lem wit="#KK #P #B #Z #R #S1 #S2 #S3 #M #J">Blancum</lem>
+                                    <rdg wit="#L1 #L2">Blancam</rdg>
+                                </app>, <app>
+                                    <lem wit="#KK #P #B #Z #R #L2 #S1 #S2 #S3 #M #J"
+                                        >celeberrimum</lem>
+                                    <rdg wit="#L1">celeberimum</rdg>
+                                </app> nomen.<note type="critic" corresp="RKK">84 = De Ioanne
+                                    Corvino 41.</note></s>
+                            <s n="85">Is cum alia multa egregia rei bellicae a se <app>
+                                    <lem wit="#KK #P #Z #R #S1 #S2 #S3 #J">edita</lem>
+                                    <rdg wit="#B #L1">aedita</rdg>
+                                </app> facinora tum praecipue eo summam sibi gloriam <app>
+                                    <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3 #M"
+                                        >vendicavit</lem>
+                                    <rdg wit="#J">vindicavit</rdg>
+                                </app>, quod magnam <app>
+                                    <lem wit="#KK #P #B #Z #L1 #R #S1 #S2 #S3 #M #J"><app>
+                                            <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M #J"
+                                                >vitae</lem>
+                                            <rdg wit="#B">vite</rdg>
+                                        </app> suae</lem>
+                                    <rdg wit="#L2">suae vitae</rdg>
+                                </app> partem in gerendis bellis pro tuenda re Christiana
+                                consumpsit, adversus Turcas cultorum Christi improbissimos hostes
+                                saepe dimicando <app>
+                                    <lem wit="#KK #P #B #Z #R #S1 #S2 #S3 #M">quotiens</lem>
+                                    <rdg wit="#L1 #L2 #J">quoties</rdg>
+                                </app> nostri homines fuerunt salutifero eius consilio usi, <app>
+                                    <lem wit="#KK #P #B #Z #R #S1 #S2 #S3">tociens</lem>
+                                    <rdg wit="#L1 #L2 #J">tocies</rdg>
+                                    <rdg wit="#M">totiens</rdg>
+                                </app>
+                                <app>
+                                    <lem wit="#KK #P #B #Z #R #S1 #S2 #S3 #M #J">illos</lem>
+                                    <rdg wit="#L1 #L2"/>
+                                </app> vertit in fugam vel profligavit variisque fudit cladibus, nec
+                                facile aut paucis memorare nunc possem, quot <app>
+                                    <lem wit="#KK #P #B #Z #L1 #R #S1 #S2 #S3 #M #J"> milia</lem>
+                                    <rdg wit="#L2">millia</rdg>
+                                </app> ex ipsis nostri <app>
+                                    <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3">(eo duce)</lem>
+                                    <rdg wit="#M #J">eo duce</rdg>
+                                </app> interfecerunt.<note type="critic" corresp="RKK">85 = De
+                                    Ioanne Corvino 66.</note></s>
+                            <s n="86">E tam multis autem <app>
+                                    <lem wit="#KK #P #Z #R #S1 #S2 #S3 #J">proeliis</lem>
+                                    <rdg wit="#B">preliis</rdg>
+                                    <rdg wit="#L1 #L2 #M">praeliis</rdg>
+                                </app>, quae inter ipsum et Turcas commissa sunt, illud nunc venit
+                                in mentem, quod anno Christianae salutis quadragesimo quarto supra <app>
+                                    <lem wit="#KK #P #B #Z #R #S1 #S2 #S3">milesimum</lem>
+                                    <rdg wit="#L1 #L2 #M #J">millesimum</rdg>
+                                </app> et <app>
+                                    <lem wit="#KK #P #Z #R #S1 #S2 #S3 #M #J"
+                                        >quadringentesimum</lem>
+                                    <rdg wit="#B">quadringentetesimum</rdg>
+                                    <rdg wit="#L1 #L2">quadragesimum</rdg>
+                                </app> inter <app>
+                                    <lem wit="#KK #P #Z #R #S1 #S2 #S3 #M #J">Hadrianopolim</lem>
+                                    <rdg wit="#B #L1">Hadianopolim</rdg>
+                                    <rdg wit="#L2">Hadrianopolam</rdg>
+                                </app> et Danubium commissum est.</s>
+                            <s n="87"><app>
+                                    <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3 #M"
+                                        >Adolescentulus</lem>
+                                    <rdg wit="#J">Adulescentulus</rdg>
+                                </app> ego tunc eram, <app>
+                                    <lem wit="#KK #P #B #Z #R #S1 #S2 #S3">quom</lem>
+                                    <rdg wit="#L1 #L2 #M">quum</rdg>
+                                    <rdg wit="#J">cum</rdg>
+                                </app> in urbe Florentia et in Eugenii quarti Romani pontificis
+                                curia Ioannis patris tui maxime <app>
+                                    <lem wit="#KK #P #B #Z #R #S1 #S2 #S3 #M #J">celebrari</lem>
+                                    <rdg wit="#L1 #L2">celebrati</rdg>
+                                </app> nomen audiebam, omniumque ore laudes tunc eius efferebantur
+                                in <app>
+                                    <lem wit="#KK #P #B #Z #L1 #R #S1 #S2 #S3 #J">caelum</lem>
+                                    <rdg wit="#L2 #M">coelum</rdg>
+                                </app> propterea, quod <app>
+                                    <lem wit="#KK #P #B #Z #L1 #R #S1 #S2 #S3">(ipso duce)</lem>
+                                    <rdg wit="#L2 #M #J">ipso duce</rdg>
+                                </app> Christianus <app>
+                                    <lem wit="#KK #P #B #Z #R #L2 #S1 #S2 #S3 #M #J">exercitus</lem>
+                                    <rdg wit="#L1">exexcitus</rdg>
+                                </app> supra quadraginta <app>
+                                    <lem wit="#KK #P #B #Z #R #S1 #S2 #S3 #J">milia Turcarum</lem>
+                                    <rdg wit="#L1 #L2 #M">millia Turcarum</rdg>
+                                </app> interemisset, tria vero et viginti milia cum<app>
+                                    <lem wit="#KK #P #B #Z #L1 #R #S1 #S2 #S3 #J">milia cum</lem>
+                                    <rdg wit="#L2 #M">millia cum</rdg>
+                                </app> ingenti et quidem omnis generis praeda <app>
+                                    <lem wit="#KK #P #Z #R #L2 #S1 #S2 #S3 #M #J">cepisset</lem>
+                                    <rdg wit="#B #L1">caepisset</rdg>
+                                </app>.<note type="critic" corresp="RKK">86–87 = De Ioanne Corvino
+                                    2.</note></s>
+                            <s n="88">Occurrit et illud magnum et atrox cruentumque <app>
+                                    <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M #J">certamen</lem>
+                                    <rdg wit="#B">certamaen</rdg>
+                                </app>
+                                <app>
+                                    <lem wit="#KK #P #B #Z #R #S1 #S2 #S3">conmissum</lem>
+                                    <rdg wit="#L1 #L2 #M #J">commissum</rdg>
+                                </app> apud Belgradum, quod oppidum tuae est <app>
+                                    <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3 #M">ditionis</lem>
+                                    <rdg wit="#J">dicionis</rdg>
+                                </app>, Taurinum a veteribus geographis appellatum.</s>
+                            <s n="89">Venerat cum formidabili, hoc est cum ducentorum <app>
+                                    <lem wit="#KK #P #B #Z #R #S1 #S2 #S3 #M #J">milium</lem>
+                                    <rdg wit="#L1 #L2">millium</rdg>
+                                </app> armatorum, exercitu magnus ille Turcarum tyrannus, cui <app>
+                                    <lem wit="#KK #P #B #Z #R #S1 #S2 #S3 #M #J">Mahammetto</lem>
+                                    <rdg wit="#L1">Mahumeto</rdg>
+                                    <rdg wit="#L2">Mahometo</rdg>
+                                </app> erat nomen, qui terrori tunc erat universis nationibus
+                                Christianis.</s>
+                            <s n="90">Venerat, inquam, ad Hungariae fines, ut expugnato Belgrado
+                                totum hoc, quod tu possides, clarissimum regnum <app>
+                                    <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M #J">suae</lem>
+                                    <rdg wit="#B">sue</rdg>
+                                </app>
+                                <app>
+                                    <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3 #M">ditioni</lem>
+                                    <rdg wit="#J">dicioni</rdg>
+                                </app> subigeret, at vero <app>
+                                    <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M #J"
+                                        >strenuissimi</lem>
+                                    <rdg wit="#B">strenuissumi</rdg>
+                                </app>, prudentissimi, Christianissimi tui Ioannis auspiciis
+                                nostrorum haud numerosus exercitus ingentis illius multitudinis
+                                partem cum illorum duce soluta Belgradi <app>
+                                    <lem wit="#KK #P #B #Z #R #S1 #S2 #S3 #M #J">obsidione</lem>
+                                    <rdg wit="#L1 #L2">obsessione</rdg>
+                                </app> fugavit, partem <app>
+                                    <lem wit="#KK #P #Z #R #L2 #S1 #S2 #S3 #M #J">cepit</lem>
+                                    <rdg wit="#B #L1">caepit</rdg>
+                                </app>, partem occidit, et praeter <app>
+                                    <lem wit="#KK #P #B #Z #L1 #R #S1 #S2 #S3">inextimabilis</lem>
+                                    <rdg wit="#L2 #M #J">inaestimabilis</rdg>
+                                </app>
+                                <app>
+                                    <lem wit="#KK #P #B #Z #L1 #R #S1 #S2 #S3">precii</lem>
+                                    <rdg wit="#L2 #M #J">pretii</rdg>
+                                </app>
+                                <app>
+                                    <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M #J">praedam</lem>
+                                    <rdg wit="#B">predam</rdg>
+                                </app>, quam tui Ioannis milites domum adduxere, amiserunt illi
+                                tormenta omnia variae magnitudinis, bombardas eas vulgo nominamus,
+                                aliasque bellicas machinas, quibus et castellum, quod dixi, se
+                                expugnare et <app>
+                                    <lem wit="#KK #P #Z #R #S1 #S2 #S3 #M #J">ceterum</lem>
+                                    <rdg wit="#B #L1 #L2">caeterum</rdg>
+                                </app> Hungariae regnum occupare sibi posse <app>
+                                    <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3 #J"
+                                        >speraverant</lem>
+                                    <rdg wit="#M">speraverunt</rdg>
+                                </app>.<note type="critic" corresp="RKK">88–90 Cf. Indices
+                                    XXVI–XXVII.</note></s>
+                            <s n="91"><app>
+                                    <lem wit="#KK #P #Z #R #S1 #S2 #S3 #M #J">Cetera</lem>
+                                    <rdg wit="#B #L1 #L2">Caetera</rdg>
+                                </app> parentis tui mira et gloriosissima facta nunc praetermitto
+                                tum propterea, quod nimia esset huius <app>
+                                    <lem wit="#KK #P #B #Z #R #L2 #S1 #S2 #S3 #M #J">orationis</lem>
+                                    <rdg wit="#L1">oratinis</rdg>
+                                </app> prolixitas, tum vero quia alio in loco ea ad memoriam
+                                posteritatis iam pridem <app>
+                                    <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3 #M"
+                                        >literarum</lem>
+                                    <rdg wit="#J">litterarum</rdg>
+                                </app> mandavi monumentis.</s>
+                            <s n="92">Parumne <app>
+                                    <lem wit="#KK #P #B #Z #R #S1 #S2 #S3 #M #J">tibi</lem>
+                                    <rdg wit="#L1 #L2"/>
+                                </app> id videtur ad tuam laudem immortalemque gloriam pertinere
+                                parentem te <app>
+                                    <lem wit="#KK #P #B #Z #R #L2 #S1 #S2 #S3 #M #J">habuisse</lem>
+                                    <rdg wit="#L1">hahuisse</rdg>
+                                </app>, qui fuerit omnium <app>
+                                    <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3 #J">suorum</lem>
+                                    <rdg wit="#M"/>
+                                </app> temporum ducum fortissimus, <app>
+                                    <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3 #J"
+                                        >Christianissimus</lem>
+                                    <rdg wit="#M"/>
+                                </app> atque omnium mortalium ore ob res prudentissime <app>
+                                    <lem wit="#KK #P #Z #R #L2 #S1 #S2 #S3 #M #J"
+                                        >felicissimeque</lem>
+                                    <rdg wit="#B">foelicissimeque</rdg>
+                                    <rdg wit="#L1">faelicissimeque</rdg>
+                                </app> gestas <app>
+                                    <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M #J"
+                                        >celebratissimus</lem>
+                                    <rdg wit="#B">celebratissimas</rdg>
+                                </app>?</s>
+                            <s n="93">Sed <app>
+                                    <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M #J">hae</lem>
+                                    <rdg wit="#B">he</rdg>
+                                </app> fuerunt parentis tui, <app>
+                                    <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3 #M">viri</lem>
+                                    <rdg wit="#J"/>
+                                </app>
+                                <app>
+                                    <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3 #J">deo</lem>
+                                    <rdg wit="#M"/>
+                                </app> acceptissimi virtutes ac gestarum a se rerum laudes amplissimae<app>
+                                    <lem wit="#KK #P #Z #R #L2 #S1 #S2 #S3 #M #J">amplissimae</lem>
+                                    <rdg wit="#B #L1">amplissime</rdg>
+                                </app>, in quibus tu fortunatus filius fortunatum parentem imitatus
+                                es.</s>
+                            <s n="94">Explicabo dehinc quaedam, quae fuisse tibi propria satis
+                                constabit, quibus videlicet proprias tibi laudes ingentemque gloriam
+                                apud mortales comparasti.</s>
+                        </lem>
+                        <rdg wit="#H"/>
+                    </app><s n="95"><app>
+                            <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3 #M #J">Proprias equidem
+                                dixi, quoniam <app>
+                                    <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M #J">illae</lem>
+                                    <rdg wit="#B">ille</rdg>
+                                </app>, quas supra commemoravi, etsi ad tuam laudem aliqua ex parte
+                                pertinuere, non fuisse ipsas omnino tuas affirmavero, <app>
+                                    <lem wit="#KK #P #B #Z #R #S1 #S2 #S3">nanque</lem>
+                                    <rdg wit="#L1 #L2 #M #J">namque</rdg>
+                                </app> praeclaros habuisse progenitores constat bonorum
+                                improborumque hominum esse posse <app>
+                                    <lem wit="#KK #P #B #Z #R #L2 #S1 #S2 #S3 #M #J">commune</lem>
+                                    <rdg wit="#L1">comune</rdg>
+                                </app>,</lem>
+                            <rdg wit="#H"/>
+                        </app><!-- --> tuum vero esse affirmo, quod innata excellenti atque
+                        versabili ingenii tui dexteritate <app>
+                            <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3 #J">adipisci</lem>
+                            <rdg wit="#M">adpisci</rdg>
+                        </app>
+                        <app>
+                            <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3 #J">tibi</lem>
+                            <rdg wit="#M"/>
+                        </app> in hac <app>
+                            <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3 #J">vita</lem>
+                            <rdg wit="#H">via</rdg>
+                            <rdg wit="#M">vita<add type="insert"> tibi</add></rdg>
+                        </app> studuisti.</s><s n="96">Adeptus quippe tibi es sapientiam, qua
+                        virtute divinarum rerum calles <app>
+                            <lem wit="#KK #P #B #Z #R #L2 #S1 #S2 #S3 #M #H #J">notitiam</lem>
+                            <rdg wit="#L1">noticiam</rdg>
+                        </app>
+                        <app>
+                            <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3 #H #J">causasque</lem>
+                            <rdg wit="#M">causas</rdg>
+                        </app> aliarum rerum <app>
+                            <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3 #M #J">altissimas</lem>
+                            <rdg wit="#H">altissimum</rdg>
+                        </app> atque supremas persaepe contemplari perfacile potes, adeptus tibi <app>
+                            <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3 #J">es et</lem>
+                            <rdg wit="#M">es</rdg>
+                        </app> scientiam, qua pro tui ingenii excellentia potes multa tum de <app>
+                            <lem wit="#KK #P #B #Z #R #S1 #S2 #S3 #J">caelorum</lem>
+                            <rdg wit="#L1 #L2 #M #H">coelorum</rdg>
+                        </app>
+                        <app>
+                            <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3 #H">ac syderum</lem>
+                            <rdg wit="#M #J">et siderum</rdg>
+                        </app> tum de aliarum rerum naturis prompte disserere, adeptus es
+                        prudentiam, cuius tribus illis partibus, quas ei philosophi tribuunt, in
+                        cunctis tuis <app>
+                            <lem wit="#KK #P #B #Z #L1 #R #S1 #S2 #S3">negociis</lem>
+                            <rdg wit="#L2 #M #J">negotiis</rdg>
+                        </app> uteris <app>
+                            <lem wit="#KK #P #B #Z #R #L2 #S1 #S2 #S3 #M #H #J">diligentissime</lem>
+                            <rdg wit="#L1">diligentissme</rdg>
+                        </app>.</s><s n="97">Id autem compertum satis habent, qui vim tui <app>
+                            <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3 #H #J">noverunt</lem>
+                            <rdg wit="#M">noverint</rdg>
+                        </app> ingenii, quandoquidem et praeteritarum rerum nulla te capit oblivio,
+                        et eas, quae instant, etiam <app>
+                            <lem wit="#KK #P #B #Z #R #S1 #S2 #S3 #M #J">minutissimas</lem>
+                            <rdg wit="#L1 #L2 #H">munitissimas</rdg>
+                        </app> acute <app>
+                            <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3 #M #H #J">exacteque</lem>
+                            <rdg wit="#L2">exacte</rdg>
+                        </app> consideras, et eas, quae <app>
+                            <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M #H #J">futurae</lem>
+                            <rdg wit="#B">future</rdg>
+                        </app> sunt, <app>
+                            <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3 #M #H">solerter</lem>
+                            <rdg wit="#J">sollerter</rdg>
+                        </app> atque industrie <app>
+                            <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3 #M #J">prospicis</lem>
+                            <rdg wit="#H">prospiscis</rdg>
+                        </app>.<note type="critic" corresp="RKK">96–97 Cf. Augustinus Aurelius:
+                            Super 1 Cor. cap. 12: „Sapientia est in contemplatione aeternarum,
+                            scientia vero in occupatione temporalium.“ Cicero: De inventione 2.53:
+                            „Prudentia est rerum bonarum et malarum neutrarumque scientia. Partes
+                            eius memoria, intelligentia, providentia. Memoria est, per quam animus
+                            repetit illa, quae fuerunt. Intelligentia est, per quam ea perspicit,
+                            quae sunt. Providentia est, per quam futurum aliquid videtur, antequam
+                            factum sit.“</note></s><s n="98">Nihil dico de arte, quam Aristoteles et
+                        philosophi <app>
+                            <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3 #H #J">illius</lem>
+                            <rdg wit="#M">eius</rdg>
+                        </app> sectantes disciplinam docent esse rationem eorum, <app>
+                            <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M #H #J">quae</lem>
+                            <rdg wit="#B">que</rdg>
+                        </app> manu fiunt.<note type="critic" corresp="RKK">98 Cf. Aristoteles: De
+                            partibus animalium 1.1: „ars autem operis ratio est omni abiuncta
+                            materia.“ (Ed. in: <title>Aristotelis opera. Graeca et Latina</title>.
+                            Voll. I–IV. Parisiis 1848–1856. Vol. III. 220.)</note></s><s n="99">Quis
+                        nescit eiusce virtutem fuisse te adeo eminenter adeptum, ut nihil fieri manu
+                        possit, cuius studio ingentium praesertim ac splendide <app>
+                            <lem wit="#KK #P #B #Z #R #S1 #S2 #S3 #M">exstruendorum</lem>
+                            <rdg wit="#L1 #L2 #H">extruendorum</rdg>
+                            <rdg wit="#J">exstuendorum</rdg>
+                        </app> aedificiorum et, <app>
+                            <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M #J">quae</lem>
+                            <rdg wit="#B #H">que</rdg>
+                        </app> sunt magni regis magnificentia digna, non maxime delecteris?</s><s
+                        n="100">Opera ipsa a te magnificentissime partim refecta partim reparata,
+                        cum essent vetustate vel diruta vel <app>
+                            <lem wit="#KK #P #Z #R #L2 #S1 #S2 #S3 #M #J">collapsa</lem>
+                            <rdg wit="#B #L1 #H">colapsa</rdg>
+                        </app>, partim ab imis erecta fundamentis, quod dico, manifeste
+                        testantur.</s><s n="101">Nihil vel simulate vel per assentationem
+                        loquor.</s><s n="102">Affirmant, qui viderunt erexisse te quibusdam in locis <app>
+                            <lem wit="#KK #P #B #Z #R #L2 #S1 #S2 #S3 #M #H #J">inexpugnabiles</lem>
+                            <rdg wit="#L1">inexpugbiles</rdg>
+                        </app> arces,<app>
+                            <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3 #H #J"> alibi regias,
+                                quibus vix habentur toto terrarum orbe similes,</lem>
+                            <rdg wit="#M"/>
+                        </app> alibi hortos, quorum consitarum arborum est ordo <app>
+                            <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M #H #J">pulcherrimus</lem>
+                            <rdg wit="#B">pulcherimus</rdg>
+                        </app>, alibi deo dicatas aedes omni, quo decet, ornatu
+                        splendidissimas.</s><s n="103">Non facile numerari possunt <app>
+                            <lem wit="#KK #P #B #Z #R #S1 #S2 #S3">preciosae</lem>
+                            <rdg wit="#L1">praeciosae</rdg>
+                            <rdg wit="#L2 #M #H #J">pretiosae</rdg>
+                        </app> multiplicis generis variique coloris vestes <app>
+                            <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3 #H #J">vasaque</lem>
+                            <rdg wit="#M">vasa</rdg>
+                        </app> et argentea et aurea, quae divinarum rerum usui dedicasti.</s><s
+                        n="104">Audivi praeterea superioribus diebus, dum Viennam versus iter ad te
+                        facerem, constitui nunc a te bibliothecam ingentem et omni ex parte eximie
+                        mirificeque ornatam, in quam <app>
+                            <lem wit="#KK #P #B #Z #R #S1 #S2 #S3 #M #J">aiunt</lem>
+                            <rdg wit="#L1 #L2 #H">(aiunt)</rdg>
+                        </app> multa <app>
+                            <lem wit="#KK #P #B #Z #L1 #R #S1 #S2 #S3 #M #H #J">milia</lem>
+                            <rdg wit="#L2">milia</rdg>
+                        </app> codicum non vilis neque <app>
+                            <lem wit="#KK #P #B #Z #R #S1 #S2 #S3 #H #J">contempnendi</lem>
+                            <rdg wit="#L1 #L2 #M">contemnendi</rdg>
+                        </app>
+                        <app>
+                            <lem wit="#KK #P #B #Z #R #S1 #S2 #S3">precii</lem>
+                            <rdg wit="#L1 #H">praecii</rdg>
+                            <rdg wit="#L2 #M #J">pretii</rdg>
+                        </app>, id est, qui sint <app>
+                            <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3 #H #J">perpulchris</lem>
+                            <rdg wit="#M">perpulcris</rdg>
+                        </app> exarati <app>
+                            <lem wit="#KK #P #B #Z #R #S1 #S2 #S3 #J">litteris</lem>
+                            <rdg wit="#L1 #L2 #M #H">literis</rdg>
+                        </app> intusque et extra, te et velle et iam <app>
+                            <lem wit="#KK #P #Z #R #S1 #S2 #S3 #M #J">coepisse</lem>
+                            <rdg wit="#B #L1 #L2 #H">caepisse</rdg>
+                        </app> congerere.</s><s n="105">Nihil dico de domus tuae <app>
+                            <lem wit="#KK #P #B #Z #R #S1 #S2 #S3">preciosissima</lem>
+                            <rdg wit="#L1 #H">praeciosissima</rdg>
+                            <rdg wit="#L2 #M #J">pretiosissima</rdg>
+                        </app>
+                        <app>
+                            <lem wit="#KK #P #B #Z #L1 #R #S1 #S2 #S3">superlectile</lem>
+                            <rdg wit="#L2 #M #H #J">supellectile</rdg>
+                        </app>, quae tanta talisque est, ut <app>
+                            <lem wit="#KK #P #Z #R #S1 #S2 #S3">cuncti</lem>
+                            <rdg wit="#B #L1 #L2 #M #H #J">cunctos</rdg>
+                        </app>, qui eam vident atque considerant menteque pensitant, non in
+                        mediocrem <app>
+                            <lem wit="#KK #P #Z #R #S1 #S2 #S3 #H #J">adducantur</lem>
+                            <rdg wit="#B #L1">adducant</rdg>
+                            <rdg wit="#L2 #M">adducat</rdg>
+                        </app> et stuporem et <app>
+                            <lem wit="#KK #P #B #Z #R #L2 #S1 #S2 #S3 #M #H #J">admirationem</lem>
+                            <rdg wit="#L1">admirarationem</rdg>
+                        </app>.</s><s n="106">Accersisti <app>
+                            <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M #H #J">praeterea</lem>
+                            <rdg wit="#B">preterea</rdg>
+                        </app> e multis Europae locis, ex Italia <app>
+                            <lem wit="#KK #P #B #Z #R #L2 #S1 #S2 #S3 #M #H #J">praecipue</lem>
+                            <rdg wit="#L1">praecipuae</rdg>
+                        </app> multarum <app>
+                            <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M #H #J">rerum</lem>
+                            <rdg wit="#B">earum</rdg>
+                        </app> opifices, id est fabros tum <app>
+                            <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3 #H #J">lignarios et</lem>
+                            <rdg wit="#M">lignarios</rdg>
+                        </app>
+                        <app>
+                            <lem wit="#KK #P #Z #R #L2 #S1 #S2 #S3 #M #J">caementarios</lem>
+                            <rdg wit="#B #L1 #H">cementarios</rdg>
+                        </app> tum argentarios, sculptores <app>
+                            <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M #H #J">praeterea</lem>
+                            <rdg wit="#B">preterea</rdg>
+                        </app> atque pictores <app>
+                            <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3">transcriptoresque librorum,
+                                a quibus tibi</lem>
+                            <rdg wit="#B #H">a quibus manu tibi transcriptoresque librorum</rdg>
+                            <rdg wit="#M">a quibus tibi transscriptores librorum</rdg>
+                            <rdg wit="#J">transcriptoresque librorum, quorum manibus tibi</rdg>
+                        </app> fierent multorum generum opera, <app>
+                            <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M #J">quae tibi</lem>
+                            <rdg wit="#B">que tibi</rdg>
+                            <rdg wit="#H">qae tibi</rdg>
+                        </app> et voluptati, dum vivis<app>
+                            <lem wit="#KK #P #Z #R #L2 #S1 #S2 #S3 #M #J">vivis</lem>
+                            <rdg wit="#B #L1 #H">vivus</rdg>
+                        </app>, et <app>
+                            <lem wit="#KK #P #B #Z #L1 #R #S1 #S2 #S3">(ubi vita excesseris)</lem>
+                            <rdg wit="#L2 #M #H #J">ubi <app>
+                                    <lem wit="#L2 #H #J">vita excesseris</lem>
+                                    <rdg wit="#M">vita excedenti</rdg>
+                                </app></rdg>
+                        </app> essent <app>
+                            <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3 #M #H">maxime</lem>
+                            <rdg wit="#J">maxima</rdg>
+                        </app>
+                        <app>
+                            <lem wit="#KK #P #B #Z #R #L2 #S1 #S2 #S3 #M #H #J">tuae</lem>
+                            <rdg wit="#L1">tue</rdg>
+                        </app>
+                        <app>
+                            <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M #H #J"
+                                >magnificentiae</lem>
+                            <rdg wit="#B">magnificentie</rdg>
+                        </app> monumenta.</s><s n="107">His, quas dixi, virtutibus, quas
+                        peripatetici philosophi vocant <app>
+                            <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3 #M #J">intellectivas</lem>
+                            <rdg wit="#H">intelectivas</rdg>
+                        </app>, viri sapientes, qui, quanti sis, recte pensitavere, perhibent te
+                        cunctos, qui toto orbe sunt, principes absque ulla controversia
+                        superare.</s><s n="108">De virtutibus iam, quae dicuntur morales, verba
+                            faciamus.<note type="critic" corresp="RKK">107–108 Cf. Aristoteles:
+                            Ethica 1.13.20: „Alias enim virtutes in cogitatione ac ratione positas
+                            esse dicimus, alias ad mores pertinere, quas morales appellamus. In
+                            ratione positae sunt sapientia, intelligentia, prudentia, in moribus
+                            liberalitas, temperantia.“ (Ed. cit. vol. II. 14.)</note></s><s n="109"><app>
+                            <lem wit="#KK #P #Z #R #S1 #S2 #S3 #M #J">Tua est</lem>
+                            <rdg wit="#B #L1 #L2 #H">Tua</rdg>
+                        </app> iustitia, cuius virtutis splendor est maximus, et ex qua boni viri
+                        nominantur teste oratorum principe Cicerone, tantae virtutis splendor adeo
+                        in te nitet, ut non dubitent omnes, qui te rege vitam in Hungaria <app>
+                            <lem wit="#KK #P #Z #R #L2 #S1 #S2 #S3 #M #H #J">egerunt</lem>
+                            <rdg wit="#B #L1">aegerunt</rdg>
+                        </app>, ipsius <app>
+                            <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3 #M #J">cultorem</lem>
+                            <rdg wit="#H">cultorum</rdg>
+                        </app>
+                        <app>
+                            <lem wit="#KK #P #B #Z #R #S1 #S2 #S3 #M #J">te esse</lem>
+                            <rdg wit="#L1 #L2 #H">esse te</rdg>
+                        </app>
+                        <app>
+                            <lem wit="#KK #P #Z #R #S1 #S2 #S3 #M #J">praecipuum</lem>
+                            <rdg wit="#B #L1 #H">principium</rdg>
+                            <rdg wit="#L2"/>
+                        </app>, quandoquidem ius suum nunquam alicui mortalium denegasti, tua est
+                        fortitudo, cuius virtutis vi res arduissimas saepenumero et aggressus es et
+                        felicissime confecisti.<note type="critic" corresp="RKK">109 Cf. Cicero: De
+                            officiis 1.7.20: „iustitia, in qua virtutis est splendor maximus, ex qua
+                            viri boni nominantur.“</note></s><s n="110">Nam quae <app>
+                            <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3 #M #H">unquam</lem>
+                            <rdg wit="#J">umquam</rdg>
+                        </app> gessisti bella adversus <app>
+                            <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3 #M #H">quoscunque</lem>
+                            <rdg wit="#J">quoscumque</rdg>
+                        </app> hostes, de quibus non sis gloriosam adeptus victoriam?</s><s n="111"><app>
+                            <lem wit="#KK #P #Z #R #S1 #S2 #S3 #M #J">Ceterum</lem>
+                            <rdg wit="#B #L1 #L2 #H">Caeterum</rdg>
+                        </app> his de rebus paulo post pauca quidem, sed quae erunt mentione
+                        admirationeque digna, commemorabo.</s><s n="112">Tua est magnanimitas,
+                        mansuetudo, modestia, temperantia, humanitas, urbanitas, veracitas, quarum
+                        virtutum quaenam sint munera, in Ethicis quidem ab Aristotele erudite ac
+                        locupletissime traditur.<note type="critic" corresp="RKK">112 Cf.
+                            Aristoteles: De arte rhetorica 1.9.5: „Partes autem virtutis sunt
+                            iustitia, fortitudo, temperantia, magnificentia, magnanimitas,
+                            liberalitas, mansuetudo, prudentia, sapientia.“ Etc. (Ed. cit. vol. I.
+                            329.)</note></s><s n="113">Sed ipsorum <app>
+                            <lem wit="#KK #P #Z #R #L2 #S1 #S2 #S3 #H">munerum</lem>
+                            <rdg wit="#B #L1 #M #J">numerum</rdg>
+                        </app>
+                        <app>
+                            <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3 #H">habere te</lem>
+                            <rdg wit="#M #J">habere te<add type="insert"> et</add></rdg>
+                        </app> usum, qui te noverunt, universi praedicant.</s><s n="114">At vero <app>
+                            <lem wit="#KK #P #B #Z #R #S1 #S2 #S3">quanvis</lem>
+                            <rdg wit="#L1 #L2 #M #H #J">quamvis</rdg>
+                        </app> morales <app>
+                            <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3 #H">eiusce</lem>
+                            <rdg wit="#M #J">eiuscemodi</rdg>
+                        </app> virtutes a more dicantur, ideoque <app>
+                            <lem wit="#KK #P #B #Z #R #S1 #S2 #S3 #M #J">posse</lem>
+                            <rdg wit="#L1 #L2 #H"/>
+                        </app> ipsas assequi plerisque mortalium congruat, in rege tamen, qui bene
+                        sapienterque vitam instituit, qualem te esse constat, <app>
+                            <lem wit="#KK #P #Z #R #S1 #S2 #S3 #J">exsplendere</lem>
+                            <rdg wit="#B #L2 #H">ex splendere</rdg>
+                            <rdg wit="#L1">ex splendore</rdg>
+                            <rdg wit="#M">splendore</rdg>
+                        </app> solent multo et excellentius et <app>
+                            <lem wit="#KK #P #B #Z #R #S1 #S2 #S3 #J">admirabilius</lem>
+                            <rdg wit="#L1 #L2 #H">admirabilius<add type="insert">
+                                remiccare</add></rdg>
+                            <rdg wit="#M">laudabilius</rdg>
+                        </app>.</s><s n="115">Nec putes me <app>
+                            <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M #H #J"
+                                >praetermisisse</lem>
+                            <rdg wit="#B">pretermisisse</rdg>
+                        </app> liberalitatem, <app>
+                            <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M #H #J">quae</lem>
+                            <rdg wit="#B">que</rdg>
+                        </app> virtus maxime tua est, ob eius enim merita et plurima mirificorum
+                        operum exempla tuum nomen a mortalibus ubique non mediocriter extollitur
+                        celeberrimeque <app>
+                            <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M #H #J">commendatur</lem>
+                            <rdg wit="#B">commendantur</rdg>
+                        </app>, quippe si qui principes tempestate nostra ob liberalitatis opera
+                        claram sibi <app>
+                            <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3 #H">vendicaverint</lem>
+                            <rdg wit="#M">vendicaverunt</rdg>
+                            <rdg wit="#J">vindicaverint</rdg>
+                        </app> famam, tu cunctis semper anteponeris, cum non modo nomine, verum
+                        etiam re ipsa omnium illorum unus <app>
+                            <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3 #H #J"
+                                >munificentissimus</lem>
+                            <rdg wit="#M">magnificentissimus</rdg>
+                        </app>
+                        <app>
+                            <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3 #H #J">ac</lem>
+                            <rdg wit="#M">et</rdg>
+                        </app> beneficentissimus et sis et habearis.</s><s n="116">Tuae, inquam,
+                        sunt omnes, quarum memini, intellectus morisque virtutes, cum eas tu <app>
+                            <lem wit="#KK #P #Z #R #L2 #S1 #S2 #S3 #M #J">felici</lem>
+                            <rdg wit="#B #L1 #H">foelici</rdg>
+                        </app>
+                        <app>
+                            <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3 #M #J">quodam</lem>
+                            <rdg wit="#H">quondam</rdg>
+                        </app>
+                        <app>
+                            <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M #H #J">naturae</lem>
+                            <rdg wit="#B">nature</rdg>
+                        </app> dono <app>
+                            <lem wit="#KK #P #Z #R #S1 #S2 #S3">usus</lem>
+                            <rdg wit="#B #L1 #L2 #M #H #J">usu</rdg>
+                        </app> tibi comparaveris<note type="critic">H desinit</note><app>
+                            <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3 #M #J">, tuae, inquam,
+                                sunt, sed Beatricem reginam, quae adest, ut <app>
+                                    <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3 #M">thori</lem>
+                                    <rdg wit="#J">tori</rdg>
+                                </app> consortem ita et complurium, quas attigi, virtutum sociam
+                                ornatissimam habes.</lem>
+                            <rdg wit="#H"/>
+                        </app></s><app>
+                        <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3 #M #J">
+                            <s n="117">Ut enim tu eis, quae sunt <app>
+                                    <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3 #J">rege
+                                        dignae</lem>
+                                    <rdg wit="#M">regi dignae</rdg>
+                                </app>, virtutum laudibus cumulatus es, ita et ipsa illis omnibus
+                                redimita decorataque et insignis est, quas decet habere reginas
+                                eminentissimas.</s>
+                            <s n="118">Eas ipsa mira <app>
+                                    <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3 #J">sui
+                                        ingenii</lem>
+                                    <rdg wit="#M">ingenii sui</rdg>
+                                </app> magnitudine optimisque <app>
+                                    <lem wit="#KK #P #B #Z #R #S1 #S2 #S3 #M #J">suae vitae</lem>
+                                    <rdg wit="#L1 #L2">vitae suae</rdg>
+                                </app> usa magistris, quos prudentissimi parentes ei ab ineunte
+                                aetate adhibuerunt, acquisivit.</s>
+                            <s n="119">Ipsa igitur virtutibus cum corporis tum animi, quae sunt
+                                dignae reginis, tu eis, <app>
+                                    <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M #J">quae
+                                        dignae</lem>
+                                    <rdg wit="#B">que digne</rdg>
+                                </app> sunt regibus, <app>
+                                    <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M #J"
+                                        >decoraris</lem>
+                                    <rdg wit="#B">decoratis</rdg>
+                                </app>, quam ob rem ita vos videtur natura sociasse, ut multarum
+                                virtutum muneribus sitis <app>
+                                    <lem wit="#KK #P #Z #R #S1 #S2 #S3 #J">paene</lem>
+                                    <rdg wit="#B #L1 #L2 #M">pene</rdg>
+                                </app> pares, unde fit, ut plerique non <app>
+                                    <lem wit="#KK #P #B #Z #R #S1 #S2 #S3">inmerito</lem>
+                                    <rdg wit="#L1 #L2 #M #J">immerito</rdg>
+                                </app> ambigant, uter vestrum praeferri debeat cum in <app>
+                                    <lem wit="#KK #P #Z #R #S1 #S2 #S3 #M #J">ceteris</lem>
+                                    <rdg wit="#B #L1 #L2">caeteris</rdg>
+                                </app>, quarum mentionem feci, virtutum generibus, tum in eis
+                                praecipue, quae <app>
+                                    <lem wit="#KK #P #B #Z #L1 #R #S1 #S2 #S3 #M #J">constant</lem>
+                                    <rdg wit="#L2">praestant</rdg>
+                                </app> fide ac pietate <app>
+                                    <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #J">sanctisque</lem>
+                                    <rdg wit="#B">satisque</rdg>
+                                    <rdg wit="#M">sacrisque</rdg>
+                                </app>
+                                <app>
+                                    <lem wit="#KK #P #Z #R #S1 #S2 #S3 #J">caerimoniis</lem>
+                                    <rdg wit="#B #M">cerimoniis</rdg>
+                                    <rdg wit="#L1 #L2">ceremoniis</rdg>
+                                </app>, quae <app>
+                                    <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M #J"
+                                        >Christianae</lem>
+                                    <rdg wit="#B">Christiane</rdg>
+                                </app> sunt religionis, cuius supra, quam dici potest, constat vos
+                                esse servantissimos.</s>
+                            <s n="120">Sexus igitur <app>
+                                    <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3 #J">est inter
+                                        vos</lem>
+                                    <rdg wit="#M">inter vos est</rdg>
+                                </app> tantum, non decentium vos<app>
+                                    <lem wit="#KK #P #B #Z #R #S1 #S2 #S3 #M #J">decentium vos</lem>
+                                    <rdg wit="#L1 #L2">decentium</rdg>
+                                </app> rerum virtutumque disparitas.</s>
+                            <s n="121">Sed missa haec facio, ea mihi sunt <app>
+                                    <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3 #J">hinc paucis
+                                        tamen</lem>
+                                    <rdg wit="#M">hinc tamen paucis</rdg>
+                                </app> explicanda, quae et tua solum <app>
+                                    <lem wit="#KK #P #B #Z #L1 #R #S1 #S2 #S3 #M #J">sunt et</lem>
+                                    <rdg wit="#L2">sunt</rdg>
+                                </app> plane virilia, utpote <app>
+                                    <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M #J">quae te</lem>
+                                    <rdg wit="#B">que te</rdg>
+                                </app>, rex fortissime, <app>
+                                    <lem wit="#KK #P #B #Z #L1 #R #S1 #S2 #S3 #M #J">et vere</lem>
+                                    <rdg wit="#L2">et et vere</rdg>
+                                </app> regem et virum esse strenuissimum ostenderunt.</s>
+                            <s n="122"><app>
+                                    <lem wit="#KK #P #B #Z #R #S1 #S2 #S3">Quom</lem>
+                                    <rdg wit="#L1 #L2 #J">Cum</rdg>
+                                    <rdg wit="#M">Quum</rdg>
+                                </app> primum ad regni fastigium divina <app>
+                                    <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3 #M">(ut
+                                        dixi)</lem>
+                                    <rdg wit="#J">ut dixi</rdg>
+                                </app> providentia sublimatus es, nonnulli e principibus propinquis
+                                regni tui finibus tuam illam fortunam perquam <app>
+                                    <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M #J">moleste</lem>
+                                    <rdg wit="#B">molestae</rdg>
+                                </app> ob invidiam tulere.</s>
+                            <s n="123">Cum itaque bellis te ingentibus atque a multis partibus
+                                lacesserent, quo tibi regnum adimerent, tu <app>
+                                    <lem wit="#KK #P #B #Z #R #S1 #S2 #S3 #M">(etsi adolescens
+                                        novellusque rex tunc eras)</lem>
+                                    <rdg wit="#L1 #L2 #J">etsi <app>
+                                            <lem wit="#L1 #L2">adolescens</lem>
+                                            <rdg wit="#J">adulescens</rdg>
+                                        </app> novellusque rex tunc eras</rdg>
+                                </app> illis tamen obviam magno animo processisti, aliquotque
+                                commissis <app>
+                                    <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M #J"
+                                        >certaminibus</lem>
+                                    <rdg wit="#B">caertaminibus</rdg>
+                                </app> tandem tua virtute superasti,<app>
+                                    <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3 #J"> ita, inquam,
+                                        et tunc et progressu postea temporum aliis <app>
+                                            <lem wit="#KK #P #Z #R #S1 #S2 #S3 #J">proeliis</lem>
+                                            <rdg wit="#B #L1 #L2">praeliis</rdg>
+                                        </app> superasti,</lem>
+                                    <rdg wit="#M"/>
+                                </app> ut multa et quidem celebria loca, quae illorum parebant
+                                imperiis, tuae <app>
+                                    <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3 #M">ditioni</lem>
+                                    <rdg wit="#J">dicioni</rdg>
+                                </app> subegeris, atque in hanc diem <app>
+                                    <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3 #M">(illis
+                                        invitis)</lem>
+                                    <rdg wit="#J">illis invitis</rdg>
+                                </app> gloriose possideas.<note type="critic" corresp="RKK">123 Cf.
+                                    Index XXXI.23.</note></s>
+                            <s n="124">Bosnenses itaque et <app>
+                                    <lem wit="#KK #P #B #Z #R #S1 #S2 #S3 #M">Valacchi</lem>
+                                    <rdg wit="#L1 #L2 #J">Valachi</rdg>
+                                </app> Polonique atque <app>
+                                    <lem wit="#KK #P #B #Z #R #L2 #S1 #S2 #S3 #M #J">Bohemi</lem>
+                                    <rdg wit="#L1">Boemi</rdg>
+                                </app>, qui regni tui fines olim invaserant, indeque ulterius
+                                ingressi variis excursionibus omnia infesta fecerant,
+                                animadvertentes, quantum <app>
+                                    <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3">armis et</lem>
+                                    <rdg wit="#M #J">armis</rdg>
+                                </app> opibus ac virtute valeres, movere contra te bella desiere, tu
+                                efferatam eorum <app>
+                                    <lem wit="#KK #P #B #Z #R #S1 #S2 #S3">audatiam</lem>
+                                    <rdg wit="#L1 #L2 #M #J">audaciam</rdg>
+                                </app> adeo compressisti, ut perterriti se nunc domi contineant
+                                tuoque audito nomine reformident.</s>
+                            <s n="125">Nihil dico de bello, quod tibi fuit cum <app>
+                                    <lem wit="#KK #P #B #Z #R #S1 #S2 #S3 #M">Frederico</lem>
+                                    <rdg wit="#L1 #L2">Friderico</rdg>
+                                    <rdg wit="#J">Federico</rdg>
+                                </app> augusto, quem vulgato verbo imperatorem vocitamus Romanorum,
+                                illud nihilominus toto est orbe notissimum te adversus tantum
+                                principem prospere glorioseque dimicasse.</s>
+                            <s n="126">Eius, quod dico, testis est Vienna <app>
+                                    <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M #J"
+                                        >pulcherrima</lem>
+                                    <rdg wit="#B">pulcherima</rdg>
+                                </app> atque opulentissima civitas omnisque Austria, quam regionem <app>
+                                    <lem wit="#KK #P #Z #R #S1 #S2 #S3 #J">paene</lem>
+                                    <rdg wit="#B #L1 #L2 #M">pene</rdg>
+                                </app> totam nuper tuis parere imperiis <app>
+                                    <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3">(quamvis bello
+                                        difficili)</lem>
+                                    <rdg wit="#M #J">quamvis bello difficili</rdg>
+                                </app> coegisti.<note type="critic" corresp="RKK">125–126 Cf. Index
+                                    XXXVI.</note></s>
+                            <s n="127"><app>
+                                    <lem wit="#KK #P #Z #R #S1 #S2 #S3 #J">His itaque</lem>
+                                    <rdg wit="#B">Eis ita</rdg>
+                                    <rdg wit="#L1 #L2">Eis itaque</rdg>
+                                    <rdg wit="#M">His ita</rdg>
+                                </app> explicatis reliquum mihi esset, si daretur longius ad
+                                dicendum tempus, particulatim referre, quae et qualia <app>
+                                    <lem wit="#KK #P #B #Z #L1 #R #S1 #S2 #S3 #M">quotiensque</lem>
+                                    <rdg wit="#L2 #J">quotiesque</rdg>
+                                </app>
+                                <app>
+                                    <lem wit="#KK #P #Z #R #L2 #S1 #S2 #S3 #M #J">felici</lem>
+                                    <rdg wit="#B #L1">foelici</rdg>
+                                </app> exitu gesseris bella adversus Turcas, quam atrocia <app>
+                                    <lem wit="#KK #P #Z #R #S1 #S2 #S3 #J">proelia</lem>
+                                    <rdg wit="#B #L1 #L2 #M">praelia</rdg>
+                                </app> cum ea gente commiseris, <app>
+                                    <lem wit="#KK #P #B #Z #L1 #R #S1 #S2 #S3 #M">quotiens</lem>
+                                    <rdg wit="#L2 #J">quotiesque</rdg>
+                                </app> ipsos profligaveris, <app>
+                                    <lem wit="#KK #P #B #Z #L1 #R #S1 #S2 #S3 #M">quotiens</lem>
+                                    <rdg wit="#L2 #J">quotiesque</rdg>
+                                </app> eos a regni tui finibus <app>
+                                    <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3 #M"
+                                        >perpuleris</lem>
+                                    <rdg wit="#J">pepuleris</rdg>
+                                </app>, denique quot ex eis <app>
+                                    <lem wit="#KK #P #B #Z #L1 #R #S1 #S2 #S3 #M #J">milia</lem>
+                                    <rdg wit="#L2">millia</rdg>
+                                </app> interemeris.</s>
+                            <s n="128">Illud vero non est omnino mihi silentio praetereundum, cum
+                                sit ubique vulgatissimum, te non solum eam gentem armis persaepe
+                                vicisse, verum etiam fecisse tuae <app>
+                                    <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3 #M">ditionis</lem>
+                                    <rdg wit="#J">dicionis</rdg>
+                                </app> aliquot eorum castella et oppida, <app>
+                                    <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M #J">quae</lem>
+                                    <rdg wit="#B">que</rdg>
+                                </app> tu tenes adhuc, deoque bene iuvante <app>
+                                    <lem wit="#KK #P #Z #R #S1 #S2 #S3 #M #J">in posterum</lem>
+                                    <rdg wit="#B #L2">imposterum</rdg>
+                                    <rdg wit="#L1">inposterum</rdg>
+                                </app> tui tranquille possidebunt.</s>
+                            <s n="129">Ex omnibus autem, <app>
+                                    <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M #J">quae</lem>
+                                    <rdg wit="#B">que</rdg>
+                                </app> supra in multiplices laudes tuas explicui, hoc praecipuum <app>
+                                    <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M #J">tuae</lem>
+                                    <rdg wit="#B">tue</rdg>
+                                </app> virtuti <app>
+                                    <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M #J"
+                                        >gloriaeque</lem>
+                                    <rdg wit="#B">glorieque</rdg>
+                                </app> tribuitur, quod inter principes Christianos tu solus es, qui
+                                et scis et audes vincere Turcas.<note type="critic" corresp="RKK"
+                                    >129 Cf. Praefatio Christophori Personae ad Mathiam regem, in:
+                                        <title>Agathias De bello Gothorum</title> etc.: „solus in
+                                    terris mortalium videaris ad tuendam servandamque Christianam
+                                    rem publicam a deo ipso delectus.“ (Eugenius Abel–Stephanus
+                                    Hegedüs: <title>Analecta nova ad historiam renascentium in
+                                        Hungaria litterarum spectantia</title>. Budapestini 1903.
+                                    407.)</note></s>
+                            <s n="130">Sunt quidem permulti nostrorum rei militaris scientissimi
+                                duces, ignari nihilomi nus, quemadmodum cum ea gente res ipsa <app>
+                                    <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M #J">gerenda</lem>
+                                    <rdg wit="#B">gerenda<note type="critic">iterat</note></rdg>
+                                </app> sit, ideoque saepe obvenit, ut illi cum nostris belligerantes
+                                fuerint victoriam assecuti.</s>
+                            <s n="131"><app>
+                                    <lem wit="#KK #P #Z #R #S1 #S2 #S3 #M #J">Ceterum</lem>
+                                    <rdg wit="#B #L1 #L2">Caeterum</rdg>
+                                </app> e nostrorum hominum numero <app>
+                                    <lem wit="#KK #P #B #Z #L1 #R #S1 #S2 #S3 #M #J">Alfonsum</lem>
+                                    <rdg wit="#L2">Alphonsum</rdg>
+                                </app>
+                                <app>
+                                    <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M #J"
+                                        >Calabriae</lem>
+                                    <rdg wit="#B">Calabrie</rdg>
+                                </app> ducem, de quo <app>
+                                    <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3 #M">supra</lem>
+                                    <rdg wit="#J"/>
+                                </app> habita mentio est, semper excipiam, ex multis enim
+                                praeclarisque victoriis, quas diversis temporibus in Italia est
+                                adeptus, <app>
+                                    <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3 #M">illa</lem>
+                                    <rdg wit="#J">illi</rdg>
+                                </app> fuit omnium maxime memorabilis, quam apud <app>
+                                    <lem wit="#KK #P #B #Z #R #L2 #S1 #S2 #S3 #M #J">Hydruntum</lem>
+                                    <rdg wit="#L1">Hydrumtum</rdg>
+                                </app> anno abhinc septimo assecutus est, quos non tantum multis <app>
+                                    <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M #J"
+                                        >certaminibus</lem>
+                                    <rdg wit="#B">caertaminibus</rdg>
+                                </app> superavit, sed ad deditionem quoque compulit mira quadam et <app>
+                                    <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3 #M">nunquam</lem>
+                                    <rdg wit="#J">numquam</rdg>
+                                </app>
+                                <app>
+                                    <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3">alias vel</lem>
+                                    <rdg wit="#M #J">alias</rdg>
+                                </app> visa vel audita <app>
+                                    <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3 #M">solertia</lem>
+                                    <rdg wit="#J">sollertia</rdg>
+                                </app>.</s>
+                            <s n="132">Eo, inquam, post te <app>
+                                    <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M #J">excepto</lem>
+                                    <rdg wit="#B">excaepto</rdg>
+                                </app> tuum est et eorum, qui tuis militant auspiciis, Turcarum <app>
+                                    <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3 #J">viribus</lem>
+                                    <rdg wit="#M">nisibus</rdg>
+                                </app> obviam ire.</s>
+                            <s n="133">Eam ob rem in tua virtute tuisque conatibus ac formidanda
+                                potentia sita est spes totius rei <app>
+                                    <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M #J">publicae</lem>
+                                    <rdg wit="#B">publice</rdg>
+                                </app>
+                                <app>
+                                    <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M #J"
+                                        >Christianae</lem>
+                                    <rdg wit="#B">Christiane</rdg>
+                                </app>, tu veluti murus inexpugnabilis munitumque ac validissimum es
+                                propugnaculum, quod efferatae rabiei gentis impiae atque truculentae <app>
+                                    <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3 #M">(ne in Italiam
+                                        inque <app>
+                                            <lem wit="#KK #P #Z #R #S1 #S2 #S3 #M">ceteras</lem>
+                                            <rdg wit="#B #L1 #L2">caeteras</rdg>
+                                        </app> occidentalium cultorum Christi regiones irruat et <app>
+                                            <lem wit="#KK #P #Z #R #L2 #S1 #S2 #S3 #M">saeviat</lem>
+                                            <rdg wit="#B #L1">seviat</rdg>
+                                        </app>)</lem>
+                                    <rdg wit="#J">ne in Italiam inque ceteras occidentalium cultorum
+                                        Christi regiones irruat et saeviat</rdg>
+                                </app>
+                                <app>
+                                    <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3 #M"
+                                        >obiicitur</lem>
+                                    <rdg wit="#J">obicitur</rdg>
+                                </app>.</s>
+                            <s n="134">Te constituit <app>
+                                    <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M #J">humanae</lem>
+                                    <rdg wit="#B">humane</rdg>
+                                </app> salutis <app>
+                                    <lem wit="#KK #P #B #Z #R #S1 #S2 #S3 #M #J">auctor</lem>
+                                    <rdg wit="#L1 #L2">author</rdg>
+                                </app> veluti arcem ac turrim fortitudinis a facie inimici <app>
+                                    <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M #J"
+                                        >Christianae</lem>
+                                    <rdg wit="#B">Christiane</rdg>
+                                </app> pietatis, <app>
+                                    <lem wit="#KK #P #B #Z #R #S1 #S2 #S3">nanque</lem>
+                                    <rdg wit="#L1 #L2 #M #J">namque</rdg>
+                                </app> praeter te Turcarum duces et copiae principum ducumque
+                                nostrorum formidant neminem.</s>
+                            <s n="135">Quae res est causa praecipua, ut <app>
+                                    <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M #J">cunctae</lem>
+                                    <rdg wit="#B">cuncte</rdg>
+                                </app>
+                                <app>
+                                    <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M #J"
+                                        >Christianae</lem>
+                                    <rdg wit="#B">Christiane</rdg>
+                                </app> nationes benignissimum deum pro te tuisque omnibus <app>
+                                    <lem wit="#KK #P #B #Z #R #L2 #S1 #S2 #S3 #M #J">proque</lem>
+                                    <rdg wit="#L1">pro quae</rdg>
+                                </app> amplissimi regni tui <app>
+                                    <lem wit="#KK #P #Z #R #L2 #S1 #S2 #S3 #M #J">felicitate</lem>
+                                    <rdg wit="#B #L1">foelicitate</rdg>
+                                </app> sine ulla intermissione <app>
+                                    <lem wit="#KK #P #B #Z #R #L2 #S1 #S2 #S3 #M #J">precentur</lem>
+                                    <rdg wit="#L1">praecentur</rdg>
+                                </app>, uno animo unoque consensu atque uno ore dei in te potentiam <app>
+                                    <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M #J"
+                                        >clementiamque</lem>
+                                    <rdg wit="#B">claementiamque</rdg>
+                                </app>
+                                <app>
+                                    <lem wit="#KK #P #Z #R #S1 #S2 #S3">glorificent</lem>
+                                    <rdg wit="#B #L1 #L2 #M #J">glorificant</rdg>
+                                </app>.</s>
+                            <s n="136">Animi tui magnitudinem admirantur dei collaudantes magnam
+                                ineffabilemque virtutem, qui hac nostra tempestate atque in tanto
+                                rerum discrimine rei <app>
+                                    <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M #J"
+                                        >Christianae</lem>
+                                    <rdg wit="#B">Christiane</rdg>
+                                </app> consuluit, malens videlicet, ut Hungarici regni administratio
+                                ad te quam ad aliquem alium <app>
+                                    <lem wit="#KK #P #Z #R #S1 #S2 #S3 #J">ceterorum</lem>
+                                    <rdg wit="#B #L1 #L2">caeterorum</rdg>
+                                    <rdg wit="#M"/>
+                                </app>
+                                <app>
+                                    <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3 #J"
+                                        >mortalium</lem>
+                                    <rdg wit="#M"/>
+                                </app> in hac tanta ecclesiae suae necessitate perveniret.</s>
+                            <s n="137">Audisti iam, Mathia rex humanissime tuque Beatrix regina
+                                praestantissima, tres adventus <app>
+                                    <lem wit="#KK #P #B #Z #R #S1 #S2 #S3 #M #J">ad vos mei</lem>
+                                    <rdg wit="#L1 #L2">mei ad vos</rdg>
+                                </app> causas honestissimas.</s>
+                            <s n="138">Quippe venisse me ostendi, ut Ferdinandi regis suique natu
+                                maximi filii <app>
+                                    <lem wit="#KK #P #B #Z #R #S1 #S2 #S3 #M #J">Alfonsi</lem>
+                                    <rdg wit="#L1 #L2">Alphonsi</rdg>
+                                </app>
+                                <app>
+                                    <lem wit="#KK #P #B #Z #R #L2 #S1 #S2 #S3 #M #J">Calabriae</lem>
+                                    <rdg wit="#L1">Calabriie</rdg>
+                                </app> ducis verbis vos salutarem ac viserem, utque <app>
+                                    <lem wit="#KK #P #B #Z #L1 #R #L2 #S1 #S2 #S3 #J">vobis</lem>
+                                    <rdg wit="#M"/>
+                                </app> pro novo matrimonii vinculo congratularer, postremo ut, quo
+                                possem, vos prosequerer honore utpote habita mentione multarum
+                                eximiarum virtutum, quibus praeditus est uterque vestrum,
+                                multarumque laudum, quarum gratia vos a mortalibus magna cum
+                                admiratione celebramini.</s>
+                            <s n="139">Supplex autem divinam <app>
+                                    <lem wit="#KK #P #Z #R #L2 #S1 #S2 #S3 #M #J">precor</lem>
+                                    <rdg wit="#B #L1">praecor</rdg>
+                                </app> benignitatem, ut vos, ad quorum <app>
+                                    <lem wit="#KK #P #Z #L1 #R #L2 #S1 #S2 #S3 #M #J"
+                                        >celsitudinem</lem>
+                                    <rdg wit="#B">caelsitudinem</rdg>
+                                </app> missus ego sum, ac eos, qui me misere, et diu cum laude non
+                                ficta servet in hac vita et in altera <app>
+                                    <lem wit="#KK #P #Z #R #L2 #S1 #S2 #S3 #M #J">felicitatem</lem>
+                                    <rdg wit="#B #L1">foelicitatem</rdg>
+                                </app> praestet sempiternam.</s>
+                            <s n="140">Amen.</s>
+                        </lem>
+                        <rdg wit="#H"/>
+                    </app></p>
+            </div>
+        </body>
+    </text>
+</TEI>
